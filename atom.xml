@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2021-01-19T17:14:05.919Z</updated>
+  <updated>2021-01-20T15:40:18.515Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -17,57 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>感悟 - 感想 inspiration-impressions</title>
-    <link href="https://sstian.github.io/2021/01/18/inspiration-impressions/"/>
-    <id>https://sstian.github.io/2021/01/18/inspiration-impressions/</id>
-    <published>2021-01-18T14:05:54.000Z</published>
-    <updated>2021-01-19T17:14:05.919Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;中国人的三大毛病：凑热闹，瞎起哄，乱跟风。&lt;/li&gt;
-&lt;li&gt;中国缺的不是人手，而是人才。&lt;/li&gt;
-&lt;li&gt;做游戏时，蛋糕要在最后登场。&lt;/li&gt;
-&lt;li&gt;Courage + Self-confidence + Wisedom =♡Active♡=</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>感悟 - 文章 inspiration-articles</title>
-    <link href="https://sstian.github.io/2021/01/18/inspiration-articles/"/>
-    <id>https://sstian.github.io/2021/01/18/inspiration-articles/</id>
-    <published>2021-01-18T13:09:51.000Z</published>
-    <updated>2021-01-19T17:14:05.946Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;《☆大学三重奏☆》&quot;&gt;&lt;a href=&quot;#《☆大学三重奏☆》&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>区块链 Block Chain</title>
     <link href="https://sstian.github.io/2021/01/16/blockchain/"/>
     <id>https://sstian.github.io/2021/01/16/blockchain/</id>
     <published>2021-01-16T04:54:37.000Z</published>
-    <updated>2021-01-19T17:14:05.936Z</updated>
+    <updated>2021-01-20T15:40:18.515Z</updated>
     
     
       
@@ -80,6 +34,10 @@
     
     
     
+    
+    <category term="Blockchain" scheme="https://sstian.github.io/tags/Blockchain/"/>
+    
+    <category term="FinTech" scheme="https://sstian.github.io/tags/FinTech/"/>
     
   </entry>
   
@@ -101,6 +59,64 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>感悟 - 感想 Impressions</title>
+    <link href="https://sstian.github.io/2017/08/24/inspiration-impressions/"/>
+    <id>https://sstian.github.io/2017/08/24/inspiration-impressions/</id>
+    <published>2017-08-24T08:52:03.000Z</published>
+    <updated>2021-01-20T15:29:37.956Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;中国人的三大毛病：凑热闹，瞎起哄，乱跟风。&lt;/li&gt;
+&lt;li&gt;中国缺的不是人手，而是人才。&lt;/li&gt;
+&lt;li&gt;做游戏时，蛋糕要在最后登场。&lt;/li&gt;
+&lt;li&gt;Courage + Self-confidence + Wisedom =♡Active♡=</summary>
+        
+      
+    
+    
+    
+    <category term="Inspiration" scheme="https://sstian.github.io/categories/Inspiration/"/>
+    
+    
+    <category term="Inspiration" scheme="https://sstian.github.io/tags/Inspiration/"/>
+    
+    <category term="Impressions" scheme="https://sstian.github.io/tags/Impressions/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>感悟 - 文章 Articles</title>
+    <link href="https://sstian.github.io/2017/08/23/inspiration-articles/"/>
+    <id>https://sstian.github.io/2017/08/23/inspiration-articles/</id>
+    <published>2017-08-23T08:52:03.000Z</published>
+    <updated>2021-01-20T15:29:34.167Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;《☆大学三重奏☆》&quot;&gt;&lt;a href=&quot;#《☆大学三重奏☆》&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Inspiration" scheme="https://sstian.github.io/categories/Inspiration/"/>
+    
+    
+    <category term="Inspiration" scheme="https://sstian.github.io/tags/Inspiration/"/>
+    
+    <category term="Articles" scheme="https://sstian.github.io/tags/Articles/"/>
     
   </entry>
   
