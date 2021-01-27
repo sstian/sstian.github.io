@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>sstian</title>
   
-  <subtitle>Future</subtitle>
+  <subtitle>in Future</subtitle>
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2021-01-21T17:14:17.638Z</updated>
+  <updated>2021-01-27T16:27:57.501Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sstian.github.io/2021/01/18/highly-effective/"/>
     <id>https://sstian.github.io/2021/01/18/highly-effective/</id>
     <published>2021-01-18T14:42:16.000Z</published>
-    <updated>2021-01-21T17:14:17.638Z</updated>
+    <updated>2021-01-27T16:27:57.501Z</updated>
     
     
       
@@ -39,7 +39,7 @@
     
     
     
-    <category term="Career" scheme="https://sstian.github.io/categories/Career/"/>
+    <category term="Mindset" scheme="https://sstian.github.io/categories/Mindset/"/>
     
     
     <category term="Highly Effective" scheme="https://sstian.github.io/tags/Highly-Effective/"/>
@@ -53,7 +53,7 @@
     <link href="https://sstian.github.io/2021/01/16/blockchain/"/>
     <id>https://sstian.github.io/2021/01/16/blockchain/</id>
     <published>2021-01-16T04:54:37.000Z</published>
-    <updated>2021-01-20T15:56:02.163Z</updated>
+    <updated>2021-01-27T16:31:21.957Z</updated>
     
     
       
@@ -65,6 +65,8 @@
       
     
     
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
     
     
     <category term="Blockchain" scheme="https://sstian.github.io/tags/Blockchain/"/>
@@ -102,10 +104,10 @@
   
   <entry>
     <title>感悟 - 感想 Impressions</title>
-    <link href="https://sstian.github.io/2017/08/24/inspiration-impressions/"/>
-    <id>https://sstian.github.io/2017/08/24/inspiration-impressions/</id>
-    <published>2017-08-24T08:52:03.000Z</published>
-    <updated>2021-01-20T15:29:37.956Z</updated>
+    <link href="https://sstian.github.io/2017/09/24/inspiration-impressions/"/>
+    <id>https://sstian.github.io/2017/09/24/inspiration-impressions/</id>
+    <published>2017-09-24T08:52:03.000Z</published>
+    <updated>2021-01-27T16:30:14.963Z</updated>
     
     
       
@@ -125,8 +127,6 @@
     <category term="Inspiration" scheme="https://sstian.github.io/categories/Inspiration/"/>
     
     
-    <category term="Inspiration" scheme="https://sstian.github.io/tags/Inspiration/"/>
-    
     <category term="Impressions" scheme="https://sstian.github.io/tags/Impressions/"/>
     
   </entry>
@@ -136,7 +136,7 @@
     <link href="https://sstian.github.io/2017/08/23/inspiration-articles/"/>
     <id>https://sstian.github.io/2017/08/23/inspiration-articles/</id>
     <published>2017-08-23T08:52:03.000Z</published>
-    <updated>2021-01-21T15:32:58.597Z</updated>
+    <updated>2021-01-27T16:30:04.546Z</updated>
     
     
       
@@ -151,8 +151,6 @@
     
     <category term="Inspiration" scheme="https://sstian.github.io/categories/Inspiration/"/>
     
-    
-    <category term="Inspiration" scheme="https://sstian.github.io/tags/Inspiration/"/>
     
     <category term="Articles" scheme="https://sstian.github.io/tags/Articles/"/>
     
