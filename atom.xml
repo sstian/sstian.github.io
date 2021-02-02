@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2021-01-31T17:22:14.218Z</updated>
+  <updated>2021-02-02T16:43:27.216Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>半小时漫画系列</title>
+    <link href="https://sstian.github.io/2021/02/03/half-hour-comic/"/>
+    <id>https://sstian.github.io/2021/02/03/half-hour-comic/</id>
+    <published>2021-02-02T16:42:00.000Z</published>
+    <updated>2021-02-02T16:43:27.216Z</updated>
+    
+    
+    
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="二混子" scheme="https://sstian.github.io/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
+    
+    <category term="Half Hour" scheme="https://sstian.github.io/tags/Half-Hour/"/>
+    
+  </entry>
   
   <entry>
     <title>秦时明月</title>
@@ -392,18 +413,35 @@
   </entry>
   
   <entry>
-    <title>World Opera</title>
-    <link href="https://sstian.github.io/2020/05/19/world-opera/"/>
-    <id>https://sstian.github.io/2020/05/19/world-opera/</id>
-    <published>2020-05-19T05:09:30.000Z</published>
-    <updated>2021-02-01T18:05:09.652Z</updated>
+    <title>World Opera 10</title>
+    <link href="https://sstian.github.io/2020/10/20/world-opera10/"/>
+    <id>https://sstian.github.io/2020/10/20/world-opera10/</id>
+    <published>2020-10-20T05:14:00.000Z</published>
+    <updated>2021-02-02T16:32:34.201Z</updated>
+    
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>World Opera 9</title>
+    <link href="https://sstian.github.io/2020/09/20/world-opera9/"/>
+    <id>https://sstian.github.io/2020/09/20/world-opera9/</id>
+    <published>2020-09-20T05:14:00.000Z</published>
+    <updated>2021-02-02T16:34:48.162Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;致我们终将逝去的青春&quot;&gt;&lt;a href=&quot;#致我们终将逝去的青春&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;极速蜗牛&quot;&gt;&lt;a href=&quot;#极速蜗牛&quot; class=&quot;headerlink&quot; title=&quot;极速蜗牛&quot;&gt;&lt;/a&gt;极速蜗牛&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Turbo </summary>
         
       
     
@@ -417,160 +455,103 @@
   </entry>
   
   <entry>
-    <title>哲思 - 歌词 Lyric</title>
-    <link href="https://sstian.github.io/2019/12/12/philosophy-lyric/"/>
-    <id>https://sstian.github.io/2019/12/12/philosophy-lyric/</id>
-    <published>2019-12-11T16:09:00.000Z</published>
-    <updated>2021-01-27T18:03:03.275Z</updated>
+    <title>World Opera 8</title>
+    <link href="https://sstian.github.io/2020/08/20/world-opera8/"/>
+    <id>https://sstian.github.io/2020/08/20/world-opera8/</id>
+    <published>2020-08-20T05:14:00.000Z</published>
+    <updated>2021-02-02T16:32:04.702Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;《寄明月》-SING女团&quot;&gt;&lt;a href=&quot;#《寄明月》-SING女团&quot; class=&quot;headerlink&quot; title=&quot;《寄明月》 SING女团&quot;&gt;&lt;/a&gt;《寄明月》</summary>
+    <summary type="html">&lt;h2 id=&quot;鬼灭之刃&quot;&gt;&lt;a href=&quot;#鬼灭之刃&quot; class=&quot;headerlink&quot; title=&quot;鬼灭之刃&quot;&gt;&lt;/a&gt;鬼灭之刃&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;きめつのやいば </summary>
         
       
     
     
     
-    <category term="Philosophy" scheme="https://sstian.github.io/categories/Philosophy/"/>
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
     
     
-    <category term="Lyric" scheme="https://sstian.github.io/tags/Lyric/"/>
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
     
   </entry>
   
   <entry>
-    <title>哲思 - 文学 Literatures</title>
-    <link href="https://sstian.github.io/2019/11/11/philosophy-literatures/"/>
-    <id>https://sstian.github.io/2019/11/11/philosophy-literatures/</id>
-    <published>2019-11-10T16:09:00.000Z</published>
-    <updated>2021-01-27T18:01:10.388Z</updated>
+    <title>World Opera 7</title>
+    <link href="https://sstian.github.io/2020/07/20/world-opera7/"/>
+    <id>https://sstian.github.io/2020/07/20/world-opera7/</id>
+    <published>2020-07-20T05:14:00.000Z</published>
+    <updated>2021-02-02T16:30:32.105Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;《最爱动漫》&quot;&gt;&lt;a href=&quot;#《最爱动漫》&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;樱花庄的宠物女孩&quot;&gt;&lt;a href=&quot;#樱花庄的宠物女孩&quot; class=&quot;headerlink&quot; title=&quot;樱花庄的宠物女孩&quot;&gt;&lt;/a&gt;樱花庄的宠物女孩&lt;/h2&gt;&lt;p&gt;さくら荘のペットな彼女 </summary>
         
       
     
     
     
-    <category term="Philosophy" scheme="https://sstian.github.io/categories/Philosophy/"/>
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
     
     
-    <category term="Literatures" scheme="https://sstian.github.io/tags/Literatures/"/>
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
     
   </entry>
   
   <entry>
-    <title>哲思 - 剧作 Works</title>
-    <link href="https://sstian.github.io/2019/10/10/philosophy-works/"/>
-    <id>https://sstian.github.io/2019/10/10/philosophy-works/</id>
-    <published>2019-10-09T16:09:00.000Z</published>
-    <updated>2021-01-28T17:18:32.436Z</updated>
+    <title>World Opera 6</title>
+    <link href="https://sstian.github.io/2020/06/20/world-opera6/"/>
+    <id>https://sstian.github.io/2020/06/20/world-opera6/</id>
+    <published>2020-06-20T05:14:00.000Z</published>
+    <updated>2021-02-02T16:39:08.843Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;《无问西东》&quot;&gt;&lt;a href=&quot;#《无问西东》&quot; class=&quot;headerlink&quot; title=&quot;《无问西东》&quot;&gt;&lt;/a&gt;《无问西东》&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;爱你所爱，行你所行，听从内心，无问西东。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2</summary>
+    <summary type="html">&lt;h2 id=&quot;哆啦A梦：大雄的金银岛&quot;&gt;&lt;a href=&quot;#哆啦A梦：大雄的金银岛&quot; class=&quot;headerlink&quot; title=&quot;哆啦A梦：大雄的金银岛&quot;&gt;&lt;/a&gt;哆啦A梦：大雄的金银岛&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;映画ドラえもん のび太の宝島 </summary>
         
       
     
     
     
-    <category term="Philosophy" scheme="https://sstian.github.io/categories/Philosophy/"/>
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
     
     
-    <category term="Works" scheme="https://sstian.github.io/tags/Works/"/>
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
     
   </entry>
   
   <entry>
-    <title>哲思 - 名言 Wisdoms</title>
-    <link href="https://sstian.github.io/2019/09/09/philosophy-wisdoms/"/>
-    <id>https://sstian.github.io/2019/09/09/philosophy-wisdoms/</id>
-    <published>2019-09-08T16:09:00.000Z</published>
-    <updated>2021-01-31T11:33:44.127Z</updated>
+    <title>World Opera 5</title>
+    <link href="https://sstian.github.io/2020/05/20/world-opera5/"/>
+    <id>https://sstian.github.io/2020/05/20/world-opera5/</id>
+    <published>2020-05-20T05:14:00.000Z</published>
+    <updated>2021-02-02T14:35:02.207Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;白岩松：&quot;&gt;&lt;a href=&quot;#白岩松：&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;驴得水&quot;&gt;&lt;a href=&quot;#驴得水&quot; class=&quot;headerlink&quot; title=&quot;驴得水&quot;&gt;&lt;/a&gt;驴得水&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Mr. Donkey  [中]周申 刘露&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[1942年</summary>
         
       
     
     
     
-    <category term="Philosophy" scheme="https://sstian.github.io/categories/Philosophy/"/>
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
     
     
-    <category term="Wisdoms" scheme="https://sstian.github.io/tags/Wisdoms/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>哲思 - 哲理 Theories</title>
-    <link href="https://sstian.github.io/2019/08/08/philosophy-theories/"/>
-    <id>https://sstian.github.io/2019/08/08/philosophy-theories/</id>
-    <published>2019-08-07T16:09:00.000Z</published>
-    <updated>2021-01-28T17:32:14.811Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;如果心里已有一个人，那谁也再无法走进。&lt;/li&gt;
-&lt;li&gt;暖一颗心需要多少年，凉一颗心只要一瞬间。&lt;/li&gt;
-&lt;li&gt;赌气，就是把自己想要的东西推的越来越远。&lt;/li&gt;
-&lt;li&gt;生活是一条路，朋友就是那路上的车，我们彼此的鸣笛与错过，都是缘分，都要珍惜。&lt;/li</summary>
-        
-      
-    
-    
-    
-    <category term="Philosophy" scheme="https://sstian.github.io/categories/Philosophy/"/>
-    
-    
-    <category term="Theories" scheme="https://sstian.github.io/tags/Theories/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>读书笔记 - 综艺 Variety</title>
-    <link href="https://sstian.github.io/2018/11/12/reading-variety/"/>
-    <id>https://sstian.github.io/2018/11/12/reading-variety/</id>
-    <published>2018-11-12T14:22:11.000Z</published>
-    <updated>2021-01-31T11:36:34.482Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;今夜欢乐颂&quot;&gt;&lt;a href=&quot;#今夜欢乐颂&quot; class=&quot;headerlink&quot; title=&quot;今夜欢乐颂&quot;&gt;&lt;/a&gt;今夜欢乐颂&lt;/h2&gt;&lt;p&gt;[中]安徽卫视&lt;/p&gt;
-&lt;p&gt;欢乐颂唱班 + 沈龙脱口秀 +</summary>
-        
-      
-    
-    
-    
-    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
-    
-    
-    <category term="Variety" scheme="https://sstian.github.io/tags/Variety/"/>
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
     
   </entry>
   
