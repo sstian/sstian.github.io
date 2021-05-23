@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2021-05-22T16:03:58.827Z</updated>
+  <updated>2021-05-23T08:00:31.719Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -21,19 +21,23 @@
     <link href="https://sstian.github.io/2021/05/23/business/"/>
     <id>https://sstian.github.io/2021/05/23/business/</id>
     <published>2021-05-22T16:03:20.000Z</published>
-    <updated>2021-05-22T16:03:58.827Z</updated>
+    <updated>2021-05-23T08:00:31.719Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E6%8B%9B%E6%A0%87.png&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;招标&quot;&gt;&lt;a href=&quot;#招标&quot; class=&quot;headerlink&quot; title=&quot;招标&quot;&gt;&lt;/a&gt;招标&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
         
       
     
     
     
+    <category term="Business" scheme="https://sstian.github.io/categories/Business/"/>
+    
+    
+    <category term="Tender" scheme="https://sstian.github.io/tags/Tender/"/>
     
   </entry>
   
@@ -412,10 +416,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://sstian.github.io/2021/01/16/hello-world/"/>
-    <id>https://sstian.github.io/2021/01/16/hello-world/</id>
-    <published>2021-01-16T04:11:23.364Z</published>
-    <updated>2021-01-20T15:59:10.269Z</updated>
+    <link href="https://sstian.github.io/2021/01/01/hello-world/"/>
+    <id>https://sstian.github.io/2021/01/01/hello-world/</id>
+    <published>2020-12-31T16:00:00.000Z</published>
+    <updated>2021-05-23T08:03:40.457Z</updated>
     
     
       
@@ -434,6 +438,31 @@
     <category term="GitHub" scheme="https://sstian.github.io/tags/GitHub/"/>
     
     <category term="Hexo" scheme="https://sstian.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Enshrine Hyperlink</title>
+    <link href="https://sstian.github.io/2020/12/20/enshrine-hyperlink/"/>
+    <id>https://sstian.github.io/2020/12/20/enshrine-hyperlink/</id>
+    <published>2020-12-20T04:20:00.000Z</published>
+    <updated>2021-05-23T08:11:31.740Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Enshrine-Hyperlink&quot;&gt;&lt;a href=&quot;#Enshrine-Hyperlink&quot; class=&quot;headerlink&quot; title=&quot;Enshrine Hyperlink&quot;&gt;&lt;/a&gt;Enshrine</summary>
+        
+      
+    
+    
+    
+    <category term="Collection" scheme="https://sstian.github.io/categories/Collection/"/>
+    
+    
+    <category term="Enshrine Hyperlink" scheme="https://sstian.github.io/tags/Enshrine-Hyperlink/"/>
     
   </entry>
   
@@ -517,31 +546,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;樱花庄的宠物女孩&quot;&gt;&lt;a href=&quot;#樱花庄的宠物女孩&quot; class=&quot;headerlink&quot; title=&quot;樱花庄的宠物女孩&quot;&gt;&lt;/a&gt;樱花庄的宠物女孩&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;さくら荘のペットな彼女 </summary>
-        
-      
-    
-    
-    
-    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
-    
-    
-    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>World Opera 6</title>
-    <link href="https://sstian.github.io/2020/06/20/world-opera6/"/>
-    <id>https://sstian.github.io/2020/06/20/world-opera6/</id>
-    <published>2020-06-20T05:14:00.000Z</published>
-    <updated>2021-02-14T17:56:34.871Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;哆啦A梦：大雄的金银岛&quot;&gt;&lt;a href=&quot;#哆啦A梦：大雄的金银岛&quot; class=&quot;headerlink&quot; title=&quot;哆啦A梦：大雄的金银岛&quot;&gt;&lt;/a&gt;哆啦A梦：大雄的金银岛&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;映画ドラえもん のび太の宝島 </summary>
         
       
     
