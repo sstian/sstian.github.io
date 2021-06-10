@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2021-05-23T08:00:31.719Z</updated>
+  <updated>2021-06-10T19:42:12.838Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring WebFlux Sharing</title>
+    <link href="https://sstian.github.io/2021/06/11/spring-webflux/"/>
+    <id>https://sstian.github.io/2021/06/11/spring-webflux/</id>
+    <published>2021-06-10T19:20:53.000Z</published>
+    <updated>2021-06-10T19:42:12.838Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Spring-WebFlux&quot;&gt;&lt;a href=&quot;#Spring-WebFlux&quot; class=&quot;headerlink&quot; title=&quot;Spring WebFlux&quot;&gt;&lt;/a&gt;Spring WebFlux&lt;/h1&gt;&lt;h2 id=&quot;Feature&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="Spring Framework" scheme="https://sstian.github.io/tags/Spring-Framework/"/>
+    
+    <category term="WebFlux" scheme="https://sstian.github.io/tags/WebFlux/"/>
+    
+  </entry>
   
   <entry>
     <title>业务</title>
@@ -446,7 +473,7 @@
     <link href="https://sstian.github.io/2020/12/30/format-design/"/>
     <id>https://sstian.github.io/2020/12/30/format-design/</id>
     <published>2020-12-30T04:30:00.000Z</published>
-    <updated>2021-05-29T05:21:56.338Z</updated>
+    <updated>2021-05-29T07:01:14.065Z</updated>
     
     
       
@@ -522,31 +549,6 @@
         
     <summary type="html">&lt;h2 id=&quot;极速蜗牛&quot;&gt;&lt;a href=&quot;#极速蜗牛&quot; class=&quot;headerlink&quot; title=&quot;极速蜗牛&quot;&gt;&lt;/a&gt;极速蜗牛&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Turbo&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;[美]</summary>
-        
-      
-    
-    
-    
-    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
-    
-    
-    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>World Opera 8</title>
-    <link href="https://sstian.github.io/2020/08/20/world-opera8/"/>
-    <id>https://sstian.github.io/2020/08/20/world-opera8/</id>
-    <published>2020-08-20T05:14:00.000Z</published>
-    <updated>2021-02-02T16:32:04.702Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;鬼灭之刃&quot;&gt;&lt;a href=&quot;#鬼灭之刃&quot; class=&quot;headerlink&quot; title=&quot;鬼灭之刃&quot;&gt;&lt;/a&gt;鬼灭之刃&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;きめつのやいば </summary>
         
       
     
