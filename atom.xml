@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sstian</title>
+  
+  <subtitle>in Future</subtitle>
+  <link href="https://sstian.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sstian.github.io/"/>
+  <updated>2023-03-20T11:31:29.721Z</updated>
+  <id>https://sstian.github.io/</id>
+  
+  <author>
+    <name>SS Tian</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>技术琐话</title>
+    <link href="https://sstian.github.io/technology/theory-practice/"/>
+    <id>https://sstian.github.io/technology/theory-practice/</id>
+    <published>2022-05-22T04:32:55.000Z</published>
+    <updated>2023-03-20T11:31:29.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;低代码VS无代码&quot;&gt;&lt;a href=&quot;#低代码VS无代码&quot; class=&quot;headerlink&quot; title=&quot;低代码VS无代码&quot;&gt;&lt;/a&gt;低代码VS无代码&lt;/h2&gt;&lt;h3 id=&quot;对比&quot;&gt;&lt;a href=&quot;#对比&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="TheoryPractice" scheme="https://sstian.github.io/tags/TheoryPractice/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小知识</title>
+    <link href="https://sstian.github.io/knowledge/knowledge-base/"/>
+    <id>https://sstian.github.io/knowledge/knowledge-base/</id>
+    <published>2022-03-02T11:37:25.000Z</published>
+    <updated>2023-03-20T11:31:29.705Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;锂电池&quot;&gt;&lt;a href=&quot;#锂电池&quot; class=&quot;headerlink&quot; title=&quot;锂电池&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Knowlege" scheme="https://sstian.github.io/categories/Knowlege/"/>
+    
+    
+    <category term="Base" scheme="https://sstian.github.io/tags/Base/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>鲁迅故事集</title>
+    <link href="https://sstian.github.io/reading/luxun-story/"/>
+    <id>https://sstian.github.io/reading/luxun-story/</id>
+    <published>2022-01-05T13:46:56.000Z</published>
+    <updated>2023-03-20T11:31:29.714Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;狂人日记：鲁迅小说全集&quot;&gt;&lt;a href=&quot;#狂人日记：鲁迅小说全集&quot; class=&quot;headerlink&quot; title=&quot;狂人日记：鲁迅小说全集&quot;&gt;&lt;/a&gt;狂人日记：鲁迅小说全集&lt;/h2&gt;&lt;h3 id=&quot;呐喊&quot;&gt;&lt;a href=&quot;#呐喊&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="鲁迅" scheme="https://sstian.github.io/tags/%E9%B2%81%E8%BF%85/"/>
+    
+    <category term="Story" scheme="https://sstian.github.io/tags/Story/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>码农翻身</title>
+    <link href="https://sstian.github.io/technology/coderising/"/>
+    <id>https://sstian.github.io/technology/coderising/</id>
+    <published>2021-11-10T13:42:59.000Z</published>
+    <updated>2023-03-20T12:41:27.049Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;半小时漫画计算机&quot;&gt;&lt;a href=&quot;#半小时漫画计算机&quot; class=&quot;headerlink&quot; title=&quot;半小时漫画计算机&quot;&gt;&lt;/a&gt;半小时漫画计算机&lt;/h2&gt;&lt;h3 id=&quot;操作系统&quot;&gt;&lt;a href=&quot;#操作系统&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="coderising" scheme="https://sstian.github.io/tags/coderising/"/>
+    
+    <category term="刘欣" scheme="https://sstian.github.io/tags/%E5%88%98%E6%AC%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>适合情侣间做的十四件事</title>
+    <link href="https://sstian.github.io/couple-fourteen-things/"/>
+    <id>https://sstian.github.io/couple-fourteen-things/</id>
+    <published>2021-08-14T05:14:00.000Z</published>
+    <updated>2023-03-20T11:31:29.702Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;适合情侣间做的十四件事&quot;&gt;&lt;a href=&quot;#适合情侣间做的十四件事&quot; class=&quot;headerlink&quot; title=&quot;适合情侣间做的十四件事&quot;&gt;&lt;/a&gt;适合情侣间做的十四件事&lt;/h2&gt;&lt;h3 id=&quot;01-一起喝酒-x&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Emotion" scheme="https://sstian.github.io/categories/Emotion/"/>
+    
+    
+    <category term="Couple" scheme="https://sstian.github.io/tags/Couple/"/>
+    
+    <category term="Feeling" scheme="https://sstian.github.io/tags/Feeling/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring WebFlux Sharing</title>
+    <link href="https://sstian.github.io/technology/spring-webflux/"/>
+    <id>https://sstian.github.io/technology/spring-webflux/</id>
+    <published>2021-06-10T19:20:53.000Z</published>
+    <updated>2023-03-20T11:31:29.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Spring-WebFlux&quot;&gt;&lt;a href=&quot;#Spring-WebFlux&quot; class=&quot;headerlink&quot; title=&quot;Spring WebFlux&quot;&gt;&lt;/a&gt;Spring WebFlux&lt;/h1&gt;&lt;h2 id=&quot;Feature&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="Spring Framework" scheme="https://sstian.github.io/tags/Spring-Framework/"/>
+    
+    <category term="WebFlux" scheme="https://sstian.github.io/tags/WebFlux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>业务</title>
+    <link href="https://sstian.github.io/business/"/>
+    <id>https://sstian.github.io/business/</id>
+    <published>2021-05-22T16:03:20.000Z</published>
+    <updated>2023-03-20T11:37:54.188Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;招标&quot;&gt;&lt;a href=&quot;#招标&quot; class=&quot;headerlink&quot; title=&quot;招标&quot;&gt;&lt;/a&gt;招标&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Business" scheme="https://sstian.github.io/categories/Business/"/>
+    
+    
+    <category term="Tender" scheme="https://sstian.github.io/tags/Tender/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>半小时漫画系列</title>
+    <link href="https://sstian.github.io/reading/half-hour-comic/"/>
+    <id>https://sstian.github.io/reading/half-hour-comic/</id>
+    <published>2021-02-02T16:42:00.000Z</published>
+    <updated>2023-03-20T11:31:29.711Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;漫画科普：图像化、脉络化、娱乐化。&lt;/p&gt;
+&lt;h2 id=&quot;半小时漫画预防常见病&quot;&gt;&lt;a href=&quot;#半小时漫画预防常见病&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="二混子" scheme="https://sstian.github.io/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
+    
+    <category term="Half Hour" scheme="https://sstian.github.io/tags/Half-Hour/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>秦时明月</title>
+    <link href="https://sstian.github.io/world/qinshimingyue/"/>
+    <id>https://sstian.github.io/world/qinshimingyue/</id>
+    <published>2021-01-31T16:52:58.000Z</published>
+    <updated>2023-03-20T11:31:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;秦时明月&quot;&gt;&lt;a href=&quot;#秦时明月&quot; class=&quot;headerlink&quot; title=&quot;秦时明月&quot;&gt;&lt;/a&gt;秦时明月&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;The Legend of</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="Legend" scheme="https://sstian.github.io/tags/Legend/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>key社催泪曲</title>
+    <link href="https://sstian.github.io/world/key-galgame/"/>
+    <id>https://sstian.github.io/world/key-galgame/</id>
+    <published>2021-01-31T16:41:15.000Z</published>
+    <updated>2023-03-20T11:31:29.725Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Kanon&quot;&gt;&lt;a href=&quot;#Kanon&quot; class=&quot;headerlink&quot; title=&quot;Kanon&quot;&gt;&lt;/a&gt;Kanon&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;del&gt;2002 东映动画&lt;/del&gt;，2006 京都动画&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;01</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="Key" scheme="https://sstian.github.io/tags/Key/"/>
+    
+    <category term="Visual Art&#39;s" scheme="https://sstian.github.io/tags/Visual-Art-s/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fate系列</title>
+    <link href="https://sstian.github.io/world/fate/"/>
+    <id>https://sstian.github.io/world/fate/</id>
+    <published>2021-01-31T16:12:19.000Z</published>
+    <updated>2023-03-20T11:31:29.723Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Fate-Zero&quot;&gt;&lt;a href=&quot;#Fate-Zero&quot; class=&quot;headerlink&quot; title=&quot;Fate Zero&quot;&gt;&lt;/a&gt;Fate Zero&lt;/h2&gt;&lt;p&gt;[日]虚渊玄&lt;/p&gt;
+&lt;p&gt;01 招唤英灵 02 虚伪的战端 03 冬木之地 04</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="Fate" scheme="https://sstian.github.io/tags/Fate/"/>
+    
+    <category term="San-greal" scheme="https://sstian.github.io/tags/San-greal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>龙珠</title>
+    <link href="https://sstian.github.io/world/dragonball/"/>
+    <id>https://sstian.github.io/world/dragonball/</id>
+    <published>2021-01-31T15:44:25.000Z</published>
+    <updated>2023-03-20T11:31:29.722Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;龙珠&quot;&gt;&lt;a href=&quot;#龙珠&quot; class=&quot;headerlink&quot; title=&quot;龙珠&quot;&gt;&lt;/a&gt;龙珠&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;ドラゴンボール  [日]鸟山明&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;设定&quot;&gt;&lt;a href=&quot;#设定&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="Dragon Ball" scheme="https://sstian.github.io/tags/Dragon-Ball/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>爱情公寓</title>
+    <link href="https://sstian.github.io/world/ipartment/"/>
+    <id>https://sstian.github.io/world/ipartment/</id>
+    <published>2021-01-31T15:09:43.000Z</published>
+    <updated>2023-03-20T11:31:29.724Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;爱情公寓&quot;&gt;&lt;a href=&quot;#爱情公寓&quot; class=&quot;headerlink&quot; title=&quot;爱情公寓&quot;&gt;&lt;/a&gt;爱情公寓&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;iPartment [中]导演：韦正，编剧：汪远/邹杰&lt;/strong&gt;&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="iPartment" scheme="https://sstian.github.io/tags/iPartment/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>周星驰电影</title>
+    <link href="https://sstian.github.io/world/zhouxingchi-film/"/>
+    <id>https://sstian.github.io/world/zhouxingchi-film/</id>
+    <published>2021-01-31T14:44:46.000Z</published>
+    <updated>2023-03-20T11:31:29.735Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;周星驰电影&quot;&gt;&lt;a href=&quot;#周星驰电影&quot; class=&quot;headerlink&quot; title=&quot;周星驰电影&quot;&gt;&lt;/a&gt;周星驰电影&lt;/h2&gt;&lt;h3 id=&quot;逃学威龙系列&quot;&gt;&lt;a href=&quot;#逃学威龙系列&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="Stephen Chow" scheme="https://sstian.github.io/tags/Stephen-Chow/"/>
+    
+    <category term="Film" scheme="https://sstian.github.io/tags/Film/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游戏王系列</title>
+    <link href="https://sstian.github.io/world/yugioh/"/>
+    <id>https://sstian.github.io/world/yugioh/</id>
+    <published>2021-01-31T14:20:00.000Z</published>
+    <updated>2023-03-20T11:31:29.735Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;游戏王&quot;&gt;&lt;a href=&quot;#游戏王&quot; class=&quot;headerlink&quot; title=&quot;游戏王&quot;&gt;&lt;/a&gt;游戏王&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;遊☆戯☆王 Yu-Gi-Oh!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[日]高桥和希&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="Yu-Gi-Oh!" scheme="https://sstian.github.io/tags/Yu-Gi-Oh/"/>
+    
+    <category term="Duel" scheme="https://sstian.github.io/tags/Duel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>朱德庸漫画集</title>
+    <link href="https://sstian.github.io/reading/zhudeyong-comic/"/>
+    <id>https://sstian.github.io/reading/zhudeyong-comic/</id>
+    <published>2021-01-31T12:19:12.000Z</published>
+    <updated>2023-03-20T11:31:29.718Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;朱德庸语录：婚姻是一场华丽冒险&quot;&gt;&lt;a href=&quot;#朱德庸语录：婚姻是一场华丽冒险&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="朱德庸" scheme="https://sstian.github.io/tags/%E6%9C%B1%E5%BE%B7%E5%BA%B8/"/>
+    
+    <category term="Comic" scheme="https://sstian.github.io/tags/Comic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>刘同青春系列</title>
+    <link href="https://sstian.github.io/reading/liutong-youth/"/>
+    <id>https://sstian.github.io/reading/liutong-youth/</id>
+    <published>2021-01-31T12:07:43.000Z</published>
+    <updated>2023-03-20T11:31:29.713Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;你的孤独，虽败犹荣&quot;&gt;&lt;a href=&quot;#你的孤独，虽败犹荣&quot; class=&quot;headerlink&quot; title=&quot;你的孤独，虽败犹荣&quot;&gt;&lt;/a&gt;你的孤独，虽败犹荣&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;As long as you are</summary>
+        
+      
+    
+    
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="刘同" scheme="https://sstian.github.io/tags/%E5%88%98%E5%90%8C/"/>
+    
+    <category term="Youth" scheme="https://sstian.github.io/tags/Youth/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>刘慈欣科幻小说</title>
+    <link href="https://sstian.github.io/reading/liucixin-science-fiction/"/>
+    <id>https://sstian.github.io/reading/liucixin-science-fiction/</id>
+    <published>2021-01-28T15:50:54.000Z</published>
+    <updated>2023-03-20T11:31:29.712Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;三体&quot;&gt;&lt;a href=&quot;#三体&quot; class=&quot;headerlink&quot; title=&quot;三体&quot;&gt;&lt;/a&gt;三体&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;《三体》《三体Ⅱ 黑暗森林》《三体Ⅲ 死神永生 DEAD</summary>
+        
+      
+    
+    
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="刘慈欣" scheme="https://sstian.github.io/tags/%E5%88%98%E6%85%88%E6%AC%A3/"/>
+    
+    <category term="Science Fiction" scheme="https://sstian.github.io/tags/Science-Fiction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>区块链 Block Chain</title>
+    <link href="https://sstian.github.io/technology/blockchain/"/>
+    <id>https://sstian.github.io/technology/blockchain/</id>
+    <published>2021-01-16T04:54:37.000Z</published>
+    <updated>2023-03-20T11:31:29.719Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;图说区块链：神一样的金融科技和未来社会&quot;&gt;&lt;a href=&quot;#图说区块链：神一样的金融科技和未来社会&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="Blockchain" scheme="https://sstian.github.io/tags/Blockchain/"/>
+    
+    <category term="FinTech" scheme="https://sstian.github.io/tags/FinTech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sstian.github.io/hello-world/"/>
+    <id>https://sstian.github.io/hello-world/</id>
+    <published>2020-12-31T16:00:00.000Z</published>
+    <updated>2023-03-20T11:31:29.703Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Tutorial" scheme="https://sstian.github.io/categories/Tutorial/"/>
+    
+    
+    <category term="GitHub" scheme="https://sstian.github.io/tags/GitHub/"/>
+    
+    <category term="Hexo" scheme="https://sstian.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
