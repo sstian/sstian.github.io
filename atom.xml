@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-03-20T11:31:29.721Z</updated>
+  <updated>2023-03-24T08:00:27.777Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UNIX编程艺术</title>
+    <link href="https://sstian.github.io/reading/unix-art/"/>
+    <id>https://sstian.github.io/reading/unix-art/</id>
+    <published>2022-12-11T06:55:57.000Z</published>
+    <updated>2023-03-24T08:00:27.777Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;UNIX编程艺术&quot;&gt;&lt;a href=&quot;#UNIX编程艺术&quot; class=&quot;headerlink&quot; title=&quot;UNIX编程艺术&quot;&gt;&lt;/a&gt;UNIX编程艺术&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;The Art of UNIX</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="UNIX" scheme="https://sstian.github.io/tags/UNIX/"/>
+    
+    <category term="Art" scheme="https://sstian.github.io/tags/Art/"/>
+    
+  </entry>
   
   <entry>
     <title>技术琐话</title>
@@ -545,33 +572,6 @@
     <category term="Blockchain" scheme="https://sstian.github.io/tags/Blockchain/"/>
     
     <category term="FinTech" scheme="https://sstian.github.io/tags/FinTech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://sstian.github.io/hello-world/"/>
-    <id>https://sstian.github.io/hello-world/</id>
-    <published>2020-12-31T16:00:00.000Z</published>
-    <updated>2023-03-20T11:31:29.703Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="Tutorial" scheme="https://sstian.github.io/categories/Tutorial/"/>
-    
-    
-    <category term="GitHub" scheme="https://sstian.github.io/tags/GitHub/"/>
-    
-    <category term="Hexo" scheme="https://sstian.github.io/tags/Hexo/"/>
     
   </entry>
   
