@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-03-24T08:40:10.352Z</updated>
+  <updated>2023-04-20T07:13:22.736Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>turing-universe</title>
+    <link href="https://sstian.github.io/reading/turing-universe/"/>
+    <id>https://sstian.github.io/reading/turing-universe/</id>
+    <published>2023-02-12T12:00:00.000Z</published>
+    <updated>2023-04-20T07:13:22.736Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;图灵宇宙：原初纪元——计算机科学发展简史&quot;&gt;&lt;a href=&quot;#图灵宇宙：原初纪元——计算机科学发展简史&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Books" scheme="https://sstian.github.io/tags/Books/"/>
+    
+  </entry>
+  
+  <entry>
     <title>UNIX编程艺术</title>
     <link href="https://sstian.github.io/reading/unix-art/"/>
     <id>https://sstian.github.io/reading/unix-art/</id>
     <published>2022-12-11T06:55:57.000Z</published>
-    <updated>2023-03-24T08:40:10.352Z</updated>
+    <updated>2023-04-20T07:02:49.371Z</updated>
     
     
       
@@ -40,6 +63,29 @@
     <category term="UNIX" scheme="https://sstian.github.io/tags/UNIX/"/>
     
     <category term="Art" scheme="https://sstian.github.io/tags/Art/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>code-computer</title>
+    <link href="https://sstian.github.io/reading/code-computer/"/>
+    <id>https://sstian.github.io/reading/code-computer/</id>
+    <published>2022-10-30T04:30:00.000Z</published>
+    <updated>2023-04-20T07:10:37.254Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;编码：隐匿在计算机软硬件背后的语言&quot;&gt;&lt;a href=&quot;#编码：隐匿在计算机软硬件背后的语言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
     
   </entry>
   
@@ -516,62 +562,6 @@
     <category term="刘同" scheme="https://sstian.github.io/tags/%E5%88%98%E5%90%8C/"/>
     
     <category term="Youth" scheme="https://sstian.github.io/tags/Youth/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>刘慈欣科幻小说</title>
-    <link href="https://sstian.github.io/reading/liucixin-science-fiction/"/>
-    <id>https://sstian.github.io/reading/liucixin-science-fiction/</id>
-    <published>2021-01-28T15:50:54.000Z</published>
-    <updated>2023-03-20T11:31:29.712Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;三体&quot;&gt;&lt;a href=&quot;#三体&quot; class=&quot;headerlink&quot; title=&quot;三体&quot;&gt;&lt;/a&gt;三体&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;《三体》《三体Ⅱ 黑暗森林》《三体Ⅲ 死神永生 DEAD</summary>
-        
-      
-    
-    
-    
-    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
-    
-    
-    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
-    
-    <category term="刘慈欣" scheme="https://sstian.github.io/tags/%E5%88%98%E6%85%88%E6%AC%A3/"/>
-    
-    <category term="Science Fiction" scheme="https://sstian.github.io/tags/Science-Fiction/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>区块链 Block Chain</title>
-    <link href="https://sstian.github.io/technology/blockchain/"/>
-    <id>https://sstian.github.io/technology/blockchain/</id>
-    <published>2021-01-16T04:54:37.000Z</published>
-    <updated>2023-03-20T11:31:29.719Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;图说区块链：神一样的金融科技和未来社会&quot;&gt;&lt;a href=&quot;#图说区块链：神一样的金融科技和未来社会&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
-    
-    
-    <category term="Blockchain" scheme="https://sstian.github.io/tags/Blockchain/"/>
-    
-    <category term="FinTech" scheme="https://sstian.github.io/tags/FinTech/"/>
     
   </entry>
   
