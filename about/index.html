@@ -726,7 +726,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Business","value":1},{"name":"Emotion","value":1},{"name":"Tutorial","value":1},{"name":"Collection","value":2},{"name":"Inspiration","value":2},{"name":"Knowlege","value":1},{"name":"Reading","value":8},{"name":"Philosophy","value":6},{"name":"Technology","value":4},{"name":"World","value":17}],
+                data: [{"name":"Business","value":1},{"name":"Emotion","value":1},{"name":"Tutorial","value":1},{"name":"Collection","value":2},{"name":"Inspiration","value":2},{"name":"Knowlege","value":1},{"name":"Philosophy","value":6},{"name":"Reading","value":8},{"name":"Technology","value":4},{"name":"World","value":17}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -750,7 +750,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Opera","Book","Tender","Couple","Feeling","GitHub","Hexo","Enshrine","Hyperlink","Articles"]
+                data: ["Opera","Book","Tender","Couple","Feeling","GitHub","Hexo","Enshrine","Hyperlink","Format"]
             }
         ],
         yAxis: [
@@ -975,12 +975,6 @@
             
             
             
-            <a href="../tags/Articles/">
-                <span class="chip center-align waves-effect waves-light chip-default">Articles</span>
-            </a>
-            
-            
-            
             <a href="../tags/Format/">
                 <span class="chip center-align waves-effect waves-light chip-default">Format</span>
             </a>
@@ -993,6 +987,12 @@
             
             
             
+            <a href="../tags/Articles/">
+                <span class="chip center-align waves-effect waves-light chip-default">Articles</span>
+            </a>
+            
+            
+            
             <a href="../tags/Impressions/">
                 <span class="chip center-align waves-effect waves-light chip-default">Impressions</span>
             </a>
@@ -1001,6 +1001,42 @@
             
             <a href="../tags/Base/">
                 <span class="chip center-align waves-effect waves-light chip-default">Base</span>
+            </a>
+            
+            
+            
+            <a href="../tags/Literatures/">
+                <span class="chip center-align waves-effect waves-light chip-default">Literatures</span>
+            </a>
+            
+            
+            
+            <a href="../tags/Lyric/">
+                <span class="chip center-align waves-effect waves-light chip-default">Lyric</span>
+            </a>
+            
+            
+            
+            <a href="../tags/Theories/">
+                <span class="chip center-align waves-effect waves-light chip-default">Theories</span>
+            </a>
+            
+            
+            
+            <a href="../tags/Wisdoms/">
+                <span class="chip center-align waves-effect waves-light chip-default">Wisdoms</span>
+            </a>
+            
+            
+            
+            <a href="../tags/Works/">
+                <span class="chip center-align waves-effect waves-light chip-default">Works</span>
+            </a>
+            
+            
+            
+            <a href="../tags/Norms/">
+                <span class="chip center-align waves-effect waves-light chip-default">Norms</span>
             </a>
             
             
@@ -1097,42 +1133,6 @@
             
             <a href="../tags/Comic/">
                 <span class="chip center-align waves-effect waves-light chip-default">Comic</span>
-            </a>
-            
-            
-            
-            <a href="../tags/Literatures/">
-                <span class="chip center-align waves-effect waves-light chip-default">Literatures</span>
-            </a>
-            
-            
-            
-            <a href="../tags/Lyric/">
-                <span class="chip center-align waves-effect waves-light chip-default">Lyric</span>
-            </a>
-            
-            
-            
-            <a href="../tags/Wisdoms/">
-                <span class="chip center-align waves-effect waves-light chip-default">Wisdoms</span>
-            </a>
-            
-            
-            
-            <a href="../tags/Works/">
-                <span class="chip center-align waves-effect waves-light chip-default">Works</span>
-            </a>
-            
-            
-            
-            <a href="../tags/Theories/">
-                <span class="chip center-align waves-effect waves-light chip-default">Theories</span>
-            </a>
-            
-            
-            
-            <a href="../tags/Norms/">
-                <span class="chip center-align waves-effect waves-light chip-default">Norms</span>
             </a>
             
             
@@ -1491,6 +1491,39 @@
 
 </div>
     </div>
+
+    <!-- 看板娘 -->
+    <div class="pio-container left">
+        <div class="pio-action"></div>
+        <canvas id="pio" width="200" height="250"></canvas>
+    </div>
+    <link rel="stylesheet" href="css/pio.css">
+    <script src="js/pio.js"></script>
+    <script src="js/live2d.js"></script>
+    <script>
+        var pio = new KanbanPio({
+            "mode": "fixed",
+            "tips": true,
+            "hidden": true,
+            "content": {
+                "welcome": ["欢迎来到我的网站！", "博主每天都有些折腾记录，欢迎前往TA的小窝阅读~"],
+            },
+            "model": [
+                "models/live2d-widget-model-koharu/assets/koharu.model.json",
+                // "models/live2d-widget-model-haruto/assets/haruto.model.json",
+                // "models/live2d-widget-model-miku/assets/miku.model.json",        // 初音
+                // "models/live2d-widget-model-shizuku/assets/shizuku.model.json",  // 萌娘
+                // "models/live2d-widget-model-chitose/assets/chitose.model.json",
+                // "models/live2d-widget-model-haru/01/assets/haru01.model.json",
+                // "models/live2d-widget-model-wanko/assets/wanko.model.json",
+                // "models/live2d-widget-model-vert/vert_classic/vert_classic.model.json",
+                // "models/live2d-widget-model-nepgear_extra/nepgear_extra/nepgear_extra.model.json",
+                // "models/live2d-widget-model-haru/02/assets/haru02.model.json",
+                // "models/live2d-widget-model-histoire/histoire/histoire.model.json",
+                // "models/live2d-widget-model-blanc_normal/blanc_normal/blanc_normal.model.json",
+            ]
+        });
+    </script>
 </footer>
 
 <div class="progress-bar"></div>

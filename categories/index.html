@@ -528,20 +528,20 @@
                 </a>
                 
                 
-                <a href="Reading/" title="Reading: 8">
+                <a href="Philosophy/" title="Philosophy: 6">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #82E0AA;">Reading
-                        <span class="tag-length">8</span>
+                            style="background-color: #82E0AA;">Philosophy
+                        <span class="tag-length">6</span>
                     </span>
                 </a>
                 
                 
-                <a href="Philosophy/" title="Philosophy: 6">
+                <a href="Reading/" title="Reading: 8">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D7BDE2;">Philosophy
-                        <span class="tag-length">6</span>
+                            style="background-color: #D7BDE2;">Reading
+                        <span class="tag-length">8</span>
                     </span>
                 </a>
                 
@@ -606,7 +606,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"Business","max":18},{"name":"Emotion","max":18},{"name":"Tutorial","max":18},{"name":"Collection","max":18},{"name":"Inspiration","max":18},{"name":"Knowlege","max":18},{"name":"Reading","max":18},{"name":"Philosophy","max":18},{"name":"Technology","max":18},{"name":"World","max":18}],
+            indicator: [{"name":"Business","max":18},{"name":"Emotion","max":18},{"name":"Tutorial","max":18},{"name":"Collection","max":18},{"name":"Inspiration","max":18},{"name":"Knowlege","max":18},{"name":"Philosophy","max":18},{"name":"Reading","max":18},{"name":"Technology","max":18},{"name":"World","max":18}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -617,7 +617,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,1,1,2,2,1,8,6,4,17],
+                    value : [1,1,1,2,2,1,6,8,4,17],
                     name : '文章分类数量'
                 }
             ]
@@ -814,6 +814,39 @@
 
 </div>
     </div>
+
+    <!-- 看板娘 -->
+    <div class="pio-container left">
+        <div class="pio-action"></div>
+        <canvas id="pio" width="200" height="250"></canvas>
+    </div>
+    <link rel="stylesheet" href="css/pio.css">
+    <script src="js/pio.js"></script>
+    <script src="js/live2d.js"></script>
+    <script>
+        var pio = new KanbanPio({
+            "mode": "fixed",
+            "tips": true,
+            "hidden": true,
+            "content": {
+                "welcome": ["欢迎来到我的网站！", "博主每天都有些折腾记录，欢迎前往TA的小窝阅读~"],
+            },
+            "model": [
+                "models/live2d-widget-model-koharu/assets/koharu.model.json",
+                // "models/live2d-widget-model-haruto/assets/haruto.model.json",
+                // "models/live2d-widget-model-miku/assets/miku.model.json",        // 初音
+                // "models/live2d-widget-model-shizuku/assets/shizuku.model.json",  // 萌娘
+                // "models/live2d-widget-model-chitose/assets/chitose.model.json",
+                // "models/live2d-widget-model-haru/01/assets/haru01.model.json",
+                // "models/live2d-widget-model-wanko/assets/wanko.model.json",
+                // "models/live2d-widget-model-vert/vert_classic/vert_classic.model.json",
+                // "models/live2d-widget-model-nepgear_extra/nepgear_extra/nepgear_extra.model.json",
+                // "models/live2d-widget-model-haru/02/assets/haru02.model.json",
+                // "models/live2d-widget-model-histoire/histoire/histoire.model.json",
+                // "models/live2d-widget-model-blanc_normal/blanc_normal/blanc_normal.model.json",
+            ]
+        });
+    </script>
 </footer>
 
 <div class="progress-bar"></div>
