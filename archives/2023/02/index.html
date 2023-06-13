@@ -813,30 +813,20 @@ ACM = Association for Computing Machinery 美国计算机协会图灵奖，全�
         <div class="pio-action"></div>
         <canvas id="pio" width="200" height="250"></canvas>
     </div>
-    <link rel="stylesheet" href="css/pio.css">
-    <script src="js/pio.js"></script>
-    <script src="js/live2d.js"></script>
+    <link rel="stylesheet" href="/css/pio.css">
+    <script src="/js/pio.js"></script>
+    <script src="/js/live2d.js"></script>
     <script>
         var pio = new KanbanPio({
-            "mode": "fixed",
+            "mode": "draggable",
             "tips": true,
             "hidden": true,
             "content": {
                 "welcome": ["欢迎来到我的网站！", "博主每天都有些折腾记录，欢迎前往TA的小窝阅读~"],
             },
             "model": [
-                "models/live2d-widget-model-koharu/assets/koharu.model.json",
-                // "models/live2d-widget-model-haruto/assets/haruto.model.json",
-                // "models/live2d-widget-model-miku/assets/miku.model.json",        // 初音
-                // "models/live2d-widget-model-shizuku/assets/shizuku.model.json",  // 萌娘
-                // "models/live2d-widget-model-chitose/assets/chitose.model.json",
-                // "models/live2d-widget-model-haru/01/assets/haru01.model.json",
-                // "models/live2d-widget-model-wanko/assets/wanko.model.json",
-                // "models/live2d-widget-model-vert/vert_classic/vert_classic.model.json",
-                // "models/live2d-widget-model-nepgear_extra/nepgear_extra/nepgear_extra.model.json",
-                // "models/live2d-widget-model-haru/02/assets/haru02.model.json",
-                // "models/live2d-widget-model-histoire/histoire/histoire.model.json",
-                // "models/live2d-widget-model-blanc_normal/blanc_normal/blanc_normal.model.json",
+                "/models/live2d-widget-model-koharu/assets/koharu.model.json",
+                // "/models/live2d-widget-model-haruto/assets/haruto.model.json"
             ]
         });
     </script>
