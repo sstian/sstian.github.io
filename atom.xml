@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-05-02T11:48:09.901Z</updated>
+  <updated>2023-07-23T06:53:00.369Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sstian.github.io/reading/turing-universe/"/>
     <id>https://sstian.github.io/reading/turing-universe/</id>
     <published>2023-02-12T12:00:00.000Z</published>
-    <updated>2023-05-02T11:48:09.901Z</updated>
+    <updated>2023-07-23T06:53:00.369Z</updated>
     
     
       
@@ -34,8 +34,10 @@
     
     
     
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
     
-    <category term="Books" scheme="https://sstian.github.io/tags/Books/"/>
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
     
   </entry>
   
@@ -44,7 +46,7 @@
     <link href="https://sstian.github.io/reading/unix-art/"/>
     <id>https://sstian.github.io/reading/unix-art/</id>
     <published>2022-12-11T06:55:57.000Z</published>
-    <updated>2023-04-20T07:02:49.371Z</updated>
+    <updated>2023-07-23T06:52:36.129Z</updated>
     
     
       
@@ -56,6 +58,8 @@
       
     
     
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
     
     
     <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
@@ -71,7 +75,7 @@
     <link href="https://sstian.github.io/reading/code-computer/"/>
     <id>https://sstian.github.io/reading/code-computer/</id>
     <published>2022-10-30T04:30:00.000Z</published>
-    <updated>2023-05-02T11:48:33.915Z</updated>
+    <updated>2023-07-23T06:52:05.070Z</updated>
     
     
       
@@ -83,6 +87,8 @@
       
     
     
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
     
     
     <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
@@ -223,6 +229,32 @@
   </entry>
   
   <entry>
+    <title>名侦探柯南</title>
+    <link href="https://sstian.github.io/world/detective-conan/"/>
+    <id>https://sstian.github.io/world/detective-conan/</id>
+    <published>2021-08-09T12:00:00.000Z</published>
+    <updated>2023-07-23T06:48:26.284Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;名侦探柯南&quot;&gt;&lt;a href=&quot;#名侦探柯南&quot; class=&quot;headerlink&quot; title=&quot;名侦探柯南&quot;&gt;&lt;/a&gt;名侦探柯南&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;名探偵コナン，Detective Conan&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[日]</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Spring WebFlux Sharing</title>
     <link href="https://sstian.github.io/technology/spring-webflux/"/>
     <id>https://sstian.github.io/technology/spring-webflux/</id>
@@ -309,14 +341,15 @@
     <link href="https://sstian.github.io/world/qinshimingyue/"/>
     <id>https://sstian.github.io/world/qinshimingyue/</id>
     <published>2021-01-31T16:52:58.000Z</published>
-    <updated>2023-03-20T11:31:29.725Z</updated>
+    <updated>2023-07-23T06:47:10.039Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;秦时明月&quot;&gt;&lt;a href=&quot;#秦时明月&quot; class=&quot;headerlink&quot; title=&quot;秦时明月&quot;&gt;&lt;/a&gt;秦时明月&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;The Legend of</summary>
+    <summary type="html">&lt;h2 id=&quot;秦时明月&quot;&gt;&lt;a href=&quot;#秦时明月&quot; class=&quot;headerlink&quot; title=&quot;秦时明月&quot;&gt;&lt;/a&gt;秦时明月&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;The Legend of Qin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[中]</summary>
         
       
     
@@ -366,15 +399,15 @@
     <link href="https://sstian.github.io/world/fate/"/>
     <id>https://sstian.github.io/world/fate/</id>
     <published>2021-01-31T16:12:19.000Z</published>
-    <updated>2023-03-20T11:31:29.723Z</updated>
+    <updated>2023-07-23T06:45:35.020Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Fate-Zero&quot;&gt;&lt;a href=&quot;#Fate-Zero&quot; class=&quot;headerlink&quot; title=&quot;Fate Zero&quot;&gt;&lt;/a&gt;Fate Zero&lt;/h2&gt;&lt;p&gt;[日]虚渊玄&lt;/p&gt;
-&lt;p&gt;01 招唤英灵 02 虚伪的战端 03 冬木之地 04</summary>
+    <summary type="html">&lt;h2 id=&quot;Fate-Zero&quot;&gt;&lt;a href=&quot;#Fate-Zero&quot; class=&quot;headerlink&quot; title=&quot;Fate Zero&quot;&gt;&lt;/a&gt;Fate Zero&lt;/h2&gt;&lt;p&gt;[日] 虚渊玄&lt;/p&gt;
+&lt;p&gt;01 招唤英灵 02 虚伪的战端 03 冬木之地</summary>
         
       
     
@@ -393,18 +426,19 @@
   
   <entry>
     <title>龙珠</title>
-    <link href="https://sstian.github.io/world/dragonball/"/>
-    <id>https://sstian.github.io/world/dragonball/</id>
+    <link href="https://sstian.github.io/world/dragon-ball/"/>
+    <id>https://sstian.github.io/world/dragon-ball/</id>
     <published>2021-01-31T15:44:25.000Z</published>
-    <updated>2023-03-20T11:31:29.722Z</updated>
+    <updated>2023-07-23T06:40:04.454Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;龙珠&quot;&gt;&lt;a href=&quot;#龙珠&quot; class=&quot;headerlink&quot; title=&quot;龙珠&quot;&gt;&lt;/a&gt;龙珠&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;ドラゴンボール  [日]鸟山明&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;设定&quot;&gt;&lt;a href=&quot;#设定&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;龙珠&quot;&gt;&lt;a href=&quot;#龙珠&quot; class=&quot;headerlink&quot; title=&quot;龙珠&quot;&gt;&lt;/a&gt;龙珠&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;ドラゴンボール，Dragon Ball&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[日] 鸟山明&lt;/p&gt;
+&lt;h3</summary>
         
       
     
@@ -424,14 +458,15 @@
     <link href="https://sstian.github.io/world/ipartment/"/>
     <id>https://sstian.github.io/world/ipartment/</id>
     <published>2021-01-31T15:09:43.000Z</published>
-    <updated>2023-03-20T11:31:29.724Z</updated>
+    <updated>2023-07-23T06:45:50.782Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;爱情公寓&quot;&gt;&lt;a href=&quot;#爱情公寓&quot; class=&quot;headerlink&quot; title=&quot;爱情公寓&quot;&gt;&lt;/a&gt;爱情公寓&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;iPartment [中]导演：韦正，编剧：汪远/邹杰&lt;/strong&gt;&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;爱情公寓&quot;&gt;&lt;a href=&quot;#爱情公寓&quot; class=&quot;headerlink&quot; title=&quot;爱情公寓&quot;&gt;&lt;/a&gt;爱情公寓&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;iPartment&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[中] 导演：韦正，编剧：汪远/邹杰&lt;/p&gt;
 &lt;h3</summary>
         
       
@@ -452,7 +487,7 @@
     <link href="https://sstian.github.io/world/zhouxingchi-film/"/>
     <id>https://sstian.github.io/world/zhouxingchi-film/</id>
     <published>2021-01-31T14:44:46.000Z</published>
-    <updated>2023-03-20T11:31:29.735Z</updated>
+    <updated>2023-07-23T06:54:58.873Z</updated>
     
     
       
@@ -533,35 +568,6 @@
     <category term="朱德庸" scheme="https://sstian.github.io/tags/%E6%9C%B1%E5%BE%B7%E5%BA%B8/"/>
     
     <category term="Comic" scheme="https://sstian.github.io/tags/Comic/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>刘同青春系列</title>
-    <link href="https://sstian.github.io/reading/liutong-youth/"/>
-    <id>https://sstian.github.io/reading/liutong-youth/</id>
-    <published>2021-01-31T12:07:43.000Z</published>
-    <updated>2023-03-20T11:31:29.713Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;你的孤独，虽败犹荣&quot;&gt;&lt;a href=&quot;#你的孤独，虽败犹荣&quot; class=&quot;headerlink&quot; title=&quot;你的孤独，虽败犹荣&quot;&gt;&lt;/a&gt;你的孤独，虽败犹荣&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;As long as you are</summary>
-        
-      
-    
-    
-    
-    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
-    
-    
-    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
-    
-    <category term="刘同" scheme="https://sstian.github.io/tags/%E5%88%98%E5%90%8C/"/>
-    
-    <category term="Youth" scheme="https://sstian.github.io/tags/Youth/"/>
     
   </entry>
   
