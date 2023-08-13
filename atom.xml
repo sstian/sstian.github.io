@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-07-23T06:53:00.369Z</updated>
+  <updated>2023-08-13T13:48:52.677Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DevOps 实践</title>
+    <link href="https://sstian.github.io/reading/devops-handbook/"/>
+    <id>https://sstian.github.io/reading/devops-handbook/</id>
+    <published>2023-08-13T12:58:37.000Z</published>
+    <updated>2023-08-13T13:48:52.677Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;凤凰项目：一个IT运维的传奇故事&quot;&gt;&lt;a href=&quot;#凤凰项目：一个IT运维的传奇故事&quot; class=&quot;headerlink&quot; title=&quot;凤凰项目：一个IT运维的传奇故事&quot;&gt;&lt;/a&gt;凤凰项目：一个IT运维的传奇故事&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;The</summary>
+        
+      
+    
+    
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="DevOps" scheme="https://sstian.github.io/tags/DevOps/"/>
+    
+  </entry>
   
   <entry>
     <title>图灵宇宙：原初纪元——计算机科学发展简史</title>
@@ -539,35 +566,6 @@
     <category term="Yu-Gi-Oh!" scheme="https://sstian.github.io/tags/Yu-Gi-Oh/"/>
     
     <category term="Duel" scheme="https://sstian.github.io/tags/Duel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>朱德庸漫画集</title>
-    <link href="https://sstian.github.io/reading/zhudeyong-comic/"/>
-    <id>https://sstian.github.io/reading/zhudeyong-comic/</id>
-    <published>2021-01-31T12:19:12.000Z</published>
-    <updated>2023-03-20T11:31:29.718Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;朱德庸语录：婚姻是一场华丽冒险&quot;&gt;&lt;a href=&quot;#朱德庸语录：婚姻是一场华丽冒险&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
-    
-    
-    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
-    
-    <category term="朱德庸" scheme="https://sstian.github.io/tags/%E6%9C%B1%E5%BE%B7%E5%BA%B8/"/>
-    
-    <category term="Comic" scheme="https://sstian.github.io/tags/Comic/"/>
     
   </entry>
   

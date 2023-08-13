@@ -1,0 +1,1556 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="DevOps 实践, Tian,KS,Tech,Website">
+    <meta name="description" content="personal website for sharing">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>DevOps 实践 | sstian</title>
+    <link rel="icon" type="image/png" href="../../favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="../../libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/matery.css">
+    <link rel="stylesheet" type="text/css" href="../../css/my.css">
+
+    <script src="../../libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="atom.xml" title="sstian" type="application/atom+xml">
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="../../index.html" class="waves-effect waves-light">
+                    
+                    <img src="../../medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">sstian</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../index.html" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>Media</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="../../music">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Music</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../movie">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Movie</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../books">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Books</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../gallery">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Gallery</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="../../medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">sstian</div>
+        <div class="logo-desc">
+            
+            personal website for sharing
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../index.html" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			Media
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="../../music " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Music</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../movie " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Movie</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../books " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Books</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../gallery " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Gallery</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://blinkfox.github.io/" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://blinkfox.github.io/" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="../../libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '../../index.html';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('../../medias/featureimages/18.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">DevOps 实践</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="../../libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="../../tags/Book/">
+                                <span class="chip bg-color">Book</span>
+                            </a>
+                        
+                            <a href="../../tags/DevOps/">
+                                <span class="chip bg-color">DevOps</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="../../categories/Reading/" class="post-category">
+                                Reading
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2023-08-13
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2023-08-13
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    3.6k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    12 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="../../libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="凤凰项目：一个IT运维的传奇故事"><a href="#凤凰项目：一个IT运维的传奇故事" class="headerlink" title="凤凰项目：一个IT运维的传奇故事"></a>凤凰项目：一个IT运维的传奇故事</h2><p><strong>The Phoenix Project<br>A Novel About IT, DevOps, and Helping Your Business Win</strong></p>
+<p>[美] 基恩·金 (Gene Kim) 凯文·贝尔 (Kevin Behr) 乔治·斯帕福德 (George Spafford) /著</p>
+<p>COO = Chief Operation Officer 首席营运官<br>CIO = Chief Information Officer 首席信息官 / = “Career Is Over” 职业生涯结束了<br>ITIL = Information Technology Infrastructure Library 信息技术基础架构库<br>ITSM = Information Technology Service Management 信息技术服务管理<br>WIP = Work in Process 在制品</p>
+<h3 id="经典语录"><a href="#经典语录" class="headerlink" title="经典语录"></a>经典语录</h3><p>有些书适合给你的朋友，为了分享阅读的喜悦；有些书适合给你的同事，为了建立理念的共识；有些书适合给你的老板，为了播下伟大的种子。</p>
+<p>电影《拯救大兵瑞恩》：这里有一系列的命令：只可对上抱怨，不许对下牢骚。</p>
+<h3 id="虚构人物语录"><a href="#虚构人物语录" class="headerlink" title="虚构人物语录"></a>虚构人物语录</h3><p>比尔·帕尔默：</p>
+<ul>
+<li>要想在IT运维管理的岗位上做得长久，一定得有足够的资历，这样才能把事情干好。但是一定要低调，不能卷入政治斗争，以免惹祸上身。副总裁们整天做的就是互发PPT。</li>
+<li>俗话说得好，如果你的同事主动告诉你他们要离职，那多半是自愿的。但如果是其他人告诉你的，那他们一定是被迫的。</li>
+<li>海军陆战队，保持军营干净整洁不只是为了美观，更是为了安全。</li>
+<li>靠道听途说可没法破案，当然也没法解决服务中断故障。</li>
+<li>知道真相总好过一无所知。</li>
+<li>再也没有比阻止人们去做他们理应做的事更能毁掉大家的热情和支持了。我不认为我们还能有第二次机会让事情走上正轨。</li>
+<li>80/20法则在这里似乎同样适用：80%的风险是由20%的变更造成的。</li>
+<li>流程是用来保护人的。</li>
+<li>埃瑞克把半成品称为“沉默的杀手”，车间控制半成品的能力不足，是造成长期性延误和质量问题的根源之一。</li>
+<li>搞死你的不是前期投入，而是后台的运行和维护。</li>
+<li>告知真相是一种爱的表现。隐瞒真相是一种恨的表现。甚至更糟，是一种冷漠的表现。</li>
+<li>开发和QA的环境与生产环境不匹配，绝对不应该发生这样的事。</li>
+</ul>
+<p>埃瑞克：</p>
+<ul>
+<li>只有掌握了战术，才能实现战略目标。</li>
+<li>半成品是个隐形杀手。因此，管理任何一家工厂最关键的机制之一，就是工作任务和原材料的发布。没有这个机制，就无法控制半成品。</li>
+<li>不应该根据第一个工作站的效率来安排工作，而是根据瓶颈资源所能完成工作的速度来安排工作。</li>
+<li>创建约束理论的艾利·高德拉特告诉我们，在瓶颈之外的任何地方做出的改进都是假象。（所有在非约束点所做的改进都是假象）</li>
+<li>作为IT运维部的副总裁，你的工作是确保形成一条迅速、可预测、持续不断的计划内工作流，从而向业务部门交付工作价值，同时尽可能降低计划外工作的影响和破坏，那样你才能提供稳定的、可预期的、安全的IT服务。</li>
+<li>反复实践是精通工作的先决条件。</li>
+<li>不仅仅是要减少半成品。相比于向系统中投入更多的工作，将无用的工作剔出系统更为重要。</li>
+<li>重要的是结果，而非过程、管理，或者你完成了哪些工作。</li>
+<li>每个工作中心都由四种东西组成：机器、人员、方法，以及测评。</li>
+<li>研究表明，每天训练5分钟比每周开展一次为期3小时的训练更有效。</li>
+<li>一个给定资源的等待时间，是那个资源忙碌时间的百分比除以空闲时间的百分比。因此，如果一个资源使用了50%，等待时间就是50/50，或者说1个单位。</li>
+<li>（信息安全）可以不对IT系统做过多无用功就保护公司，这才是你的胜利。如果你能把那些无用功剔出IT系统，你的胜利就更进一步。</li>
+<li>把整个环境创建流程自动化。</li>
+<li>要记住，你身边有很多经验丰富的人，他们也踏上过同样的旅程，所以，你可别因为不去找人帮忙，而变成一个失败的傻瓜啊。</li>
+<li>一时的救世主固然好，但普世的圣经则更有用。</li>
+</ul>
+<p>史蒂夫：</p>
+<ul>
+<li>一个伟大的团队并不代表他们拥有最聪明的人。使团队变得伟大的因素，是每个人都互相信任。当那种神奇的动力出现，就会让整个团队充满力量。（凝聚力）</li>
+<li>兰西奥尼教导我们，展现自己脆弱的一面有助于建立起信任的基础。</li>
+<li>IT不只是一个部门。相反，它就像电力一样无处不在。IT是一种技能，就像能读会算一样。</li>
+<li>每一个称职的COO都会是从IT部门出来的。任何尚未精通IT系统就负责管理公司运行的COO，都只会是金玉其外的傀儡，需要依靠别人来开展工作。</li>
+</ul>
+<p>玛姬·李：</p>
+<ul>
+<li>在竞争的时代，游戏规则就是“快速上市，快速淘汰”。我们需要短而快的周期，不断整合来自市场的反馈。</li>
+</ul>
+<h3 id="现实人物语录"><a href="#现实人物语录" class="headerlink" title="现实人物语录"></a>现实人物语录</h3><p>卡伦·马丁和麦克·奥斯特林《Value Stream Mapping》：<br>价值流：一个组织基于客户的需求所执行的一系列有序的交付活动，或者是为了给客户设计、生产和提供产品或服务所需从事的一系列活动，它包含了信息流和物料流的双重价值。</p>
+<p>爱德华·戴明博士：没人会强迫你学习……学习也并非生存必需。（自驱的学习才有用）<br>克里斯托弗·利特尔：DevOps不仅是自动化，就像天文学不只是望远镜一样。<br>通用电气公司 首席执行官 伊梅尔特：没有将软件作为核心业务的每一个行业或公司都会受到影响。<br>微软 技术院士 杰弗里·斯诺弗：在过去的经济时代，企业通过移动原子创造价值。而现在，他们必须通过数字创造价值。<br>克里斯托弗·利特尔：每个公司都是科技公司，无论他们认为自己处在哪个行业。银行也只是拥有银行执照的IT公司而已。<br>高德拉特博士《目标之外》：在任何价值流中，总是有一个流动方向、一个约束点，任何不针对此约束点而做的优化都是假象。<br>休哈特：循环（即PDCA环）——计划（Plan）、实施（Do）、检查（Check）、改进（Act）。<br>麦克·奥泽恩：比日常工作更重要的，是对日常工作的持续改进。</p>
+<p>帕特里克·兰西奥尼《团队发展的五大障碍》：<br>1.缺乏信任；2.惧怕冲突；3.欠缺投入（投入激情）；4.逃避责任；5.无视结果。</p>
+<h3 id="项目管理"><a href="#项目管理" class="headerlink" title="项目管理"></a>项目管理</h3><p>变更：对应用程序、数据库、操作系统、网络或硬件进行的物理、逻辑或虚拟操作，并且这样的操作可能对相关服务产生影响。</p>
+<p>技术债务：沃德·坎宁安首次提出。类似于金融债务。我们当前所做出的决定会导致一些问题，而这些问题随着时间的推移会越来越难解决，未来可采取的措施也越来越少。即使我们审慎地承担技术债务，也依然会产生利息。</p>
+<p>分钟级别的部署前置时间的方法：<br>向版本控制系统中持续不断地提交小批量的代码变更，并对代码做自动化测试和探索测试，然后再将它部署到生产环境中。这样，我们就能对代码变更在生产环境中的成功运行保持高度自信，同时还能快速地发现并修复可能出现的问题。</p>
+<p>预防措施有个问题，就是你很少能知道自己究竟避开了哪些灾难。<br>要想在现代技术上取得成功，必然需要多方向和多专业领域的协作。<br>想要在团队中达成相互信任，你需要展现出自己脆弱的一面。<br>更卓越的领导力其实是为团队创造条件，让团队能在日常工作中感受到这种卓越。<br>产品负责人不应该只关注具有创新性的产品和功能，还需重视维护工作和移除技术债务等优先级。<br>任何一个领域或学科想要取得进步和成熟，就需要认真反思它的起源，在反思中寻求不同的观点，并把这些不同观点的来龙去脉思考清楚，这对预见未来发展是非常有帮助的。</p>
+<p>IT运维、信息安全和开发等不同职能部门之间的良好合作是成功的关键。<br>一个IT做得失败的公司，整个公司也都是失败的。<br>IT公司的任务和价值：</p>
+<ul>
+<li>对变化莫测的市场做出反应；</li>
+<li>为客户提供稳定、可靠和安全的服务。</li>
+</ul>
+<p>界定问题的性质：<br>1.经常发生的问题——流程制度<br>2.偶然发生的问题——规则方法<br>3.首次发生的“经常问题”——重点决策</p>
+<p>提高效率三要素：稳定环境，减少切换成本；可视化目标，掌握全局；紧紧盯住约束点，抓住关键。</p>
+<p>四类工作：业务项目，内部项目，变更，计划外工作（破坏性最强）。</p>
+<p>五个聚焦步骤：<br>1.确认约束点。找不到真正的瓶颈，做什么都是多余。<br>2.利用约束点。不能让约束点闲着，让它一直运转，而不是需要他才运转。<br>3.迁就约束点。以瓶颈的产出速度作为整个项目的产出速度。使布伦特解决完一个关键后马上解决下一个关键问题，只做关键工作，疏通瓶颈，避免半成品过剩。<br>4.消灭约束点。可以通过增员，引进新技术，跳过瓶颈等方式提高瓶颈产出速度，降低瓶颈对项目进程的约束。<br>5.发现新的约束点。主要矛盾被解决后，次要矛盾会上升为主要矛盾。在约束点被消灭后，找到新的约束点，聚焦它，将进一步提高产能。工作流将越来越流畅高效。</p>
+<h3 id="DevOps"><a href="#DevOps" class="headerlink" title="DevOps"></a>DevOps</h3><p>DevOps = Development &amp; Operations 开发和运维<br>infrastructure as code 基础设施即代码<br>CI = Continuous Integration 持续集成<br>CD = Continuous Deployment / Continuus Delivery 持续部署/持续交付</p>
+<p>“每日10次部署”<br>DevOps的准则：总有更好的方法<br>DevOps的原则和模式就是通过整合企业文化、企业架构和技术实践，让下降式螺旋变成上升式螺旋。<br>DevOps是把精益原则应用到技术价值流中的结果。<br>DevOps基于精益、约束理论、丰田生产系统、柔性工程、学习型组织、安全文化、人员优化因素等知识体系，并参考了高信任管理文化、服务型领导、组织变动管理等方法论。<br>精益的两个主要原则：</p>
+<ul>
+<li>坚信前置时间（把原材料转换为成品所需的时间）是提升质量、客户满意度和员工幸福感的最佳度量指标之一</li>
+<li>小批量任务的交付是缩短前置时间的一个关键因素</li>
+</ul>
+<p>在DevOps中，技术价值流：把业务构想转化为向客户交付价值的、由技术驱动的服务所需要的流程。<br>流程的输入是既定的业务目标、概念、创意和假设，始于研发部门接受工作，并将它添加到待完成工作列表中。<br>技术价值流的核心是建立高度信任的文化。</p>
+<p>三步工作法：<br>第一工作法，建立工作流并以可视化方式呈现<br>第二工作法，根除计划外工作的最大源头<br>第三工作法，不断给系统增加压力，使其习惯并强化。</p>
+<p><strong>三步工作法</strong>的原则：</p>
+<ul>
+<li><strong>流动</strong>原则：它加速了从开发、运维到交付给客户的流程。<br>使工作可见；限制在制品数；减小批量大小；减少交接次数；持续识别和改善约束点；消除价值流中的困境和浪费。</li>
+<li><strong>反馈</strong>原则：它使我们能建立更加安全可靠的工作体系。<br>在复杂系统中安全地工作；及时发现问题；群策群力，战胜问题获取新知；在源头保障质量；为下游工作中心而优化。</li>
+<li><strong>持续</strong>学习与实验原则：它打造出一种高度信任的文化和一种科学的工作方式，并将对组织的改进和创新作为日常工作的一部分。<br>建立学习型组织和安全文化；将日常工作的改进制度化；把局部发现转化为全局优化；在日常工作中注入弹性模式；领导层强化学习文化。</li>
+</ul>
+<h3 id="思想感悟"><a href="#思想感悟" class="headerlink" title="思想感悟"></a>思想感悟</h3><ul>
+<li>浴火重生的叫凤凰，浴火成灰的叫火鸡。</li>
+<li>获得别人好感，拉进别人距离的好办法就是很自然的说出这个人的一些事儿。</li>
+<li>在约束理论中曾经提到过，所有人都在忙碌是一件很可怕的事情，这不是高效的表现。所有在非瓶颈处的更高效率都是无用功，甚至可能有副作用。</li>
+<li>工作的动力大部分是成就感，而不是一直被某些人或者事情追着跑。需要时间静下心来思考。</li>
+</ul>
+<blockquote>
+<p>IT技术，应用层日新月异，要保持学习；底层变化不大，要夯实基础。基础不牢，地动山摇。</p>
+</blockquote>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="../../about" rel="external nofollow noreferrer">SS Tian</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://sstian.github.io">https://sstian.github.io</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="../../about" target="_blank">SS Tian</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="../../tags/Book/">
+                                    <span class="chip bg-color">Book</span>
+                                </a>
+                            
+                                <a href="../../tags/DevOps/">
+                                    <span class="chip bg-color">DevOps</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="../../libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="../../libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我们前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="../../medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="../../medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="">
+                    <div class="card-image">
+                        
+                        
+                        <img src="../../medias/featureimages/18.jpg" class="responsive-img" alt="DevOps 实践">
+                        
+                        <span class="card-title">DevOps 实践</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-08-13
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="../../categories/Reading/" class="post-category">
+                                    Reading
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="../../tags/Book/">
+                        <span class="chip bg-color">Book</span>
+                    </a>
+                    
+                    <a href="../../tags/DevOps/">
+                        <span class="chip bg-color">DevOps</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="../turing-universe/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="../../medias/featureimages/1.jpg" class="responsive-img" alt="图灵宇宙：原初纪元——计算机科学发展简史">
+                        
+                        <span class="card-title">图灵宇宙：原初纪元——计算机科学发展简史</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="../../categories/Reading/" class="post-category">
+                                    Reading
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="../../tags/Book/">
+                        <span class="chip bg-color">Book</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="../../libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="../../libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="../../libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='1'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="../../libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2019-2023</span>
+            
+            <!-- <span id="year">2019</span> -->
+            <a href="../../about" target="_blank">SS Tian</a>
+            All Rights Reserved
+            <br>
+            <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2022016418号</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">221.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "11";
+                    var startDate = "10";
+                    var startHour = "22";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/sstian" class="tooltipped" target="_blank" data-tooltip="GitHub: https://github.com/sstian" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:st.tian@foxmail.com" class="tooltipped" target="_blank" data-tooltip="Foxmail邮箱: st.tian@foxmail.com" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1344082191" class="tooltipped" target="_blank" data-tooltip="QQ: 1344082191" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/SnowDream04" class="tooltipped" target="_blank" data-tooltip="新浪微博: https://weibo.com/SnowDream04" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/tuercao" class="tooltipped" target="_blank" data-tooltip="知乎: https://www.zhihu.com/people/tuercao" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="https://blog.csdn.net/qq_27114909" class="tooltipped" target="_blank" data-tooltip="CSDN: https://blog.csdn.net/qq_27114909" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
+    </a>
+
+
+
+</div>
+    </div>
+
+    <!-- 看板娘 -->
+    <div class="pio-container left">
+        <div class="pio-action"></div>
+        <canvas id="pio" width="200" height="250"></canvas>
+    </div>
+    <link rel="stylesheet" href="/css/pio.css">
+    <script src="/js/pio.js"></script>
+    <script src="/js/live2d.js"></script>
+    <script>
+        var pio = new KanbanPio({
+            "mode": "draggable",
+            "tips": true,
+            "hidden": true,
+            "content": {
+                "welcome": ["欢迎来到我的网站！", "博主每天都有些折腾记录，欢迎前往TA的小窝阅读~"],
+            },
+            "model": [
+                "/models/live2d-widget-model-koharu/assets/koharu.model.json",
+                // "/models/live2d-widget-model-haruto/assets/haruto.model.json"
+            ]
+        });
+    </script>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('../../search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="../../libs/materialize/materialize.min.js"></script>
+    <script src="../../libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="../../libs/aos/aos.js"></script>
+    <script src="../../libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="../../libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="../../js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="../../libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="../../libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="../../libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
