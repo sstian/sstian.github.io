@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-09-28T08:06:59.250Z</updated>
+  <updated>2023-10-20T12:07:50.518Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>陈皓 左耳听风</title>
+    <link href="https://sstian.github.io/technology/chenhao-coolshell/"/>
+    <id>https://sstian.github.io/technology/chenhao-coolshell/</id>
+    <published>2023-10-20T12:05:12.000Z</published>
+    <updated>2023-10-20T12:07:50.518Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;左耳听风&quot;&gt;&lt;a href=&quot;#左耳听风&quot; class=&quot;headerlink&quot; title=&quot;左耳听风&quot;&gt;&lt;/a&gt;左耳听风&lt;/h2&gt;&lt;p&gt;极客时间</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="陈皓" scheme="https://sstian.github.io/tags/%E9%99%88%E7%9A%93/"/>
+    
+    <category term="左耳听风" scheme="https://sstian.github.io/tags/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E/"/>
+    
+    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>中华文化</title>
@@ -64,11 +93,11 @@
     <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
     
     
+    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
+    
     <category term="周志明" scheme="https://sstian.github.io/tags/%E5%91%A8%E5%BF%97%E6%98%8E/"/>
     
     <category term="软件架构" scheme="https://sstian.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/"/>
-    
-    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
     
   </entry>
   
@@ -77,7 +106,7 @@
     <link href="https://sstian.github.io/reading/devops-handbook/"/>
     <id>https://sstian.github.io/reading/devops-handbook/</id>
     <published>2023-08-13T12:58:37.000Z</published>
-    <updated>2023-10-20T07:54:25.612Z</updated>
+    <updated>2023-10-20T12:04:52.190Z</updated>
     
     
       
@@ -183,14 +212,16 @@
     <link href="https://sstian.github.io/technology/theory-practice/"/>
     <id>https://sstian.github.io/technology/theory-practice/</id>
     <published>2022-05-22T04:32:55.000Z</published>
-    <updated>2023-10-18T14:21:59.002Z</updated>
+    <updated>2023-10-27T02:52:48.959Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;低代码-VS-无代码&quot;&gt;&lt;a href=&quot;#低代码-VS-无代码&quot; class=&quot;headerlink&quot; title=&quot;低代码 VS 无代码&quot;&gt;&lt;/a&gt;低代码 VS 无代码&lt;/h2&gt;&lt;p&gt;万字长文讲透低代码  &lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;计算机科学&quot;&gt;&lt;a href=&quot;#计算机科学&quot; class=&quot;headerlink&quot; title=&quot;计算机科学&quot;&gt;&lt;/a&gt;计算机科学&lt;/h2&gt;&lt;p&gt;计算机科学家 David Wheeler：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All problems in</summary>
         
       
     
@@ -396,7 +427,7 @@
     <link href="https://sstian.github.io/reading/half-hour-comic/"/>
     <id>https://sstian.github.io/reading/half-hour-comic/</id>
     <published>2021-02-02T16:42:00.000Z</published>
-    <updated>2023-10-11T13:10:28.886Z</updated>
+    <updated>2023-10-28T10:54:56.773Z</updated>
     
     
       
@@ -535,35 +566,6 @@
     <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
     
     <category term="Dragon Ball" scheme="https://sstian.github.io/tags/Dragon-Ball/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>爱情公寓</title>
-    <link href="https://sstian.github.io/world/ipartment/"/>
-    <id>https://sstian.github.io/world/ipartment/</id>
-    <published>2021-01-31T15:09:43.000Z</published>
-    <updated>2023-07-23T06:45:50.782Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;爱情公寓&quot;&gt;&lt;a href=&quot;#爱情公寓&quot; class=&quot;headerlink&quot; title=&quot;爱情公寓&quot;&gt;&lt;/a&gt;爱情公寓&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;iPartment&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;[中] 导演：韦正，编剧：汪远/邹杰&lt;/p&gt;
-&lt;h3</summary>
-        
-      
-    
-    
-    
-    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
-    
-    
-    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
-    
-    <category term="iPartment" scheme="https://sstian.github.io/tags/iPartment/"/>
     
   </entry>
   
