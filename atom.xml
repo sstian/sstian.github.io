@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-11-05T10:32:59.417Z</updated>
+  <updated>2023-11-21T03:52:13.288Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sstian.github.io/technology/pengdong-lmos/"/>
     <id>https://sstian.github.io/technology/pengdong-lmos/</id>
     <published>2023-11-05T10:17:32.000Z</published>
-    <updated>2023-11-05T10:32:59.417Z</updated>
+    <updated>2023-11-21T03:52:13.288Z</updated>
     
     
       
@@ -29,7 +29,7 @@
         
         
     <summary type="html">&lt;p&gt;彭东，网名LMOS，Intel傲腾项目关键开发者。&lt;/p&gt;
-&lt;h2 id=&quot;操作系统实战45讲&quot;&gt;&lt;a href=&quot;#操作系统实战45讲&quot; class=&quot;headerlink&quot;</summary>
+&lt;h2 id=&quot;操作系统实战45讲&quot;&gt;&lt;a href=&quot;#操作系统实战45讲&quot; class=&quot;headerlink&quot; title=&quot;操作系统实战45讲&quot;&gt;&lt;/a&gt;操作系统实战45讲&lt;/h2&gt;&lt;p&gt;极客时间</summary>
         
       
     
@@ -38,11 +38,11 @@
     <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
     
     
+    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
+    
     <category term="彭东" scheme="https://sstian.github.io/tags/%E5%BD%AD%E4%B8%9C/"/>
     
     <category term="操作系统" scheme="https://sstian.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
     
   </entry>
   
@@ -51,7 +51,7 @@
     <link href="https://sstian.github.io/technology/chenhao-coolshell/"/>
     <id>https://sstian.github.io/technology/chenhao-coolshell/</id>
     <published>2023-10-20T12:05:12.000Z</published>
-    <updated>2023-10-28T10:56:09.908Z</updated>
+    <updated>2023-11-21T13:14:32.013Z</updated>
     
     
       
@@ -67,11 +67,11 @@
     <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
     
     
-    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
-    
     <category term="陈皓" scheme="https://sstian.github.io/tags/%E9%99%88%E7%9A%93/"/>
     
     <category term="左耳听风" scheme="https://sstian.github.io/tags/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E/"/>
+    
+    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
     
   </entry>
   
