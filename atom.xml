@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-11-21T03:52:13.288Z</updated>
+  <updated>2023-11-24T08:30:47.509Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sstian.github.io/technology/pengdong-lmos/"/>
     <id>https://sstian.github.io/technology/pengdong-lmos/</id>
     <published>2023-11-05T10:17:32.000Z</published>
-    <updated>2023-11-21T03:52:13.288Z</updated>
+    <updated>2023-11-24T08:30:47.509Z</updated>
     
     
       
@@ -51,14 +51,14 @@
     <link href="https://sstian.github.io/technology/chenhao-coolshell/"/>
     <id>https://sstian.github.io/technology/chenhao-coolshell/</id>
     <published>2023-10-20T12:05:12.000Z</published>
-    <updated>2023-11-21T13:14:32.013Z</updated>
+    <updated>2023-11-24T04:03:38.990Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;左耳听风&quot;&gt;&lt;a href=&quot;#左耳听风&quot; class=&quot;headerlink&quot; title=&quot;左耳听风&quot;&gt;&lt;/a&gt;左耳听风&lt;/h2&gt;&lt;p&gt;极客时间</summary>
+    <summary type="html">&lt;p&gt;[陈皓]，网名“左耳朵耗子”，人称耗子叔，资深技术专家。&lt;br&gt;20年软件开发及相关工作经验，先后在阿里巴巴、亚马逊、汤森路透等知名公司任职。&lt;br&gt;对IT底层技术平台和大规模分布式系统的基础架构有深入的了解。&lt;br&gt;从2002年开始写技术博客，到2009年左右在独立域名C</summary>
         
       
     
@@ -107,14 +107,15 @@
     <link href="https://sstian.github.io/technology/zhouzhiming-software-architecture/"/>
     <id>https://sstian.github.io/technology/zhouzhiming-software-architecture/</id>
     <published>2023-09-26T13:54:23.000Z</published>
-    <updated>2023-10-18T14:30:34.015Z</updated>
+    <updated>2023-11-24T04:06:07.917Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;周志明的软件架构课&quot;&gt;&lt;a href=&quot;#周志明的软件架构课&quot; class=&quot;headerlink&quot; title=&quot;周志明的软件架构课&quot;&gt;&lt;/a&gt;周志明的软件架构课&lt;/h2&gt;&lt;p&gt;极客时间</summary>
+    <summary type="html">&lt;p&gt;周志明，博士，远光软件研究院院长。&lt;br&gt;先后出版了《深入理解Java虚拟机》《智慧的疆界》《凤凰架构》等8部计算机技术类书籍。&lt;/p&gt;
+&lt;h2 id=&quot;周志明的软件架构课&quot;&gt;&lt;a href=&quot;#周志明的软件架构课&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -242,7 +243,7 @@
     <link href="https://sstian.github.io/technology/theory-practice/"/>
     <id>https://sstian.github.io/technology/theory-practice/</id>
     <published>2022-05-22T04:32:55.000Z</published>
-    <updated>2023-11-17T03:31:59.573Z</updated>
+    <updated>2023-11-24T04:08:34.876Z</updated>
     
     
       
@@ -325,14 +326,15 @@
     <link href="https://sstian.github.io/technology/liuxin-coderising/"/>
     <id>https://sstian.github.io/technology/liuxin-coderising/</id>
     <published>2021-11-10T13:42:59.000Z</published>
-    <updated>2023-11-23T15:37:49.405Z</updated>
+    <updated>2023-11-24T04:09:25.202Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;半小时漫画计算机&quot;&gt;&lt;a href=&quot;#半小时漫画计算机&quot; class=&quot;headerlink&quot; title=&quot;半小时漫画计算机&quot;&gt;&lt;/a&gt;半小时漫画计算机&lt;/h2&gt;&lt;h3 id=&quot;操作系统&quot;&gt;&lt;a href=&quot;#操作系统&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;刘欣，15年的软件行业从业经验，前IBM系统架构师。&lt;br&gt;擅长企业应用架构和设计，领导过多个企业级应用架构设计和开发工作。&lt;/p&gt;
+&lt;h2 id=&quot;半小时漫画计算机&quot;&gt;&lt;a href=&quot;#半小时漫画计算机&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -341,9 +343,9 @@
     <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
     
     
-    <category term="coderising" scheme="https://sstian.github.io/tags/coderising/"/>
-    
     <category term="刘欣" scheme="https://sstian.github.io/tags/%E5%88%98%E6%AC%A3/"/>
+    
+    <category term="coderising" scheme="https://sstian.github.io/tags/coderising/"/>
     
   </entry>
   
