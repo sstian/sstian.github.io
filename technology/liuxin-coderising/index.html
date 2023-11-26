@@ -590,7 +590,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-24
+                    2023-11-26
                 </div>
                 
 
@@ -1503,7 +1503,39 @@ pool<span class="token punctuation">.</span><span class="token function">close</
 <li>分布式：每个人都有一个本地私有代码仓库，服务器端代码仓库共享，如：Git, Mercury, IBM RTC</li>
 </ul>
 <p>Pull Request 拉取请求：请求项目维护者拉取自己的修改。<br>GitHub：Web版本的代码托管平台</p>
-<p>Maven之路径的约定：“约定重于配置”<br>| 文件                     | 路径               |<br>| ———————— | —————— |<br>| Java源文件               | src/main/java      |<br>| Resource文件             | src/main/resources |<br>| Web应用的源码            | src/main/webapp    |<br>| Java单元测试源文件       | src/test/java      |<br>| Java单元测试Resource文件 | src/test/resources |<br>| 编译后的Java class文件   | target/classes     |</p>
+<p>Maven之路径的约定：“约定重于配置”</p>
+<table>
+<thead>
+<tr>
+<th>文件</th>
+<th>路径</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Java源文件</td>
+<td>src/main/java</td>
+</tr>
+<tr>
+<td>Resource文件</td>
+<td>src/main/resources</td>
+</tr>
+<tr>
+<td>Web应用的源码</td>
+<td>src/main/webapp</td>
+</tr>
+<tr>
+<td>Java单元测试源文件</td>
+<td>src/test/java</td>
+</tr>
+<tr>
+<td>Java单元测试Resource文件</td>
+<td>src/test/resources</td>
+</tr>
+<tr>
+<td>编译后的Java class文件</td>
+<td>target/classes</td>
+</tr>
+</tbody></table>
 <p>面向对象的代码是针对接口编程的。<br>重构的过程基本就是一个重新设计的过程。很少公司能推倒重来，要么业务发生了变革，要么技术进行了转型；慢慢重构，所谓的革新，而不是革命。<br>TDD = Test Driven Development 测试驱动开发</p>
 <p>《修改代码的艺术》，接缝：程序中一些特殊的点，在这些点上无需修改现有代码，只需要编写扩展代码就可以达到改动程序行为的目的。Mock代码通常可以在这里安插。<br>Mock工具：EasyMock, Jmockit<br>如何做单元测试，关键在于如何处理遗留代码。<br>优秀的单元测试：<br>1.单元测试是“白盒测试”，应该覆盖各个分支流程、异常条件。<br>2.单元测试面向的是一个单元（Unit），是由Java中的一个类或者几个类组成的单元。<br>3.单元测试的运行速度一定要快！<br>4.单元测试一定是可重复执行的！<br>5.单元测试之间不能有相互依赖，应该是独立的！<br>6.单元测试代码和业务代码同等重要，要一并维护！</p>
 <h3 id="5-我的编程语言简史"><a href="#5-我的编程语言简史" class="headerlink" title="5. 我的编程语言简史"></a>5. 我的编程语言简史</h3><p>前端“三剑客”：<br>HTML负责结构布局<br>CSS负责美化展示<br>JavaScript负责交互逻辑</p>

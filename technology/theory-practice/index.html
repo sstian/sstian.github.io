@@ -590,7 +590,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-24
+                    2023-11-26
                 </div>
                 
 
@@ -632,7 +632,51 @@
 <li>All problems in computer science can be solved by another level of indirection.<br>计算机科学中的所有问题都可以通过增加一个中间层（抽象层）来解决。</li>
 </ul>
 <h2 id="低代码-VS-无代码"><a href="#低代码-VS-无代码" class="headerlink" title="低代码 VS 无代码"></a>低代码 VS 无代码</h2><p>万字长文讲透低代码  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/loiHnUC-laQAW_NxHdn9EQ">https://mp.weixin.qq.com/s/loiHnUC-laQAW_NxHdn9EQ</a></p>
-<p>对比角度：<br>|      | 低代码                                           | 无代码                         |<br>| —- | ———————————————— | —————————— |<br>| 受众 | 面向开发人员                                     | 面向业务人员                   |<br>| 工具 | 特指一种通用开发工具                             | 泛指多种开发细分领域应用的工具 |<br>| 认可 | 被广泛认可                                       | 被国际头部分析机构认可         |<br>| 适合 | 企业应用，如：CRM，ERP                           | 应用搭建，在线表单，工作流等   |<br>| 不适 | 专业性要求高的应用，如：算法，界面，性能，分析等 |                                |<br>| 代表 | OutSystems，Mendix等产品                         | 营销用语                       |<br>| 概括 | 面向专业开发的通用应用开发平台                   | 形容多种面向业务人员的工具     |</p>
+<p>对比角度：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>低代码</th>
+<th>无代码</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>受众</td>
+<td>面向开发人员</td>
+<td>面向业务人员</td>
+</tr>
+<tr>
+<td>工具</td>
+<td>特指一种通用开发工具</td>
+<td>泛指多种开发细分领域应用的工具</td>
+</tr>
+<tr>
+<td>认可</td>
+<td>被广泛认可</td>
+<td>被国际头部分析机构认可</td>
+</tr>
+<tr>
+<td>适合</td>
+<td>企业应用，如：CRM，ERP</td>
+<td>应用搭建，在线表单，工作流等</td>
+</tr>
+<tr>
+<td>不适</td>
+<td>专业性要求高的应用，如：算法，界面，性能，分析等</td>
+<td></td>
+</tr>
+<tr>
+<td>代表</td>
+<td>OutSystems，Mendix等产品</td>
+<td>营销用语</td>
+</tr>
+<tr>
+<td>概括</td>
+<td>面向专业开发的通用应用开发平台</td>
+<td>形容多种面向业务人员的工具</td>
+</tr>
+</tbody></table>
 <p>判断标准：模型驱动，可视化开发，表达式语言，软件工程，开放集成，脚本语言。<br>企业应用复杂性分解纬度：数据，权限，流程，算法，集成，报表。<br>三层结构：界面，罗辑，数据。</p>
 <p>CRM = Customer Relationship Management 客户关系管理<br>ERP = Enterprise Resource Planning 企业资源计划</p>
 <h2 id="前端同构渲染"><a href="#前端同构渲染" class="headerlink" title="前端同构渲染"></a>前端同构渲染</h2><p>前端页面秒开的关键 - 小白也能看懂的同构渲染原理和实现  <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/AlVjfRupDPxlEAcYvZBqyg">https://mp.weixin.qq.com/s/AlVjfRupDPxlEAcYvZBqyg</a></p>
@@ -641,7 +685,41 @@
 <p>同构 Isomorphic<br>最开始的步骤和SSR相同，将生成的HTML字符串返回给用户即可；同时可以将CSR生成的JS一并发送给用户；<br>这样用户在接收到SSR生成的html后，页面还会再执行一次CSR的流程。</p>
 <p>脱水 Dehydrate：服务器端获取到数据后，把数据随着HTML一起传给客户端的过程。<br>注水 Hydrate：客户端拿到HTML和数据，利用这个数据来初始化组件的过程。</p>
 <p>心跳包检测的作用主要是为了防止子进程卡死。</p>
-<p>对比：<br>|                | CSR    | SSR  | 同构 |<br>| ————– | —— | —- | —- |<br>| SEO            | 不友好 | 友好 | 友好 |<br>| 白屏问题       | 有     | 无   | 无   |<br>| 占用服务器资源 | 少     | 多   | 中   |<br>| 用户体验       | 好     | 差   | 好   |</p>
+<p>对比：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>CSR</th>
+<th>SSR</th>
+<th>同构</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SEO</td>
+<td>不友好</td>
+<td>友好</td>
+<td>友好</td>
+</tr>
+<tr>
+<td>白屏问题</td>
+<td>有</td>
+<td>无</td>
+<td>无</td>
+</tr>
+<tr>
+<td>占用服务器资源</td>
+<td>少</td>
+<td>多</td>
+<td>中</td>
+</tr>
+<tr>
+<td>用户体验</td>
+<td>好</td>
+<td>差</td>
+<td>好</td>
+</tr>
+</tbody></table>
 <h2 id="软件开发模型-敏捷开发"><a href="#软件开发模型-敏捷开发" class="headerlink" title="软件开发模型 - 敏捷开发"></a>软件开发模型 - 敏捷开发</h2><p>符合敏捷宣言的叫敏捷开发，敏捷开发是一种软件开发理念，极限编程是其中一个方法。</p>
 <p><strong>敏捷宣言</strong>：<br>个体和互动高于流程和工具<br>工作的软件高于详尽的文档<br>客户合作高于合同谈判<br>响应变化高于遵循计划</p>
 <blockquote>

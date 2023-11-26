@@ -733,7 +733,7 @@
 <p>无服务天生“无限算力”的假设，就决定了它必须要按使用量（函数运算的时间和内存）来计费，以控制消耗算力的规模，所以函数不会一直以活动状态常驻服务器，只有请求到了才会开始运行。</p>
 <p>软件产业更有生命力的形态：软件开发的未来，不会只存在某一种“最先进的”架构风格，而是会有多种具有针对性的架构风格并存。<br>软件开发的最大挑战就在于，只能在不完备的信息下决定当前要处理的问题。</p>
 <p>把无服务作为技术层面的架构，把微服务视为应用层面的架构。</p>
-<p>Kubernetes vs Spring Cloud</p>
+<p>Kubernetes vs Spring Cloud：</p>
 <table>
 <thead>
 <tr>
@@ -865,7 +865,26 @@
 <li>RESTful服务<br>REST = Representational State Transfer 表征状态转移</li>
 </ol>
 <p>REST实际上是HTT（Hyper Text Transfer，超文本传输）的进一步抽象，就像是接口与实现类之间的关系。<br>超文本 hypertext / 超媒体 hypermedia，指的是一种能够对操作进行判断和响应的文本（或声音、图像等）。</p>
-<p>差异对比：<br>|                  | REST               | RPC                  |<br>| —————- | —————— | ——————– |<br>| 思想上，抽象目标 | 面向资源的编程思想 | 面向过程的编程思想   |<br>| 概念上           | 不是一种协议       | 一种远程服务调用协议 |</p>
+<p>差异对比：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>REST</th>
+<th>RPC</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>思想上，抽象目标</td>
+<td>面向资源的编程思想</td>
+<td>面向过程的编程思想</td>
+</tr>
+<tr>
+<td>概念上</td>
+<td>不是一种协议</td>
+<td>一种远程服务调用协议</td>
+</tr>
+</tbody></table>
 <p>REST的关键概念：</p>
 <ul>
 <li>资源（Resource）<br>某种信息、数据。</li>
@@ -942,7 +961,26 @@
 <li>回滚阶段（Undo）：该阶段处理经过分析、重做阶段后剩余的恢复事务集合，此时剩下的都是需要回滚的事务（被称为 Loser），根据 Undo Log 中的信息回滚这些事务。</li>
 </ul>
 <p>Commit Logging 允许 NO-FORCE，但不允许 STEAL。<br>因为假如事务提交前就有部分变动数据写入磁盘，那一旦事务要回滚，或者发生了崩溃，这些提前写入的变动数据就都成了错误。<br>Write-Ahead Logging 允许 NO-FORCE，也允许 STEAL。<br>增加了回滚日志 Undo Log。当变动数据写入磁盘前，必须先记录 Undo Log，写明修改哪个位置的数据、从什么值改成什么值，以便在事务回滚或者崩溃恢复时，根据 Undo Log 对提前写入的数据变动进行擦除。</p>
-<p>数据库按照“是否允许 FORCE 和 STEAL”可以产生四种组合：<br>|          | NO-STEAL             | STEAL                        |<br>| ——– | ——————– | —————————- |<br>| NO-FORCE | 重做日志             | 重做日志，回滚日志。性能最快 |<br>| FORCE    | 不需要日志。性能最慢 | 回滚日志                     |</p>
+<p>数据库按照“是否允许 FORCE 和 STEAL”可以产生四种组合：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>NO-STEAL</th>
+<th>STEAL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>NO-FORCE</td>
+<td>重做日志</td>
+<td>重做日志，回滚日志。性能最快</td>
+</tr>
+<tr>
+<td>FORCE</td>
+<td>不需要日志。性能最慢</td>
+<td>回滚日志</td>
+</tr>
+</tbody></table>
 <p>从优化磁盘 I/O 的角度看，NO-FORCE 加 STEAL 组合的性能是最高的；<br>从算法实现与日志的角度看，NO-FORCE 加 STEAL 组合的复杂度是最高的。</p>
 <ol start="2">
 <li>加锁同步<br>现代数据库提供以下三种锁：</li>
@@ -1143,7 +1181,39 @@ Vary: Accept, User-Agent<span aria-hidden="true" class="line-numbers-rows"><span
 <li>TinyLFU（Tiny Least Frequently Used）</li>
 <li>W-TinyLFU（Windows-TinyLFU）</li>
 </ul>
-<p>主流的进程内缓存方案：<br>|          | ConcurrentHashMap    | Ehcache                                                | Guava  Cache | Caffeine                      |<br>| ——– | ——————– | —————————————————— | ———— | —————————– |<br>| 访问性能 | 最高                 | 一般                                                   | 良好         | 优秀，接近于ConcurrentHashMap |<br>| 淘汰策略 | 无                   | 支持多种淘汰策略 FIFO, LRU, LFU等                      | LRU          | W-TinyLFU                     |<br>| 扩展功能 | 只提供基础的访问接口 | 并发级别控制，失效策略，容量控制，事件通知，统计信息…… | 大致同左     | 大致同左                      |</p>
+<p>主流的进程内缓存方案：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>ConcurrentHashMap</th>
+<th>Ehcache</th>
+<th>Guava  Cache</th>
+<th>Caffeine</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>访问性能</td>
+<td>最高</td>
+<td>一般</td>
+<td>良好</td>
+<td>优秀，接近于ConcurrentHashMap</td>
+</tr>
+<tr>
+<td>淘汰策略</td>
+<td>无</td>
+<td>支持多种淘汰策略 FIFO, LRU, LFU等</td>
+<td>LRU</td>
+<td>W-TinyLFU</td>
+</tr>
+<tr>
+<td>扩展功能</td>
+<td>只提供基础的访问接口</td>
+<td>并发级别控制，失效策略，容量控制，事件通知，统计信息……</td>
+<td>大致同左</td>
+<td>大致同左</td>
+</tr>
+</tbody></table>
 <h5 id="分布式缓存"><a href="#分布式缓存" class="headerlink" title="分布式缓存"></a>分布式缓存</h5><p>缓存形式：</p>
 <ul>
 <li>复制式缓存<br>可以看作是“能够支持分布式的进程内缓存”。产品如：Infinispan。</li>
@@ -1236,7 +1306,7 @@ Vary: Accept, User-Agent<span aria-hidden="true" class="line-numbers-rows"><span
 </tr>
 </tbody></table>
 <h5 id="传输"><a href="#传输" class="headerlink" title="传输"></a>传输</h5><p>摘要的意义就是在源信息不泄露的前提下辨别其真伪。</p>
-<p>通常做法是，用非对称加密来安全地传递少量数据给通讯的另一方，然后再以这些数据为密钥，采用对称加密来安全高效地大量加密传输数据。<br>密码学套件：由多种加密算法组合的应用形式。<br>密钥协商：非对称加密在这个场景中发挥的作用。<br>。。。</p>
+<p>通常做法是，用非对称加密来安全地传递少量数据给通讯的另一方，然后再以这些数据为密钥，采用对称加密来安全高效地大量加密传输数据。<br>密码学套件：由多种加密算法组合的应用形式。<br>密钥协商：非对称加密在这个场景中发挥的作用。</p>
 <p>达成信任的方式：</p>
 <ul>
 <li>基于共同私密信息的信任</li>

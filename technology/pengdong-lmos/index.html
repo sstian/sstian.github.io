@@ -594,7 +594,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-24
+                    2023-11-26
                 </div>
                 
 
@@ -798,7 +798,31 @@ OBJS_FILE <span class="token operator">=</span> file.o file1.o file2.o file3.o f
 <p><img src="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E6%88%98-%E8%BF%9B%E7%A8%8B-Linux%E8%BF%9B%E7%A8%8B%E8%B0%83%E5%BA%A6.jpeg" alt="操作系统实战-进程-Linux进程调度"></p>
 <h3 id="设备I-O"><a href="#设备I-O" class="headerlink" title="设备I/O"></a>设备I/O</h3><p>驱动模型：操作系统内核要为驱动程序开发者提供哪些功能接口函数。<br>I/O 包：把各种操作所需的各种参数封装在一个数据结构中，用来统一驱动程序功能函数的形式。</p>
 <p>总线是组织设备和驱动的容器，也是同类设备的共有功能的抽象层。</p>
-<p>Linux设备类型：<br>| 设备类型 | 描述和举例                                        |<br>| ——– | ————————————————- |<br>| 字符设备 | 以字节流形式被访问的设备，比如字符终端和串口设备  |<br>| 块设备   | 以数据块形式被访问的设备，比如硬盘、光盘等        |<br>| 网络设备 | 主机与主机之间进行数据交换的设备                  |<br>| 杂项设备 | 一些不符合Linux预先确定的字符设备，划分为杂项设备 |</p>
+<p>Linux设备类型：</p>
+<table>
+<thead>
+<tr>
+<th>设备类型</th>
+<th>描述和举例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>字符设备</td>
+<td>以字节流形式被访问的设备，比如字符终端和串口设备</td>
+</tr>
+<tr>
+<td>块设备</td>
+<td>以数据块形式被访问的设备，比如硬盘、光盘等</td>
+</tr>
+<tr>
+<td>网络设备</td>
+<td>主机与主机之间进行数据交换的设备</td>
+</tr>
+<tr>
+<td>杂项设备</td>
+<td>一些不符合Linux预先确定的字符设备，划分为杂项设备</td>
+</tr>
+</tbody></table>
 <p><img src="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E6%88%98-%E8%AE%BE%E5%A4%87-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%93%E6%9E%84.jpeg" alt="操作系统实战-设备-计算机结构"></p>
 <h3 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a>文件系统</h3><h4 id="FS"><a href="#FS" class="headerlink" title="FS"></a>FS</h4><p>文件系统存放文件数据的格式，类 UNIX 系统和 Windows 系统都采用了相同的方案，<br>逻辑上认为一个文件就是一个可以动态增加、减少的线性字节数组，即文件数据的每个字节都一一对应到这个线性数组中的每个元素。</p>
 <p>文件系统超级块 / 文件系统描述块：包含文件系统标识、版本、状态，储存介质大小，文件系统逻辑储存块大小，位图所在的储存块，根目录等重要信息的数据结构。</p>
@@ -896,7 +920,59 @@ OBJS_FILE <span class="token operator">=</span> file.o file1.o file2.o file3.o f
 <li>ARMv8-R Real-time 架构<br>支持基于内存保护的受保护内存系统架构 PMSA ，支持 A32 和 T32 指令集。<br>一般用于实时计算系统。</li>
 <li>ARMv8-M Microcontroller 架构<br>一个压缩成本的嵌入式架构，需要极低延迟中断处理。支持 T32 指令集的变体。<br>主打低功耗，一般用于物联网设备。</li>
 </ul>
-<p>ARM CPU工作模式：<br>| 工作模式                        | 说明                                        | 特权模式 | 异常模式 |<br>| ——————————- | ——————————————- | ——– | ——– |<br>| 用户 - user 模式                | 用户程序运行模式                            | 否       | 否       |<br>| 系统 - system 模式              | 运行特权级的操作系统任务                    | 是       | 否       |<br>| 一般中断 - IRQ 模式             | 普通中断模式                                | 是       | 是       |<br>| 快速中断 - FIQ 模式             | 快速中断模式                                | 是       | 是       |<br>| 管理 - supervisor 模式          | 提供操作系统使用的一种保护模式，swi命令状态 | 是       | 是       |<br>| 中止 - abort 模式               | 虚拟内存管理和内存数据访问保护              | 是       | 是       |<br>| 未定义指令终止 - undefined 模式 | 支持通过软件仿真硬件的协处理                | 是       | 是       |</p>
+<p>ARM CPU工作模式：</p>
+<table>
+<thead>
+<tr>
+<th>工作模式</th>
+<th>说明</th>
+<th>特权模式</th>
+<th>异常模式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>用户 - user 模式</td>
+<td>用户程序运行模式</td>
+<td>否</td>
+<td>否</td>
+</tr>
+<tr>
+<td>系统 - system 模式</td>
+<td>运行特权级的操作系统任务</td>
+<td>是</td>
+<td>否</td>
+</tr>
+<tr>
+<td>一般中断 - IRQ 模式</td>
+<td>普通中断模式</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>快速中断 - FIQ 模式</td>
+<td>快速中断模式</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>管理 - supervisor 模式</td>
+<td>提供操作系统使用的一种保护模式，swi命令状态</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>中止 - abort 模式</td>
+<td>虚拟内存管理和内存数据访问保护</td>
+<td>是</td>
+<td>是</td>
+</tr>
+<tr>
+<td>未定义指令终止 - undefined 模式</td>
+<td>支持通过软件仿真硬件的协处理</td>
+<td>是</td>
+<td>是</td>
+</tr>
+</tbody></table>
 
                 
             </div>
