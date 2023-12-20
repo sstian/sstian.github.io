@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-11-26T10:55:33.926Z</updated>
+  <updated>2023-12-20T15:41:51.662Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://sstian.github.io/technology/pengdong-lmos/"/>
     <id>https://sstian.github.io/technology/pengdong-lmos/</id>
     <published>2023-11-05T10:17:32.000Z</published>
-    <updated>2023-11-26T10:55:33.926Z</updated>
+    <updated>2023-12-20T15:41:51.662Z</updated>
     
     
       
@@ -164,7 +164,7 @@
     <link href="https://sstian.github.io/reading/turing-universe/"/>
     <id>https://sstian.github.io/reading/turing-universe/</id>
     <published>2023-02-12T12:00:00.000Z</published>
-    <updated>2023-07-23T06:53:00.369Z</updated>
+    <updated>2023-12-20T15:43:37.157Z</updated>
     
     
       
@@ -181,6 +181,10 @@
     
     
     <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="Turing Universe" scheme="https://sstian.github.io/tags/Turing-Universe/"/>
+    
+    <category term="Computer Science" scheme="https://sstian.github.io/tags/Computer-Science/"/>
     
   </entry>
   
@@ -218,7 +222,7 @@
     <link href="https://sstian.github.io/reading/code-computer/"/>
     <id>https://sstian.github.io/reading/code-computer/</id>
     <published>2022-10-30T04:30:00.000Z</published>
-    <updated>2023-07-23T06:52:05.070Z</updated>
+    <updated>2023-12-20T15:44:01.254Z</updated>
     
     
       
@@ -235,6 +239,10 @@
     
     
     <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="Code" scheme="https://sstian.github.io/tags/Code/"/>
+    
+    <category term="Computer" scheme="https://sstian.github.io/tags/Computer/"/>
     
   </entry>
   
@@ -381,7 +389,7 @@
     <link href="https://sstian.github.io/world/detective-conan/"/>
     <id>https://sstian.github.io/world/detective-conan/</id>
     <published>2021-08-09T12:00:00.000Z</published>
-    <updated>2023-07-23T06:55:43.949Z</updated>
+    <updated>2023-12-20T15:53:54.208Z</updated>
     
     
       
@@ -399,6 +407,8 @@
     
     
     <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="Detective Conan" scheme="https://sstian.github.io/tags/Detective-Conan/"/>
     
   </entry>
   
@@ -459,7 +469,7 @@
     <link href="https://sstian.github.io/reading/half-hour-comic/"/>
     <id>https://sstian.github.io/reading/half-hour-comic/</id>
     <published>2021-02-02T16:42:00.000Z</published>
-    <updated>2023-10-28T10:54:56.773Z</updated>
+    <updated>2023-12-20T15:45:17.388Z</updated>
     
     
       
@@ -478,9 +488,7 @@
     
     <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
     
-    <category term="二混子" scheme="https://sstian.github.io/tags/%E4%BA%8C%E6%B7%B7%E5%AD%90/"/>
-    
-    <category term="Half Hour" scheme="https://sstian.github.io/tags/Half-Hour/"/>
+    <category term="Half Hour Comic" scheme="https://sstian.github.io/tags/Half-Hour-Comic/"/>
     
   </entry>
   
