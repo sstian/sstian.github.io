@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2023-12-20T15:41:51.662Z</updated>
+  <updated>2024-03-24T11:29:37.465Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机/程序 是如何跑起来的</title>
+    <link href="https://sstian.github.io/technology/how-it-works/"/>
+    <id>https://sstian.github.io/technology/how-it-works/</id>
+    <published>2024-03-23T09:29:13.000Z</published>
+    <updated>2024-03-24T11:29:37.465Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;矢泽久雄, 日本YAZAWA股份有限公司董事长兼总经理。&lt;/p&gt;
+&lt;h2 id=&quot;计算机是怎样跑起来的&quot;&gt;&lt;a href=&quot;#计算机是怎样跑起来的&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="Computer" scheme="https://sstian.github.io/tags/Computer/"/>
+    
+    <category term="Program" scheme="https://sstian.github.io/tags/Program/"/>
+    
+  </entry>
   
   <entry>
     <title>彭东 操作系统实战45讲</title>
@@ -134,8 +164,8 @@
   
   <entry>
     <title>DevOps 实践</title>
-    <link href="https://sstian.github.io/reading/devops-handbook/"/>
-    <id>https://sstian.github.io/reading/devops-handbook/</id>
+    <link href="https://sstian.github.io/technology/devops-handbook/"/>
+    <id>https://sstian.github.io/technology/devops-handbook/</id>
     <published>2023-08-13T12:58:37.000Z</published>
     <updated>2023-10-20T12:04:52.190Z</updated>
     
@@ -161,8 +191,8 @@
   
   <entry>
     <title>图灵宇宙：原初纪元——计算机科学发展简史</title>
-    <link href="https://sstian.github.io/reading/turing-universe/"/>
-    <id>https://sstian.github.io/reading/turing-universe/</id>
+    <link href="https://sstian.github.io/technology/turing-universe/"/>
+    <id>https://sstian.github.io/technology/turing-universe/</id>
     <published>2023-02-12T12:00:00.000Z</published>
     <updated>2024-03-22T08:06:25.280Z</updated>
     
@@ -190,8 +220,8 @@
   
   <entry>
     <title>UNIX编程艺术</title>
-    <link href="https://sstian.github.io/reading/unix-art/"/>
-    <id>https://sstian.github.io/reading/unix-art/</id>
+    <link href="https://sstian.github.io/technology/unix-art/"/>
+    <id>https://sstian.github.io/technology/unix-art/</id>
     <published>2022-12-11T06:55:57.000Z</published>
     <updated>2024-03-22T08:06:31.106Z</updated>
     
@@ -219,8 +249,8 @@
   
   <entry>
     <title>编码：隐匿在计算机软硬件背后的语言</title>
-    <link href="https://sstian.github.io/reading/code-computer/"/>
-    <id>https://sstian.github.io/reading/code-computer/</id>
+    <link href="https://sstian.github.io/technology/code-computer/"/>
+    <id>https://sstian.github.io/technology/code-computer/</id>
     <published>2022-10-30T04:30:00.000Z</published>
     <updated>2024-03-22T07:55:15.347Z</updated>
     
@@ -547,36 +577,6 @@
     <category term="Key" scheme="https://sstian.github.io/tags/Key/"/>
     
     <category term="Visual Art&#39;s" scheme="https://sstian.github.io/tags/Visual-Art-s/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Fate系列</title>
-    <link href="https://sstian.github.io/world/fate/"/>
-    <id>https://sstian.github.io/world/fate/</id>
-    <published>2021-01-31T16:12:19.000Z</published>
-    <updated>2024-03-22T08:08:05.944Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Fate-Zero&quot;&gt;&lt;a href=&quot;#Fate-Zero&quot; class=&quot;headerlink&quot; title=&quot;Fate Zero *&quot;&gt;&lt;/a&gt;Fate Zero *&lt;/h2&gt;&lt;p&gt;[日] 虚渊玄&lt;/p&gt;
-&lt;p&gt;01 招唤英灵 02 虚伪的战端 03</summary>
-        
-      
-    
-    
-    
-    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
-    
-    
-    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
-    
-    <category term="Fate" scheme="https://sstian.github.io/tags/Fate/"/>
-    
-    <category term="San-greal" scheme="https://sstian.github.io/tags/San-greal/"/>
     
   </entry>
   
