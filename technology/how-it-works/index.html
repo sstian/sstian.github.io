@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="计算机/程序 是如何跑起来的, Tian,KS,Tech,Website">
+    <meta name="keywords" content="计算机/程序 是怎样跑起来的, Tian,KS,Tech,Website">
     <meta name="description" content="personal website for sharing">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>计算机/程序 是如何跑起来的 | sstian</title>
+    <title>计算机/程序 是怎样跑起来的 | sstian</title>
     <link rel="icon" type="image/png" href="../../favicon.png">
 
     <link rel="stylesheet" type="text/css" href="../../libs/awesome/css/all.css">
@@ -440,12 +440,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('../../medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('../../medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">计算机/程序 是如何跑起来的</h1>
+                    <h1 class="description center-align post-title">计算机/程序 是怎样跑起来的</h1>
                 </div>
             </div>
         </div>
@@ -608,14 +608,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    5.4k
+                    5.5k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    19 分
+                    20 分
                 </div>
                 
 
@@ -900,15 +900,15 @@ arp -a<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 </thead>
 <tbody><tr>
 <td>XML文档的开头要写有XML声明，表明使用的XML版本和宇符编码</td>
-<td><!--?xml version="1.0" encoding="UTF-8"?--></td>
+<td><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</code></td>
 </tr>
 <tr>
 <td>信息要用开始标签<code>&lt;标签名&gt;</code>和结束标签<code>&lt;/标签名&gt;</code>括起来</td>
-<td><cat>小玉</cat></td>
+<td><code>&lt;cat&gt;小玉&lt;/cat&gt;</code></td>
 </tr>
 <tr>
 <td>标签名不能以数字开头，中间也不能含有空格</td>
-<td>不能用&lt;5cat&gt;或<my cat="">作标签名</my></td>
+<td><code>不能用&lt;5cat&gt;或&lt;my cat&gt;作标签名</code></td>
 </tr>
 <tr>
 <td>半角空格、换行符、制表符(TAB)都会被视为空白字符，在文档中可以任意地换行或缩进书写</td>
@@ -916,11 +916,11 @@ arp -a<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 </tr>
 <tr>
 <td>没有内容的元素，可以写成<code>&lt;标签名&gt;&lt;/标签名&gt;</code>或<code>&lt;标签名/&gt;</code></td>
-<td><cat></cat>等价于<cat></cat></td>
+<td><code>&lt;cat&gt;&lt;/cat&gt;等价于&lt;cat/&gt;</code></td>
 </tr>
 <tr>
 <td>标签名区分大小写</td>
-<td><cat>、<cat>、<cat>互不相同</cat></cat></cat></td>
+<td><code>&lt;cat&gt;、&lt;Cat&gt;、&lt;CAT&gt;</code>互不相同</td>
 </tr>
 <tr>
 <td>标签中可以嵌套标签以表示层级结构，但是不能交叉嵌套</td>
@@ -928,23 +928,23 @@ arp -a<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 </tr>
 <tr>
 <td>在XML声明的后面，必须有且只有一个“根元素”，该标签包舍了所有其他的标签</td>
-<td><pet>…其它的标签…</pet></td>
+<td><code>&lt;pet&gt;…其它的标签…&lt;/pet&gt;</code></td>
 </tr>
 <tr>
 <td>在开始标签中，可以以<code>属性名="属性值"</code>形式加入任意的属性</td>
-<td><cat type="三色猫">小玉</cat></td>
+<td><code>&lt;cat type="三色猫"&gt;小玉&lt;/cat&gt;</code></td>
 </tr>
 <tr>
-<td>特殊符号要转义：&lt; =&gt; &lt; &gt; =&gt; &gt; &amp; =&gt; &amp; ‘ =&gt; ' “ =&gt; "</td>
-<td><cat>小玉&amp;小老虎</cat></td>
+<td>特殊符号要转义：<code>&lt; =&gt; &amp;lt; &gt; =&gt; &amp;gt; &amp; =&gt; &amp;amp; ' =&gt; &amp;apos; " =&gt; &amp;quot;</code></td>
+<td><code>&lt;cat&gt;小玉&amp;amp;小老虎&lt;/cat&gt;</code></td>
 </tr>
 <tr>
-<td><!--[CDATA[...]]-->，可以直接使用特殊符号和大量输入</td>
-<td><cat><!--[CDATA[小玉&小老虎&咪咪]]--></cat></td>
+<td><code>&lt;![CDATA[...]]&gt;</code>，可以直接使用特殊符号和大量输入</td>
+<td><code>&lt;cat&gt;&lt;![CDATA[小玉&amp;小老虎&amp;咪咪]]&gt;&lt;/cat&gt;</code></td>
 </tr>
 <tr>
 <td>注释的写法：<code>&lt;!- ... -&gt;</code></td>
-<td><!-- 注释 --></td>
+<td><code>&lt;!-- 注释 --&gt;</code></td>
 </tr>
 </tbody></table>
 <p>DTD = Document Type Definition 文档类型描述<br>格式良好的XML文档(Well-formed XML Document)：遵循XML约束、正确标记了的文档。也就是能通过XML解析器的解析。<br>有效的XML文档(Valid XML document)：在XML文档中写有DTD信息。</p>
@@ -1411,9 +1411,9 @@ arp -a<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
                     <div class="card-image">
                         
                         
-                        <img src="../../medias/featureimages/2.jpg" class="responsive-img" alt="计算机/程序 是如何跑起来的">
+                        <img src="../../medias/featureimages/4.jpg" class="responsive-img" alt="计算机/程序 是怎样跑起来的">
                         
-                        <span class="card-title">计算机/程序 是如何跑起来的</span>
+                        <span class="card-title">计算机/程序 是怎样跑起来的</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1714,7 +1714,7 @@ arp -a<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">339.4k</span>&nbsp;字
+                class="white-color">342.6k</span>&nbsp;字
             
             
             
