@@ -183,7 +183,7 @@
       
       <categories>
           
-          <category> Reading </category>
+          <category> Technology </category>
           
       </categories>
       
@@ -212,7 +212,7 @@
       
       <categories>
           
-          <category> Reading </category>
+          <category> Technology </category>
           
       </categories>
       
@@ -241,7 +241,7 @@
       
       <categories>
           
-          <category> Reading </category>
+          <category> Technology </category>
           
       </categories>
       
@@ -802,6 +802,8 @@
       
         <tags>
             
+            <tag> Book </tag>
+            
             <tag> Blockchain </tag>
             
             <tag> FinTech </tag>
@@ -840,9 +842,9 @@
     
     
     <entry>
-      <title>格式设计</title>
-      <link href="collection/format-design/"/>
-      <url>collection/format-design/</url>
+      <title>格式标准</title>
+      <link href="collection/format-standard/"/>
+      <url>collection/format-standard/</url>
       
         <content type="html"><![CDATA[<h2 id="论文格式"><a href="#论文格式" class="headerlink" title="论文格式"></a>论文格式</h2><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>中文：宋体</p><p>英文：Times New Roman</p><p>其它：小四号字，1.5倍行距</p><p>对应关系：四号=14磅，小四=12磅，五号=10.5磅，小五=9磅</p><h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>参考<a href="#%E6%AD%A3%E6%96%87">正文</a></p><h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><p>Visio绘制</p><p>中文：宋体</p><p>英文：Times New Roman</p><p>字号：小四/12磅</p><h3 id="题注"><a href="#题注" class="headerlink" title="题注"></a>题注</h3><p>图之上：图m-n xxx</p><p>表之下：表m-n xxx</p><p>公式之右：(m-n)</p><blockquote><p>m=章号，n=序号；图表标题字体：五号</p></blockquote><h3 id="页眉页脚"><a href="#页眉页脚" class="headerlink" title="页眉页脚"></a>页眉页脚</h3><p>字号：小五</p><h2 id="程序开发"><a href="#程序开发" class="headerlink" title="程序开发"></a>程序开发</h2><h3 id="MFC-SDI-功能区使用图像带"><a href="#MFC-SDI-功能区使用图像带" class="headerlink" title="MFC SDI 功能区使用图像带"></a>MFC SDI 功能区使用图像带</h3><p>界面单个图标尺寸：</p><ul><li>Large Images: 分辨率 32 x 32 p, 32位深</li><li>Small Images: 分辨率 16 x 16 p, 32位深</li><li>app.icon: 24 x 24 p, 32位深</li><li>main.bmp: 26 x 26, 32位深，带透明度信息</li></ul><h3 id="MFC-CSocket-事件"><a href="#MFC-CSocket-事件" class="headerlink" title="MFC CSocket 事件"></a>MFC CSocket 事件</h3><p>AsyncSelect(FD_READ);</p><table><thead><tr><th>网络事件</th><th>FD_READ</th><th>FD_WRITE</th><th>FD_ACCEPT</th><th>FD_CONNECT</th></tr></thead><tbody><tr><td>回调函数</td><td>OnReceive</td><td>OnSend</td><td>OnAccept</td><td>OnConnect</td></tr></tbody></table>]]></content>
       
@@ -1044,7 +1046,7 @@
     
     
     <entry>
-      <title>work-norms 工作规范</title>
+      <title>工作规范 Work Norms</title>
       <link href="philosophy/work-norms/"/>
       <url>philosophy/work-norms/</url>
       
@@ -1059,6 +1061,8 @@
       
       
         <tags>
+            
+            <tag> Work </tag>
             
             <tag> Norms </tag>
             
