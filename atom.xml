@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2024-03-24T12:36:41.697Z</updated>
+  <updated>2024-05-16T06:15:15.372Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Studio Ghibli 吉卜力作品集</title>
+    <link href="https://sstian.github.io/world/studio-ghibli/"/>
+    <id>https://sstian.github.io/world/studio-ghibli/</id>
+    <published>2024-04-04T06:05:34.000Z</published>
+    <updated>2024-05-16T06:15:15.372Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;吉卜力工作室（Studio</summary>
+        
+      
+    
+    
+    
+    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
+    
+    
+    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
+    
+    <category term="Ghibli" scheme="https://sstian.github.io/tags/Ghibli/"/>
+    
+  </entry>
   
   <entry>
     <title>计算机/程序 是怎样跑起来的</title>
@@ -547,36 +574,6 @@
     <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
     
     <category term="Legend" scheme="https://sstian.github.io/tags/Legend/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>key社催泪曲</title>
-    <link href="https://sstian.github.io/world/key-galgame/"/>
-    <id>https://sstian.github.io/world/key-galgame/</id>
-    <published>2021-01-31T16:41:15.000Z</published>
-    <updated>2024-03-22T08:08:52.613Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Kanon&quot;&gt;&lt;a href=&quot;#Kanon&quot; class=&quot;headerlink&quot; title=&quot;Kanon *&quot;&gt;&lt;/a&gt;Kanon *&lt;/h2&gt;&lt;p&gt;&lt;em&gt;&lt;del&gt;2002 东映动画&lt;/del&gt;，2006 京都动画&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;01</summary>
-        
-      
-    
-    
-    
-    <category term="World" scheme="https://sstian.github.io/categories/World/"/>
-    
-    
-    <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
-    
-    <category term="Key" scheme="https://sstian.github.io/tags/Key/"/>
-    
-    <category term="Visual Art&#39;s" scheme="https://sstian.github.io/tags/Visual-Art-s/"/>
     
   </entry>
   
