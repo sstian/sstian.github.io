@@ -597,21 +597,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-09-13
+                    2024-11-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    8.8k
+                    15.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    33 分
+                    61 分
                 </div>
                 
 
@@ -931,7 +931,7 @@
 </tr>
 <tr>
 <td>元编程</td>
-<td></td>
+<td>使用模板，用程序生成程序</td>
 <td>Java动态代理CgLib，Lisp宏</td>
 </tr>
 <tr>
@@ -941,7 +941,7 @@
 </tr>
 <tr>
 <td>虚拟机和垃圾回收</td>
-<td></td>
+<td>字节码，垃圾回收算法</td>
 <td>JVM垃圾回收</td>
 </tr>
 <tr>
@@ -956,7 +956,7 @@
 </tr>
 <tr>
 <td>指针</td>
-<td></td>
+<td>内存地址</td>
 <td>C语言的灵魂</td>
 </tr>
 <tr>
@@ -1486,7 +1486,7 @@ pool<span class="token punctuation">.</span><span class="token function">close</
 <li><p>数据库的读写分离：<br>一个master库，多个slave库。<br>master库可读可写，slave库只能读、不能写。最后还要将master库的数据尽快复制到slave库，让数据保持一致。</p>
 </li>
 </ol>
-<h4 id="微服务-microservice"><a href="#微服务-microservice" class="headerlink" title="微服务 microservice"></a>微服务 microservice</h4><p>OA = Office Automation 办公自动化<br>CRM = Customer Relationship Management 客户关系管理系统<br>ERP = Enterprise Resource Planning 企业资源计划<br>SOA = Service Oriented Architecture 面向服务架构<br>ESB = Enterprise Service Bus 企业服务总线<br>SCA = Service Component Architecture 服务组件架构<br>BEPL = Business Execution Process Language 业务执行过程语言</p>
+<h4 id="Microservice-微服务"><a href="#Microservice-微服务" class="headerlink" title="Microservice 微服务"></a>Microservice 微服务</h4><p>OA = Office Automation 办公自动化<br>CRM = Customer Relationship Management 客户关系管理系统<br>ERP = Enterprise Resource Planning 企业资源计划<br>SOA = Service Oriented Architecture 面向服务架构<br>ESB = Enterprise Service Bus 企业服务总线<br>SCA = Service Component Architecture 服务组件架构<br>BEPL = Business Execution Process Language 业务执行过程语言</p>
 <p>不是集成，而是拆分。<br>让小组件能完全独立地开发、测试和部署。</p>
 <h4 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h4><p>最佳实践：不断寻找好的实现方式，找到以后就把各种经验固化下来。<br>框架就像一个模板，里面预置了一些公认的最佳实践。<br>框架是一个半成品，是无法独立运行的，必须由开发人员按照它定义的规则，把项目代码放置到指定的地方，由框架整合起来，这才是一个完整的应用程序。</p>
 <p>学无止境啊！<br>Java SE - 集合、线程、反射、I/O、泛型、注解……<br>Java后端 - 系统架构设计、缓存、性能、高可用性、分布式、安全、备份……</p>
@@ -1585,6 +1585,729 @@ pool<span class="token punctuation">.</span><span class="token function">close</
 <li>技术领导力<br>要用技术的影响力来领导人，而不是权威和职位。<br>有了技术领导力，你在团队里发出的声音才会被倾听、被尊重。<br>贴上标签：大牛（大佬）。</li>
 </ol>
 <p>看书，知识体系更加完整、理解更有深度。<br>写作：写笔记、写博客，从内容的消费者变成内容的生产者。<br>“转教别人”（Teach others）的办法属于主动学习，效率是最高的。</p>
+<h2 id="码农翻身-2"><a href="#码农翻身-2" class="headerlink" title="码农翻身 2 *"></a>码农翻身 2 *</h2><p>PBC = Personal Business Commitment 个人业务承诺<br>VCS = Version Control System 版本控制系统</p>
+<p>GNU = GNU’s Not Unix!</p>
+<blockquote>
+<p>GNU = Generic Non-conmercial Unix ?</p>
+</blockquote>
+<p>bootstraping 自举</p>
+<ul>
+<li>Why有时候比How重要得多，懂得Why以后，再去看How，就犹如开启了“上帝视角”，一切都变得简单起来。</li>
+<li>历史的车轮滚滚向前，想逆潮流而动，无异于螳臂当车。</li>
+<li>“大牛”的风格：多说无益，直接上代码。Talk is cheap, Show me the code!</li>
+</ul>
+<h3 id="1-基础知识"><a href="#1-基础知识" class="headerlink" title="1. 基础知识"></a>1. 基础知识</h3><h4 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h4><p>LVS = Linux Virtual Server：工作在OSI 模型的四层，基于IP进行负载均衡。<br>工作模式：</p>
+<ul>
+<li>NAT = Network Address Translation</li>
+<li>DR = Direct Routing 直接路由</li>
+<li>TUN = Tunneling 隧道</li>
+</ul>
+<h4 id="双击热备"><a href="#双击热备" class="headerlink" title="双击热备"></a>双击热备</h4><p>Simple Point of Failure 单点失败</p>
+<p>动态绑定解绑VIP（Virtual IP），使其在不同服务器之间移动。</p>
+<h4 id="阻塞与异步"><a href="#阻塞与异步" class="headerlink" title="阻塞与异步"></a>阻塞与异步</h4><p>不同设备的速度：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>时间</th>
+<th>相当于</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1个CPU周期</td>
+<td>0.3纳秒</td>
+<td>1秒</td>
+</tr>
+<tr>
+<td>内存访问</td>
+<td>120纳秒</td>
+<td>6分钟</td>
+</tr>
+<tr>
+<td>读写机械硬盘</td>
+<td>1~10毫秒</td>
+<td>1~12个月</td>
+</tr>
+<tr>
+<td>网络访问（从旧金山大澳大利亚）</td>
+<td>183毫秒</td>
+<td>19年</td>
+</tr>
+</tbody></table>
+<p>Node.js，单线程（好处是不用对内存的数据加锁），非阻塞IO，事件循环。<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/Node.js-%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF.JPG" alt="Node.js-事件循环"></p>
+<h4 id="零拷贝-zero-copy"><a href="#零拷贝-zero-copy" class="headerlink" title="零拷贝 zero copy"></a>零拷贝 zero copy</h4><p>用户态 //<br>内核态 // 数据 -&gt; [硬盘] –DMA复制–&gt; [内核缓冲区] –复制–&gt; [socket缓冲区]</p>
+<p>网卡驱动可以直接从内核缓冲区中读取数据。<br>从内核角度来看，除了把文件从硬盘中读取出来，没有任何额外的copy操作。<br>zero copy减少了上下文的切换，避免了数据被不断地在用户态和核心态之间搬运，不要CPU参与数据复制，提高了系统性能。<br>引入该技术的实例，Nginx、Apache等Web服务器。</p>
+<h4 id="内存"><a href="#内存" class="headerlink" title="内存"></a>内存</h4><p>地址从低到高，以字节为单位。</p>
+<ul>
+<li>先高位再地位 -&gt; 大端法 – 网络字节序</li>
+<li>先地位再高位 -&gt; 小端法 – 主机字节序</li>
+</ul>
+<p>网络字节序 –lton()–&gt;|&lt;–ntol()– 主机字节序</p>
+<p>信息 = 位 + 上下文</p>
+<p>程序想通过指针访问自己根本没有访问权限的区域，操作系统会引发segment fault，杀死这个程序，释放它的内存空间，生成core dump文件。</p>
+<h3 id="2-后端"><a href="#2-后端" class="headerlink" title="2. 后端"></a>2. 后端</h3><h4 id="状态"><a href="#状态" class="headerlink" title="状态"></a>状态</h4><p>无状态的HTTP管理会话：<br>session id -&gt; session sticky复制 -&gt; 集中存储session id<br>-&gt; 验证：token（组合数据和签名），有效期，黑名单（有效期还没到，但是要立即失效的token）</p>
+<h4 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h4><p>解决数据同步/缓存同步的一种方法：Cache Aside Pattern</p>
+<ul>
+<li>读数据流程：1. 从缓存中读取。2. 缓存中有数据，直接返回；缓存中没有数据，访问数据库。3. 把从数据库中读取的值写入缓存。</li>
+<li>写数据流程：1. 更新数据库。2. 使缓存中的数据失效。</li>
+</ul>
+<p>缓存穿透：查询一个根本不存在的数据,缓存层和持久层都不会命中。<br>  可选解决方式：布隆过滤器 Bloom Filter，一种数据结构，只需要极少的空间就可以判断出一个元素绝对不在一个集合内或者可能在一个集合内。<br>  （一定的误报也是被允许的，没有完美的事情，总要付出代价的。）<br>缓存失效：超级热门的数据失效了。<br>  可选解决方式：Redis分布式锁。</p>
+<h4 id="数据复制"><a href="#数据复制" class="headerlink" title="数据复制"></a>数据复制</h4><p><strong>机械硬盘</strong>，磁头在光滑的<strong>盘片</strong>上滑来滑去，寻找<strong>磁道</strong>，定位<strong>扇区</strong>，读取数据。</p>
+<p>读写分离：</p>
+<ol>
+<li>基于SQL语句的复制。<br> “重放”（重新执行）SQL。<br> 缺点：不能解决存在随机数RAND的记录。</li>
+<li>基于行的复制。<br> 记录SQL操作的日志：<br> insert语句，记录所有列的新值；<br> delete语句，记录被删除的行，用主键标识；<br> update语句，记录更新的行，用主键标识，以及更新的列和新值。<br> 缺点：处理大量数据时性能低下。</li>
+<li>两者的混合模式。</li>
+</ol>
+<p>数据延迟：复制数据需要时间，能保证最终一致性，不能保证实时一致性。<br>  可选解决方式：将不能容忍延迟的操作放在主库里读写。</p>
+<h4 id="分布式ID-Snowflake"><a href="#分布式ID-Snowflake" class="headerlink" title="分布式ID - Snowflake"></a>分布式ID - Snowflake</h4><p>专门解决分布式系统的唯一ID问题。<br>64位整数：</p>
+<ul>
+<li>1位 暂时不用。</li>
+<li>41位 时间戳，精确到毫秒。</li>
+<li>10位 机器ID，可以自由分配，例如5位机房号+5位机器号</li>
+<li>12位 序列哈</li>
+</ul>
+<p>Snoeflake的特性：</p>
+<ol>
+<li>ID 生成算法没有网络调用，不用数据库，非常快！</li>
+<li>同一台机器，在同一时间（毫秒）内生成的ID是不同的。</li>
+<li>将毫秒数放在最高位，生成的ID是趋势递增的。</li>
+</ol>
+<blockquote>
+<p>分布式ID - Snowflake<br>分布式事务 - 两阶段提交<br>分布式存储 - HDFS<br>分布式服务：微服务<br>分布式计算：云计算<br>分布式VCS：Git<br>分布式搜索引擎：Elastic Search</p>
+</blockquote>
+<h4 id="Serverless-无服务器"><a href="#Serverless-无服务器" class="headerlink" title="Serverless 无服务器"></a>Serverless 无服务器</h4><p>Serverless，不是没有服务器，而是服务器对用户是透明的。应用的装载、启动、卸载、路由均需要平台来搞定。<br>更适合无状态的应用，比如图像和视频的加工、转换，物联网设备状态的信息处理等。<br>不适合需要保存 会话状态、数据持久化 的应用。应以“服务”的方式呈现，即BaaS = Backend as a Service</p>
+<p>API GateWay，转发请求到确定的某个函数。</p>
+<h4 id="NoSQL-非关系型数据库"><a href="#NoSQL-非关系型数据库" class="headerlink" title="NoSQL 非关系型数据库"></a>NoSQL 非关系型数据库</h4><p>关系型数据库，模式+规范化。必须事先定义好模式（表结构）才能保存数据。<br>数据库厂商的“方言”和存储过程，规则各异。<br>O/R Mapping - Java Hibernate/iBatis/JPA，.NET NHibernate</p>
+<p>NoSQL = Not Only SQL<br>优点：支持分布式和集群。<br>弱点：缺乏模式（如表结构），数据完整性约束很弱，对事务的支持很弱甚至没有。<br>分类：</p>
+<ol>
+<li>键值对 key-value：Redis, Memcached。当缓存用。</li>
+<li>JSON文档：MongoDB, CouchDB。树状结构数据。</li>
+<li>图结构：Neo4j。表示社交网络、推荐系统的系统。</li>
+<li>列式数据库：HBase, Cassandra。两级嵌套的Map；存储移动互联网产生的海量数据，如日志、聊天记录、监控数据、物联网数据等，结构化不强。</li>
+</ol>
+<h3 id="3-中间件"><a href="#3-中间件" class="headerlink" title="3. 中间件"></a>3. 中间件</h3><h4 id="Elastic-Search"><a href="#Elastic-Search" class="headerlink" title="Elastic Search"></a>Elastic Search</h4><p>Lucene -&gt; Elastic Search（2010.02）</p>
+<p>inverted index 倒排索引</p>
+<p>Lucene，类图设计：</p>
+<ol>
+<li>文档分析设计：<br>Document类，表示HTML/PDF/Word/DB的抽象，属性叫作Field；原始内容划分为一个个Term<br>Analyzer抽象类，负责对Document进行分析<br> 子类：StandardAnalyzer, SimpleAnalyzer, …<br>IndexWriter类，将分析结果加入索引库<br>Directory抽象类，表示索引文件的存储<br> 子类：RAMDirectory, FSDirectory</li>
+<li>用户搜索设计：<br>QueryParser，解析用户输入的搜索字符串为Query<br>Query，表示用户的搜索要求。子类：<br> TermQuery，查询特定Field上的Term<br> BooleanQuery，将各个查询用AND,OR,NOT组合起来<br> WildcardQuery，支持通配符的查询<br>IndexSearcher，接收Query，实现搜索</li>
+</ol>
+<p>Elastic Search，用RESTful方式表示索引。<br>如：/myapp/blog/1001<br>/myapp 表示 索引库 – 数据库<br>/blog 表示 索引的类型 – 数据库的表<br>1001 表示 数据的ID – 数据库的表的记录</p>
+<p>分布式存储，存储海量的索引数据。</p>
+<ol>
+<li>索引分片：索引 index，分片 shard，机器/节点 node。<br><code>shard编号 = hash(文档的ID) % shard总数</code><br>用户在创建索引库的时候，必须指定shard的数量，并且不能更改。<code>"number_of_shards": 3</code></li>
+<li>索引备份：主分片 primary shard。<code>"number_of_replicas": 3</code></li>
+</ol>
+<p>客户端读写文档。<br>可以让请求发送到集群的任意一个节点，并且让每个节点都具备处理任何请求的能力。<br>要求各个节点之间互通有无。<br>选举主节点 Master，维护整个集群的状态，如增加或移除节点、创建或删除索引库、维护主分片和集群的关系等。</p>
+<p>Web, RESTful, REST API, HTTP+JSON</p>
+<p>好的设计是成功的一半。好的设计一般都比较漂亮。<br>软件设计就是一个不断抽象的过程。<br>好用就是最大的“生产力”。</p>
+<h4 id="HDFS"><a href="#HDFS" class="headerlink" title="HDFS"></a>HDFS</h4><p>HDFS = Hadoop Distributed File System。（Hadoop，玩具象的名字）<br>适合“一次写入，多次读取”。</p>
+<p>元数据Metadata：文件分块信息和位置、系统中服务器信息和占据的空间等。<br>NameNode，存储元数据的服务器。<br>DataNode，存储数据的服务器。<br>NameNode和DataNode需要定期通信，设计一个通信协议。</p>
+<p>读取文件，NameNode值返回文件的分块及该分块所在的DataNode列表。“距离”：数据中心 &gt; 机架 &gt; 机器。<br>写入文件，把多个DataNode组成一个管道Pipeline，让数据在管道内“流动”起来，只把数据发送给第一个DataNode，第一个给第二个发送备份，以此类推。</p>
+<p>MapRecude，程序1为Mapper，程序2为Reducer。<br>Map，数据的变换。<br>Reduce，给定一个函数和初始值，每次对列表中的一个元素调用该函数，不断地“折叠”一个列表，最终把它变成一个值。<br>实现并行计算，尽可能地让计算靠近数据，降低网络流量的开销。</p>
+<p>Divide and Conquer 分而治之<br>“魔鬼”都是存在于细节中的，一遇到异常分支，程序就变得异常复杂。<br>什么是框架？框架自然是搭建好基础设施，把重复的工作都做了，让用户写的程序越简单越好的强大工具。</p>
+<h4 id="Quartz-任务调度系统"><a href="#Quartz-任务调度系统" class="headerlink" title="Quartz 任务调度系统"></a>Quartz 任务调度系统</h4><p>设计灵活，可扩展，持久化 -&gt; RAM/DB，高可用 -&gt; 集群。</p>
+<p>设计类：<br>Job接口，表示要执行的任务<br>  实现类：SendMailJob, CopyDataJob, …<br>Trigger接口，表示定时触发。实现类：<br>  SimpleTrigger，指定Job开始的时间、触发的时间的间隔、运行多少次<br>  CronTrigger，可以像crontab那样定义Job运行的时间<br>  ……<br>Scheduler接口，调度器，接收Job，按照各种Trigger运行。</p>
+<p>持久化设计：<br>JobStore接口，表示Job的存储。实现类：<br>  RAMJobStore，把Job运行情况保存在内存中<br>  DbJobStore，把Job运行情况保存在数据库中<br>DriverDelegate接口，用于屏蔽数据库细节，供DbJobStore使用<br>  实现类：StdJDBCDelegate<br>    继承类：OracleDelegate, Db2Delegate, … 不用数据库独有的实现</p>
+<p>高可用设计：<br>把定时任务调度系统部署到多台机器上，形成几个备份；集中存储调度信息。</p>
+<p>保证同一时刻一个Job只能在一个实例上运行：<br>多加一个数据表 LOCKS，里面的每一行记录都可以当作一把“锁”来用，即数据库的行锁，别的事务只能等待当前事务被提交以后才能访问。<br>比如 <code>select * from LOCKS where LOCK_NAME = "TRIGGER" for update</code></p>
+<h4 id="数据查询方式的演变"><a href="#数据查询方式的演变" class="headerlink" title="数据查询方式的演变"></a>数据查询方式的演变</h4><ol>
+<li><p>rexec<br>一台机器上远程执行另一台机器的命令</p>
+<blockquote>
+<p>remote execute</p>
+</blockquote>
+</li>
+<li><p>RPC<br>CORBA = Common Object Request Broker Architecture 公共对象请求代理体系结构<br>RMI = Remote Method Invocation 远程方法调用<br>客户端代理 Stub，服务器端代理 Skeleton</p>
+</li>
+<li><p>XML-RPC<br>HTTP+XML<br>用XML描述接口：</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>methodCall</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>methodName</span><span class="token punctuation">&gt;</span></span>findUser<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>methodName</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>params</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>value</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>int</span><span class="token punctuation">&gt;</span></span>10001<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>int</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>value</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>params</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>methodCall</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>用XML描述对象：</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>value</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>struct</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>member</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>name</span><span class="token punctuation">&gt;</span></span>name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>name</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>value</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">&gt;</span></span>Andy<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>string</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>value</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>member</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>member</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>name</span><span class="token punctuation">&gt;</span></span>age<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>name</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>value</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>int</span><span class="token punctuation">&gt;</span></span>22<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>int</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>value</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>member</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>struct</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>value</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>Web Service<br>一套协议：</p>
+</li>
+</ol>
+<ul>
+<li>WSDL = Web Services Description Language Web服务描述语言：用于描述一个服务的接口名、输入/输出、参数类型等信息。</li>
+<li>UDDI = Universal Description Discovery and Integration：实现服务的注册和发现。</li>
+<li>SOAP = Simple Object Access Protocol 简单对象访问协议：类似XML-RPC，但是更加规范、正式、复杂……</li>
+</ul>
+<p>服务提供者 –发布WSDL–&gt; UDDI<br>服务消费者 –发现服务和它的地址–&gt; UDDI<br>服务消费者 –调用（SOAP）–&gt; 服务提供者</p>
+<ol start="5">
+<li><p>RESTful API<br>HTTP+JSON<br>用URI表示资源，用HTTP方法充当动词。<br>存在的问题：1 发送请求过多。2. 太多的额外信息。<br>关系模型在表示树形/图形关联的时候，非常不方便。</p>
+</li>
+<li><p>GraphQL<br>HTTP+JSON, 后端数据模型师图Graph<br>定义类型及属性：</p>
+<pre class="line-numbers language-graphql" data-language="graphql"><code class="language-graphql"><span class="token keyword">type</span> <span class="token class-name">Artical</span> <span class="token punctuation">{</span>
+  id <span class="token constant">INT</span><span class="token operator">!</span>
+  tile String<span class="token operator">!</span>
+  abstract String<span class="token operator">!</span>
+  author User
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
+  id <span class="token constant">INT</span><span class="token operator">!</span>
+  name Sting<span class="token operator">!</span>
+  avatar_url String<span class="token operator">!</span>
+  friends <span class="token punctuation">[</span>User<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Google Protobuf，Dubbo</p>
+</li>
+</ol>
+<p>无论什么技术，都有非常古老的遗留系统需要维护，真是“命苦”的程序员啊。</p>
+<h4 id="ZooKeeper"><a href="#ZooKeeper" class="headerlink" title="ZooKeeper"></a>ZooKeeper</h4><p>ZooKeeper的关键概念和API：</p>
+<table>
+<thead>
+<tr>
+<th>概念</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>session</td>
+<td>表示某个客户系统（如 Batch Job）和 ZooKeeper 之间的连接会话。Batch Job 连接上ZooKeeper 以后会周期性地发送心跳信息，如果 ZooKeeper 在特定时间内收不到心跳信息，就会认为这个Batch Job 已经挂掉了，session 就会结束</td>
+</tr>
+<tr>
+<td>znode</td>
+<td>树形结构中的每个节点叫作 znode，按类型可以分为永久的znode（除非主动删除，否则一直存在）、临时的 znode（session 结束就会被删除）和顺序的 znode（分布式锁中的 process_01、process_02…）</td>
+</tr>
+<tr>
+<td>Watch</td>
+<td>某个客户系统（如 Batch Job）可以监控 znode节点的变化（删除、修改数据等），这样 Batch Job 可以采取相应的动作，如抢着创建节点</td>
+</tr>
+</tbody></table>
+<h4 id="JPDA调试"><a href="#JPDA调试" class="headerlink" title="JPDA调试"></a>JPDA调试</h4><p>Java文件编译成class文件后，LineNumberTable区域描述了Java源码和字节码行号（字节码偏移量）之间的对应关系，用来添加断点调试。</p>
+<p>C调试器 gdb，Java调试器 Java Debugger。</p>
+<p>为了保证被调试程序的独立性，调试器和被调试程序不能处于一个JVM中，通过共享内存的方式通信。</p>
+<p>JPDA = Java Platform Debugger Architecture：Java平台调试器架构，是一套Java虚拟机自带的调试体系。<br>由三个部分组成：</p>
+<ul>
+<li>JVM TI = Java VM Tool Interface：定义VM（虚拟机）的调试服务。包括但不限于：JVM分析，监控，调试，线程分析，以及覆盖率分析等功能。由JVM提供，与具体语言无关。</li>
+<li>JDWP = Java Debug Wire Protocol：定义调试器与调试者的通信协议，即传输信息和请求数据格式，但不限制传输机制（socket, serial line, share memory, …）。</li>
+<li>JDI = Java Debug Interface：Java语言实现的Debug Inteface，可以直接使用其编写远程调试工具。</li>
+</ul>
+<p>先通过JDI接口创建断点，然后在断点处获取变量的值。背后会用JDWP向JVM TI发出请求，获取数据。<br>创建一个断点：</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">ClassPrepareEvnet</span> event <span class="token operator">=</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token class-name">ClassType</span> classType <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ClassType</span><span class="token punctuation">)</span>event<span class="token punctuation">.</span><span class="token function">referenceType</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 获取表示第10行的Location对象</span>
+<span class="token class-name">Location</span> location <span class="token operator">=</span> classType<span class="token punctuation">.</span><span class="token function">locationOfLine</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 通过Location对象创建一个断点</span>
+<span class="token class-name">BreakpointRequest</span> bpReg <span class="token operator">=</span> vm<span class="token punctuation">.</span><span class="token function">eventRequestManager</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">createBreakpointRequest</span><span class="token punctuation">(</span>location<span class="token punctuation">)</span><span class="token punctuation">;</span>
+bpReg<span class="token punctuation">.</span><span class="token function">enable</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>在断点处获取变量的值：</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 到达了一个断点处</span>
+<span class="token class-name">BreakpointEvent</span> event <span class="token operator">=</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token comment">// 获取当前的线程</span>
+<span class="token class-name">ThreadReference</span> threadReference <span class="token operator">=</span> event<span class="token punctuation">.</span><span class="token function">thread</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 获取当前的栈帧</span>
+<span class="token class-name">StackFrame</span> stackFrame <span class="token operator">=</span> threadReference<span class="token punctuation">.</span><span class="token function">frame</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 从栈帧中得到本地变量i</span>
+<span class="token class-name">LocalVariable</span> localVariable <span class="token operator">=</span> stackFrame<span class="token punctuation">.</span><span class="token function">visibleVariableByName</span><span class="token punctuation">(</span><span class="token string">"1"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">Value</span> value <span class="token operator">=</span> stackFrame<span class="token punctuation">.</span><span class="token function">getValue</span><span class="token punctuation">(</span>localVariable<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">IntegerValue</span><span class="token punctuation">)</span>value<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"The local variable i is "</span> <span class="token operator">+</span> i<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="4-编程语言的特性"><a href="#4-编程语言的特性" class="headerlink" title="4. 编程语言的特性"></a>4. 编程语言的特性</h3><h4 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h4><p>泛型：<br>Java泛型可以在编译期做类型检查。<br>Python中的变量不需要声明类型，不用做编译器类型检查；运行时检查。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> files <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+string file <span class="token operator">=</span> files<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 不必做强制类型转换</span>
+files<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment">// 编译错误</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>反射：</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">User</span> <span class="token punctuation">{</span>
+  <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">login</span><span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">User</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">login</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"This is login"</span><span class="token punctuation">)</span>
+
+
+methods <span class="token operator">=</span> <span class="token punctuation">[</span>x <span class="token keyword">for</span> x<span class="token punctuation">,</span> y <span class="token keyword">in</span> User<span class="token punctuation">.</span>__dict__<span class="token punctuation">.</span>items<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">if</span> <span class="token builtin">type</span><span class="token punctuation">(</span>y<span class="token punctuation">)</span> <span class="token operator">==</span> FunctionType<span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>methods<span class="token punctuation">)</span>  <span class="token comment"># ["login"]</span>
+
+
+url <span class="token operator">=</span> <span class="token string">"/use?action=login"</span>
+<span class="token comment"># 根据URL解析得到类和方法，代码略</span>
+clz <span class="token operator">=</span> <span class="token string">"User"</span>
+action <span class="token operator">=</span> <span class="token string">"login"</span>
+<span class="token comment"># 根据名称获得User对象和方法</span>
+user <span class="token operator">=</span> <span class="token builtin">globals</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span>clz<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+func <span class="token operator">=</span> <span class="token builtin">getattr</span><span class="token punctuation">(</span>user<span class="token punctuation">,</span> action<span class="token punctuation">)</span>  <span class="token comment"># 获取login方法</span>
+func<span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment"># 输出 “This is login”</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>动态代理：<br>Java的增强，只能修改字节码，创建新的类，封装老的类。<br>Python是动态语言，运行时可以修改。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">User</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">loin</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"user login"</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">def</span> <span class="token function">logout</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"user logout"</span><span class="token punctuation">)</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Proxy</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> target<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    self <span class="token punctuation">.</span>target <span class="token operator">=</span> target
+
+  <span class="token comment"># 每当调用方法或访问字段的时候，Python都会通过__getattribute__先找到这个方法或字段，然后才进行真正的调用</span>
+  <span class="token keyword">def</span> <span class="token function">__getattribute__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> name<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    target <span class="token operator">=</span> <span class="token builtin">object</span><span class="token punctuation">.</span>__getattribute__<span class="token punctuation">(</span>self<span class="token punctuation">,</span> <span class="token string">"target"</span><span class="token punctuation">)</span>
+    attr <span class="token operator">=</span> <span class="token builtin">object</span><span class="token punctuation">.</span>__getattribute__<span class="token punctuation">(</span>target<span class="token punctuation">,</span> name<span class="token punctuation">)</span>
+
+    <span class="token keyword">if</span> name <span class="token operator">==</span> <span class="token string">"login"</span><span class="token punctuation">:</span>
+      <span class="token keyword">def</span> <span class="token function">newFunc</span><span class="token punctuation">(</span><span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">**</span>kwargs<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span> <span class="token punctuation">(</span><span class="token string">"login start"</span><span class="token punctuation">)</span>
+        result <span class="token operator">=</span> attr<span class="token punctuation">(</span><span class="token operator">*</span>args<span class="token punctuation">,</span> <span class="token operator">**</span>kwargs<span class="token punctuation">)</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"login end"</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> result
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> attr
+
+u <span class="token operator">=</span> User<span class="token punctuation">(</span><span class="token punctuation">)</span>
+p <span class="token operator">=</span> Proxy<span class="token punctuation">(</span>u<span class="token punctuation">)</span>
+
+p<span class="token punctuation">.</span>login<span class="token punctuation">(</span><span class="token punctuation">)</span>   <span class="token comment"># 实际上调用的是动态创建的方法</span>
+p<span class="token punctuation">.</span>logout<span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment"># 调用的是原来的方法</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>GIL = Global Interpreter Lock 全局解释器锁<br>程序的瓶颈不在CPU，而在于I/O；利用多核，使用多进程；测试用例很关键。</p>
+<p>Python之禅：</p>
+<pre class="line-numbers language-none"><code class="language-none">The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse (稀疏的) is better than dense (稠密的).
+Readability counts.
+......<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>《设计模式》《Head First 设计模式》<br>Python没有接口：<br>Python的鸭子类型 Duck Typing。<br>语言不重要，编程思想才重要。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Duck</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">fly</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Duck flying"</span><span class="token punctuation">)</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Plane</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">fly</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Plane flying"</span><span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">lift_off</span><span class="token punctuation">(</span>entity<span class="token punctuation">)</span><span class="token punctuation">:</span>
+  entity<span class="token punctuation">.</span>fly<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+duck <span class="token operator">=</span> Duck<span class="token punctuation">(</span><span class="token punctuation">)</span>
+plane <span class="token operator">=</span> Plane<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+lift_off<span class="token punctuation">(</span>duck<span class="token punctuation">)</span>
+lift_off<span class="token punctuation">(</span>plane<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Adapter模式：<br>弊端是不知道方法的参数类型，重构困难。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">log</span><span class="token punctuation">(</span><span class="token builtin">file</span><span class="token punctuation">,</span> msg<span class="token punctuation">)</span><span class="token punctuation">:</span>
+  <span class="token builtin">file</span><span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token string">"[{}] - {}"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>datetime<span class="token punctuation">.</span>now<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> msg<span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">class</span> <span class="token class-name">DBAdapter</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> db<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    self<span class="token punctuation">.</span>db <span class="token operator">=</span> db
+
+  <span class="token keyword">def</span> <span class="token function">write</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> msg<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    self<span class="token punctuation">.</span>db<span class="token punctuation">.</span>insert<span class="token punctuation">(</span>msg<span class="token punctuation">)</span>
+
+
+db_adapter <span class="token operator">=</span> DBAdapter<span class="token punctuation">(</span>db<span class="token punctuation">)</span>
+log<span class="token punctuation">(</span>db_adapter<span class="token punctuation">,</span> <span class="token string">"sev1 error accurred"</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>单例模式：<br>利用Python的module实现信息的隐藏。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># 定义</span>
+<span class="token comment"># singleton.py</span>
+<span class="token keyword">class</span> <span class="token class-name">Singleton</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    self<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"I am singleton"</span>
+
+instance <span class="token operator">=</span> Singleton<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">del</span> Singgleton  <span class="token comment"># 删除构造函数</span>
+
+
+<span class="token comment"># 使用</span>
+<span class="token comment"># test_singleton.py</span>
+<span class="token keyword">import</span> singleton
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>singleton<span class="token punctuation">.</span>instance<span class="token punctuation">.</span>name<span class="token punctuation">)</span>  <span class="token comment"># I am singleton</span>
+
+instance <span class="token operator">=</span> Singleton<span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment"># NameError: name 'Singleton' is not defined</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Visitor模式：<br>本质在于分离结构和操作。Python使用generator优雅实现。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># 方法1. 类式实现</span>
+<span class="token keyword">class</span> <span class="token class-name">TreeNode</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> data<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    self<span class="token punctuation">.</span>data <span class="token operator">=</span> data
+    self<span class="token punctuation">.</span>left <span class="token operator">=</span> <span class="token boolean">None</span>
+    self<span class="token punctuation">.</span>right <span class="token operator">=</span> <span class="token boolean">None</span>
+
+  <span class="token comment"># 中序遍历</span>
+  <span class="token keyword">def</span> <span class="token function">accept</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> visitor<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> self<span class="token punctuation">.</span>left <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+      self<span class="token punctuation">.</span>left<span class="token punctuation">.</span>accept<span class="token punctuation">(</span>visitor<span class="token punctuation">)</span>
+
+    visitor<span class="token punctuation">.</span>visit<span class="token punctuation">(</span>self<span class="token punctuation">.</span>data<span class="token punctuation">)</span>
+
+    <span class="token keyword">if</span> self<span class="token punctuation">.</span>right <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+      self<span class="token punctuation">.</span>right<span class="token punctuation">.</span>accept<span class="token punctuation">(</span>visitor<span class="token punctuation">)</span>
+
+<span class="token keyword">class</span> <span class="token class-name">PrintVisitor</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">visit</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> node<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>node<span class="token punctuation">.</span>data<span class="token punctuation">)</span>
+
+
+root <span class="token operator">=</span> TreeNode<span class="token punctuation">(</span><span class="token string">"1"</span><span class="token punctuation">)</span>
+root<span class="token punctuation">.</span>left <span class="token operator">=</span> TreeNode<span class="token punctuation">(</span><span class="token string">"2"</span><span class="token punctuation">)</span>
+root<span class="token punctuation">.</span>right <span class="token operator">=</span> TreeNode<span class="token punctuation">(</span><span class="token string">"3"</span><span class="token punctuation">)</span>
+
+visitor <span class="token operator">=</span> PrintVisitor<span class="token punctuation">(</span><span class="token punctuation">)</span>
+root<span class="token punctuation">.</span>accept<span class="token punctuation">(</span>visitor<span class="token punctuation">)</span> <span class="token comment"># 2 1 3</span>
+
+
+<span class="token comment"># 方法2. 生成器实现</span>
+<span class="token keyword">class</span> <span class="token class-name">TreeNode</span><span class="token punctuation">:</span>
+  <span class="token keyword">def</span> <span class="token function">__iter__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> self<span class="token punctuation">.</span>__generator<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+  <span class="token keyword">def</span> <span class="token function">__generator</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> self<span class="token punctuation">.</span>left <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+      <span class="token keyword">yield</span> <span class="token keyword">from</span> <span class="token builtin">iter</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>left<span class="token punctuation">)</span>
+
+     <span class="token keyword">yield</span> <span class="token keyword">from</span> self<span class="token punctuation">.</span>data
+
+    <span class="token keyword">if</span> self<span class="token punctuation">.</span>right <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token boolean">None</span><span class="token punctuation">:</span>
+       <span class="token keyword">yield</span> <span class="token keyword">from</span> <span class="token builtin">iter</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>right<span class="token punctuation">)</span>
+
+
+root <span class="token operator">=</span> TreeNode<span class="token punctuation">(</span><span class="token string">"1"</span><span class="token punctuation">)</span>
+root<span class="token punctuation">.</span>left <span class="token operator">=</span> TreeNode<span class="token punctuation">(</span><span class="token string">"2"</span><span class="token punctuation">)</span>
+root<span class="token punctuation">.</span>right <span class="token operator">=</span> TreeNode<span class="token punctuation">(</span><span class="token string">"3"</span><span class="token punctuation">)</span>
+
+<span class="token keyword">for</span> elf <span class="token keyword">in</span> root<span class="token punctuation">:</span>
+  <span class="token keyword">print</span><span class="token punctuation">(</span>ele<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Python解释器：<br>Python看似解释执行，实际上把Python文件进行编译，形成字节码；基于栈的虚拟机。<br>垃圾回收机制：引用计数法，标记-清除法，分代回收法等。<br>“一核有难，多核围观”。<br>Jython：用Java写的Python解释器。在底层被编译为Java字节码，运行在Java虚拟机中，没有GIL。<br>Python的设计目标是易于使用，易于扩展。</p>
+<h4 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h4><p>没有了选择的烦恼，但同时减少了选择的权利，是好还是坏？</p>
+<blockquote>
+<p>类是对象的抽象，数据+行为。接口是类的抽象。<br>接口 -&gt; 类 -&gt; 对象</p>
+</blockquote>
+<p>创建对象：</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 方法1. 函数式</span>
+<span class="token keyword">function</span> <span class="token function">Student</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">Student</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">sayHello</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Hi, I am </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">let</span> andy <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token string">"Andy"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+andy<span class="token punctuation">.</span><span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Hi, I am Andy</span>
+
+
+<span class="token comment">// 方法2. 类式语法糖</span>
+<span class="token keyword">class</span> <span class="token class-name">Student</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Hi, I am </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">let</span> alan <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token string">"Alan"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+alan<span class="token punctuation">.</span><span class="token function">sayHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// Hi, I am Alan</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>JavaScript的this，谁调用this指向谁。<code>who.func(); this is who.</code></p>
+<h4 id="Go"><a href="#Go" class="headerlink" title="Go"></a>Go</h4><p>气血逆行，胸口烦闷，恶心难受。</p>
+<p>Go语言设计者，UNIX之父 Ken Thompson。<br>类型后置；用大小写实现信息隐藏，用组合代替继承，用隐式实现接口来实现多态。<br>支持高并发编程，用协程方式，创建Goroutine。</p>
+<p>封装：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">type</span> Employee <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+  FirstName <span class="token builtin">string</span>  <span class="token comment">// 首字母大写，表示包外可以直接访问</span>
+  lastName <span class="token builtin">string</span>   <span class="token comment">// 首字母小写，只能在包内访问</span>
+  age <span class="token builtin">int</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>e Employee<span class="token punctuation">)</span> <span class="token function">SayHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">"Hi, I am %s %s, welcome!\n"</span><span class="token punctuation">,</span> e<span class="token punctuation">.</span>FirstName<span class="token punctuation">,</span> e<span class="token punctuation">.</span>lastName<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+
+e <span class="token operator">:=</span> Employee<span class="token punctuation">{</span><span class="token string">"Andy"</span><span class="token punctuation">,</span> <span class="token string">"Liu"</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">}</span>
+e<span class="token punctuation">.</span><span class="token function">SayHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>继承：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">type</span> Manager <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+  Employee
+  privilege <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+
+e <span class="token operator">:=</span> Employee<span class="token punctuation">{</span><span class="token string">"Harry"</span><span class="token punctuation">,</span> <span class="token string">"Liu"</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">}</span>
+m <span class="token operator">:=</span> Manager<span class="token punctuation">{</span>e<span class="token punctuation">,</span> <span class="token string">"manager"</span><span class="token punctuation">}</span>
+m<span class="token punctuation">.</span><span class="token function">SayHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token comment">// 直接使用了Employee的SayHello方法</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>多态：</p>
+<pre class="line-numbers language-go" data-language="go"><code class="language-go"><span class="token keyword">type</span> Flyable <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+  <span class="token function">fly</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Duck <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+  name <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>d Duck<span class="token punctuation">)</span> <span class="token function">fly</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"Duck flying"</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Plane <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+  name <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>p Plane<span class="token punctuation">)</span> <span class="token function">fly</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"Plane flying"</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">liftOff</span><span class="token punctuation">(</span>e Flyable<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  e<span class="token punctuation">.</span><span class="token function">fly</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">liftOff</span><span class="token punctuation">(</span>Duck<span class="token punctuation">{</span><span class="token string">"duck"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token function">liftOff</span><span class="token punctuation">(</span>Plane<span class="token punctuation">{</span><span class="token string">"plane"</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h4><h5 id="Vert-x"><a href="#Vert-x" class="headerlink" title="Vert.x"></a>Vert.x</h5><p>异步操作的事件驱动：事件，事件队列，事件循环</p>
+<p>Vert.x 的 Verticle实例可以被部署到不同的JVM中，通过 Event Bus 消息传递交互，实现分布式通信。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">io<span class="token punctuation">.</span>vertx<span class="token punctuation">.</span>core<span class="token punctuation">.</span></span><span class="token class-name">AbstractVerticle</span><span class="token punctuation">;</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Server</span> <span class="token keyword">extends</span> <span class="token class-name">AbstractVerticle</span> <span class="token punctuation">{</span>
+  <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    vertx<span class="token punctuation">.</span><span class="token function">createHttpServer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">requestHandler</span><span class="token punctuation">(</span>req <span class="token operator">-&gt;</span> <span class="token punctuation">{</span>
+      req<span class="token punctuation">.</span><span class="token function">response</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">putHeader</span><span class="token punctuation">(</span><span class="token string">"content-type"</span><span class="token punctuation">,</span> <span class="token string">"text/plain"</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">8080</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="ServiceLoader"><a href="#ServiceLoader" class="headerlink" title="ServiceLoader"></a>ServiceLoader</h5><p>jar文件是类的压缩包，classpath是把这些类平铺。</p>
+<p>ServiceLoader，实现模块化的封装。不破坏封装性，具有灵活性，相当于在运行时装配对象。<br>JDK必须实现这个ServiceLoader，才能获取具体的实现。</p>
+<pre class="line-numbers language-none"><code class="language-none">// 接口模块 org.foo.api
+[module.info.java]
+module org.foo {
+  exports org.foo.api
+}
+[org.foo.api]
+[  FooService]
+
+
+// 实现模块 org.foo.provider
+[module.info.java]
+module org.foo {
+  require org.foo.api;
+  privides org.foo.api.FooService with org.foo.provider.FooServiceImpl
+}
+
+[org.foo.provider]
+[  FooServiceImpl]
+
+
+// Client使用
+Iterable&lt;FooService&gt; iter = ServiceLoader.load(FooService.class);
+……遍历iter，获取FooService类并且使用……<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="5-编程语言的本质"><a href="#5-编程语言的本质" class="headerlink" title="5. 编程语言的本质"></a>5. 编程语言的本质</h3><h4 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h4><p>编程的关键不在于是否使用了面向对象的语言。编程的关键就是找到、抽象出稳定的接口。<br>编程/抽象，就是发现变化，隔离变化，使用各种语言都可以。</p>
+<blockquote>
+<p>封装变化点</p>
+</blockquote>
+<p>“变态”的应用层，“不讲道理”的业务逻辑。</p>
+<pre class="line-numbers language-none"><code class="language-none">Logger:
+  interface Formatter:
+    implement: TextFormatter, HTMLFormatter, XMLFormatter
+  interface Appender:
+    implement: FileAppender, DbAppender, MailAppender<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>TIOBE = The Importance Of Being Earnest 认真的重要性：编程语言排行榜，反映某个编程语言的热门程度的指标</p>
+<p>C语言实现面向对象：</p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token comment">// 1. 封装</span>
+<span class="token comment">/* animal.h */</span>
+<span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token punctuation">;</span>
+<span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> <span class="token function">Animal_create</span><span class="token punctuation">(</span><span class="token keyword">int</span> age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">Animal_init</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> self<span class="token punctuation">,</span> <span class="token keyword">int</span> age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">Animal_run</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> self<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">/* animal.c */</span>
+<span class="token keyword">struct</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>
+  <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> <span class="token function">Animal_Create</span><span class="token punctuation">(</span><span class="token keyword">int</span> age<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> animal <span class="token operator">=</span> <span class="token function">malloc</span><span class="token punctuation">(</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  animal <span class="token operator">-&gt;</span> age <span class="token operator">=</span> age<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> animal<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">void</span> <span class="token function">Animal_init</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> self<span class="token punctuation">,</span> <span class="token keyword">int</span> age<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  self <span class="token operator">=</span> <span class="token function">Animal_Create</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">void</span> <span class="token function">Animal_run</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> self<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Animal_run(): %d"</span><span class="token punctuation">,</span> self<span class="token operator">-&gt;</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token comment">/* main.c */</span>
+<span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> a <span class="token operator">=</span> <span class="token function">Animal_Create</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">Animal_run</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">// 2. 继承</span>
+<span class="token keyword">struct</span> <span class="token class-name">Dog</span> <span class="token punctuation">{</span>
+  <span class="token keyword">struct</span> <span class="token class-name">Animal</span> base<span class="token punctuation">;</span>
+  <span class="token keyword">int</span> color<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> <span class="token function">Dog_Create</span><span class="token punctuation">(</span><span class="token keyword">int</span> age<span class="token punctuation">,</span> <span class="token keyword">int</span> color<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">struct</span> <span class="token class-name">Dog</span><span class="token operator">*</span> dog <span class="token operator">=</span> <span class="token function">malloc</span><span class="token punctuation">(</span><span class="token keyword">sizeof</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Dog</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">Animal_init</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span><span class="token punctuation">)</span>dog<span class="token punctuation">,</span> age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  dog <span class="token operator">-&gt;</span> color <span class="token operator">=</span> color<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> dog<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">struct</span> <span class="token class-name">Dog</span><span class="token operator">*</span> d <span class="token operator">=</span> <span class="token function">Dog_Create</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">Animal_run</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span><span class="token punctuation">)</span>d<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">// 3. 多态、虚函数表和虚函数指针</span>
+<span class="token comment">// 虚函数表</span>
+<span class="token keyword">struct</span> <span class="token class-name">AnimalVtbl</span> <span class="token punctuation">{</span>
+  <span class="token keyword">void</span> <span class="token punctuation">(</span><span class="token operator">*</span>eat<span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> self<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">void</span> <span class="token punctuation">(</span><span class="token operator">*</span>speak<span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> self<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">struct</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>
+  <span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> vptr<span class="token punctuation">;</span>  <span class="token comment">// 指向虚函数表的指针</span>
+  <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">void</span> <span class="token function">Animal_eat</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span> self<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 查找虚函数表，需要子类把vptr指向不同的虚函数表</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token operator">*</span>self<span class="token operator">-&gt;</span>vptr<span class="token operator">-&gt;</span>eat<span class="token punctuation">)</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token keyword">struct</span> <span class="token class-name">Dog</span><span class="token operator">*</span> d2 <span class="token operator">=</span> <span class="token function">Dog_Create</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">Animal_eat</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">struct</span> <span class="token class-name">Animal</span><span class="token operator">*</span><span class="token punctuation">)</span>d<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="元编程"><a href="#元编程" class="headerlink" title="元编程"></a>元编程</h4><p>使用模板，用程序生成程序。</p>
+<p>Lisp：<br>代码就是数据，代码可以在运行时被修改。<br>程序和数据的表示方式是一致的。</p>
+<p>C语言的宏是编译器的文本替换。</p>
+<h4 id="汇编语言"><a href="#汇编语言" class="headerlink" title="汇编语言"></a>汇编语言</h4><p>汇编语言的指令类型：</p>
+<ul>
+<li>数据传输类：用于把数据从一个位置复制到另一个位置。</li>
+<li>算数和逻辑运算类：用于进行加减乘除、AND/OR、左移右移等。</li>
+<li>控制类：用于比较两个值，并跳转到某个位置。</li>
+</ul>
+<p>高级语言的if…else, while, do…while, for -&gt; if+goto -&gt; 汇编语言的比较和跳转</p>
+<p>所谓高级语言，主要是为了方便人类的编写和阅读的，从而提升人类的编程效率。</p>
+<p>机器语言，只有0和1！</p>
+<h3 id="6-网络安全"><a href="#6-网络安全" class="headerlink" title="6. 网络安全"></a>6. 网络安全</h3><h4 id="浏览器安全"><a href="#浏览器安全" class="headerlink" title="浏览器安全"></a>浏览器安全</h4><p>同源，{protocal, host, port} 必须一样。<br>XMLHttpRequest遵守同源策略。<br>跨域加载资源：<code>&lt;script src="xxx"&gt;, &lt;img src="xxx"&gt;, &lt;link href="xxx"&gt;</code><br>跨域访问方式：1. 代理模式：通过服务器端中转。2. CORS = Cross Origin Resource Sharing，需要服务器配合。</p>
+<h4 id="信息安全"><a href="#信息安全" class="headerlink" title="信息安全"></a>信息安全</h4><ol>
+<li><p>代码注入。XSS = Cross Site Scripting 跨站脚本<br>防范：Cookie加上HttpOnly，浏览器禁止JavaScript读取Cookie；过滤输入，编码/转义输出。<br><code>Set-Cookie: JSESSIONID=xxxxxx;Path=/;Domain=book.com;HttpOnly</code></p>
+</li>
+<li><p>伪造请求CSRF = Cross Site Request Forgery 跨站请求伪造<br>防范：表单额外添加一个token<br><code>&lt;input type="hidden" name="token" value="dfaf;ccxoe983243xdadg2305885"/&gt;</code></p>
+</li>
+<li><p>SQL注入<br>防范：不要拼接字符串，使用预编译语句，绑定变量。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">"select id from users where name = ?"</span><span class="token punctuation">;</span>
+<span class="token class-name">PreparedStatement</span> ps <span class="token operator">=</span> conn<span class="token punctuation">.</span><span class="token function">prepareStatement</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
+ps<span class="token punctuation">.</span><span class="token function">setString</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> request<span class="token punctuation">.</span><span class="token function">getParameter</span><span class="token punctuation">(</span><span class="token string">"name"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ps<span class="token punctuation">.</span><span class="token function">executeQuery</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>密码破解。Hask破解法：猜测；查表。<br>防范：加盐，给每个密码加一个随机数，作为一列存储在数据库中。</p>
+</li>
+<li><p>缓冲区溢出攻击。<br>用户输入的数据是从低地址向高地址存放的。</p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">hello</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">int</span> x <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+  <span class="token keyword">int</span> y <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
+  <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token function">add</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"the sum is %d\n"</span><span class="token punctuation">,</span> sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> sum<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">int</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">,</span> <span class="token keyword">int</span> y<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">char</span> buf<span class="token punctuation">[</span><span class="token number">8</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token keyword">int</span> sum<span class="token punctuation">;</span>
+  <span class="token comment">// scanf函数没有检查边界，黑客会将代码注入栈帧中，修改返回的地址，程序会跳转到指定的地方执行！</span>
+  <span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%s"</span><span class="token punctuation">,</span> buf<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  sum x <span class="token operator">+</span> y<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> sum<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="加密"><a href="#加密" class="headerlink" title="加密"></a>加密</h4></li>
+<li><p>中间人攻击。防范：<br>浏览器端：</p>
+</li>
+</ol>
+<p><strong>username</strong><br>hash(password, salt) -&gt; <strong>has_password</strong><br>发送 -&gt; (username, has_password)</p>
+<ol start="2">
+<li>重放攻击。防范：<br>浏览器端：</li>
+</ol>
+<p><strong>username</strong><br><strong>captcha</strong><br>hash(password, salt) -&gt; has_password1<br>hash(has_password1, captcha ) -&gt; <strong>has_password2</strong><br>发送 -&gt; (username, has_password2, captcha)</p>
+<ol start="3">
+<li>中间人改写。防范：<br>使用HTTPS</li>
+</ol>
+<h3 id="7-“老司机”工作经验"><a href="#7-“老司机”工作经验" class="headerlink" title="7. “老司机”工作经验"></a>7. “老司机”工作经验</h3><p>费曼：“凡是我们读到的东西，我们都尽量把它转换成某种现实中存在的东西，从这里我学到一个本领——凡是我所读的内容，我总设法通过某种转换来弄明白它究竟是什么意思，它到底在说什么。”<br>在讲解一个概念的时候，举例和类比很重要，人类习惯于通过例子来学习，从具体走向抽象。<br>费曼技巧/费曼学习法：“以教促学”：</p>
+<ul>
+<li>第一步，（自学），选择新概念/新知识，自己先去学习它。</li>
+<li>第二步，（教授），假装当一个老师，去教授别人。</li>
+<li>第三步，（重温），如果你在教授别人的过程中遇到了麻烦，卡壳了，就返回去学习。</li>
+<li>第四步，（简化），简化你的语言。<blockquote>
+<p>学习技巧：<br>输入 – 输出 – 改进 | 简化<br>学习 – 分享 – 反馈 | 类比<br>形容词：专注/沉浸/心流；专心致志/全神贯注/聚精会神/心无旁骛/废寝忘食 -&gt; 忘我</p>
+</blockquote>
+</li>
+</ul>
+<p>长久不变的东西，主要包括：<br>C语言，Linux，面向对象设计和抽象，网络和Web编程基础，分布式系统的基础知识，计算机基础知识。</p>
+<p>用你的技术赚更多的钱。<br>想从老板那里拿到更高的工资，最好的办法就是，你能帮老板赚更多的钱。<br>一般程序员和优秀程序员的一大区别就是用技术产生价值的能力，而那些最优秀的程序员，则能够用技术开创一个全新的行业。<br>用技术给公司带来价值的方法：</p>
+<ol>
+<li>能通过新的工具、流程、方法来提升开发效率和测试效率，这是最简单的。（提升效率）</li>
+<li>熟悉业务，能够用最合适的技术来实现最大的业务价值。（实现价值）</li>
+<li>能把技术直接输出到客户那里。再加上一定的客户资源，离自己创业不远了。（输出客户）</li>
+<li>在技术方面和厉害，设计的系统能直接给公司带来收益。（带来收益）</li>
+</ol>
+<p>阅读源码的三种境界：</p>
+<ol>
+<li>昨夜西风凋碧树，独上高楼，望尽天涯路。<br>登高望远，瞰察路径，明确目标和方向，了解源码的概貌。</li>
+<li>衣带渐宽终不悔，为伊消得人憔悴。<br>静态地看代码+动态地执行Debug操作。</li>
+<li>众里寻他千百度，蓦然回首，那人却在灯火阑珊处。<br>千百度的上下求索，瞬间的顿悟与理解。<blockquote>
+<p>坚持下去，保持好奇心。</p>
+</blockquote>
+</li>
+</ol>
+<p>Code Review 代码评审，成功的经验：</p>
+<ol>
+<li>领导的支持。</li>
+<li>民主的决策。</li>
+<li>能用工具完成的，就别再麻烦人了。</li>
+<li>Check List很有用。</li>
+<li>每次评审适量的代码。</li>
+</ol>
+<p>Web服务器 = 规范或约定 + 动态内容服务器。本质是为了实现关注点的分离。</p>
+<ul>
+<li>Java: Servlet + Tomcat (HttpRequest, HttpResponse)</li>
+<li>Python: WSGI + WSGI Server (Environment: dit)<br>定义规范 - WSGI = Web Service Gateway Interface<br>类或函数，实现相关逻辑 - WSGI Application<br>动态服务器 - WSGI Server</li>
+</ul>
+<p>极限编程是敏捷软件开发领域的一个“奇葩”，它的宗旨就是，如果一个软件开发实践很好，我们就把它做到极致！<br>遇到问题要深度思考，努力看到本质，这样才能举一反三。</p>
+<blockquote>
+<p>例会，例行会议 / 依照惯例开的会议</p>
+</blockquote>
 <h2 id="公众号文章"><a href="#公众号文章" class="headerlink" title="公众号文章"></a>公众号文章</h2><p>程序员的圣地：</p>
 <ul>
 <li>量子力学</li>
@@ -1604,6 +2327,8 @@ pool<span class="token punctuation">.</span><span class="token function">close</
 <li><p>Joel Spolsky：抽象只能节省你的工作时间，不能节省你的学习时间。</p>
 </li>
 <li><p>Lisp大佬Richard P. Gabriel：Worse is better。软件设计有四个目标：简单性，正确性，一致性，完整性。</p>
+</li>
+<li><p>Start small. Give it time. Have fun. 从小处着眼，投入时间，享受乐趣。<br>瑞典程序员丹尼尔花了28年时间，开发了世界上最流行的软件：cURL。<br>丹尼尔多次强调：Have Fun。Linux之父也告诉我们：Just for Fun。是的，一切源于兴趣。</p>
 </li>
 </ul>
 
@@ -2151,7 +2876,7 @@ pool<span class="token punctuation">.</span><span class="token function">close</
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">359.1k</span>&nbsp;字
+                class="white-color">370.9k</span>&nbsp;字
             
             
             
