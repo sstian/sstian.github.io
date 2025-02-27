@@ -1,0 +1,1666 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="棋理 Chess Theory, Tian,KS,Tech,Website">
+    <meta name="description" content="personal website for sharing">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>棋理 Chess Theory | sstian</title>
+    <link rel="icon" type="image/png" href="../../favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="../../libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/matery.css">
+    <link rel="stylesheet" type="text/css" href="../../css/my.css">
+
+    <script src="../../libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="atom.xml" title="sstian" type="application/atom+xml">
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="../../index.html" class="waves-effect waves-light">
+                    <div>
+                        
+                        <img src="../../medias/logo.png" class="logo-img" alt="LOGO">
+                        
+                        <span class="logo-span">sstian</span>        
+                    </div>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../index.html" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>Media</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="../../music">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Music</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../movie">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Movie</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../books">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Books</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../gallery">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Gallery</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="../../medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">sstian</div>
+        <div class="logo-desc">
+            
+            personal website for sharing
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../index.html" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			Media
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="../../music " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Music</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../movie " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Movie</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../books " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Books</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../gallery " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Gallery</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://blinkfox.github.io/" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://blinkfox.github.io/" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+<!-- 
+开启图片懒加载的小Bug，首页的logo点击会直接打开logo图，而不是跳到首页。
+伪解决方案：打开 /themes/matery/layout/_partial/header.ejs文件，在img和span的两个头加个div
+-->
+
+    
+<script src="../../libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '../../index.html';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('../../medias/featureimages/10.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">棋理 Chess Theory</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="../../libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="../../tags/Chess/">
+                                <span class="chip bg-color">Chess</span>
+                            </a>
+                        
+                            <a href="../../tags/Theory/">
+                                <span class="chip bg-color">Theory</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="../../categories/Knowlege/" class="post-category">
+                                Knowlege
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-01-16
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2025-02-21
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    4.6k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    15 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="../../libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="五子棋"><a href="#五子棋" class="headerlink" title="五子棋"></a>五子棋</h2><h2 id="圈叉棋"><a href="#圈叉棋" class="headerlink" title="圈叉棋"></a>圈叉棋</h2><h2 id="围棋"><a href="#围棋" class="headerlink" title="围棋"></a>围棋</h2><h2 id="国际象棋"><a href="#国际象棋" class="headerlink" title="国际象棋"></a>国际象棋</h2><h2 id="中国象棋"><a href="#中国象棋" class="headerlink" title="中国象棋"></a>中国象棋</h2><h2 id="UNO"><a href="#UNO" class="headerlink" title="UNO!"></a>UNO!</h2><h2 id="麻将-Mahjong"><a href="#麻将-Mahjong" class="headerlink" title="麻将 Mahjong"></a>麻将 Mahjong</h2><p>《看图学打麻将（全彩图解版）》 爱林博悦<br>《麻将新手一学就会（完全图解版）》 爱林博悦<br>《麻将文化说》 黄良<br>《麻将雅玩：初学八章》 罗俊扬</p>
+<p>麻将：</p>
+<ul>
+<li>数牌：万子，饼子/筒子，条子/索子。=&gt; 1~9</li>
+<li>字牌：风牌（东、南、西、北），箭牌/三元牌（中、发、白）。</li>
+<li>花牌：春、夏、秋、冬、梅、兰、竹、菊。<br>打花麻将：牌数是144张。<br>打素麻将：牌数是除去花牌后的136张。</li>
+</ul>
+<p>扔骰子数数：<br>（奇数为本家或对家；奇数5或9为本家，其它为对家。<br>偶数为上家或下家；偶数能被4整除为上家，其它为下家。）<br>对家|3 7 11<br>上家|4 8 12            下家|2 6 10<br>本家|5 9</p>
+<p>流程：<br>洗牌/搓牌，码牌/砌牌，开牌，抓牌，出牌，吃牌、碰牌、杠牌，听牌/上听/下叫，和牌（点炮或自摸）或荒牌。</p>
+<p>优先级：和 &gt; 碰/杠 &gt; 吃</p>
+<p>杠：<br>(1) 明杠：① 大明杠/直杠：三刻子+1。② 小明杠/弯杠/加杠：二对子+碰+摸1。<br>(2) 暗杠。</p>
+<p>和牌结构：四面一将</p>
+<p>和牌牌型：</p>
+<ul>
+<li>天和：庄家最初摸完14张牌后就和牌，天和是庄家的特权。</li>
+<li>地和：闲家（除庄家外的三家）拿完13张牌后就听牌，第一圈摸牌就自摸和牌。</li>
+<li>人和：闲家（除庄家外的三家）摸完13张牌就听牌，第一圈就有玩家放炮和牌。</li>
+</ul>
+<p>舍牌：</p>
+<ul>
+<li>初盘（摸牌第1巡到第5巡）舍牌：先舍出不需要的单张和孤张等废牌。<br>中盘（摸牌第6巡到第10巡）舍牌：看上家、默下家和盯对家。<br>终盘（摸牌第11巡到结束）舍牌：跟着玩家出相同的牌；尽量出熟张；坚决不打高危险牌；通过推敲舍牌。</li>
+<li>前期舍牌，先舍幺后舍单。<br>中期舍牌，眼观六路耳听八方。<br>末期舍牌，舍熟张留生张。</li>
+</ul>
+<p>容易和牌的听牌原则：<br>越早听牌越好；尽量听熟张；尽量听多张；避免与上家听同一路牌；尽量听易被舍出的牌；久听不和要改听。</p>
+<p>心得：</p>
+<ul>
+<li>数牌的价值：<br>边张：1和9。尖张：3和7。中张：2~8 || 5。</li>
+<li>连续牌型个数与听牌类型：<br>1 4 7，钓将。单钓一张，双钓两边，三钓两边加中间。<br>2 5 8，听张。5 - 看中间数字，听一四七或二五八或三六九；8 - 看少的数字，听一四七或三六九。<br>3 6 9，齐活。</li>
+</ul>
+<p>术语：</p>
+<ul>
+<li>墩：上下相摞2张牌为1墩。</li>
+<li>摞：相连的2墩4张牌为1摞。</li>
+<li>牌墙：4人各自在门前码成17墩牌。</li>
+<li>海底/海池：指四面牌墙中间的地方。</li>
+<li>清海底：指各玩家把打出的牌在各自牌墙内一行6张或7张摆放整齐，便于彼此观察。</li>
+<li>混海底：指各玩家把打出的牌随意无序地放在海底。</li>
+<li>数牌：条子牌、筒子牌、万字牌三种牌。</li>
+<li>字牌：指风牌和三元牌，风牌为东风、南风、西风和北风；三元牌为红中、发财和白板。</li>
+<li>花牌：指春、夏、秋、冬、梅、兰、竹、菊8张牌。</li>
+<li>老头牌：指序数牌中的一与九。</li>
+<li>幺九牌/幺牌：指序数牌中的一、九及字牌。</li>
+<li>幼牌：是指序数牌中1～4张的牌张。</li>
+<li>筋线牌：指序数牌的一、四、七，二、五、八，三、六、九等各组牌。</li>
+<li>中心张：一般指序数在中间的牌，如三、四、五、六、七等序数牌。</li>
+<li>中张牌：指序数牌中2～8各张牌。</li>
+<li>相公：当出现多或少l张牌的称为相公，当了相公不能和牌。少1张为小相公，多1张为大相公。</li>
+<li>一入听：只要1张所需要的牌就可以听牌。</li>
+<li>落地开花/落地无悔：指打出牌一触及海底，便不得反悔。</li>
+</ul>
+<p>麻将牌谱词汇：</p>
+<ul>
+<li>头不吃<br>起手配牌一般比较杂乱，如果玩家打出头一张就开吃开碰，会影响后面的牌面，所以通常玩家打出的第一张牌不吃。</li>
+<li>痴必败<br>在玩牌时如果总想做大牌，往往会被别人捷足先登，最后必然要失败。</li>
+<li>控边张<br>尖张牌3和7是组牌中的要牌，如果能迟舍出绝不早舍，以达到其余玩家拆舍边搭的目的。</li>
+<li>以和为贵<br>玩牌时能和即和，既可增加自己的信心，又可动摇其余玩家做大牌的信心。</li>
+<li>不可妄碰<br>碰牌有时会增加组牌困难。每碰一次，就会缩小了组牌的范围，所以不能逢对必碰。</li>
+<li>不贪不险<br>如果一味贪图高番数和牌，点炮的风险就会太大，所以不能贪大。</li>
+<li>慢吃快碰<br>吃牌要慎重些，不要急于亮牌；如果想碰牌就应尽快报碰。</li>
+<li>先手三招<br>又称前三招或开牌三招，开牌第l巡抓牌，第2巡观察，第3巡思考，简称“1巡抓，2巡看，3巡想”。</li>
+<li>承上启下<br>如果手牌有四、六万与五、七条，上家曾舍出过四万，下家曾舍出过五条，自己舍牌时，当选择五、七条，以等待上家可能舍出五万，而对顶下家舍出的五条。这样既有机会吃上家的舍牌，又不给下家吃牌的机会。</li>
+<li>好牌先打<br>开牌后尽快打出不能成副的中心张，尽量减少后面被玩家碰、吃的机会，也减少自己放炮的风险。</li>
+<li>金三银七<br>主要用来形容3与7序数牌在麻将组牌中的重要性。</li>
+<li>甩字切边<br>是指舍牌时先打字牌，然后打幺九牌。</li>
+<li>四风连打<br>在舍牌的第1巡中，同一花色风牌或三元牌，被四家连续舍出，并无吃碰间隔，叫作“四风连打”，当出现这种情况时，可推倒重来或按照约定继续。</li>
+<li>细算和张<br>当出现连续牌型的听张牌姿时，应仔细看清可和的牌，以免出现和牌了却不知道的情况。</li>
+<li>调碰对家<br>当自己摸牌极为不顺时，只要对家打出的牌能碰就碰，这样可以摸调转换，对家的摸牌顺序变成自己的，以转换手气。</li>
+<li>戒剩单骑<br>尽量避免因吃碰牌导致最后只剩l张牌单钓，一是我们最后舍牌时玩家可能猜中需要的牌；二是当摸到危险牌后必须舍一张，从而增加放炮危险。</li>
+<li>四连拆熟头<br>当摸进形成四边面的牌，要打一路熟。</li>
+<li>二八不轻动<br>因为序数牌二与八容易与其他牌兜搭，通常不要轻易舍出。</li>
+<li>留生宁拆搭<br>当各玩家进入听张阶段，如果和牌希望小，当摸进生张后宁可不打，要拆搭追熟，以免放炮。</li>
+<li>打熟不打生<br>当摸到险牌后，舍牌时要舍熟张，不要率先打出生张。</li>
+<li>摸牌随手放<br>刚摸入的牌不要马上插入竖牌内，先放在一边，等舍牌后再插入牌中，以避免其余玩家猜到自己的牌。</li>
+<li>坐庄先打北<br>如果自己坐庄，手里的风牌应先打北风，其次是西风，然后舍南风。</li>
+<li>连庄不打东<br>如果庄家想要连庄，旁家不能率先打出东牌。</li>
+<li>乱牌忌吃碰<br>即使多次吃碰也很难和牌，这种情况最好多摸牌，不要乱吃碰。</li>
+<li>自摸听生张<br>如果希望自摸，最好听生张。</li>
+<li>双碰不如嵌<br>虽然双碰成和与嵌张成和在理论上都有4张牌，但玩家通常不会拆对子，所以被舍出的机会也较小。</li>
+<li>要避重就轻<br>如果自己没有和牌希望，应尽量避开做大牌的玩家，放炮给做小牌的玩家，这样失分最少。</li>
+<li>四副摊明必钓中<br>如果已经有四副牌亮明，多数情况下大家钓将会钓边张或幺九张，如果钓中心张和尖张，反而更能容易和牌。</li>
+<li>宁不和，不放炮<br>如果玩家已经做成大牌，自己摸到了危险放炮牌，这时宁可放弃听牌，舍出熟张，也不舍出危险牌。</li>
+<li>上不打，下不摸<br>有人喜欢在上家还未舍牌时就去摸牌，如果舍出的牌有玩家要碰，就会知道这张牌是什么，对该玩家不利。所以通常会约定“上家不打，下家不摸”的规矩。</li>
+<li>牌不顺要养，心不顺要稳<br>行牌不顺利时不要急于吃或碰牌，顺其自然，能小和就和牌。当心情不好时更不能急躁。</li>
+<li>先打幺，后打缺，然后再做清一色<br>如果确定不做带字牌和幺九牌的番种时，应先舍出字牌和幺九牌，进一步可以做成缺一门，最后再根据摸牌情况确定是否做清一色。</li>
+</ul>
+<p>番型：<br>《中国麻将竞赛规则》根据组成胡牌牌型的难易程度，认定了81个番种，将这些番种根据分值从高到低分为12级，依次为88、64、48、32、24、16、12、8、6、4、2、1番。</p>
+<p>88番</p>
+<ul>
+<li>大四喜：和牌型中，有东南西北4副刻（杠）子。不计圈风刻、门风刻、三风刻、碰碰和。</li>
+<li>大三元：和牌型中，有中发白3副刻（杠）子。不计箭刻、双箭刻。</li>
+<li>绿一色：由23468条及发中的任何牌组成顺子、刻子、将的和牌。如有“发”组成的牌，可计混一色；如无“发”字组成的牌，可计清一色、断幺。</li>
+<li>九莲宝灯：由一种花色序数牌子按1112345678999组成的听牌型，见同花色任何1张序数牌即成和牌。不计清一色、门前清。</li>
+<li>四杠：和牌型中，有四个杠子。不计碰碰和、三杠、双暗杠、双明杠、明杠、暗杠、单钓将。</li>
+<li>连七对：由同一种花色的序数牌组成序数相连的7个对子的特殊和牌型。不计清一色、门前清、单钓将、连六、一般高。若为2345678的连七对可加计断幺九。</li>
+<li>十三幺：含有3种序数牌的一、九牌，7种字牌且其中一种成对组成的特殊和牌型。不计混幺九、五门齐、门前清、单钓将。<br>64番</li>
+<li>清幺九：由序数牌一、九刻子组成的和牌。不计碰碰和、三同刻、双同刻、无字。</li>
+<li>小四喜：和牌时有风牌的3副刻子及将牌。不计三风刻、混一色。</li>
+<li>小三元：和牌时有箭牌的两副刻子及将牌。不计箭刻、双箭刻。</li>
+<li>字一色：由字牌的刻子(杠)、将组成的和牌。不计碰碰和。</li>
+<li>四暗刻：4个暗刻(暗杠)。不计门前清、碰碰和。</li>
+<li>一色双龙会：一种花色的两个老少副，5为将牌。不计平和、七对、清一色。<br>48番</li>
+<li>一色四同顺：一种花色4副序数相同的顺子，不计一色三节高、一般高、四归一、平胡。</li>
+<li>一色四节高：一种花色4副依次递增一位数的刻子不计一色三同顺、碰碰和。<br>32番。</li>
+<li>一色四步高：一种花色4副依次递增一位数或依次递增二位数的顺子。不计平胡。</li>
+<li>三杠：3个杠。不计双暗杠，双明杠，暗杠，明杠。</li>
+<li>混幺九：由字牌和序数牌一、九的刻子用将牌组成的和牌。不计碰碰和。<br>24番</li>
+<li>七对：由7个对子组成和牌。不计门前清、单钓。必须有7个单张的东西南北中发白，加上3种花色，数位按147、258、369中的7张序数牌组成没有将牌的和牌。不计五门齐、门前清、单钓。</li>
+<li>全双刻：由2、4、6、8序数牌的刻子、将牌组成的和牌。不计碰碰和、断幺。</li>
+<li>清一色：由一种花色的序数牌组成和各牌。不计无字。</li>
+<li>一色三同顺：和牌时有一种花色3副序数相同的顺子。不计一色三节高。</li>
+<li>一色三节高：和牌时有一种花色3副依次递增一位数字的刻子。不计一色三同顺。</li>
+<li>全大：由序数牌789组成的顺子、刻子(杠)、将牌的和牌。不计无字。</li>
+<li>全中：由序数牌456组成的顺子、刻子(杠)、将牌的和牌。不计断幺、无字。</li>
+<li>全小：由序数牌123组成的顺子、刻子(杠)、将牌的和牌。不计无字。<br>16番</li>
+<li>清龙：和牌时，有一种花色1-9相连接的序数牌。</li>
+<li>三色双龙会：2种花色2个老少副、另一种花色5作将的和牌。不计喜相逢、老少副、无字、平和。</li>
+<li>一色三步高：和牌时，有一种花色3副依次递增一位或依次递增二位数字的顺子。</li>
+<li>全带五：每副牌及将牌必须有5的序数牌。不计断幺。</li>
+<li>三同刻：3个序数相同的刻子(杠)。</li>
+<li>三暗刻：3个暗刻。不计双暗刻。<br>12番</li>
+<li>全不靠：由单张3种花色147、258、369不能错位的序数牌及东南西北中发白中的任何14张牌组成的和牌。不计五门齐、不求人、单钓。</li>
+<li>组合龙：3种花色的147、258、369不能错位的序数牌。</li>
+<li>大于五：由序数牌6-9的顺子、刻子、将牌组成的和牌。不计无字。</li>
+<li>小于五：由序数牌1-4的顺子、刻子、将牌组成的和牌。不计无字。</li>
+<li>三风刻：3个风刻。<br>8番</li>
+<li>花龙：3种花色的3副顺子连接成1-9的序数牌。</li>
+<li>推不倒：由牌面图形没有上下区别的牌组成的和牌，包括1234589饼、245689条、白板。不计缺一门。</li>
+<li>三色三同顺：和牌时，有3种花色3副序数相同的顺子。</li>
+<li>三色三节高：和牌时，有3种花色3副依次递增一位数的刻子。</li>
+<li>无番和：和牌后，数不出任何番种分(花牌不计算在内)（不可报听、自摸）。</li>
+<li>妙手回春：自摸牌墙上最后一张牌和牌。不计自摸。</li>
+<li>海底捞月：和打出的最后一张牌。</li>
+<li>杠上开花：开杠抓进的牌成和牌(不包括补花).不计自摸。</li>
+<li>抢杠和：和别人自抓开明杠的牌。不计和绝张。<br>6番</li>
+<li>碰碰和：由4副刻子(或杠)、将牌组成的和牌。</li>
+<li>混一色：由一种花色序数牌及字牌组成的和牌。</li>
+<li>三色三步高：3种花色3副依次递增一位序数的顺子。</li>
+<li>五门齐：和牌时3种序数牌、风、箭牌齐全。</li>
+<li>全求人：全靠吃牌、碰牌、单钓别人打出的牌和牌。不计单钓。</li>
+<li>双暗杠：2个暗杠。不计暗杠。</li>
+<li>双箭刻：2副箭刻(或杠)。不计箭刻。<br>4番</li>
+<li>全带幺：和牌时，每副牌、将牌都有幺牌。</li>
+<li>不求人：4副牌及将中没有吃牌、碰牌(包括明杠)，自摸和牌。</li>
+<li>双明杠：2个明杠。不计暗杠。</li>
+<li>和绝张：和牌池、桌面已亮明的3张牌所剩的第4张牌(抢杠和不计和绝张)。<br>2番</li>
+<li>箭刻：由中、发、白3张相同的牌组成的刻子（或杠子）。</li>
+<li>圈风刻：与圈风相同的风刻。</li>
+<li>门风刻：与本门风相同的风刻。</li>
+<li>门前清：没有吃、碰、明杠，和别人打出的牌。</li>
+<li>平和：由4副顺子及序数牌作将组成的和牌，边、坎、钓不影响平和。</li>
+<li>四归一：和牌中，有4张相同的牌归于一家的顺、刻子、对、将牌中(不包括杠牌)。</li>
+<li>双同刻：2副序数相同的刻子。</li>
+<li>双暗刻：2个暗刻。</li>
+<li>暗杠：自抓4张相同的牌开杠。</li>
+<li>断幺：和牌中没有一、九及字牌。<br>1番</li>
+<li>一般高：由一种花色2副相同的顺子组成的牌。</li>
+<li>喜相逢：2种花色2副序数相同的顺子。</li>
+<li>连六：一种花色6张相连接的序数牌。</li>
+<li>老少副：一种花色牌的123、789两副顺子。</li>
+<li>幺九刻：3张相同的一、九序数牌及字牌组成的刻子(或杠)。</li>
+<li>明杠：自己有暗刻，碰别人打出的一张相同的牌开杠；或自己抓进一张与碰的明刻相同的牌开杠。</li>
+<li>缺一门：和牌中缺少一种花色序数牌。</li>
+<li>无字：和牌中没有风、箭牌。</li>
+<li>边张：单和123的3及789的7或1233和3、7789和7都为张。手中有12345和3，56789和7不算边张。</li>
+<li>坎张：和2张牌之间的牌。4556和5也为坎张，手中有45567和6不算坎张。</li>
+<li>单钓将：钓单张牌作将成和。</li>
+<li>自摸：自己抓进牌成和牌。</li>
+<li>花牌：即春夏秋冬、梅兰竹菊，每花计一分。不计在起和分内，和牌后才能计分。花牌补花成和计自摸分，不计杠上开花。</li>
+</ul>
+<p>文化论：<br>山不转水转，水不转人转，风水轮流转，运气撞好汉。<br>麻将三缺一，热锅上蚂蚁。</p>
+<p>麻将这种博弈游戏活动，必须集中注意力。眼要明，手要快，大脑要运转，心智要灵活。既须考虑自己面前十余张牌，又不能忽略上家、下家，对家的出牌动态；既要看清楚桌面堂子打出的牌，又要预判那反扣着如城墙般齐整的可能有哪些牌。</p>
+<p>博弈三要素：参与者、行为策略选择、结果利益处置。<br>游戏规则是博弈者之契约理念。</p>
+<p>技巧取胜是比赛的宗旨，侥幸取胜是赌博的特征。</p>
+<p>组成牌目可能性的大小，决定于牌张利用率、牌组选择率、进牌受限率三个方面。算方是以组成牌目的可能性大小来确定其值数的方法。</p>
+<p>编牌目歌如下：门类分为色和风，花分首尾大小中；一连二搭三重叠，合纵连横花与门；纵向串连单双间，横向并连万索筒；组牌方式项款对，进牌摸吊杠吃碰。</p>
+<p>打麻将牌还有许多技巧。战略上的“审时度势”、“察颜观色”、“诱敌深入”；战术上的“声东击西”、“施饵诱钓”、“借尸还魂”等。</p>
+<p>附图：</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="../../about" rel="external nofollow noreferrer">SS Tian</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://sstian.github.io">https://sstian.github.io</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="../../about" target="_blank">SS Tian</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="../../tags/Chess/">
+                                    <span class="chip bg-color">Chess</span>
+                                </a>
+                            
+                                <a href="../../tags/Theory/">
+                                    <span class="chip bg-color">Theory</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="../../libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="../../libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我们前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="../../medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="../../medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="../../reading/liucixin-science-fiction/">
+                    <div class="card-image">
+                        
+                        <img src="../../https:/cdn.jsdelivr.net/gh/sstian/images/blogimg/%E4%B8%89%E4%BD%93.jpg" class="responsive-img" alt="刘慈欣科幻小说">
+                        
+                        <span class="card-title">刘慈欣科幻小说</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            第一，生存是文明的第一需要；第二，文明不断增长和扩张，但宇宙中的物质总量保持不变。猜疑链+技术爆炸
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-01-28
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="../../categories/Reading/" class="post-category">
+                                    Reading
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="../../tags/Book/">
+                        <span class="chip bg-color">Book</span>
+                    </a>
+                    
+                    <a href="../../tags/%E5%88%98%E6%85%88%E6%AC%A3/">
+                        <span class="chip bg-color">刘慈欣</span>
+                    </a>
+                    
+                    <a href="../../tags/Science-Fiction/">
+                        <span class="chip bg-color">Science Fiction</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="../../technology/blockchain/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="../../medias/featureimages/23.jpg" class="responsive-img" alt="区块链 Block Chain">
+                        
+                        <span class="card-title">区块链 Block Chain</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-16
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="../../categories/Technology/" class="post-category">
+                                    Technology
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="../../tags/Book/">
+                        <span class="chip bg-color">Book</span>
+                    </a>
+                    
+                    <a href="../../tags/Blockchain/">
+                        <span class="chip bg-color">Blockchain</span>
+                    </a>
+                    
+                    <a href="../../tags/FinTech/">
+                        <span class="chip bg-color">FinTech</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="../../libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="../../libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="../../libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='1'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="../../libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2019-2025</span>
+            
+            <!-- <span id="year">2019</span> -->
+            <a href="../../about" target="_blank">SS Tian</a>
+            All Rights Reserved
+            <br>
+            <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2022016418号</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">378.8k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "11";
+                    var startDate = "10";
+                    var startHour = "22";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/sstian" class="tooltipped" target="_blank" data-tooltip="GitHub: https://github.com/sstian" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:st.tian@foxmail.com" class="tooltipped" target="_blank" data-tooltip="Foxmail邮箱: st.tian@foxmail.com" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1344082191" class="tooltipped" target="_blank" data-tooltip="QQ: 1344082191" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/SnowDream04" class="tooltipped" target="_blank" data-tooltip="新浪微博: https://weibo.com/SnowDream04" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/tuercao" class="tooltipped" target="_blank" data-tooltip="知乎: https://www.zhihu.com/people/tuercao" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="https://blog.csdn.net/qq_27114909" class="tooltipped" target="_blank" data-tooltip="CSDN: https://blog.csdn.net/qq_27114909" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
+    </a>
+
+
+
+</div>
+    </div>
+
+    <!-- 看板娘 -->
+    <div class="pio-container right">
+        <div class="pio-action"></div>
+        <canvas id="pio" width="200" height="250"></canvas>
+    </div>
+    <link rel="stylesheet" href="/css/pio.css">
+    <script src="/js/pio.js"></script>
+    <script src="/js/live2d.js"></script>
+    <script>
+        var pio = new KanbanPio({
+            "mode": "draggable",
+            "tips": true,
+            "hidden": true,
+            "content": {
+                "welcome": ["欢迎来到我的网站！", "博主每天都有些折腾记录，欢迎前往TA的小窝阅读~"],
+            },
+            "model": [
+                "/models/live2d-widget-model-koharu/assets/koharu.model.json",
+                // "/models/live2d-widget-model-haruto/assets/haruto.model.json"
+            ]
+        });
+    </script>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('../../search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="../../libs/materialize/materialize.min.js"></script>
+    <script src="../../libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="../../libs/aos/aos.js"></script>
+    <script src="../../libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="../../libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="../../js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="../../libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="../../libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="../../libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=i;var e=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight+240||document.documentElement.clientHeight+240)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}i(),n.addEventListener("scroll",function(){var t,e;t=i,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+
+</html>
