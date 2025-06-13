@@ -1,0 +1,2039 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="深入浅出Node.js, Tian,KS,Tech,Website">
+    <meta name="description" content="personal website for sharing">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>深入浅出Node.js | sstian</title>
+    <link rel="icon" type="image/png" href="../../favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="../../libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/matery.css">
+    <link rel="stylesheet" type="text/css" href="../../css/my.css">
+
+    <script src="../../libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="atom.xml" title="sstian" type="application/atom+xml">
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="../../index.html" class="waves-effect waves-light">
+                    <div>
+                        
+                        <img src="../../medias/logo.png" class="logo-img" alt="LOGO">
+                        
+                        <span class="logo-span">sstian</span>        
+                    </div>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../index.html" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="../../friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>Media</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="../../music">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Music</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../movie">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Movie</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../books">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Books</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../gallery">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Gallery</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="../../medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">sstian</div>
+        <div class="logo-desc">
+            
+            personal website for sharing
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../index.html" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="../../friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			Media
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="../../music " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Music</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../movie " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Movie</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../books " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Books</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="../../gallery " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Gallery</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://blinkfox.github.io/" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://blinkfox.github.io/" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+<!-- 
+开启图片懒加载的小Bug，首页的logo点击会直接打开logo图，而不是跳到首页。
+伪解决方案：打开 /themes/matery/layout/_partial/header.ejs文件，在img和span的两个头加个div
+-->
+
+    
+<script src="../../libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '../../index.html';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('../../medias/featureimages/12.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">深入浅出Node.js</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="../../libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="../../tags/Book/">
+                                <span class="chip bg-color">Book</span>
+                            </a>
+                        
+                            <a href="../../tags/Nodejs/">
+                                <span class="chip bg-color">Nodejs</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="../../categories/Technology/" class="post-category">
+                                Technology
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2024-11-16
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2025-06-13
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    10.7k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    40 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="../../libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="《深入浅出Node-js》"><a href="#《深入浅出Node-js》" class="headerlink" title="《深入浅出Node.js》"></a>《深入浅出Node.js》</h2><p>[中] 朴灵</p>
+<h3 id="Node简介"><a href="#Node简介" class="headerlink" title="Node简介"></a>Node简介</h3><h4 id="Node的起源"><a href="#Node的起源" class="headerlink" title="Node的起源"></a>Node的起源</h4><p>设计高性能，Web服务器的几个要点：事件驱动、非阻塞I/O。<br>考虑到高性能、符合事件驱动、没有历史包袱这３个主要原因，JavaScript成为了Node的实现语言。</p>
+<h4 id="Node的特点"><a href="#Node的特点" class="headerlink" title="Node的特点"></a>Node的特点</h4><ul>
+<li>异步I/O<br>异步调用中对于结果值的捕获是符合“Don’t call me, I will call you”的原则，这也是注重结果，不关心过程的一种表现。<br>事件的编程方式具有轻量级、松耦合、只关注事务点等优势，但是在多个异步任务的场景下，事件与事件之间各自独立，如何协作是一个问题。</li>
+<li>单线程<br>单线程的最大好处是不用像多线程编程那样处处在意状态的同步问题，这里没有死锁的存在，也没有线程上下文交换所带来的性能上的开销。</li>
+<li>跨平台<br>兼容Windows和*nix平台主要得益于Node在架构层面的改动，它在操作系统与Node上层模块系统之间构建了一层平台层架构，即libuv。目前，libuv已经成为许多系统实现跨平台的基础组件。</li>
+</ul>
+<p>单线程的弱点具体有以下3方面：</p>
+<ul>
+<li>无法利用多核CPU。</li>
+<li>错误会引起整个应用退出，应用的健壮性值得考验。</li>
+<li>大量计算占用CPU导致无法继续调用异步I/O。</li>
+</ul>
+<h4 id="Node的应用场景"><a href="#Node的应用场景" class="headerlink" title="Node的应用场景"></a>Node的应用场景</h4><p>CPU密集不可怕，如何合理调度是诀窍。<br>Node高效利用并行I/O的过程，也是高效使用数据库的过程。</p>
+<h3 id="模块机制"><a href="#模块机制" class="headerlink" title="模块机制"></a>模块机制</h3><p>编译和执行是引入文件模块的最后一个阶段。定位到具体的文件后，Node会新建一个模块对象，然后根据路径载入并编译。<br>对于不同的文件扩展名，其载入方法也有所不同： </p>
+<ul>
+<li>.js文件。通过fs模块同步读取文件后编译执行。</li>
+<li>.node文件。这是用C/C++编写的扩展文件，通过dlopen()方法加载最后编译生成的文件。</li>
+<li>.json文件。通过fs模块同步读取文件后，用JSON.parse()解析返回结果。</li>
+<li>其余扩展名文件。它们都被当做.js文件载入。每一个编译成功的模块都会将其文件路径作为索引缓存在Module._cache对象上，以提高二次引入的性能。</li>
+</ul>
+<p>CommonJS模块规范也允许在标识符中不包含文件扩展名，这种情况下，Node会按.js、.json、.node的次序补足扩展名，依次尝试。在尝试的过程中，需要调用fs模块同步阻塞式地判断文件是否存在。</p>
+<h4 id="模块实现"><a href="#模块实现" class="headerlink" title="模块实现"></a>模块实现</h4><p>在Node中引入模块，需要经历3个步骤：路径分析，文件定位，编译执行。</p>
+<p>在Node中，模块分为两类：一类是Node提供的模块，称为核心模块；另一类是用户编写的模块，称为文件模块。<br>依赖层级关系，即文件模块可能会依赖核心模块，核心模块可能会依赖内建模块。<br><code>文件模块 &lt;-- 核心模块 (JavaScript) &lt;-- 内建模块 (C/C++)</code><br>C++模块主内完成核心，JavaScript主外实现封装的模式是Node能够提高性能的常见方式。<br>require()方法通过解析标识符、路径分析、文件定位，然后加载执行即可。</p>
+<p>os原生模块的引入流程：</p>
+<pre class="line-numbers language-none"><code class="language-none">require("os")
+NativeModule.require("os")
+process.binding("os")
+get_buildin_module("node_os")
+NODE_MODULE(node_os, reg_func)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>require()引入.node文件的过程：</p>
+<pre class="line-numbers language-none"><code class="language-none">JavaScript - require("./hello.node")
+原生模块 - process.dlopen("./hello.node", exports)
+libuv - uv_dlopen()/uv_dlsym()
+  - *nix - dlopen()/dlsym()
+  - Windows - LoadLibraryExW()/GetProcAddress()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>V8引擎C++库。V8是Node自身的动力来源之一。它自身由C++写成，可以实现JavaScript与C++的互相调用。<br>libuv库。它是Node自身的动力来源之二。Node能够实现跨平台的一个诀窍就是它的libuv库，这个库是跨平台的一层封装，通过它去调用一些底层操作，比自己在各个平台下编写实现要高效得多。libuv封装的功能包括事件循环、文件操作等。</p>
+<p>Node自身的源码就是通过GYP编译的。为此，Nathan Rajlich基于GYP为Node提供了一个专有的扩展构建工具node-gyp，这个工具通过 <code>npm install -g node-gyp</code> 这个命令即可安装。<br>GYP = Generate Your Projects<br>它的好处在于，可以帮助你生成各个平台下的项目文件，比如Windows下的Visual Studio解决方案文件（.sln）、Mac下的XCode项目配置文件以及Scons工具。在这个基础上，再动用各自平台下的编译器编译项目。</p>
+<p>GYP项目生成工具：<br>其中*nix下通过g++/gcc等编译器编译为动态链接共享对象文件（.so），在Windows下则需要通过Visual C++的编译器编译为动态链接库文件（.dll）<br>C/C++模块通过预先编译为.node文件，然后调用process.dlopen()方法加载执行。<br>CPAN社区对它的原始定义如下：“Kwalitee”is something that looks like quality, sounds like quality, but is not quite quality.<br>总体而言，符合Kwalitee的模块要满足的条件：具备良好的测试，具备良好的文档（README、API），具备良好的测试覆盖率，具备良好的编码规范。</p>
+<h4 id="CommonJS包规范"><a href="#CommonJS包规范" class="headerlink" title="CommonJS包规范"></a>CommonJS包规范</h4><pre class="line-numbers language-none"><code class="language-none">|----- 浏览器 ------ ||------- CommonJS --------|
+ BOM DOM  ECMAScript   FS TCP Stream Buffer ...
+|- W3C -|| ------------ Node ------------------|<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>CommonJS包规范是理论，NPM是其中的一种实践。NPM之于Node，相当于gem之于Ruby，pear之于PHP。对于Node而言，NPM帮助完成了第三方模块的发布、安装和依赖等。</p>
+<p>包描述文件用于表达非代码相关的信息，它是一个JSON格式的文件——package.json，位于包的根目录下，是包的重要组成部分。</p>
+<p>包描述文件规范：</p>
+<ul>
+<li>必需字段：<ul>
+<li>name。包名。规范定义它需要由小写的字母和数字组成，可以包含.、_和-，但不允许出现空格。包名必须是唯一的，以免对外公布时产生重名冲突的误解。除此之外，NPM还建议不要在包名中附带上node或js来重复标识它是JavaScript或Node模块。</li>
+<li>description。包简介。</li>
+<li>version。版本号。一个语义化的版本号，这在<a target="_blank" rel="noopener" href="http://semver.org/%E4%B8%8A%E6%9C%89%E8%AF%A6%E7%BB%86%E5%AE%9A%E4%B9%89%EF%BC%8C%E9%80%9A%E5%B8%B8%E4%B8%BAmajor.minor.revision%E6%A0%BC%E5%BC%8F%E3%80%82%E8%AF%A5%E7%89%88%E6%9C%AC%E5%8F%B7%E5%8D%81%E5%88%86%E9%87%8D%E8%A6%81%EF%BC%8C%E5%B8%B8%E5%B8%B8%E7%94%A8%E4%BA%8E%E4%B8%80%E4%BA%9B%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%9A%84%E5%9C%BA%E5%90%88%E3%80%82">http://semver.org/上有详细定义，通常为major.minor.revision格式。该版本号十分重要，常常用于一些版本控制的场合。</a></li>
+<li>keywords。关键词数组，NPM中主要用来做分类搜索。一个好的关键词数组有利于用户快速找到你编写的包。</li>
+<li>maintainers。包维护者列表。每个维护者由name、email和web这3个属性组成。NPM通过该属性进行权限认证。示例：<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token property">"maintainers"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Jackson Tian"</span><span class="token punctuation">,</span>
+    <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">"shyvo1987@gmail.com"</span><span class="token punctuation">,</span>
+    <span class="token property">"web"</span><span class="token operator">:</span> <span class="token string">"http://html5ify.com"</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>contributors。贡献者列表。在开源社区中，为开源项目提供代码是经常出现的事情，如果名字能出现在知名项目的contributors列表中，是一件比较有荣誉感的事。列表中的第一个贡献应当是包的作者本人。它的格式与维护者列表相同。</li>
+<li>bugs。一个可以反馈bug的网页地址或邮件地址。</li>
+<li>licenses。当前包所使用的许可证列表，表示这个包可以在哪些许可证下使用。格式：<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token property">"licenses"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"GPLv2"</span><span class="token punctuation">,</span> <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"http://www.example.com/licenses/gpl.html"</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>repositories。托管源代码的位置列表，表明可以通过哪些方式和地址访问包的源代码。</li>
+<li>dependencies。使用当前包所需要依赖的包列表。这个属性十分重要，NPM会通过这个属性帮助自动加载依赖的包。</li>
+</ul>
+</li>
+<li>可选字段： <ul>
+<li>author。包作者。</li>
+<li>bin。一些包作者希望包可以作为命令行工具使用。配置好bin字段后，通过npm install package_name -g命令可以将脚本添加到执行路径中，之后可以在命令行中直接执行。通过-g命令安装的模块包称为全局模式。</li>
+<li>main。模块引入方法require()在引入包时，会优先检查这个字段，并将其作为包中其余模块的入口。如果不存在这个字段，require()方法会查找包目录下的index.js、index.node、index.json文件作为默认入口。</li>
+<li>devDependencies。一些模块只在开发时需要依赖。配置这个属性，可以提示包的后续开发者安装依赖包。</li>
+<li>homepage。当前包的网站地址。</li>
+<li>os。操作系统支持列表。这些操作系统的取值包括aix、freebsd、linux、macos、solaris、vxworks、windows。如果设置了列表为空，则不对操作系统做任何假设。</li>
+<li>cpu。CPU架构的支持列表，有效的架构名称有arm、mips、ppc、sparc、x86和x86_64。同os一样，如果列表为空，则不对CPU架构做任何假设。</li>
+<li>engine。支持的JavaScript引擎列表，有效的引擎取值包括ejs、flusspferd、gpsee、jsc、spidermonkey、narwhal、node和v8。builtin。标志当前包是否是内建在底层系统的标准组件。</li>
+<li>directories。包目录说明。</li>
+<li>implements。实现规范的列表。标志当前包实现了CommonJS的哪些规范。</li>
+<li>scripts。脚本说明对象。它主要被包管理器用来安装、编译、测试和卸载包。示例：<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">"install"</span><span class="token operator">:</span> <span class="token string">"install.js"</span><span class="token punctuation">,</span>
+  <span class="token property">"uninstall"</span><span class="token operator">:</span> <span class="token string">"uninstall.js"</span><span class="token punctuation">,</span>
+  <span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"build.js"</span><span class="token punctuation">,</span>
+  <span class="token property">"doc"</span><span class="token operator">:</span> <span class="token string">"make-doc.js"</span><span class="token punctuation">,</span>
+  <span class="token property">"test"</span><span class="token operator">:</span> <span class="token string">"test.js"</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+CommonJS的包规范的定义其实也十分简单，它由包结构和包描述文件两个部分组成，前者用于组织包中的各种文件，后者则用于描述包的相关信息，以供外部读取分析。<br>包结构包实际上是一个存档文件，即一个目录直接打包为.zip或tar.gz格式的文件，安装后解压还原为目录。完全符合CommonJS规范的包目录应该包含如下这些文件：</li>
+</ul>
+</li>
+<li>package.json：包描述文件。</li>
+<li>bin：用于存放可执行二进制文件的目录。</li>
+<li>lib：用于存放JavaScript代码的目录。</li>
+<li>doc：用于存放文档的目录。</li>
+<li>test：用于存放单元测试用例的代码。</li>
+</ul>
+<h4 id="多种模块"><a href="#多种模块" class="headerlink" title="多种模块"></a>多种模块</h4><p>兼容多种模块规范为了让同一个模块可以运行在前后端，在写作过程中需要考虑兼容前端也实现了模块规范的环境。为了保持前后端的一致性，类库开发者需要将类库代码包装在一个闭包内。</p>
+<p>示例：将hello()方法定义到不同的运行环境中，它能够兼容Node、AMD、CMD以及常见的浏览器环境中。</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">name<span class="token punctuation">,</span> definition</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 检测上下文环境是否为AMD或CMD  </span>
+  <span class="token keyword">var</span> hasDefine <span class="token operator">=</span> <span class="token keyword">typeof</span> define <span class="token operator">===</span> <span class="token string">'function'</span><span class="token punctuation">,</span>
+  <span class="token comment">// 检查上下文环境是否为Node   </span>
+  <span class="token keyword">var</span> hasExports <span class="token operator">=</span> <span class="token keyword">typeof</span> module <span class="token operator">!==</span> <span class="token string">'undefined'</span> <span class="token operator">&amp;&amp;</span> module<span class="token punctuation">.</span>exports<span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>hasDefine<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// AMD环境或CMD环境    </span>
+    <span class="token function">define</span><span class="token punctuation">(</span>definition<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>hasExports<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 定义为普通Node模块    </span>
+    module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token function">definition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 将模块的执行结果挂在window变量中，在浏览器中this指向window对象  </span>
+    <span class="token keyword">this</span><span class="token punctuation">[</span>name<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">definition</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">var</span> <span class="token function-variable function">hello</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span><span class="token punctuation">;</span> <span class="token keyword">return</span> hello<span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>CMD规范：<br>CMD规范由国内的玉伯提出，与AMD规范的主要区别在于模块定义和依赖引入的部分。</p>
+<ul>
+<li>模块定义<br>CMD模块更接近于Node对CommonJS规范的定义：<br><code>define(factory);</code><br>AMD需要在声明模块的时候指定所有的依赖，通过形参传递依赖到模块内容中：<br><code>define(['dep1', 'dep2'], function (dep1, dep2) { return function () { }; });</code></li>
+<li>依赖引入<br>CMD支持动态引入，示例：<code>define(function (require, exports, module) { /*...*/ });</code><br>require、exports和module通过形参传递给模块，在需要依赖模块时，随时调用require()引入即可。</li>
+</ul>
+<p>AMD规范：<br>AMD规范是CommonJS模块规范的一个延伸，它的模块定义：<code>define(id?, dependencies?, factory);</code><br>它的模块id和依赖是可选的，与Node模块相似的地方在于factory的内容就是实际代码的内容。<br>定义一个简单的模块：<br><code>define(function () { var exports = {}; exports.sayHello = function () { alert('Hello from module: ' + module.id); }; return exports; });</code><br>不同之处在于AMD模块需要用define来明确定义一个模块，而在Node实现中是隐式包装的，它们的目的是进行作用域隔离，仅在需要的时候被引入，避免掉过去那种通过全局变量或者全局命名空间的方式，以免变量污染和不小心被修改。<br>另一个区别则是内容需要通过返回的方式实现导出。</p>
+<p>AMD规范最终在前端应用场景中胜出。它的全称是Asynchronous Module Definition，即异步模块定义，详见<a target="_blank" rel="noopener" href="https://github.com/amdjs/amdjs-api/wiki/AMD%E3%80%82">https://github.com/amdjs/amdjs-api/wiki/AMD。</a></p>
+<h3 id="异步I-0"><a href="#异步I-0" class="headerlink" title="异步I/0"></a>异步I/0</h3><h4 id="异步I-O现状"><a href="#异步I-O现状" class="headerlink" title="异步I/O现状"></a>异步I/O现状</h4><p>Node的方案：</p>
+<ul>
+<li>利用单线程，远离多线程死锁、状态同步等问题；</li>
+<li>利用异步I/O，让单线程远离阻塞，以更好地使用CPU。</li>
+</ul>
+<p>多线程的代价在于创建线程和执行期线程上下文切换的开销较大。</p>
+<p>I/O是昂贵的，分布式I/O是更昂贵的。只有后端能够快速响应资源，才能让前端的体验变好。</p>
+<p>通过让部分线程进行阻塞I/O或者非阻塞I/O加轮询技术来完成数据获取，让一个线程进行计算处理，通过线程之间的通信将I/O得到的数据进行传递，这就轻松实现了异步I/O（尽管它是模拟的）。</p>
+<p>AIO是原生提供的一种异步I/O方式，通过信号或回调来传递数据的。但不幸的是，只有Linux下有，而且它还有缺陷——AIO仅支持内核I/O中的O_DIRECT方式读取，导致无法利用系统缓存。</p>
+<h4 id="Node的异步I-O"><a href="#Node的异步I-O" class="headerlink" title="Node的异步I/O"></a>Node的异步I/O</h4><p>在进程启动时，Node便会创建一个类似于while(true)的循环，每执行一次循环体的过程我们称为Tick。<br>一个主线程与多个IO线程<br>Node是单线程的，这里的单线程仅仅只是JavaScript执行在单线程中罢了。在Node中，无论是*nix还是Windows平台，内部完成I/O任务的另有线程池。<br>事实上，在Node中，除了JavaScript是单线程外，Node自身其实是多线程的，只是I/O线程使用的CPU较少。另一个需要重视的观点则是，除了用户代码无法并行执行外，所有的I/O（磁盘I/O和网络I/O等）则是可以并行起来的。</p>
+<p>Windows下的IOCP，它在某种程度上提供了理想的异步I/O：调用异步方法，等待I/O完成之后的通知，执行回调，用户无须考虑轮询。但是它的内部其实仍然是线程池原理，不同之处在于这些线程池由系统内核接手管理。<br>Windows下主要通过IOCP来向系统内核发送I/O调用和从内核获取已完成的I/O操作，配以事件循环，以此完成异步I/O的过程。<br>在Linux下通过epoll实现这个过程。<br>FreeBSD下通过kqueue实现。<br>Solaris下通过Event ports实现。<br>不同的是线程池在Windows下由内核（IOCP）直接提供，*nix系列下由libuv自行实现。</p>
+<p>事件循环、观察者、请求对象、I/O线程池这四者共同构成了Node异步I/O模型的基本要素。<br>完成整个异步I/O环节的有事件循环、观察者和请求对象等。<br>从JavaScript发起调用到内核执行完I/O操作的过渡过程中，存在一种中间产物，它叫做请求对象。</p>
+<h4 id="事件驱动"><a href="#事件驱动" class="headerlink" title="事件驱动"></a>事件驱动</h4><p>在Node中，事件主要来源于网络请求、文件I/O等，这些事件对应的观察者有文件I/O观察者、网络I/O观察者等。<br>观察者将事件进行了分类。<br>事件循环是一个典型的生产者/消费者模型。<br>异步I/O、网络请求等则是事件的生产者，源源不断为Node提供不同类型的事件，这些事件被传递到对应的观察者那里，事件循环则从观察者那里取出事件并处理。在Windows下，这个循环基于IOCP创建，而在*nix下则基于多线程创建。</p>
+<p>与I/O无关的异步API，它们分别是setTimeout()、setInterval()、setImmediate()和process.nextTick()。<br>process.nextTick()中的回调函数执行的优先级要高于setImmediate()。这里的原因在于事件循环对观察者的检查是有先后顺序的，process.nextTick()属于idle观察者，setImmediate()属于check观察者。在每一个轮循环检查中，idle观察者先于I/O观察者，I/O观察者先于check观察者。</p>
+<p>异步I/O实现，其主旨是使I/O操作与CPU操作分离。<br><strong>事件驱动的实质，即通过主循环加事件触发的方式来运行程序。</strong></p>
+<p>事件循环是异步实现的核心，它与浏览器中的执行模型基本保持了一致。<br>V8和异步I/O在性能上带来的提升，前后端JavaScript编程风格一致，是Node能够迅速成功并流行起来的主要原因。</p>
+<h3 id="异步编程"><a href="#异步编程" class="headerlink" title="异步编程"></a>异步编程</h3><h4 id="函数式编程"><a href="#函数式编程" class="headerlink" title="函数式编程"></a>函数式编程</h4><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> toString <span class="token operator">=</span> <span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>toString<span class="token punctuation">;</span>
+<span class="token keyword">var</span> <span class="token function-variable function">isString</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">obj</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'[object String]'</span><span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> <span class="token function-variable function">isFunction</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">obj</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">'[object Function]'</span><span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>通过指定部分参数来产生一个新的定制函数的形式就是偏函数。<br>偏函数用法是指创建一个调用另外一个部分（参数或变量已经预置的函数）的函数的用法。</p>
+<p>事件的处理方式正是基于高阶函数的特性来完成的。<br>高阶函数则是可以把函数作为参数，或是将函数作为返回值的函数，</p>
+<p>单一线程上执行的代码，这在浏览器中指的是JavaScript执行线程与UI渲染共用的一个线程；在Node中，只是没有UI渲染的部分，模型基本相同。<br>这个利用事件循环的经典调度方式在很多地方都存在应用，最典型的是UI编程，如iOS应用开发等。<br>Node带来的最大特性莫过于基于事件驱动的非阻塞I/O模型，这是它的灵魂所在。</p>
+<h4 id="异步编程解决方案"><a href="#异步编程解决方案" class="headerlink" title="异步编程解决方案"></a>异步编程解决方案</h4><p>异步方法任务化。</p>
+<p>Pyramid of Doom 恶魔金字塔</p>
+<p>中间件通过队列形成一个处理流中间件机制使得在处理网络请求时，可以像面向切面编程一样进行过滤、验证、日志等功能，而不与具体业务逻辑产生关联，以致产生耦合。<br>尾触发与Next除了事件和Promise外，还有一类方法是需要手工调用才能持续执行后续调用的，常见的关键词是next。事实上，尾触发目前应用最多的地方是Connect的中间件。</p>
+<p>异步编程的主要解决方案有3种：</p>
+<ul>
+<li>事件发布/订阅模式</li>
+<li>Promise/Deferred模式</li>
+<li>流程控制库</li>
+</ul>
+<p>事件发布/订阅模式 或 事件监听器模式是一种广泛用于异步编程的模式，是回调函数的事件化。<br>在事件订阅/发布模式中，通常也有一个once()方法，通过它添加的侦听器只能执行一次，在执行之后就会将它与事件的关联移除。这个特性常常可以帮助过滤一些</p>
+<p>重复性的事件响应。<br>用于检测次数的变量叫做哨兵变量。</p>
+<p>所谓雪崩问题，就是在高访问量、大并发量的情况下缓存失效的情景，此时大量的请求同时涌入数据库中，数据库无法同时承受如此大的查询请求，进而往前影响到网站整体的响应速度。</p>
+<p>（<a target="_blank" rel="noopener" href="http://nodejs.org/docs/latest/api/events.html%EF%BC%89%E6%98%AF%E5%8F%91%E5%B8%83/%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F%E7%9A%84%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%EF%BC%8CNode%E4%B8%AD%E9%83%A8%E5%88%86%E6%A8%A1%E5%9D%97%E9%83%BD%E7%BB%A7%E6%89%BF%E8%87%AA%E5%AE%83%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A8%A1%E5%9D%97%E6%AF%94%E5%89%8D%E7%AB%AF%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E7%9A%84%E5%A4%A7%E9%87%8FDOM%E4%BA%8B%E4%BB%B6%E7%AE%80%E5%8D%95%EF%BC%8C%E4%B8%8D%E5%AD%98%E5%9C%A8%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1%EF%BC%8C%E4%B9%9F%E4%B8%8D%E5%AD%98%E5%9C%A8preventDefault()%E3%80%81stopPropagation()%E5%92%8CstopImmediatePropagation()%E7%AD%89%E6%8E%A7%E5%88%B6%E4%BA%8B%E4%BB%B6%E4%BC%A0%E9%80%92%E7%9A%84%E6%96%B9%E6%B3%95%E3%80%82">http://nodejs.org/docs/latest/api/events.html）是发布/订阅模式的一个简单实现，Node中部分模块都继承自它，这个模块比前端浏览器中的大量DOM事件简单，不存在事件冒泡，也不存在preventDefault()、stopPropagation()和stopImmediatePropagation()等控制事件传递的方法。</a><br>它具有addListener/on()、once()、removeListener()、removeAllListeners()和emit()等基本的事件监听模式的方法实现。<br>示例：</p>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 订阅</span>
+emitter<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"event1"</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">message</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 发布</span>
+emitter<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token string">'event1'</span><span class="token punctuation">,</span> <span class="token string">"I am message!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>Promise的秘诀其实在于对队列的操作。</strong></p>
+<h3 id="内存控制"><a href="#内存控制" class="headerlink" title="内存控制"></a>内存控制</h3><p>迈进服务器端编程的领域，内存控制正是在海量请求和长时间运行的前提下进行探讨的。在服务器端，资源向来就寸土寸金，要为海量用户服务，就得使一切资源都要高效循环利用。</p>
+<p>通过在Node启动时使用–prof参数，可以得到V8执行时的性能分析数据，其中包含了垃圾回收执行时占用的时间。<br>查看垃圾回收日志的方式主要是在启动时添加–trace_gc参数。</p>
+<h4 id="V8的垃圾回收机制"><a href="#V8的垃圾回收机制" class="headerlink" title="V8的垃圾回收机制"></a>V8的垃圾回收机制</h4><p>延迟清理（lazy sweeping）<br>增量式整理（incremental compaction）<br>增量标记（incremental marking）</p>
+<p>Mark-Sweep是标记清除，它分为标记和清除两个阶段。<br>Mark-Compact是标记整理。<br>Scavenge中只复制活着的对象，而Mark-Sweep只清理死亡对象。</p>
+<p>3种垃圾回收算法的简单对比：</p>
+<table>
+<thead>
+<tr>
+<th>回收算法</th>
+<th>Mark-Sweep</th>
+<th>Mark-Compact</th>
+<th>Scavenge</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>速度</td>
+<td>中等</td>
+<td>最慢</td>
+<td>最快</td>
+</tr>
+<tr>
+<td>空间开销</td>
+<td>少（有碎片）</td>
+<td>少（无碎片）</td>
+<td>双倍空间（无碎片）</td>
+</tr>
+<tr>
+<td>是否移动对象</td>
+<td>否</td>
+<td>是</td>
+<td>是</td>
+</tr>
+</tbody></table>
+<p>在V8中，主要将内存分为新生代和老生代两代。新生代中的对象为存活时间较短的对象，老生代中的对象为存活时间较长或常驻内存的对象。<br>V8在老生代中主要采用了Mark-Sweep和Mark-Compact相结合的方式进行垃圾回收。<br>在分代的基础上，新生代中的对象主要通过Scavenge算法进行垃圾回收。在Scavenge的具体实现中，主要采用了Cheney算法，</p>
+<p>对象从新生代中移动到老生代中的过程称为晋升。<br>对象晋升的条件主要有两个，一个是对象是否经历过Scavenge回收，一个是To空间的内存占用比超过限制。</p>
+<p>在64位系统下只能使用约1.4 GB内存和在32位系统下只能使用约0.7 GB内存。<br>–max-old-space-size命令行参数可以用于设置老生代内存空间的最大值，<br>–max-new-space-size命令行参数则用于设置新生代内存空间的大小的。</p>
+<p>V8的垃圾回收策略主要基于分代式垃圾回收机制。</p>
+<p>在正常的JavaScript执行中，无法立即回收的内存有闭包和全局变量引用这两种情况。<br>在JavaScript中，实现外部作用域访问内部作用域中变量的方法叫做闭包（closure）。这得益于高阶函数的特性：函数可以作为参数或者返回值。<br>在JavaScript中能形成作用域的有函数调用、with以及全局作用域。</p>
+<p>Node的内存构成主要由通过V8进行分配的部分和Node自行分配的部分。受V8的垃圾回收限制的主要是V8的堆内存。</p>
+<h3 id="Buffer"><a href="#Buffer" class="headerlink" title="Buffer"></a>Buffer</h3><h4 id="Buffer-的结构"><a href="#Buffer-的结构" class="headerlink" title="Buffer 的结构"></a>Buffer 的结构</h4><p>Buffer对象不同于其他对象，它不经过V8的内存分配机制，所以也不会有堆内存的大小限制。<br>不是通过V8分配的内存称为堆外内存。</p>
+<p><code>new Buffer(size);</code><br>Node以8 KB为界限来区分Buffer是大对象还是小对象：<code>Buffer.poolSize = 8 * 1024;</code><br>这个8 KB的值也就是每个slab的大小值，在JavaScript层面，以它作为单位单元进行内存的分配。</p>
+<p>为了高效地使用申请来的内存，Node采用了slab分配机制。<br>slab是一种动态内存管理机制，最早诞生于SunOS操作系统（Solaris）中，目前在一些*nix操作系统中有广泛的应用，如FreeBSD和Linux。<br>简单而言，slab就是一块申请好的固定大小的内存区域。slab具有如下3种状态：</p>
+<ul>
+<li>full：完全分配状态。</li>
+<li>partial：部分分配状态。</li>
+<li>empty：没有被分配状态。</li>
+</ul>
+<h4 id="Buffer的拼接"><a href="#Buffer的拼接" class="headerlink" title="Buffer的拼接"></a>Buffer的拼接</h4><p>Buffer是二进制数据，字符串与Buffer之间存在编码关系。</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// Buffer.concat()方法封装了从小Buffer对象向大Buffer对象的复制过程</span>
+Buffer<span class="token punctuation">.</span><span class="token function-variable function">concat</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">list<span class="token punctuation">,</span> length</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'Usage: Buffer.concat(list, [length])'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>list<span class="token punctuation">.</span>length <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Buffer</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>list<span class="token punctuation">.</span>length <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> list<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> length <span class="token operator">!==</span> <span class="token string">'number'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    length <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> list<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">var</span> buf <span class="token operator">=</span> list<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+      length <span class="token operator">+=</span> buf<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">var</span> buffer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Buffer</span><span class="token punctuation">(</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">var</span> pos <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> list<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> buf <span class="token operator">=</span> list<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    buf<span class="token punctuation">.</span><span class="token function">copy</span><span class="token punctuation">(</span>buffer<span class="token punctuation">,</span> pos<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    pos <span class="token operator">+=</span> buf<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> buffer<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 正确的Buffer拼接方法</span>
+<span class="token keyword">var</span> chunks <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> size <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+res<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">chunk</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  chunks<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>chunk<span class="token punctuation">)</span><span class="token punctuation">;</span> size <span class="token operator">+=</span> chunk<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+res<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> buf <span class="token operator">=</span> Buffer<span class="token punctuation">.</span><span class="token function">concat</span><span class="token punctuation">(</span>chunks<span class="token punctuation">,</span> size<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">var</span> str <span class="token operator">=</span> iconv<span class="token punctuation">.</span><span class="token function">decode</span><span class="token punctuation">(</span>buf<span class="token punctuation">,</span> <span class="token string">'utf8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> rs <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token function">createReadStream</span><span class="token punctuation">(</span><span class="token string">'test.md'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="Buffer的性能"><a href="#Buffer的性能" class="headerlink" title="Buffer的性能"></a>Buffer的性能</h4><p>os模块中的totalmem()和freemem()这两个方法用于查看操作系统的内存使用情况，它们分别返回系统的总内存和闲置内存，以字节为单位。</p>
+<p>查看进程的内存占用调用process.memoryUsage()可以看到Node进程的内存占用情况，示例：<br><code>$ node&gt; process.memoryUsage(){ rss: 13852672,  heapTotal: 6131200,  heapUsed: 2757120 }</code><br>rss是resident set size的缩写，即进程的常驻内存部分。进程的内存总共有几部分，一部分是rss，其余部分在交换区（swap）或者文件系统（filesystem）中。<br>heapTotal和heapUsed对应的是V8的堆内存信息。heapTotal是堆中总共申请的内存量，heapUsed表示目前堆中使用中的内存量。<br>这3个值的单位都是字节。</p>
+<p>如何使用大量缓存，目前比较好的解决方案是采用进程外的缓存，进程自身不存储状态。<br>外部的缓存软件有着良好的缓存过期淘汰策略以及自有的内存管理，不影响Node进程的性能。<br>在Node中主要可以解决两个问题：1. 将缓存转移到外部，减少常驻内存的对象的数量，让垃圾回收更高效。2. 进程之间可以共享缓存。<br>目前，市面上较好的缓存有Redis和Memcached。</p>
+<p>造成内存泄漏的原因有如下几个：</p>
+<ul>
+<li>缓存</li>
+<li>队列消费不及时</li>
+<li>作用域未释放</li>
+</ul>
+<p>现在已经有许多工具用于定位Node应用的内存泄漏，下面是一些常见的工具：</p>
+<ul>
+<li>v8-profiler。由Danny Coates提供，它可以用于对V8堆内存抓取快照和对CPU进行分析，但该项目已经有3年没有维护了。</li>
+<li>node-heapdump。这是Node核心贡献者之一Ben Noordhuis编写的模块，它允许对V8堆内存抓取快照，用于事后分析。</li>
+<li>node-mtrace。由Jimb Esser提供，它使用了GCC的mtrace工具来分析堆的使用。</li>
+<li>dtrace。在Joyent的SmartOS系统上，有完善的dtrace工具用来分析内存泄漏。</li>
+<li>node-memwatch。来自Mozilla的Lloyd Hilaiel贡献的模块，采用WTFPL许可发布。</li>
+</ul>
+<p>Node提供了stream模块用于处理大文件。<br>stream模块是Node的原生模块，直接引用即可。stream继承自EventEmitter，具备基本的自定义事件功能，同时抽象出标准的事件和方法。它分可读和可写两种。<br>Node中的大多数模块都有stream的应用，比如fs的createReadStream()和createWriteStream()方法可以分别用于创建文件的可读流和可写流，process模块中的stdin和stdout则分别是可读流和可写流的示例。</p>
+<p>真正的内存是在Node的C++层面提供的，JavaScript层面只是使用它。<br>当进行小而频繁的Buffer操作时，采用slab的机制进行预先申请和事后分配，使得JavaScript到操作系统之间不必有过多的内存申请方面的系统调用。<br>对于大块的Buffer而言，则直接使用C++层面提供的内存，而无需细腻的分配操作。</p>
+<h3 id="网络编程"><a href="#网络编程" class="headerlink" title="网络编程"></a>网络编程</h3><p>Node提供了net、dgram、http、https这4个模块，分别用于处理TCP、UDP、HTTP、HTTPS，适用于服务器端和客户端。</p>
+<h4 id="构建TCP服务"><a href="#构建TCP服务" class="headerlink" title="构建TCP服务"></a>构建TCP服务</h4><p>TCP服务的事件分为服务器事件和连接事件。<br>服务器事件对于通过net.createServer()创建的服务器而言，它是一个EventEmitter实例。<br>它的自定义事件有如下几种：</p>
+<ul>
+<li>listening：在调用server.listen()绑定端口或者Domain Socket后触发，简洁写法为server.listen(port,listeningListener)，通过listen()方法的第二个参数传入。</li>
+<li>connection：每个客户端套接字连接到服务器端时触发，简洁写法为通过net.createServer()，最后一个参数传递。</li>
+<li>close：当服务器关闭时触发，在调用server.close()后，服务器将停止接受新的套接字连接，但保持当前存在的连接，等待所有连接都断开后，会触发该事件。</li>
+<li>error：当服务器发生异常时，将会触发该事件。比如侦听一个使用中的端口，将会触发一个异常，如果不侦听error事件，服务器将会抛出异常。连接事件服务器可以同时与多个客户端保持连接，对于每个连接而言是典型的可写可读Stream对象。</li>
+</ul>
+<p>Stream对象可以用于服务器端和客户端之间的通信，既可以通过data事件从一端读取另一端发来的数据，也可以通过write()方法从一端向另一端发送数据。<br>它具有如下自定义事件：</p>
+<ul>
+<li>data：当一端调用write()发送数据时，另一端会触发data事件，事件传递的数据即是write()发送的数据。</li>
+<li>end：当连接中的任意一端发送了FIN数据时，将会触发该事件。</li>
+<li>connect：该事件用于客户端，当套接字与服务器端连接成功时会被触发。</li>
+<li>drain：当任意一端调用write()发送数据时，当前这端会触发该事件。</li>
+<li>error：当异常发生时，触发该事件。</li>
+<li>close：当套接字完全关闭时，触发该事件。</li>
+<li>timeout：当一定时间后连接不再活跃时，该事件将会被触发，通知用户当前该连接已经被闲置了。</li>
+</ul>
+<p>由于TCP套接字是可写可读的Stream对象，可以利用pipe()方法巧妙地实现管道操作。<br>示例：实现一个echo服务器。</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> net <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'net'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> server <span class="token operator">=</span> net<span class="token punctuation">.</span><span class="token function">createServer</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">socket</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  socket<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">'Echo server\r\n'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  socket<span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>socket<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+server<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">1337</span><span class="token punctuation">,</span> <span class="token string">'127.0.0.1'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>TCP针对网络中的小数据包有一定的优化策略：Nagle算法。</p>
+<p>对于Domain Socket，在填写选项时，填写path即可：<code>var client = net.connect({path: '/tmp/echo.sock'});</code><br>也可以对Domain Socket进行监听：<code>server.listen('/tmp/echo.sock');</code></p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 通过net模块自行构造客户端进行会话</span>
+<span class="token keyword">var</span> net <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'net'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> client <span class="token operator">=</span> net<span class="token punctuation">.</span><span class="token function">connect</span><span class="token punctuation">(</span><span class="token punctuation">{</span> port<span class="token operator">:</span> <span class="token number">8124</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">//'connect' listener  </span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'client connected'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  client<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">'world!\r\n'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+client<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  client<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+client<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'client disconnected'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">// 创建一个TCP服务器端来接受网络请求</span>
+<span class="token keyword">var</span> net <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'net'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> server <span class="token operator">=</span> net<span class="token punctuation">.</span><span class="token function">createServer</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">socket</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 新的连接  </span>
+  socket<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    socket<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">"你好"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  socket<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'连接断开'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  socket<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">"欢迎光临《深入浅出Node.js》示例：\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+server<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">8124</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'server bound'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//通过net.createServer(listener)即可创建一个TCP服务器，listener是连接事件connection的侦听器，也可以采用如下的方式进行侦听：</span>
+<span class="token comment">// var server = net.createServer();</span>
+<span class="token comment">// server.on('connection', function (socket) {</span>
+<span class="token comment">//   // 新的连接});</span>
+<span class="token comment">//   server.listen(8124);</span>
+<span class="token comment">// })</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="构建UDP服务"><a href="#构建UDP服务" class="headerlink" title="构建UDP服务"></a>构建UDP服务</h4><p>UDP套接字事件UDP套接字相对TCP套接字使用起来更简单，它只是一个EventEmitter的实例，而非Stream的实例。<br>它具备如下自定义事件：</p>
+<ul>
+<li>message：当UDP套接字侦听网卡端口后，接收到消息时触发该事件，触发携带的数据为消息Buffer对象和一个远程地址信息。</li>
+<li>listening：当UDP套接字开始侦听时触发该事件。</li>
+<li>close：调用close()方法时触发该事件，并不再触发message事件。如需再次触发message事件，重新绑定即可。</li>
+<li>error：当异常发生时触发该事件，如果不侦听，异常将直接抛出，使进程退出。</li>
+</ul>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 创建UDP服务器端</span>
+<span class="token keyword">var</span> dgram <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"dgram"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> server <span class="token operator">=</span> dgram<span class="token punctuation">.</span><span class="token function">createSocket</span><span class="token punctuation">(</span><span class="token string">"udp4"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+server<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"message"</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">msg<span class="token punctuation">,</span> rinfo</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"server got: "</span> <span class="token operator">+</span> msg <span class="token operator">+</span> <span class="token string">" from "</span> <span class="token operator">+</span> rinfo<span class="token punctuation">.</span>address <span class="token operator">+</span> <span class="token string">":"</span> <span class="token operator">+</span> rinfo<span class="token punctuation">.</span>port<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+server<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"listening"</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> address <span class="token operator">=</span> server<span class="token punctuation">.</span><span class="token function">address</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"server listening "</span> <span class="token operator">+</span> address<span class="token punctuation">.</span>address <span class="token operator">+</span> <span class="token string">":"</span> <span class="token operator">+</span> address<span class="token punctuation">.</span>port<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 若想让UDP套接字接收网络消息，只要调用dgram.bind(port, [address])方法对网卡和端口进行绑定即可。</span>
+<span class="token comment">// 该套接字将接收所有网卡上41234端口上的消息。在绑定完成后，将触发listening事件</span>
+<span class="token function">server</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token number">41234</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">// 创建UDP客户端</span>
+<span class="token keyword">var</span> dgram <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'dgram'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> message <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Buffer</span><span class="token punctuation">(</span><span class="token string">"深入浅出Node.js"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> client <span class="token operator">=</span> dgram<span class="token punctuation">.</span><span class="token function">createSocket</span><span class="token punctuation">(</span><span class="token string">"udp4"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+client<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>message<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> message<span class="token punctuation">.</span>length<span class="token punctuation">,</span> <span class="token number">41234</span><span class="token punctuation">,</span> <span class="token string">"localhost"</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> bytes</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  client<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="构建HTTP服务"><a href="#构建HTTP服务" class="headerlink" title="构建HTTP服务"></a>构建HTTP服务</h4><p>HTTP客户端事件与服务器端对应的，HTTP客户端也有相应的事件：</p>
+<ul>
+<li>response：与服务器端的request事件对应的客户端在请求发出后得到服务器端响应时，会触发该事件。</li>
+<li>socket：当底层连接池中建立的连接分配给当前请求对象时，触发该事件。</li>
+<li>connect：当客户端向服务器端发起CONNECT请求时，如果服务器端响应了200状态码，客户端将会触发该事件。</li>
+<li>upgrade：客户端向服务器端发起Upgrade请求时，如果服务器端响应了101 Switching Protocols状态，客户端将会触发该事件。</li>
+<li>continue：客户端向服务器端发起Expect: 100-continue头信息，以试图发送较大数据量，如果服务器端响应100 Continue状态，客户端将触发该事件。</li>
+</ul>
+<p>http模块提供了一个底层API：<code>http.request(options, connect)</code>，用于构造HTTP客户端：</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> options <span class="token operator">=</span> <span class="token punctuation">{</span> hostname<span class="token operator">:</span> <span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span> port<span class="token operator">:</span> <span class="token number">1334</span><span class="token punctuation">,</span> path<span class="token operator">:</span> <span class="token string">'/'</span><span class="token punctuation">,</span> method<span class="token operator">:</span> <span class="token string">'GET'</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> req <span class="token operator">=</span> http<span class="token punctuation">.</span><span class="token function">request</span><span class="token punctuation">(</span>options<span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'STATUS: '</span> <span class="token operator">+</span> res<span class="token punctuation">.</span>statusCode<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'HEADERS: '</span> <span class="token operator">+</span> <span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>headers<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  res<span class="token punctuation">.</span><span class="token function">setEncoding</span><span class="token punctuation">(</span><span class="token string">'utf8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  res<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">chunk</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>chunk<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+req<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>HTTP服务的事件如同TCP服务一样，HTTP服务器也抽象了一些事件，以供应用层使用，同样典型的是，服务器也是一个EventEmitter实例。 </p>
+<ul>
+<li>connection事件：在开始HTTP请求和响应前，客户端与服务器端需要建立底层的TCP连接，这个连接可能因为开启了keep-alive，可以在多次请求响应之间使用；当这个连接建立时，服务器触发一次connection事件。</li>
+<li>request事件：建立TCP连接后，http模块底层将在数据流中抽象出HTTP请求和HTTP响应，当请求数据发送到服务器端，在解析出HTTP请求头后，将会触发该事件；在res.end()后，TCP连接可能将用于下一次请求响应。</li>
+<li>close事件：与TCP服务器的行为一致，调用server.close()方法停止接受新的连接，当已有的连接都断开时，触发该事件；可以给server.close()传递一个回调函数来快速注册该事件。</li>
+<li>checkContinue事件：某些客户端在发送较大的数据时，并不会将数据直接发送，而是先发送一个头部带Expect: 100-continue的请求到服务器，服务器将会触发checkContinue事件；如果没有为服务器监听这个事件，服务器将会自动响应客户端100 Continue的状态码，表示接受数据上传；如果不接受数据的较多时，响应客户端400 Bad Request拒绝客户端继续发送数据即可。需要注意的是，当该事件发生时不会触发request事件，两个事件之间互斥。当客户端收到100 Continue后重新发起请求时，才会触发request事件。</li>
+<li>connect事件：当客户端发起CONNECT请求时触发，而发起CONNECT请求通常在HTTP代理时出现；如果不监听该事件，发起该请求的连接将会关闭。</li>
+<li>upgrade事件：当客户端要求升级连接的协议时，需要和服务器端协商，客户端会在请求头中带上Upgrade字段，服务器端会在接收到这样的请求时触发该事件。这在后文的WebSocket部分有详细流程的介绍。如果不监听该事件，发起该请求的连接将会关闭。</li>
+<li>clientError事件：连接的客户端触发error事件时，这个错误会传递到服务器端，此时触发该事件。</li>
+</ul>
+<p>创建HTTP服务器端：</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> http <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'http'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+http<span class="token punctuation">.</span><span class="token function">createServer</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  res<span class="token punctuation">.</span><span class="token function">writeHead</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token string">'Content-Type'</span><span class="token operator">:</span> <span class="token string">'text/plain'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  res<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token string">'Hello World\n'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">1337</span><span class="token punctuation">,</span> <span class="token string">'127.0.0.1'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Server running at http://127.0.0.1:1337/'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>Ajax的实质就是一个异步的网络HTTP请求。</strong></p>
+<p>HTTP服务与TCP服务模型有区别的地方在于：</p>
+<ul>
+<li>在开启keepalive后，一个TCP会话可以用于多次请求和响应。</li>
+<li>TCP服务以connection为单位进行服务，HTTP服务以request为单位进行服务。<br>http模块即是将connection到request的过程进行了封装。</li>
+</ul>
+<p>从协议的角度来说，现在的应用，如浏览器，其实是一个HTTP的代理。</p>
+<h4 id="构建WebSocket服务"><a href="#构建WebSocket服务" class="headerlink" title="构建WebSocket服务"></a>构建WebSocket服务</h4><p>社区的ws模块封装了WebSocket的底层实现。socket.io即是在它的基础上构建实现的。</p>
+<p>WebSocket握手客户端建立连接时，通过HTTP发起请求报文，如下所示：</p>
+<pre class="line-numbers language-http" data-language="http"><code class="language-http"><span class="token request-line"><span class="token property">GET</span> /chat HTTP/1.1</span>
+<span class="token header-name keyword">Host:</span> server.example.com
+<span class="token header-name keyword">Upgrade:</span> websocket
+<span class="token header-name keyword">Connection:</span> Upgrade
+<span class="token header-name keyword">Sec-WebSocket-Key:</span> dGhlIHNhbXBsZSBub25jZQ==
+<span class="token header-name keyword">Sec-WebSocket-Protocol:</span> chat, superchat
+<span class="token header-name keyword">Sec-WebSocket-Version:</span> 13<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>服务器端在处理完请求后，响应如下报文：</p>
+<pre class="line-numbers language-http" data-language="http"><code class="language-http"><span class="token response-status">HTTP/1.1 <span class="token property">101 Switching Protocols</span></span>
+<span class="token header-name keyword">Upgrade:</span> websocket
+<span class="token header-name keyword">Connection:</span> Upgrade
+<span class="token header-name keyword">Sec-WebSocket-Accept:</span> s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
+<span class="token header-name keyword">Sec-WebSocket-Protocol:</span> chat<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>WebSocket协议主要分为两个部分：握手和数据传输。<br>WebSocket更接近与传输层协议，它并没有在HTTP的基础上模拟服务器端的推送，而是在TCP上定义独立的协议。让人迷惑的部分在于WebSocket的握手部分是由HTTP完成的。</p>
+<p>WebSocket与传统HTTP有如下好处：</p>
+<ul>
+<li>客户端与服务器端只建立一个TCP连接，可以使用更少的连接。</li>
+<li>WebSocket服务器端可以推送数据到客户端，这远比HTTP请求响应模式更灵活、更高效。</li>
+<li>有更轻量级的协议头，减少数据传送量。</li>
+</ul>
+<h4 id="构建HTTPS服务"><a href="#构建HTTPS服务" class="headerlink" title="构建HTTPS服务"></a>构建HTTPS服务</h4><p>创建HTTPS客户端，与HTTP的客户端相差不大，除了指定证书相关的参数外：</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> https <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'https'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> options <span class="token operator">=</span> <span class="token punctuation">{</span>
+  hostname<span class="token operator">:</span> <span class="token string">'localhost'</span><span class="token punctuation">,</span>
+  port<span class="token operator">:</span> <span class="token number">8000</span><span class="token punctuation">,</span>
+  path<span class="token operator">:</span> <span class="token string">'/'</span><span class="token punctuation">,</span>
+  method<span class="token operator">:</span> <span class="token string">'GET'</span><span class="token punctuation">,</span>
+  key<span class="token operator">:</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span><span class="token string">'./keys/client.key'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  cert<span class="token operator">:</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span><span class="token string">'./keys/client.crt'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  ca<span class="token operator">:</span> <span class="token punctuation">[</span>fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span><span class="token string">'./keys/ca.crt'</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+options<span class="token punctuation">.</span>agent <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">https<span class="token punctuation">.</span>Agent</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> req <span class="token operator">=</span> https<span class="token punctuation">.</span><span class="token function">request</span><span class="token punctuation">(</span>options<span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  res<span class="token punctuation">.</span><span class="token function">setEncoding</span><span class="token punctuation">(</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  res<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">d</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+req<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'error'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>执行上面的操作：$ node client.js helloworld<br>如果不设置ca选项，将会得到如下异常：[Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE]<br>解决该异常的方案是添加选项属性 <code>rejectUnauthorized: false</code>，它的效果与curl工具加-k一样，都会在数据传输过程中会加密，但是无法保证服务器端的证书不是伪造的。</p>
+<p>由于是自签名的证书，curl工具无法验证服务器端证书是否正确。要解决上面的问题有两种方式：</p>
+<ul>
+<li>一种是加-k选项，让curl工具忽略掉证书的验证，这样的结果是数据依然会通过公钥加密传输，但是无法保证对方是可靠的，会存在中间人攻击的潜在风险。<br><code>$ curl -k https://localhost:8000/helloworld</code></li>
+<li>另一种解决的方式是给curl设置–cacert选项，告知CA证书使之完成对服务器证书的验证。<br><code>$ curl --cacert keys/ca.crt https://localhost:8000/helloworld</code></li>
+</ul>
+<p>创建HTTPS服务器端，只比HTTP服务多一个选项配置，其余地方几乎相同：</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> https <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'https'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> options <span class="token operator">=</span> <span class="token punctuation">{</span>
+  key<span class="token operator">:</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span><span class="token string">'./keys/server.key'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  cert<span class="token operator">:</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span><span class="token string">'./keys/server.crt'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+https<span class="token punctuation">.</span><span class="token function">createServer</span><span class="token punctuation">(</span>options<span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  res<span class="token punctuation">.</span><span class="token function">writeHead</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  res<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token string">"hello world\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">8000</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="构建TLS服务"><a href="#构建TLS服务" class="headerlink" title="构建TLS服务"></a>构建TLS服务</h4><p>TLS的服务器端和客户端仅仅只在证书的配置上有差别，其余部分基本相同。</p>
+<p>创建TLS服务器端：</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> tls <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'tls'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> options <span class="token operator">=</span> <span class="token punctuation">{</span>
+  key<span class="token operator">:</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span><span class="token string">'./keys/server.key'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  cert<span class="token operator">:</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span><span class="token string">'./keys/server.crt'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  requestCert<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  ca<span class="token operator">:</span> <span class="token punctuation">[</span>fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span><span class="token string">'./keys/ca.crt'</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> server <span class="token operator">=</span> tls<span class="token punctuation">.</span><span class="token function">createServer</span><span class="token punctuation">(</span>options<span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">stream</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'server connected'</span><span class="token punctuation">,</span> stream<span class="token punctuation">.</span>authorized <span class="token operator">?</span> <span class="token string">'authorized'</span> <span class="token operator">:</span> <span class="token string">'unauthorized'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  stream<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">"welcome!\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  stream<span class="token punctuation">.</span><span class="token function">setEncoding</span><span class="token punctuation">(</span><span class="token string">'utf8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  stream<span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>stream<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+server<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">8000</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'server bound'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>启动上述服务后，通过下面的命令可以测试证书是否正常：<br><code>$ openssl s_client -connect 127.0.0.1:8000</code></p>
+<p>证书：</p>
+<ul>
+<li>自签名证书。就是自己扮演CA机构，给自己的服务器端颁发签名证书。<br>以下为生成私钥、生成CSR文件、通过私钥自签名生成证书的过程：<br><code>$ openssl genrsa -out ca.key 1024$ openssl req -new -key ca.key -out ca.csr$ openssl x509 -req -in ca.csr -signkey ca.key -out ca.crt</code></li>
+<li>第三方 CA（Certificate Authority，数字证书认证中心）。<br>CA的作用是为站点颁发证书，且这个证书中具有CA通过自己的公钥和私钥实现的签名。<br>为了得到签名证书，服务器端需要通过自己的私钥生成CSR（Certificate Signing Request，证书签名请求）文件。CA机构将通过这个文件颁发属于该服务器端的签名证书，只要通过CA机构就能验证证书是否合法。</li>
+</ul>
+<p>Node在底层采用的是openssl实现TLS/SSL的，为此要可以通过openssl为为服务端和客户端生成公钥和私钥：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">// 生成服务器端私钥
+$ openssl genrsa -out server.key <span class="token number">1024</span>
+// 生成客户端私钥
+$ openssl genrsa -out client.key <span class="token number">1024</span>
+
+// 上述命令生成了两个1024位长的RSA私钥文件，可以通过它继续生成公钥
+$ openssl rsa -in server.key -pubout -out server.pem
+$ openssl rsa -in client.key -pubout -out client.pem<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Node在网络安全上提供了3个模块，分别为crypto、tls、https。</p>
+<ul>
+<li>crypto主要用于加密解密，SHA1、MD5等加密算法都在其中有体现。</li>
+<li>真正用于网络的是另外两个模块，tls模块提供了与net模块类似的功能，区别在于它建立在TLS/SSL加密的TCP连接上。</li>
+<li>https模块，它完全与http模块接口一致，区别也仅在于它建立于安全的连接之上。</li>
+</ul>
+<h3 id="多进程架构"><a href="#多进程架构" class="headerlink" title="多进程架构"></a>多进程架构</h3><p>4种创建进程方法的差别：</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>回调/异常</th>
+<th>进程类型</th>
+<th>执行类型</th>
+<th>可设置超时</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>spawn()</td>
+<td>×</td>
+<td>任意</td>
+<td>命令</td>
+<td>×</td>
+</tr>
+<tr>
+<td>exec()</td>
+<td>√</td>
+<td>任意</td>
+<td>命令</td>
+<td>√</td>
+</tr>
+<tr>
+<td>execFile()</td>
+<td>√</td>
+<td>任意</td>
+<td>可执行文件</td>
+<td>√</td>
+</tr>
+<tr>
+<td>fork()</td>
+<td>×</td>
+<td>Node</td>
+<td>JavaScript文件</td>
+<td>×</td>
+</tr>
+</tbody></table>
+<p>这里的可执行文件是指可以直接直行的文件。<br>通过execFile()运行的JavaScript文件，首行内容必须添加如下代码：<br><code>#!/usr/bin/env node</code></p>
+<blockquote>
+<p>点评：深入浅出，理论与实践相结合，值得一读。<br>对于开发者来说，原理性的东西看得再多，仍旧停留在“知道”的层面，宛若空中楼阁，轻飘飘的；而“多说无益，直接上代码”，会让人有一种醍醐灌顶、恍然大悟、不过如此的感觉，因为触及到了底层运作机制，很有实感，理解了，通了，谓之“精通”。</p>
+</blockquote>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="../../about" rel="external nofollow noreferrer">SS Tian</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://sstian.github.io">https://sstian.github.io</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="../../about" target="_blank">SS Tian</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="../../tags/Book/">
+                                    <span class="chip bg-color">Book</span>
+                                </a>
+                            
+                                <a href="../../tags/Nodejs/">
+                                    <span class="chip bg-color">Nodejs</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="../../libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="../../libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我们前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="../../medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="../../medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="">
+                    <div class="card-image">
+                        
+                        
+                        <img src="../../medias/featureimages/12.jpg" class="responsive-img" alt="深入浅出Node.js">
+                        
+                        <span class="card-title">深入浅出Node.js</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-11-16
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="../../categories/Technology/" class="post-category">
+                                    Technology
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="../../tags/Book/">
+                        <span class="chip bg-color">Book</span>
+                    </a>
+                    
+                    <a href="../../tags/Nodejs/">
+                        <span class="chip bg-color">Nodejs</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="../../knowledge/xiapeng-english/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="../../medias/featureimages/15.jpg" class="responsive-img" alt="夏鹏 英语学习小传">
+                        
+                        <span class="card-title">夏鹏 英语学习小传</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-06-25
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="../../categories/Knowlege/" class="post-category">
+                                    Knowlege
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="../../tags/%E5%A4%8F%E9%B9%8F/">
+                        <span class="chip bg-color">夏鹏</span>
+                    </a>
+                    
+                    <a href="../../tags/English/">
+                        <span class="chip bg-color">English</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="../../libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="../../libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="../../libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="../../libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='1'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="../../libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2019-2025</span>
+            
+            <!-- <span id="year">2019</span> -->
+            <a href="../../about" target="_blank">SS Tian</a>
+            All Rights Reserved
+            <br>
+            <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2022016418号</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">428.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "11";
+                    var startDate = "10";
+                    var startHour = "22";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/sstian" class="tooltipped" target="_blank" data-tooltip="GitHub: https://github.com/sstian" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:st.tian@foxmail.com" class="tooltipped" target="_blank" data-tooltip="Foxmail邮箱: st.tian@foxmail.com" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1344082191" class="tooltipped" target="_blank" data-tooltip="QQ: 1344082191" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://weibo.com/SnowDream04" class="tooltipped" target="_blank" data-tooltip="新浪微博: https://weibo.com/SnowDream04" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/tuercao" class="tooltipped" target="_blank" data-tooltip="知乎: https://www.zhihu.com/people/tuercao" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="https://blog.csdn.net/qq_27114909" class="tooltipped" target="_blank" data-tooltip="CSDN: https://blog.csdn.net/qq_27114909" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
+    </a>
+
+
+
+</div>
+    </div>
+
+    <!-- 看板娘 -->
+    <div class="pio-container right">
+        <div class="pio-action"></div>
+        <canvas id="pio" width="200" height="250"></canvas>
+    </div>
+    <link rel="stylesheet" href="/css/pio.css">
+    <script src="/js/pio.js"></script>
+    <script src="/js/live2d.js"></script>
+    <script>
+        var pio = new KanbanPio({
+            "mode": "draggable",
+            "tips": true,
+            "hidden": true,
+            "content": {
+                "welcome": ["欢迎来到我的网站！", "博主每天都有些折腾记录，欢迎前往TA的小窝阅读~"],
+            },
+            "model": [
+                "/models/live2d-widget-model-koharu/assets/koharu.model.json",
+                // "/models/live2d-widget-model-haruto/assets/haruto.model.json"
+            ]
+        });
+    </script>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('../../search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="../../libs/materialize/materialize.min.js"></script>
+    <script src="../../libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="../../libs/aos/aos.js"></script>
+    <script src="../../libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="../../libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="../../js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="../../libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="../../libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+	
+    
+
+    
+
+    
+
+    
+    <script src="../../libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=i;var e=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight+240||document.documentElement.clientHeight+240)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}i(),n.addEventListener("scroll",function(){var t,e;t=i,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+
+</html>

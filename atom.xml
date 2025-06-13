@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2024-07-02T10:57:17.315Z</updated>
+  <updated>2025-06-13T12:57:32.611Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>深入浅出Node.js</title>
+    <link href="https://sstian.github.io/technology/deep-nodejs/"/>
+    <id>https://sstian.github.io/technology/deep-nodejs/</id>
+    <published>2024-11-16T13:56:08.000Z</published>
+    <updated>2025-06-13T12:57:32.611Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;《深入浅出Node-js》&quot;&gt;&lt;a href=&quot;#《深入浅出Node-js》&quot; class=&quot;headerlink&quot; title=&quot;《深入浅出Node.js》&quot;&gt;&lt;/a&gt;《深入浅出Node.js》&lt;/h2&gt;&lt;p&gt;[中] 朴灵&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="Nodejs" scheme="https://sstian.github.io/tags/Nodejs/"/>
+    
+  </entry>
   
   <entry>
     <title>夏鹏 英语学习小传</title>
@@ -75,7 +103,7 @@
     <link href="https://sstian.github.io/technology/how-it-works/"/>
     <id>https://sstian.github.io/technology/how-it-works/</id>
     <published>2024-03-23T09:29:13.000Z</published>
-    <updated>2024-03-24T12:36:41.697Z</updated>
+    <updated>2025-06-12T10:10:54.787Z</updated>
     
     
       
@@ -248,7 +276,7 @@
     <link href="https://sstian.github.io/technology/turing-universe/"/>
     <id>https://sstian.github.io/technology/turing-universe/</id>
     <published>2023-02-12T12:00:00.000Z</published>
-    <updated>2024-04-20T08:21:12.191Z</updated>
+    <updated>2025-06-07T04:26:50.126Z</updated>
     
     
       
@@ -475,7 +503,7 @@
     <link href="https://sstian.github.io/world/detective-conan/"/>
     <id>https://sstian.github.io/world/detective-conan/</id>
     <published>2021-08-09T12:00:00.000Z</published>
-    <updated>2025-05-21T04:24:18.210Z</updated>
+    <updated>2025-06-12T03:26:22.273Z</updated>
     
     
       
@@ -547,34 +575,6 @@
     
     
     <category term="Tender" scheme="https://sstian.github.io/tags/Tender/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>半小时漫画系列</title>
-    <link href="https://sstian.github.io/reading/half-hour-comic/"/>
-    <id>https://sstian.github.io/reading/half-hour-comic/</id>
-    <published>2021-02-02T16:42:00.000Z</published>
-    <updated>2025-06-02T10:07:23.258Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;漫画科普：图像化、脉络化、娱乐化。&lt;/p&gt;
-&lt;h2 id=&quot;半小时漫画预防常见病&quot;&gt;&lt;a href=&quot;#半小时漫画预防常见病&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
-    
-    
-    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
-    
-    <category term="Half Hour Comic" scheme="https://sstian.github.io/tags/Half-Hour-Comic/"/>
     
   </entry>
   
