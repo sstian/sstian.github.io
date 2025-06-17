@@ -2733,7 +2733,7 @@ ps<span class="token punctuation">.</span><span class="token function">executeQu
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
+            headingSelector: 'h1, h2, h3, h4, h5'
         });
 
         // modify the toc link href to support Chinese.
@@ -2745,7 +2745,7 @@ ps<span class="token punctuation">.</span><span class="token function">executeQu
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -2880,7 +2880,7 @@ ps<span class="token punctuation">.</span><span class="token function">executeQu
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">428.2k</span>&nbsp;字
+                class="white-color">451.3k</span>&nbsp;字
             
             
             

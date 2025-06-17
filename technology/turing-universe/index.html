@@ -1167,16 +1167,15 @@
                 <a href="../devops-handbook/">
                     <div class="card-image">
                         
+                        <img src="../../https:/cdn.jsdelivr.net/gh/sstian/images/blogimg/DevOps%E8%AF%BB%E7%89%A9.jpg" class="responsive-img" alt="DevOps 指南">
                         
-                        <img src="../../medias/featureimages/18.jpg" class="responsive-img" alt="DevOps 实践">
-                        
-                        <span class="card-title">DevOps 实践</span>
+                        <span class="card-title">DevOps 指南</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            三步工作法：流动原则，反馈原则，持续学习与实验原则
                         
                     </div>
                     <div class="publish-info">
@@ -1319,7 +1318,7 @@
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
+            headingSelector: 'h1, h2, h3, h4, h5'
         });
 
         // modify the toc link href to support Chinese.
@@ -1331,7 +1330,7 @@
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -1466,7 +1465,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">428.2k</span>&nbsp;字
+                class="white-color">451.3k</span>&nbsp;字
             
             
             
