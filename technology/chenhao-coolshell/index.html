@@ -601,21 +601,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-11-26
+                    2025-06-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    9.6k
+                    59.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    33 分
+                    205 分
                 </div>
                 
 
@@ -638,7 +638,9 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>[陈皓]，网名“左耳朵耗子”，人称耗子叔，资深技术专家。<br>20年软件开发及相关工作经验，先后在阿里巴巴、亚马逊、汤森路透等知名公司任职。<br>对IT底层技术平台和大规模分布式系统的基础架构有深入的了解。<br>从2002年开始写技术博客，到2009年左右在独立域名CoolShell.cn（酷壳）上分享技术观点和实践总结。<br>文章观点鲜明、文风犀利。</p>
+                <p>陈皓，网名“左耳朵耗子”，人称耗子叔，资深技术专家。</p>
+<p>20年软件开发及相关工作经验，先后在阿里巴巴、亚马逊、汤森路透等知名公司任职。<br>对IT底层技术平台和大规模分布式系统的基础架构有深入的了解。<br>从2002年开始写技术博客，到2009年左右在独立域名CoolShell.cn（酷壳）上分享技术观点和实践总结。<br>文章观点鲜明、文风犀利。</p>
+<p>酷壳 - CoolShell  <a target="_blank" rel="noopener" href="https://coolshell.cn/">https://coolshell.cn/</a><br>享受编程和技术所带来的快乐 - Coding Your Abmition</p>
 <p>R.I.P. = Requiescat/Rest in Peace，天主教会葬礼祈祷词，希望逝者永享安宁</p>
 <h2 id="左耳听风"><a href="#左耳听风" class="headerlink" title="左耳听风"></a>左耳听风</h2><p>极客时间 专栏</p>
 <ul>
@@ -820,169 +822,12 @@
 </ol>
 <h4 id="Git协同工作流"><a href="#Git协同工作流" class="headerlink" title="Git协同工作流"></a>Git协同工作流</h4><p>协同工作流的本质，并不是怎么玩好代码仓库的分支策略，而是玩好我们的软件架构和软件开发流程。<br>与其花时间在Git协同工作流上，还不如把时间花在调整软件架构和自动化软件生产和运维流程上来，这才是真正简化协同工作流程的根本。</p>
 <p>以微服务或是SOA为架构的方式。<br>以DevOps为主的开发流程。</p>
-<p>推荐书单：<br>《代码大全》<br>《程序员修练之道》<br>《计算机的构造和解释》<br>《算法导论》<br>《设计模式》<br>《重构》<br>《人月神话》<br>《代码整洁之道》<br>《Effective C++》<br>《More Effective C++》<br>《Effective Java》</p>
-<h3 id="分布式架构"><a href="#分布式架构" class="headerlink" title="分布式架构"></a>分布式架构</h3><h4 id="分布式系统架构"><a href="#分布式系统架构" class="headerlink" title="分布式系统架构"></a>分布式系统架构</h4><p>单体应用和分布式架构的优缺点：</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>传统单体架构</th>
-<th>分布式服务化架构</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>新功能开发</td>
-<td>需要时间</td>
-<td>容易开发和实现</td>
-</tr>
-<tr>
-<td>部署</td>
-<td>不经常且容易部署</td>
-<td>经常发布，部署复杂</td>
-</tr>
-<tr>
-<td>隔离性</td>
-<td>故障影响范围小</td>
-<td>故障影响范围小</td>
-</tr>
-<tr>
-<td>架构设计</td>
-<td>难度小</td>
-<td>难度级数增加</td>
-</tr>
-<tr>
-<td>系统性能</td>
-<td>响应时间快，吞吐量小</td>
-<td>响应时间慢，吞吐量大</td>
-</tr>
-<tr>
-<td>系统运维</td>
-<td>运维简单</td>
-<td>运维复杂</td>
-</tr>
-<tr>
-<td>新人上手</td>
-<td>学习曲线大（应用逻辑）</td>
-<td>学习曲线大（架构逻辑）</td>
-</tr>
-<tr>
-<td>技术</td>
-<td>技术单一且封闭</td>
-<td>技术多样且开发</td>
-</tr>
-<tr>
-<td>测试和查错</td>
-<td>简单</td>
-<td>复杂</td>
-</tr>
-<tr>
-<td>系统扩展性</td>
-<td>扩展性很差</td>
-<td>扩展性很好</td>
-</tr>
-<tr>
-<td>系统管理</td>
-<td>重点在于开发成本</td>
-<td>重点在于服务治理和调度</td>
-</tr>
-</tbody></table>
-<p>使用分布式系统主要有两方面原因：<br>增大系统容量。<br>加强系统可用。</p>
-<p>系统架构演化：</p>
-<ul>
-<li>20世纪70年代，模块化编程</li>
-<li>20世纪80年代，面向事件设计</li>
-<li>20世纪90年代，基于接口/组件设计</li>
-<li>21世纪初，SOA = Service-Oriented Architecture 面向服务架构</li>
-</ul>
-<p>SOA架构是构造分布式计算应用程序的方法。<br>它将应用程序功能作为服务发送给最终用户或者其他服务。<br>它采用开放标准与软件资源进行交互，并采用标准的表示方式。</p>
-<p>开发、维护和使用SOA要遵循的基本原则：</p>
-<ul>
-<li>可重用，粒度合适，模块化，可组合，构件化以及有互操作性。</li>
-<li>符合开放标准（通用的或行业的）。</li>
-<li>服务的识别和分类，提供和发布，监控和跟踪。</li>
-</ul>
-<p>分布式系统中需要注意的问题：</p>
-<ul>
-<li>问题一：异构系统的不标准问题<br>一个好的配置管理，应该分成三层：底层和操作系统相关，中间层和中间件相关，最上面和业务应用相关。</li>
-<li>问题二：系统架构中的服务依赖性问题</li>
-<li>问题三：故障发生的概率更大<br>机器自动化。人管代码，代码管机器，人不管机器！</li>
-<li>问题四：多层架构的运维复杂度更大<br>系统分成四层：基础层、平台层、应用层和接入层。<ul>
-<li>基础层就是机器、网络和存储设备等。</li>
-<li>平台层就是中间件层，Tomcat、MySQL、Redis、Kafka之类的软件。</li>
-<li>应用层就是业务软件，比如，各种功能的服务。</li>
-<li>接入层就是接入用户请求的网关、负载均衡或是CDN、DNS。</li>
-</ul>
-</li>
-</ul>
-<p>分工不是问题，问题是分工后的协作是否统一和规范。<br>构建分布式服务需要从组织，到软件工程，再到技术上的一次大的改造，需要比较长的时间来磨合和改进，并不断地总结教训和成功经验。</p>
-<h4 id="分布式系统的技术栈"><a href="#分布式系统的技术栈" class="headerlink" title="分布式系统的技术栈"></a>分布式系统的技术栈</h4><p>Orchestration 编排</p>
-<p>分布式系统需要干的两件事：<br>一是提高整体架构的吞吐量，服务更多的并发和流量。<br>二是为了提高系统的稳定性，让系统的可用性更高。</p>
-<p>提高系统性能的技术：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%8F%90%E9%AB%98%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E7%9A%84%E6%8A%80%E6%9C%AF.jpeg" alt="左耳听风-分布式架构-提高系统性能的技术"></p>
-<p>提高系统稳定性的技术：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%8F%90%E9%AB%98%E7%B3%BB%E7%BB%9F%E7%A8%B3%E5%AE%9A%E6%80%A7%E7%9A%84%E6%8A%80%E6%9C%AF.jpeg" alt="左耳听风-分布式架构-提高系统稳定性的技术"></p>
-<p>分布式系统四个核心关键技术：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF.jpeg" alt="左耳听风-分布式架构-关键技术"></p>
-<ol>
-<li><p>全栈监控<br>好的监控系统：服务调用链跟踪，服务调用时长分布，服务的TOP N视图，数据库操作关联。</p>
-</li>
-<li><p>服务调度<br>对于故障迁移，也就是服务的某个实例出现问题时，需要自动地恢复它。<br>对于服务来说，有两种模式：</p>
-</li>
-</ol>
-<ul>
-<li>宠物模式。就是一定要救活，主要是对于stateful的服务。</li>
-<li>奶牛模式。就是不救活了，重新生成一个实例。</li>
-</ul>
-<ol start="3">
-<li>流量与数据调度<br>服务治理是内部系统的、数据中心的事。<br>服务治理是流量调度的前提。</li>
-</ol>
-<p>一个好的API Gateway需要具备关键技术：<br>高性能，使用集群技术扛流量，简单的业务逻辑，使用Admin API管理配置变更的服务化。</p>
-<p>数据副本是分布式系统解决数据丢失异常的唯一手段。<br>在解决数据副本间的一致性问题时的技术方案：</p>
-<ul>
-<li>Master-Slave方案。</li>
-<li>Master-Master方案。</li>
-<li>两阶段和三阶段提交方案。</li>
-<li>Paxos方案。</li>
-</ul>
-<p>分布式系统事务处理：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E4%BA%8B%E5%8A%A1%E5%A4%84%E7%90%86.png" alt="左耳听风-分布式架构-分布式系统事务处理"></p>
-<h4 id="PaaS"><a href="#PaaS" class="headerlink" title="PaaS"></a>PaaS</h4><p>SaaS = Software as a Service 软件即服务<br>aPaas = Application Platform as a Service 应用程序平台即服务<br>PaaS = Platform as a Service 平台即服务<br>IaaS = Infrastructure as a Service 基础设施即服务</p>
-<ol>
-<li>软件工程的本质：</li>
-</ol>
-<ul>
-<li>第一，提高服务的SLA。<br>SLA = Service Level Agreement 服务级别协议：提供服务的企业与客户之间就服务的品质、水准、性能等方面所达成的双方共同认可的协议或契约。<br>提高系统的SLA主要表现在两个方面：高可用的系统；自动化的运维。</li>
-<li>第二，能力和资源重用或复用。<br>软件工程另一个重要的能力就是让能力和资源可以重用。<br>主要表现在两个方面：软件模块的重用；软件运行环境和资源的重用。</li>
-<li>第三，过程的自动化。<br>编程本来就是把一个重复工作自动化的过程。<br>把软件生产和运维的过程自动化起来表现在两个方面：软件生产流水线；软件运维自动化。</li>
-</ul>
-<ol start="2">
-<li>PaaS平台 -&gt; 云计算 | Cloud Native：</li>
-</ol>
-<ul>
-<li>分布式多层的系统架构</li>
-<li>服务化的能力供应</li>
-<li>自动化的运维能力</li>
-</ul>
-<p>一个好的PaaS平台应该具有分布式（根本特性）、服务化（本质）、自动化部署（灵魂）、高可用、敏捷以及分层开放的特征，并可与IaaS实现良好的联动。</p>
-<ol start="3">
-<li>CAP定理<br>分布式系统设计中最基础，最为关键的理论。<br>它指出，分布式数据存储不可能同时满足以下三个条件：</li>
-</ol>
-<ul>
-<li>一致性（Consistency）：每次读取要么获得最近写入的数据，要么获得一个错误。</li>
-<li>可用性（Availability）：每次请求都能获得一个（非错误）响应，但不保证返回的是最新写入的数据。</li>
-<li>分区容忍（Partition tolerance）：尽管任意数量的消息被节点间的网络丢失（或延迟），系统仍继续运行。</li>
-</ul>
-<p>在分布式系统中错误是不可能避免的，我们能做的不是避免错误，而是要把错误的处理当成功能写在代码中。</p>
-<p>解决了共识问题的算法具备的三点特性：<br>  给出一个处理者的集合，其中每一个处理者都有一个初始值：</p>
-<ul>
-<li>“终止” - 所有无错误的进程（处理过程）最终都将决定一个值。</li>
-<li>“一致同意” - 所有会做决定的无错误进程决定的都将是同一个值。</li>
-<li>“有效性” - 最终被决定的值必须被至少一个进程提出过。</li>
-</ul>
-<p>“谷三篇”：Google File System、MapReduce、Bigtable</p>
-<p>分布式的服务的调度需要一个分布式的存储系统来支持服务的数据调度。<br>各大公司都在分布式的数据库上做各种各样的创新，他们都在使用底层的分布式文件系统来做存储引擎，把存储和计算分离开来，然后使用分布式一致性的数据同步协议的算法来在上层提供高可用、高扩展的支持。</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-CAP%E5%AE%9A%E7%90%86.png" alt="左耳听风-分布式架构-CAP定理"></p>
 <h3 id="编程范式-Programming-Paradigm"><a href="#编程范式-Programming-Paradigm" class="headerlink" title="编程范式 Programming Paradigm"></a>编程范式 Programming Paradigm</h3><p>范即模范。<br>范式即模式、方法，是一类典型的编程风格，是指从事软件工程的一类典型的风格（“方法学”）。<br>编程范式其实就是程序的指导思想，它也代表了这门语言的设计方向，各有千秋。</p>
 <p>通过使用抽象和隔离，让复杂的“世界”变得简单一些。</p>
 <h4 id="泛型编程-Generic-Programming"><a href="#泛型编程-Generic-Programming" class="headerlink" title="泛型编程 Generic Programming"></a>泛型编程 Generic Programming</h4><ol>
-<li>C语言<br>程序 = 算法 + 数据<br>一个通用的算法，需要对所处理的数据的数据类型进行适配。但在适配数据类型的过程中，C语言只能使用 <code>void*</code> 或 <code>宏替换</code>的方式。<br>算法其实是在操作数据结构，而数据则是放到数据结构中的，所以，真正的泛型除了适配数据类型外，还要适配数据结构。</li>
+<li>C语言</li>
 </ol>
+<p>程序 = 算法 + 数据<br>一个通用的算法，需要对所处理的数据的数据类型进行适配。但在适配数据类型的过程中，C语言只能使用 <code>void*</code> 或 <code>宏替换</code>的方式。<br>算法其实是在操作数据结构，而数据则是放到数据结构中的，所以，真正的泛型除了适配数据类型外，还要适配数据结构。</p>
 <p>C语言设计目标是提供一种能以简易的方式编译、处理低层内存、产生少量的机器码以及不需要任何运行环境支持便能运行的编程语言。<br>C语言的强大和优雅之处在于使用C语言的程序员在高级语言的特性之上还能简单地做任何底层上的微观控制。<br>C语言也很适合搭配汇编语言来使用。C语言把非常底层的控制权交给了程序员。</p>
 <p>C语言的设计理念是：</p>
 <ul>
@@ -992,8 +837,9 @@
 <li>保证C语言的最快的运行速度，那怕牺牲移值性</li>
 </ul>
 <ol start="2">
-<li>C++<br>C++有效解决程序泛型问题的方式：</li>
+<li>C++</li>
 </ol>
+<p>C++有效解决程序泛型问题的方式：</p>
 <ul>
 <li>第一，通过类的方式来解决。</li>
 <li>第二，通过模板达到类型和算法的妥协。</li>
@@ -1166,7 +1012,1939 @@ func<span class="token punctuation">(</span><span class="token punctuation">)</s
 <li>抽象化的</li>
 </ul>
 <p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%84%91%E4%B8%8E%E5%8F%B3%E8%84%91.png" alt="左脑与右脑"></p>
-<h3 id="弹力设计"><a href="#弹力设计" class="headerlink" title="弹力设计"></a>弹力设计</h3><h3 id="管理设计"><a href="#管理设计" class="headerlink" title="管理设计"></a>管理设计</h3><h3 id="性能设计"><a href="#性能设计" class="headerlink" title="性能设计"></a>性能设计</h3><h3 id="区块链"><a href="#区块链" class="headerlink" title="区块链"></a>区块链</h3><h3 id="程序员练级攻略"><a href="#程序员练级攻略" class="headerlink" title="程序员练级攻略"></a>程序员练级攻略</h3><h3 id="程序员面试攻略"><a href="#程序员面试攻略" class="headerlink" title="程序员面试攻略"></a>程序员面试攻略</h3><h3 id="高效学习"><a href="#高效学习" class="headerlink" title="高效学习"></a>高效学习</h3><h3 id="高效沟通"><a href="#高效沟通" class="headerlink" title="高效沟通"></a>高效沟通</h3><h3 id="Go语言编程模式"><a href="#Go语言编程模式" class="headerlink" title="Go语言编程模式"></a>Go语言编程模式</h3><p><a target="_blank" rel="noopener" href="https://github.com/sstian/GoConcurrents">https://github.com/sstian/GoConcurrents</a></p>
+<h3 id="分布式架构"><a href="#分布式架构" class="headerlink" title="分布式架构"></a>分布式架构</h3><h4 id="分布式系统架构"><a href="#分布式系统架构" class="headerlink" title="分布式系统架构"></a>分布式系统架构</h4><p>单体应用和分布式架构的优缺点：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>传统单体架构</th>
+<th>分布式服务化架构</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>新功能开发</td>
+<td>需要时间</td>
+<td>容易开发和实现</td>
+</tr>
+<tr>
+<td>部署</td>
+<td>不经常且容易部署</td>
+<td>经常发布，部署复杂</td>
+</tr>
+<tr>
+<td>隔离性</td>
+<td>故障影响范围小</td>
+<td>故障影响范围小</td>
+</tr>
+<tr>
+<td>架构设计</td>
+<td>难度小</td>
+<td>难度级数增加</td>
+</tr>
+<tr>
+<td>系统性能</td>
+<td>响应时间快，吞吐量小</td>
+<td>响应时间慢，吞吐量大</td>
+</tr>
+<tr>
+<td>系统运维</td>
+<td>运维简单</td>
+<td>运维复杂</td>
+</tr>
+<tr>
+<td>新人上手</td>
+<td>学习曲线大（应用逻辑）</td>
+<td>学习曲线大（架构逻辑）</td>
+</tr>
+<tr>
+<td>技术</td>
+<td>技术单一且封闭</td>
+<td>技术多样且开发</td>
+</tr>
+<tr>
+<td>测试和查错</td>
+<td>简单</td>
+<td>复杂</td>
+</tr>
+<tr>
+<td>系统扩展性</td>
+<td>扩展性很差</td>
+<td>扩展性很好</td>
+</tr>
+<tr>
+<td>系统管理</td>
+<td>重点在于开发成本</td>
+<td>重点在于服务治理和调度</td>
+</tr>
+</tbody></table>
+<p>使用分布式系统主要有两方面原因：<br>增大系统容量。<br>加强系统可用。</p>
+<p>系统架构演化：</p>
+<ul>
+<li>20世纪70年代，模块化编程</li>
+<li>20世纪80年代，面向事件设计</li>
+<li>20世纪90年代，基于接口/组件设计</li>
+<li>21世纪初，SOA = Service-Oriented Architecture 面向服务架构</li>
+</ul>
+<p>SOA架构是构造分布式计算应用程序的方法。<br>它将应用程序功能作为服务发送给最终用户或者其他服务。<br>它采用开放标准与软件资源进行交互，并采用标准的表示方式。</p>
+<p>开发、维护和使用SOA要遵循的基本原则：</p>
+<ul>
+<li>可重用，粒度合适，模块化，可组合，构件化以及有互操作性。</li>
+<li>符合开放标准（通用的或行业的）。</li>
+<li>服务的识别和分类，提供和发布，监控和跟踪。</li>
+</ul>
+<p>分布式系统中需要注意的问题：</p>
+<ul>
+<li>问题一：异构系统的不标准问题<br>一个好的配置管理，应该分成三层：底层和操作系统相关，中间层和中间件相关，最上面和业务应用相关。</li>
+<li>问题二：系统架构中的服务依赖性问题</li>
+<li>问题三：故障发生的概率更大<br>机器自动化。人管代码，代码管机器，人不管机器！</li>
+<li>问题四：多层架构的运维复杂度更大<br>系统分成四层：基础层、平台层、应用层和接入层。<ul>
+<li>基础层就是机器、网络和存储设备等。</li>
+<li>平台层就是中间件层，Tomcat、MySQL、Redis、Kafka之类的软件。</li>
+<li>应用层就是业务软件，比如，各种功能的服务。</li>
+<li>接入层就是接入用户请求的网关、负载均衡或是CDN、DNS。</li>
+</ul>
+</li>
+</ul>
+<p>分工不是问题，问题是分工后的协作是否统一和规范。<br>构建分布式服务需要从组织，到软件工程，再到技术上的一次大的改造，需要比较长的时间来磨合和改进，并不断地总结教训和成功经验。</p>
+<h4 id="分布式系统的技术栈"><a href="#分布式系统的技术栈" class="headerlink" title="分布式系统的技术栈"></a>分布式系统的技术栈</h4><p>Orchestration 编排</p>
+<p>分布式系统需要干的两件事：<br>一是提高整体架构的吞吐量，服务更多的并发和流量。<br>二是为了提高系统的稳定性，让系统的可用性更高。</p>
+<p>提高系统性能的技术：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%8F%90%E9%AB%98%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E7%9A%84%E6%8A%80%E6%9C%AF.jpeg" alt="左耳听风-分布式架构-提高系统性能的技术"></p>
+<p>提高系统稳定性的技术：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-%E6%8F%90%E9%AB%98%E7%B3%BB%E7%BB%9F%E7%A8%B3%E5%AE%9A%E6%80%A7%E7%9A%84%E6%8A%80%E6%9C%AF.jpeg" alt="左耳听风-分布式架构-提高系统稳定性的技术"></p>
+<p>分布式系统四个核心关键技术：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF.jpeg" alt="左耳听风-分布式架构-关键技术"></p>
+<ol>
+<li><p>全栈监控<br>好的监控系统：服务调用链跟踪，服务调用时长分布，服务的TOP N视图，数据库操作关联。</p>
+</li>
+<li><p>服务调度<br>对于故障迁移，也就是服务的某个实例出现问题时，需要自动地恢复它。<br>对于服务来说，有两种模式：</p>
+</li>
+</ol>
+<ul>
+<li>宠物模式。就是一定要救活，主要是对于stateful的服务。</li>
+<li>奶牛模式。就是不救活了，重新生成一个实例。</li>
+</ul>
+<ol start="3">
+<li>流量与数据调度<br>服务治理是内部系统的、数据中心的事。<br>服务治理是流量调度的前提。</li>
+</ol>
+<p>一个好的API Gateway需要具备关键技术：<br>高性能，使用集群技术扛流量，简单的业务逻辑，使用Admin API管理配置变更的服务化。</p>
+<p>数据副本是分布式系统解决数据丢失异常的唯一手段。<br>在解决数据副本间的一致性问题时的技术方案：</p>
+<ul>
+<li>Master-Slave方案。</li>
+<li>Master-Master方案。</li>
+<li>两阶段和三阶段提交方案。</li>
+<li>Paxos方案。</li>
+</ul>
+<p>分布式系统事务处理：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E4%BA%8B%E5%8A%A1%E5%A4%84%E7%90%86.png" alt="左耳听风-分布式架构-分布式系统事务处理"></p>
+<h4 id="PaaS"><a href="#PaaS" class="headerlink" title="PaaS"></a>PaaS</h4><p>SaaS = Software as a Service 软件即服务<br>aPaas = Application Platform as a Service 应用程序平台即服务<br>PaaS = Platform as a Service 平台即服务<br>IaaS = Infrastructure as a Service 基础设施即服务</p>
+<ol>
+<li>软件工程的本质：</li>
+</ol>
+<ul>
+<li>第一，提高服务的SLA。<br>SLA = Service Level Agreement 服务级别协议：提供服务的企业与客户之间就服务的品质、水准、性能等方面所达成的双方共同认可的协议或契约。<br>提高系统的SLA主要表现在两个方面：高可用的系统；自动化的运维。</li>
+<li>第二，能力和资源重用或复用。<br>软件工程另一个重要的能力就是让能力和资源可以重用。<br>主要表现在两个方面：软件模块的重用；软件运行环境和资源的重用。</li>
+<li>第三，过程的自动化。<br>编程本来就是把一个重复工作自动化的过程。<br>把软件生产和运维的过程自动化起来表现在两个方面：软件生产流水线；软件运维自动化。</li>
+</ul>
+<ol start="2">
+<li>PaaS平台 -&gt; 云计算 | Cloud Native：</li>
+</ol>
+<ul>
+<li>分布式多层的系统架构</li>
+<li>服务化的能力供应</li>
+<li>自动化的运维能力</li>
+</ul>
+<p>一个好的PaaS平台应该具有分布式（根本特性）、服务化（本质）、自动化部署（灵魂）、高可用、敏捷以及分层开放的特征，并可与IaaS实现良好的联动。</p>
+<ol start="3">
+<li>CAP定理<br>分布式系统设计中最基础，最为关键的理论。<br>它指出，分布式数据存储不可能同时满足以下三个条件：</li>
+</ol>
+<ul>
+<li>一致性（Consistency）：每次读取要么获得最近写入的数据，要么获得一个错误。</li>
+<li>可用性（Availability）：每次请求都能获得一个（非错误）响应，但不保证返回的是最新写入的数据。</li>
+<li>分区容忍（Partition tolerance）：尽管任意数量的消息被节点间的网络丢失（或延迟），系统仍继续运行。</li>
+</ul>
+<p>在分布式系统中错误是不可能避免的，我们能做的不是避免错误，而是要把错误的处理当成功能写在代码中。</p>
+<p>解决了共识问题的算法具备的三点特性：<br>  给出一个处理者的集合，其中每一个处理者都有一个初始值：</p>
+<ul>
+<li>“终止” - 所有无错误的进程（处理过程）最终都将决定一个值。</li>
+<li>“一致同意” - 所有会做决定的无错误进程决定的都将是同一个值。</li>
+<li>“有效性” - 最终被决定的值必须被至少一个进程提出过。</li>
+</ul>
+<p>“谷三篇”：Google File System、MapReduce、Bigtable</p>
+<p>分布式的服务的调度需要一个分布式的存储系统来支持服务的数据调度。<br>各大公司都在分布式的数据库上做各种各样的创新，他们都在使用底层的分布式文件系统来做存储引擎，把存储和计算分离开来，然后使用分布式一致性的数据同步协议的算法来在上层提供高可用、高扩展的支持。</p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84-CAP%E5%AE%9A%E7%90%86.png" alt="左耳听风-分布式架构-CAP定理"></p>
+<h3 id="分布式系统的设计模式"><a href="#分布式系统的设计模式" class="headerlink" title="分布式系统的设计模式"></a>分布式系统的设计模式</h3><h4 id="弹力设计-容错设计"><a href="#弹力设计-容错设计" class="headerlink" title="弹力设计/容错设计"></a>弹力设计/容错设计</h4><h5 id="系统可用性"><a href="#系统可用性" class="headerlink" title="系统可用性"></a>系统可用性</h5><p>对于分布式系统的容错设计，在英文中又叫Resiliency（弹力）。意思是，系统在不健康、不顺，甚至出错的情况下有能力hold得住，挺得住，还有能在这种逆境下力挽狂澜的能力。</p>
+<p>公式：<code>Availability = MTTF / (MTTF + MTTR)</code><br>MTTF 是 Mean Time To Failure，平均故障前的时间，即系统平均能够正常运行多长时间才发生一次故障。系统的可靠性越高，MTTF越长。<br>MTTR 是 Mean Time To Recovery，平均修复时间，即从故障出现到故障修复的这段时间，这段时间越短越好。</p>
+<p>要充分地意识到下面两个事：</p>
+<ul>
+<li>故障是正常的，而且是常见的。</li>
+<li>故障是不可预测突发的，而且相当难缠。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="right">系统可用性%</th>
+<th align="right">宕机时间/年</th>
+<th align="right">宕机时间/月</th>
+<th align="right">宕机时间/周</th>
+<th align="right">宕机时间/天</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">90% (1个9)</td>
+<td align="right">36.5 天</td>
+<td align="right">72 小时</td>
+<td align="right">16.8 小时</td>
+<td align="right">2.4 小时</td>
+</tr>
+<tr>
+<td align="right">99% (2个9)</td>
+<td align="right">3.35 天</td>
+<td align="right">7.20 小时</td>
+<td align="right">1.68 小时</td>
+<td align="right">14.4 分</td>
+</tr>
+<tr>
+<td align="right">99.9% (3个9)</td>
+<td align="right">8.76 小时</td>
+<td align="right">43.8 分</td>
+<td align="right">10.1 分</td>
+<td align="right">1.44 分</td>
+</tr>
+<tr>
+<td align="right">99.99% (3个9)</td>
+<td align="right">52.56 分</td>
+<td align="right">4.38 分</td>
+<td align="right">1.01 分</td>
+<td align="right">8.66 秒</td>
+</tr>
+<tr>
+<td align="right">99.999% (4个9)</td>
+<td align="right">5.26 分</td>
+<td align="right">25.9 秒</td>
+<td align="right">6.05 秒</td>
+<td align="right">0.87 秒</td>
+</tr>
+</tbody></table>
+<h5 id="隔离设计-Bulkheads"><a href="#隔离设计-Bulkheads" class="headerlink" title="隔离设计 Bulkheads"></a>隔离设计 Bulkheads</h5><p>常见的隔离有两种：</p>
+<ul>
+<li>一种是按服务种类隔离。<br>  通常会引入大量的异步处理模型。</li>
+<li>一种是按用户隔离（即多租户）。<br>  多租户的做法有三种：<ul>
+<li>完全独立的设计。每个租户有自己完全独立的服务和数据。</li>
+<li>独立的数据分区，共享的服务。多租户的服务是共享的，但数据是分开隔离的。</li>
+<li>共享的服务，共享的数据分区。每个租户的数据和服务都是共享的。</li>
+</ul>
+</li>
+</ul>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%B9%E5%8A%9B%E8%AE%BE%E8%AE%A1-%E9%9A%94%E7%A6%BB%E8%AE%BE%E8%AE%A1-%E5%A4%9A%E7%A7%9F%E6%88%B7%E6%96%B9%E6%A1%88%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9.jpg" alt="左耳听风-分布式系统的设计模式-弹力设计-隔离设计-多租户方案的优缺点"></p>
+<h5 id="异步通讯设计"><a href="#异步通讯设计" class="headerlink" title="异步通讯设计"></a>异步通讯设计</h5><p>同步调用有四个问题：影响吞吐量、消耗系统资源、只能一对一，以及有多米诺骨牌效应。</p>
+<p>异步通讯的三种方式：</p>
+<ul>
+<li><p>请求响应式<br>  在这种情况下，发送方（sender）会直接请求接收方（receiver），被请求方接收到请求后，直接返回——收到请求，正在处理。<br>  对于返回结果，有两种方法，一种是发送方时不时地去轮询一下，问一下干没干完。另一种方式是发送方注册一个回调方法，也就是接收方处理完后回调请求方。</p>
+</li>
+<li><p>直接订阅<br>  接收方（receiver）会来订阅发送方（sender）的消息，发送方会把相关的消息或数据放到接收方所订阅的队列中，而接收方会从队列中获取数据。<br>  这种方式下，发送方并不关心订阅方的处理结果，它只是告诉订阅方有事要干，收完消息后给个ACK就好了，你干成啥样我不关心。</p>
+</li>
+<li><p>通过Broker的方式<br>  所谓Broker，就是一个中间人，发送方（sender）和接收方（receiver）都互相看不到对方，它们看得到的是一个Broker，发送方向Broker发送消息，接收方向Broker订阅消息。<br>  完全的解耦。所有的服务都不需要相互依赖，而是依赖于一个中间件Broker。</p>
+<p>  但是所有人都依赖于一个总线，所以这个总线就需要有如下的特性：</p>
+<ul>
+<li>必须是高可用的，因为它成了整个系统的关键；</li>
+<li>必须是高性能而且是可以水平扩展的；</li>
+<li>必须是可以持久化不丢数据的。</li>
+</ul>
+</li>
+</ul>
+<p>第二种和第三种方式就是比较著名的事件驱动架构（EDA – Event Driven Architecture）。正如前面所说，事件驱动最好是使用Broker方式，服务间通过交换消息来完成交流和整个流程的驱动。<br>自包含也就是没有和别人产生依赖。</p>
+<p>事件驱动方式的好处至少有五个：</p>
+<ul>
+<li>服务间的依赖没有了，服务间是平等的，每个服务都是高度可重用并可被替换的。</li>
+<li>服务的开发、测试、运维，以及故障处理都是高度隔离的。</li>
+<li>服务间通过事件关联，所以服务间是不会相互block的。</li>
+<li>在服务间增加一些Adapter（如日志、认证、版本、限流、降级、熔断等）相当容易。</li>
+<li>服务间的吞吐也被解开了，各个服务可以按照自己的处理速度处理。</li>
+</ul>
+<p>任何设计都有好有不好的方式。事件驱动的架构也会有一些不好的地方：</p>
+<ul>
+<li>业务流程不再那么明显和好管理。整个架构变得比较复杂。解决这个问题需要有一些可视化的工具来呈现整体业务流程。</li>
+<li>事件可能会乱序。这会带来非常Bug的事。解决这个问题需要很好地管理一个状态机的控制。</li>
+<li>事务处理变得复杂。需要使用两阶段提交来做强一致性，或是退缩到最终一致性。</li>
+</ul>
+<p><strong>异步通讯最重要的是解耦服务间的依赖。最佳解耦的方式是通过Broker的机制。</strong></p>
+<h5 id="幂等性设计"><a href="#幂等性设计" class="headerlink" title="幂等性设计"></a>幂等性设计</h5><p>幂等性设计，就是说，一次和多次请求某一个资源应该具有同样的副作用。用数学的语言来表达就是：f(x) = f(f(x))。</p>
+<p>系统解耦隔离后，服务间的调用可能会有三个状态，一个是成功（Success），一个是失败（Failed），一个是超时（Timeout）。<br>前两者都是明确的状态，而超时则是完全不知道是什么状态。</p>
+<p>因为系统超时，而调用户方重试一下，会给我们的系统带来不一致的副作用。<br>在这种情况下，一般有两种处理方式：</p>
+<ul>
+<li>一种是需要下游系统提供相应的查询接口。上游系统在timeout后去查询一下。如果查到了，就表明已经做了，成功了就不用做了，失败了就走失败流程。</li>
+<li>另一种是通过幂等性的方式。也就是说，把这个查询操作交给下游系统，我上游系统只管重试，下游系统保证一次和多次的请求结果是一样的。</li>
+</ul>
+<p>为了在分布式系统中实现幂等性，我们需要实现全局ID。<br>Twitter的Snowflake就是一个比较好用的全局ID实现。它是一个分布式ID的生成算法。<br>其核心思想是，产生一个long型的ID，其中：</p>
+<ul>
+<li>41bits作为毫秒数。大概可以用69.7年。</li>
+<li>10bits作为机器编号（5bits是数据中心，5bits的机器ID），支持1024个实例。</li>
+<li>12bits作为毫秒内的序列号。一毫秒可以生成4096个序号。</li>
+</ul>
+<p>HTTP的幂等性：</p>
+<table>
+<thead>
+<tr>
+<th>HTTP 方法</th>
+<th>说明</th>
+<th>副作用</th>
+<th>幂等性</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GET</td>
+<td>获取资源</td>
+<td>无</td>
+<td>是</td>
+</tr>
+<tr>
+<td>HEAD</td>
+<td>和GET本质是一样的，区别在于HEAD不含有呈现数据，而仅仅是HTTP头信息</td>
+<td>无</td>
+<td>是</td>
+</tr>
+<tr>
+<td>OPTIONS</td>
+<td>获取当前URL所支持的方法</td>
+<td>无</td>
+<td>是</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>删除资源</td>
+<td>有</td>
+<td>是</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>创建或更新操作，所对应的URI是要创建或更新的资源本身</td>
+<td>有</td>
+<td>是</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>创建资源，所对应的URI并非创建的资源本身，而是去执行创建动作的操作者</td>
+<td>有</td>
+<td>否</td>
+</tr>
+</tbody></table>
+<p>对于POST的方式，解决多次提交，更为稳妥的做法是，后端成功后向前端返回302跳转，把用户的前端页跳转到GET请求，把刚刚POST的数据给展示出来。<br>如果是Web上的最好还把之前的表单设置成过期，这样用户不能通过浏览器后退按钮来重新提交。这个模式又叫做 PRG模式（Post/Redirect/Get）。</p>
+<h5 id="服务的状态"><a href="#服务的状态" class="headerlink" title="服务的状态"></a>服务的状态</h5><p>DHT = Distributed Hash Table 分布式哈希表</p>
+<p>所谓“状态”，就是为了保留程序的一些数据或是上下文。</p>
+<p>无状态的服务需要我们把数据同步到不同的节点上，有状态的服务通过Sticky Session做数据分片。</p>
+<ul>
+<li>无状态的服务就像一个函数一样，对于给定的输入，它会给出唯一确定的输出。它的好处是很容易运维和伸缩，但需要底层有分布式的数据库支持。</li>
+<li>有状态的服务，它们通过Sticky Session、一致性Hash和DHT等技术实现状态和请求的关联，并将数据同步到分布式数据库中；利用分布式文件系统，还能在节点挂掉时快速启动新实例。</li>
+</ul>
+<p>Sticky Session是怎么实现的呢？<br>最简单的实现就是用持久化的长连接。就算是HTTP协议也要用长连接。或是通过一个简单的哈希（hash）算法。</p>
+<p>让有状态的服务直接路由。要做到这点，一般来说，有两种方式：</p>
+<ul>
+<li>一种是直接使用配置，在节点启动时把其元数据读到内存中，但是这样一来增加或减少节点都需要更新这个配置，会导致其它节点也一同要重新读入。</li>
+<li>另一种比较好的做法是使用到Gossip协议，通过这个协议在各个节点之间互相散播消息来同步元数据，这样新增或减少节点，集群内部可以很容易重新分配。</li>
+</ul>
+<h5 id="补偿事务-Compensating-Transaction"><a href="#补偿事务-Compensating-Transaction" class="headerlink" title="补偿事务 Compensating Transaction"></a>补偿事务 Compensating Transaction</h5><ol>
+<li>关系型数据库事务的ACID<br>传统关系型数据库系统的事务都有ACID属性，即原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation，又称独立性）、持久性（Durability）：</li>
+</ol>
+<ul>
+<li>原子性：整个事务中的所有操作，要么全部完成，要么全部失败，不可能停滞在中间某个环节。事务在执行过程中发生错误，会被回滚（Rollback）到事务开始前的状态，就像这个事务从来没有执行过一样。</li>
+<li>一致性：在事务开始之前和事务结束以后，数据库的完整性约束没有被破坏。</li>
+<li>隔离性：两个事务的执行是互不干扰的，一个事务不可能看到其他事务运行时中间某一时刻的数据。两个事务不会发生交互。</li>
+<li>持久性：在事务完成以后，该事务对数据库所做的更改便持久地保存在数据库之中，并不会被回滚。</li>
+</ul>
+<ol start="2">
+<li>分布式系统的BASE</li>
+</ol>
+<p>BASE系统是允许或是容忍系统出现暂时性问题的，Design for Failure。</p>
+<p>分布式系统，为了提高性能，出现了ACID的一个变种BASE：</p>
+<ul>
+<li>Basic Availability：基本可用。这意味着，系统可以出现暂时不可用的状态，而后面会快速恢复。</li>
+<li>Soft-state：软状态。它是我们前面的“有状态”和“无状态”的服务的一种中间状态。也就是说，为了提高性能，我们可以让服务暂时保存一些状态或数据，这些状态和数据不是强一致性的。</li>
+<li>Eventual Consistency：最终一致性，系统在一个短暂的时间段内是不一致的，但最终整个系统看到的数据是一致的。</li>
+</ul>
+<ol start="3">
+<li>补偿事务</li>
+</ol>
+<p>当条件不满足，或是有变化的时候，需要从业务上做相应的整体事务的补偿。<br>一般来说，业务的事务补偿都是需要一个工作流引擎的。<br>需要将服务做成幂等性的，失败或超时则重试。</p>
+<p>一个好的业务补偿机制需要做到下面这几点：</p>
+<ul>
+<li>要能清楚地描述出要达到什么样的状态（比如：请假、机票、酒店这三个都必须成功，租车是可选的），以及如果其中的条件不满足，那么，我们要回退到哪一个状态。这就是所谓的整个业务的起始状态定义。</li>
+<li>努力地通过一系列的操作达到一个我们想要的状态。如果达不到，就需要通过补偿机制回滚到之前的状态。这就是所谓的状态拟合。</li>
+</ul>
+<p>业务补偿主要做两件事：</p>
+<ul>
+<li>努力地把一个业务流程执行完成。</li>
+<li>如果执行不下去，需要启动补偿机制，回滚业务流程。</li>
+</ul>
+<p>在分布式系统中，ACID有更强的一致性，但可伸缩性非常差，仅在必要时使用；BASE的一致性较弱，但有很好的可伸缩性，还可以异步批量处理；大多数分布式事务适合BASE。<br>要实现BASE事务，需要实现补偿逻辑，因为事务可能失败，此时需要协调各方进行撤销。补偿的各个步骤可以根据具体业务来确定是串行还是并行。由于补偿事务是和业务强相关的，所以必须实现在业务逻辑里。</p>
+<h5 id="重试设计"><a href="#重试设计" class="headerlink" title="重试设计"></a>重试设计</h5><ol>
+<li>重试的场景</li>
+</ol>
+<p>“重试”的语义是我们认为这个故障是暂时的，而不是永久的，所以，我们会去重试。<br>设计重试时，我们需要定义出什么情况下需要重试，例如，调用超时、被调用端返回了某种可以重试的错误（如繁忙中、流控中、维护中、资源不足等）。<br>而对于一些别的错误，则最好不要重试，比如：业务级的错误（如没有权限、或是非法数据等错误），技术上的错误（如：HTTP的503等，这种原因可能是触发了代码的bug，重试下去没有意义）。</p>
+<ol start="2">
+<li>重试的策略</li>
+</ol>
+<ul>
+<li><p>设置重试的最大值。</p>
+</li>
+<li><p>Exponential Backoff的策略，也就是所谓的”指数级退避”。在这种情况下，每一次重试所需要的休息时间都会成倍增加。这种机制主要是用来让被调用方能够有更多的时间来从容处理我们的请求。</p>
+</li>
+<li><p>Spring的重试策略<br>  Spring Retry 是一个单独实现重试功能的项目，我们可以通过Annotation的方式使用。具体如下。</p>
+  <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token annotation punctuation">@Service</span>
+<span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">MyService</span> <span class="token punctuation">{</span>
+		<span class="token annotation punctuation">@Retryable</span><span class="token punctuation">(</span>
+			value <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token class-name">SQLException</span><span class="token punctuation">.</span><span class="token keyword">class</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> 
+			maxAttempts <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">,</span>
+			backoff <span class="token operator">=</span> <span class="token annotation punctuation">@Backoff</span><span class="token punctuation">(</span>delay <span class="token operator">=</span> <span class="token number">5000</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+		<span class="token keyword">void</span> <span class="token function">retryService</span><span class="token punctuation">(</span><span class="token class-name">String</span> sql<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">SQLException</span><span class="token punctuation">;</span>
+		<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>  配置 @Retryable 注解，只对 SQLException 的异常进行重试，重试两次，每次延时5000ms。</p>
+<ul>
+<li><p>NeverRetryPolicy：只允许调用RetryCallback一次，不允许重试。</p>
+</li>
+<li><p>AlwaysRetryPolicy：允许无限重试，直到成功，此方式逻辑不当会导致死循环。</p>
+</li>
+<li><p>SimpleRetryPolicy：固定次数重试策略，默认重试最大次数为3次，RetryTemplate默认使用的策略。</p>
+</li>
+<li><p>TimeoutRetryPolicy：超时时间重试策略，默认超时时间为1秒，在指定的超时时间内允许重试。</p>
+</li>
+<li><p>CircuitBreakerRetryPolicy：有熔断功能的重试策略，需设置3个参数openTimeout、resetTimeout和delegate；关于熔断，会在后面描述。</p>
+</li>
+<li><p>CompositeRetryPolicy：组合重试策略。有两种组合方式，乐观组合重试策略是指只要有一个策略允许重试即可以，悲观组合重试策略是指只要有一个策略不允许重试即不可以。但不管哪种组合方式，组合中的每一个策略都会执行。</p>
+<p>关于Backoff的策略如下：</p>
+</li>
+<li><p>NoBackOffPolicy：无退避算法策略，即当重试时是立即重试；</p>
+</li>
+<li><p>FixedBackOffPolicy：固定时间的退避策略，需设置参数sleeper和backOffPeriod，sleeper指定等待策略，默认是Thread.sleep，即线程休眠，backOffPeriod指定休眠时间，默认1秒。</p>
+</li>
+<li><p>UniformRandomBackOffPolicy：随机时间退避策略，需设置sleeper、minBackOffPeriod和maxBackOffPeriod。该策略在[minBackOffPeriod, maxBackOffPeriod]之间取一个随机休眠时间，minBackOffPeriod默认为500毫秒，maxBackOffPeriod默认为1500毫秒。</p>
+</li>
+<li><p>ExponentialBackOffPolicy：指数退避策略，需设置参数sleeper、initialInterval、maxInterval和multiplier。initialInterval指定初始休眠时间，默认为100毫秒。maxInterval指定最大休眠时间，默认为30秒。multiplier指定乘数，即下一次休眠时间为当前休眠时间*multiplier。</p>
+</li>
+<li><p>ExponentialRandomBackOffPolicy：随机指数退避策略，引入随机乘数，之前说过固定乘数可能会引起很多服务同时重试导致DDos，使用随机休眠时间来避免这种情况。</p>
+</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>重试设计的重点</li>
+</ol>
+<ul>
+<li>要确定什么样的错误下需要重试。</li>
+<li>重试的时间和重试的次数。</li>
+<li>考虑被调用方是否有幂等的设计。</li>
+<li>重试的代码比较简单也比较通用，完全可以不用侵入到业务代码中。<br>  这里有两个模式。一个是代码级的，像Java那样可以使用Annotation的方式（在Spring中你可以用到这样的注解），如果没有注解也可以包装在底层库或是SDK库中不需要让上层业务感知到。另外一种是走Service Mesh的方式。</li>
+</ul>
+<h5 id="熔断设计"><a href="#熔断设计" class="headerlink" title="熔断设计"></a>熔断设计</h5><p>熔断设计是受了电路设计中保险丝的启发，其需要实现三个状态：闭合、断开和半开，分别对应于正常、故障和故障后检测故障是否已被修复的场景，</p>
+<p>熔断器模式可以防止应用程序不断地尝试执行可能会失败的操作，使得应用程序继续执行而不用等待修正错误，或者浪费CPU时间去等待长时间的超时产生。<br>熔断器模式也可以使应用程序能够诊断错误是否已经修正。如果已经修正，应用程序会再次尝试调用操作。<br>换句话来说，我觉得熔断器模式就像是那些容易导致错误的操作的一种代理。这种代理能够记录最近调用发生错误的次数，然后决定允许操作继续，或者立即返回错误。</p>
+<p>熔断器（Circuit Breaker）可以使用状态机来实现，内部模拟以下几种状态：</p>
+<ul>
+<li>闭合（Closed）状态：我们需要一个调用失败的计数器，如果调用失败，则使失败次数加1。如果最近失败次数超过了在给定时间内允许失败的阈值，则切换到断开(Open)状态。此时开启了一个超时时钟，当该时钟超过了该时间，则切换到半断开（Half-Open）状态。该超时时间的设定是给了系统一次机会来修正导致调用失败的错误，以回到正常工作的状态。在Closed状态下，错误计数器是基于时间的。在特定的时间间隔内会自动重置。这能够防止由于某次的偶然错误导致熔断器进入断开状态。也可以基于连续失败的次数。</li>
+<li>断开(Open)状态：在该状态下，对应用程序的请求会立即返回错误响应，而不调用后端的服务。这样也许比较粗暴，有些时候，我们可以cache住上次成功请求，直接返回缓存（当然，这个缓存放在本地内存就好了），如果没有缓存再返回错误（缓存的机制最好用在全站一样的数据，而不是用在不同的用户间不同的数据，因为后者需要缓存的数据有可能会很多）。</li>
+<li>半开（Half-Open）状态：允许应用程序一定数量的请求去调用服务。如果这些请求对服务的调用成功，那么可以认为之前导致调用失败的错误已经修正，此时熔断器切换到闭合状态，同时将错误计数器重置。</li>
+</ul>
+<p>熔断设计的重点：</p>
+<ul>
+<li>错误的类型。需要注意的是请求失败的原因会有很多种。你需要根据不同的错误情况来调整相应的策略。所以，熔断和重试一样，需要对返回的错误进行识别。一些错误先走重试的策略（比如限流，或是超时），重试几次后再打开熔断。一些错误是远程服务挂掉，恢复时间比较长；这种错误不必走重试，就可以直接打开熔断策略。</li>
+<li>日志监控。熔断器应该能够记录所有失败的请求，以及一些可能会尝试成功的请求，使得管理员能够监控使用熔断器保护服务的执行情况。</li>
+<li>测试服务是否可用。在断开状态下，熔断器可以采用定期地ping一下远程服务的健康检查接口，来判断服务是否恢复，而不是使用计时器来自动切换到半开状态。这样做的一个好处是，在服务恢复的情况下，不需要真实的用户流量就可以把状态从半开状态切回关闭状态。否则在半开状态下，即便服务已恢复了，也需要用户真实的请求来恢复，这会影响用户的真实请求。</li>
+<li>手动重置。在系统中对于失败操作的恢复时间是很难确定的，提供一个手动重置功能能够使得管理员可以手动地强制将熔断器切换到闭合状态。同样的，如果受熔断器保护的服务暂时不可用的话，管理员能够强制将熔断器设置为断开状态。并发问题。相同的熔断器有可能被大量并发请求同时访问。熔断器的实现不应该阻塞并发的请求或者增加每次请求调用的负担。尤其是其中对调用结果的统计，一般来说会成为一个共享的数据结构，它会导致有锁的情况。在这种情况下，最好使用一些无锁的数据结构，或是atomic的原子操作。这样会带来更好的性能。</li>
+<li>资源分区。有时候，我们会把资源分布在不同的分区上。比如，数据库的分库分表，某个分区可能出现问题，而其它分区还可用。在这种情况下，单一的熔断器会把所有的分区访问给混为一谈，从而，一旦开始熔断，那么所有的分区都会受到熔断影响。或是出现一会儿熔断一会儿又好，来来回回的情况。所以，熔断器需要考虑这样的问题，只对有问题的分区进行熔断，而不是整体。</li>
+<li>重试错误的请求。有时候，错误和请求的数据和参数有关系，所以，记录下出错的请求，在半开状态下重试能够准确地知道服务是否真的恢复。当然，这需要被调用端支持幂等调用，否则会出现一个操作被执行多次的副作用。</li>
+</ul>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%B9%E5%8A%9B%E8%AE%BE%E8%AE%A1-%E7%86%94%E6%96%AD%E8%AE%BE%E8%AE%A1-CircuitBreaker.jpg" alt="左耳听风-分布式系统的设计模式-弹力设计-熔断设计-CircuitBreaker"></p>
+<h5 id="限流设计"><a href="#限流设计" class="headerlink" title="限流设计"></a>限流设计</h5><p>限流的目的是为了保护系统不在过载的情况下导致问题。</p>
+<ol>
+<li>限流的策略</li>
+</ol>
+<p>限流的目的是通过对并发访问进行限速，相关的策略一般是，一旦达到限制的速率，那么就会触发相应的限流行为。<br>一般来说，触发的限流行为如下：</p>
+<ul>
+<li>拒绝服务。把多出来的请求拒绝掉。</li>
+<li>服务降级。关闭或是把后端服务做降级处理。这样可以让服务有足够的资源来处理更多的请求。降级有很多方式，一种是把一些不重要的服务给停掉，把CPU、内存或是数据的资源让给更重要的功能；一种是不再返回全量数据，只返回部分数据。最快的一种是直接返回预设的缓存，以牺牲一致性的方式来获得更大的性能吞吐。</li>
+<li>特权请求。所谓特权请求的意思是，资源不够了，我只能把有限的资源分给重要的用户，比如：分给权利更高的VIP用户。</li>
+<li>延时处理。使用缓冲队列只是为了减缓压力，一般用于应对短暂的峰刺请求。</li>
+<li>弹性伸缩。动用自动化运维的方式对相应的服务做自动化的伸缩。</li>
+</ul>
+<ol start="2">
+<li>限流的实现方式</li>
+</ol>
+<ul>
+<li><p>计数器方式<br>最简单的限流算法就是维护一个计数器Counter，当一个请求来时，就做加一操作，当一个请求处理完后就做减一操作。如果这个Counter大于某个数了（我们设定的限流阈值），那么就开始拒绝请求以保护系统的负载了。</p>
+</li>
+<li><p>队列算法<br>类似FIFO算法。一个是有优先级的队列。带权重的队列。<br>队列流控是以队列的的方式来处理请求。如果处理过慢，那么就会导致队列满，而开始触发限流。<br>这样的模型不能做push，而是pull方式会好一些。</p>
+</li>
+<li><p>漏斗算法 Leaky Bucket<br>“漏斗”是用一个队列来实现的，当请求过多时，队列就会开始积压请求，如果队列满了，就会开拒绝请求。<br>漏斗算法其实就是在队列请求中加上一个限流器，来让Processor以一个均匀的速度处理请求。</p>
+</li>
+<li><p>令牌桶算法 Token Bucket<br>关于令牌桶算法，主要是有一个中间人。在一个桶内按照一定的速率放入一些token，然后，处理程序要处理请求时，需要拿到token，才能处理；如果拿不到，则不处理。<br>漏斗算法中，处理请求是以一个常量和恒定的速度处理的，而令牌桶算法则是在流量小的时候“攒钱”，流量大的时候，可以快速处理。</p>
+</li>
+<li><p>基于响应时间的动态限流<br>设计的典范是TCP协议的拥塞控制的算法。TCP使用RTT - Round Trip Time 来探测网络的延时和性能，从而设定相应的“滑动窗口”的大小，以让发送的速率和网络的性能相匹配。<br>解决方案有两种，一种是不记录所有的请求，采样就好了，另一种是使用一个叫蓄水池的近似算法。</p>
+</li>
+</ul>
+<ol start="3">
+<li>限流的设计要点</li>
+</ol>
+<p>限流主要是有四个目的：</p>
+<ul>
+<li>为了向用户承诺SLA。我们保证我们的系统在某个速度下的响应时间以及可用性。</li>
+<li>阻止在多租户的情况下，某一用户把资源耗尽而让所有的用户都无法访问的问题。</li>
+<li>为了应对突发的流量。</li>
+<li>节约成本。我们不会为了一个不常见的尖峰来把我们的系统扩容到最大的尺寸。而是在有限的资源下能够承受比较高的流量。</li>
+</ul>
+<p>在设计上，我们还要有以下的考量：</p>
+<ul>
+<li>限流应该是在架构的早期考虑。当架构形成后，限流不是很容易加入。</li>
+<li>限流模块性能必须好，而且对流量的变化也是非常灵敏的，否则太过迟钝的限流，系统早因为过载而挂掉了。</li>
+<li>限流应该有个手动的开关，这样在应急的时候，可以手动操作。</li>
+<li>当限流发生时，应该有个监控事件通知。让我们知道有限流事件发生，这样，运维人员可以及时跟进。而且还可以自动化触发扩容或降级，以缓解系统压力。</li>
+<li>当限流发生时，对于拒掉的请求，我们应该返回一个特定的限流错误码。这样，可以和其它错误区分开来。而客户端看到限流，可以调整发送速度，或是走重试机制。</li>
+<li>限流应该让后端的服务感知到。限流发生时，我们应该在协议头中塞进一个标识，比如HTTP Header中，放入一个限流的级别，告诉后端服务目前正在限流中。这样，后端服务可以根据这个标识决定是否做降级。</li>
+</ul>
+<h5 id="降级设计"><a href="#降级设计" class="headerlink" title="降级设计"></a>降级设计</h5><p>降级设计（Degradation），本质是为了解决资源不足和访问量过大的问题。</p>
+<p>降级需要牺牲掉的东西有：</p>
+<ul>
+<li>降低一致性。从强一致性变成最终一致性。<br>  会有两种做法：<ul>
+<li>使用异步简化流程</li>
+<li>降低数据的一致性<br>  降低数据的一致性一般来说会使用缓存的方式，或是直接就去掉数据。</li>
+</ul>
+</li>
+<li>停止次要功能。停止访问不重要的功能，从而释放出更多的资源。<br>  停止次要的功能也是一种非常有用的策略。把一些不重要的功能给暂时停止掉，让系统释放出更多的资源来。<br>  最好不要停止次要的功能，首先可以限制次要的功能的流量，或是把次要的功能退化成简单的功能，最后如果量太大了，我们才会进入停止功能的状态。<br>  最好给用户一些补偿，比如把用户切换到一个送积分卡，或是红包抽奖的网页上，有限地补偿一下用户。</li>
+<li>简化功能。把一些功能简化掉，比如，简化业务流程，或是不再返回全量数据，只返回部分数据。<br>  一个API会有两个版本，一个版本返回全量数据，另一个版本只返回部分或最小的可用的数据。</li>
+</ul>
+<p>降级设计的要点：</p>
+<ul>
+<li>对于降级，一般来说是要牺牲业务功能或是流程，以及一致性的。所以，我们需要对业务做非常仔细的梳理和分析。</li>
+<li>在设计降级的时候，需要清楚地定义好降级的关键条件，比如，吞吐量过大、响应时间过慢、失败次数多过，有网络或是服务故障，等等，然后做好相应的应急预案。这些预案最好是写成代码可以快速地自动化或半自动化执行的。</li>
+<li>降级的时候，需要牺牲掉一致性，或是一些业务流程：对于读操作来说，使用缓存来解决，对于写操作来说，需要异步调用来解决。</li>
+<li>降级的功能的开关可以是一个系统的配置开关。</li>
+<li>对于数据方面的降级，需要前端程序的配合。一般来说，前端的程序可以根据后端传来的数据来决定展示哪些界面模块。</li>
+</ul>
+<h5 id="弹力设计总结"><a href="#弹力设计总结" class="headerlink" title="弹力设计总结"></a>弹力设计总结</h5><ol>
+<li>弹力设计总图</li>
+</ol>
+<p>首先，我们的服务不能是单点，所以，我们需要在架构中冗余服务，也就是说有多个服务的副本。这需要使用到的具体技术有：</p>
+<ul>
+<li>负载均衡 + 服务健康检查，可以使用像Nginx或HAProxy这样的技术；</li>
+<li>服务发现 + 动态路由 + 服务健康检查，比如Consul或ZooKeeper；</li>
+<li>自动化运维，Kubernetes 服务调度、伸缩和故障迁移。</li>
+</ul>
+<p>然后，我们需要隔离我们的业务，要隔离我们的服务我们就需要对服务进行解耦和拆分，这需要使用到以前的相关技术：</p>
+<ul>
+<li>bulkheads模式：业务分片 、用户分片、数据库拆分。</li>
+<li>自包含系统：所谓自包含的系统是从单体到微服务的中间状态，其把一组密切相关的微服务给拆分出来，只需要做到没有外部依赖就行。</li>
+<li>异步通讯：服务发现、事件驱动、消息队列、业务工作流。</li>
+<li>自动化运维：需要一个服务调用链和性能监控的监控系统。</li>
+</ul>
+<p>接下来，我们就要进行和能让整个架构接受失败的相关处理设计，也就是所谓的容错设计。这会用到下面的这些技术：</p>
+<ul>
+<li>错误方面：调用重试 + 熔断 + 服务的幂等性设计。</li>
+<li>一致性方面：强一致性使用两阶段提交、最终一致性使用异步通讯方式。</li>
+<li>流控方面：使用限流 + 降级技术。</li>
+<li>自动化运维方面：网关流量调度，服务监控。</li>
+</ul>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%B9%E5%8A%9B%E8%AE%BE%E8%AE%A1-%E6%80%BB%E5%9B%BE.jpg" alt="左耳听风-分布式系统的设计模式-弹力设计-总图"></p>
+<ol start="2">
+<li>弹力设计开发和运维</li>
+</ol>
+<p>对于运维工具来说，你至少需要两个系统：</p>
+<ul>
+<li>一个是像APM这样的服务监控；</li>
+<li>另一个是服务调度的系统，如：Docker + Kubernetes。</li>
+</ul>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%B9%E5%8A%9B%E8%AE%BE%E8%AE%A1-%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E5%BC%80%E5%8F%91%E6%9E%B6%E6%9E%84.jpg" alt="左耳听风-分布式系统的设计模式-弹力设计-微服务-开发架构"></p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%B9%E5%8A%9B%E8%AE%BE%E8%AE%A1-%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF.jpg" alt="左耳听风-分布式系统的设计模式-弹力设计-微服务-关键技术"></p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%BC%B9%E5%8A%9B%E8%AE%BE%E8%AE%A1-%E5%BE%AE%E6%9C%8D%E5%8A%A1-%E6%95%B4%E4%BD%93%E7%89%B9%E6%80%A7.jpg" alt="左耳听风-分布式系统的设计模式-弹力设计-微服务-整体特性"></p>
+<h4 id="管理设计"><a href="#管理设计" class="headerlink" title="管理设计"></a>管理设计</h4><h5 id="分布式锁"><a href="#分布式锁" class="headerlink" title="分布式锁"></a>分布式锁</h5><ol>
+<li>分布式锁服务</li>
+</ol>
+<p>对于分布式的锁服务，一般可以用数据库DB、Redis和ZooKeeper等实现。不管怎么样，分布式的锁服务需要有以下几个特点：</p>
+<ul>
+<li>安全性（Safety）：在任意时刻，只有一个客户端可以获得锁（排他性）。</li>
+<li>避免死锁：客户端最终一定可以获得锁，即使锁住某个资源的客户端在释放锁之前崩溃或者网络不可达。</li>
+<li>容错性：只要锁服务集群中的大部分节点存活，Client就可以进行加锁解锁操作。</li>
+</ul>
+<ol start="2">
+<li>Redis的分布式锁服务</li>
+</ol>
+<p>Step 1. 对资源加锁。<br><code>SET resource_name my_random_value NX PX 30000</code><br>解释一下：<br>SET NX 命令只会在 key 不存在的时候给 key 赋值，PX 命令通知Redis保存这个key 30000ms。<br>my_random_value 必须是全局唯一的值。这个随机数在释放锁时保证释放锁操作的安全性。<br>PX 操作后面的参数代表的是这个key的存活时间，称作锁过期时间。</p>
+<p>Step 2. 为申请成功的锁解锁。</p>
+<pre class="line-numbers language-none"><code class="language-none">if redis.call("get",KEYS[1]) == ARGV[1] then 
+    return redis.call("del",KEYS[1]) 
+else 
+    return 0 
+end<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>关于value的生成，官方推荐从 /dev/urandom中取20个byte作为随机数。<br>或者采用更加简单的方式，例如使用RC4加密算法在 /dev/urandom中得到一个种子（Seed），然后生成一个伪随机流。<br>也可以采用更简单的方法，使用时间戳+客户端编号的方式生成随机数。Redis的官方文档说：“这种方式的安全性较差一些，但对于绝大多数的场景来说已经足够安全了”。</p>
+<ol start="3">
+<li>引入fence（栅栏）技术</li>
+</ol>
+<p>一般来说，这就是乐观锁机制，需要一个版本号排它。<br>锁服务需要有一个单调递增的版本号。<br>写数据的时候，也需要带上自己的版本号。<br>数据库服务需要保存数据的版本号，然后对请求做检查。<br>如果使用ZooKeeper做锁服务的话，那么可以使用 zxid 或 znode的版本号来做这个fence版本号。</p>
+<ol start="4">
+<li>用数据库做锁服务</li>
+</ol>
+<ul>
+<li>方式一<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">UPDATE</span> table_name <span class="token keyword">SET</span> xxx <span class="token operator">=</span> <span class="token comment">#{xxx}, version=version+1 where version =#{version};</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+使用数据版本（Version）记录机制，即为数据增加一个版本标识，一般是通过为数据库表增加一个数字类型的 “version” 字段来实现的。当读取数据时，将version字段的值一同读出，数据每更新一次，对此version值加一。<br>这是乐观锁最常用的一种实现方式。是的，如果我们使用版本号，或是fence token这种方式，就不需要使用分布式锁服务了。<br>另外，多说一下。这种fence token的玩法，在数据库那边一般会用timestamp时间截来玩。也是在更新提交的时候检查当前数据库中数据的时间戳和自己更新前取到的时间戳进行对比，如果一致则OK，否则就是版本冲突。</li>
+<li>方式二<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> stock <span class="token keyword">FROM</span> tb_product <span class="token keyword">where</span> product_id<span class="token operator">=</span><span class="token comment">#{product_id};</span>
+<span class="token keyword">UPDATE</span> tb_product <span class="token keyword">SET</span> stock<span class="token operator">=</span>stock<span class="token operator">-</span><span class="token comment">#{num} WHERE product_id=#{product_id} AND stock=#{stock};</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+先把库存数量（stock）查出来，然后在更新的时候，检查一下是否是上次读出来的库存。如果不是，说明有别人更新过了，我的UPDATE操作就会失败，得重新再来。</li>
+</ul>
+<ol start="5">
+<li>分布式锁设计的重点</li>
+</ol>
+<p>分布式锁的特点是，保证在一个集群中，同一个方法在同一时间只能被一台机器上的一个线程执行。这就是所谓的分布式互斥。<br>同计算机原子指令CAS（Compare And Swap）一样。就是说，我在改变一个值的时候先检查一下是不是我之前读出来的值，这样来保证其间没有人改过。</p>
+<p>需要分清楚：我是用来修改某个共享源的，还是用来不同进程间的同步或是互斥的。如果使用CAS这样的方式（无锁方式）来更新数据，那么我们是不需要使用分布式锁服务的，而后者可能是需要的。<br>如果确定要分布式锁服务，你需要考虑下面几个设计：</p>
+<ul>
+<li>需要给一个锁被释放的方式，以避免请求者不把锁还回来，导致死锁的问题。Redis使用超时时间，ZooKeeper可以依靠自身的sessionTimeout来删除节点。</li>
+<li>分布式锁服务应该是高可用的，而且是需要持久化的。对此，你可以看一下 Redis的文档RedLock看看它是怎么做到高可用的。</li>
+<li>要提供非阻塞方式的锁服务。</li>
+<li>还要考虑锁的可重入性。</li>
+</ul>
+<h5 id="配置中心"><a href="#配置中心" class="headerlink" title="配置中心"></a>配置中心</h5><ol>
+<li>软件配置<br>配置中心S是集中式的配置管理系统。</li>
+</ol>
+<p>要区分软件的配置，软件配置的区分有多种方式。<br>有一种方式是把软件的配置分成静态配置和动态配置：</p>
+<ul>
+<li>静态配置其实就是在软件启动时的一些配置，运行时基本不会进行修改，也可以理解为是环境或软件初始化时需要用到的配置。</li>
+<li>动态配置其实就是软件运行时的一些配置，在运行时会被修改。比如，日志级别、降级开关、活动开关。</li>
+<li>对于动态配置的管理，我们还要做好区分。一般来说，会有三个区分的维度：</li>
+<li>按运行环境分。一般来说，会有开发环境、测试环境、预发环境、生产环境。这些环境上的运行配置都不完全一样，但是理论来说，应该是大同小异的。</li>
+<li>按依赖区分。一种是依赖配置，一种是不依赖的内部配置。比如，外部依赖的MySQL或Redis的连接配置。还有一种完全是自己内部的配置。</li>
+<li>按层次分。就像云计算一样，配置也可以分成IaaS、PaaS、SaaS三层。基础层的配置是操作系统的配置，中间平台层的配置是中间件的配置，如Tomcat的配置，上层软件层的配置是应用自己的配置。</li>
+</ul>
+<p>有外部服务依赖的配置，强烈建议不要放在配置中心里，而要放在服务发现系统中。</p>
+<ol start="2">
+<li>配置中心的架构<br>建议把这个配置变更的控制放在每一台主机上。<br>操作系统的配置变更和平台层的配置变更最好模块化掉，就像云服务中的不同尺寸的主机型号一样。<br>应用服务配置更新的标准化。</li>
+</ol>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AE%A1%E7%90%86%E8%AE%BE%E8%AE%A1-%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83-%E6%9E%B6%E6%9E%84.jpg" alt="左耳听风-分布式系统的设计模式-管理设计-配置中心-架构"></p>
+<ol start="3">
+<li>配置中心的设计重点<br>配置中心主要的用处是统一和规范化管理所有的服务配置，也算是一种配置上的治理活动。<br>配置中心的设计重点应该放在如何统一和标准化软件的配置项，其还会涉及到软件版本、运行环境、平台、中间件等一系列的配置参数。</li>
+</ol>
+<h5 id="边车模式"><a href="#边车模式" class="headerlink" title="边车模式"></a>边车模式</h5><p>边车就有点像一个服务的Agent，这个服务所有对外的进出通讯都通过这个Agent来完成。这样，我们就可以在这个Agent上做很多文章了。但是，我们需要保证的是，这个Agent要和应用程序一起创建，一起停用。<br>边车模式有时候也叫搭档模式，或是伴侣模式，或是跟班模式。</p>
+<p>对于监视、日志、限流、熔断、服务注册、协议转换等等这些功能，其实都是大同小异，甚至是完全可以做成标准化的组件和模块的。一般来说，我们有两种方式：</p>
+<ul>
+<li>一种是通过SDK、Lib或Framework软件包方式，在开发时与真实的应用服务集成起来。<br>  以软件包的方式可以和应用密切集成，有利于资源的利用和应用的性能；<br>  但是对应用有侵入，而且受应用的编程语言和技术限制。同时，当软件包升级的时候，需要重新编译并重新发布应用。</li>
+<li>另一种是通过像Sidecar这样的方式，在运维时与真实的应用服务集成起来。<br>  以Sidecar的方式，对应用服务没有侵入性，并且不用受到应用服务的语言和技术的限制，而且可以做到控制和逻辑的分开升级和部署。<br>  但是，这样一来，增加了每个应用服务的依赖性，也增加了应用的延迟，并且也会大大增加管理、托管、部署的复杂度。</li>
+</ul>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AE%A1%E7%90%86%E8%AE%BE%E8%AE%A1-%E8%BE%B9%E8%BD%A6%E6%A8%A1%E5%BC%8F-%E6%9E%B6%E6%9E%84.jpg" alt="左耳听风-分布式系统的设计模式-管理设计-边车模式-架构"></p>
+<p>Sidecar的方式主要是用来改造已有服务。<br>当Sidecar在架构中越来越多时，需要我们对Sidecar进行统一的管理。于是，我们为Sidecar增加了一个全局的中心控制器，就出现了我们的Service Mesh。<br>只需要用一个负责进入请求的Gateway来简化需要同时负责进出请求的Sidecar的复杂度。</p>
+<p>边车模式设计的重点：</p>
+<ul>
+<li>控制和逻辑的分离。</li>
+<li>服务调用中上下文的问题。</li>
+</ul>
+<p>但是在工程实现上来说，需要注意以下几点：</p>
+<ul>
+<li>进程间通讯机制，最好的方式就是网络远程调用的方式。</li>
+<li>服务协议方面，也请使用标准统一的方式。<br>  这里有两层协议，一个是Sidecar到service的内部协议，另一个是Sidecar到远端Sidecar或service的外部协议。<br>  对于内部协议，需要尽量靠近和兼容本地service的协议；<br>  对于外部协议，需要尽量使用更为开放更为标准的协议。但无论是哪种，都不应该使用与语言相关的协议。</li>
+<li>使用这样的模式，需要在服务的整体打包、构建、部署、管控、运维上设计好。使用Docker容器方面的技术可以帮助你全面降低复杂度。</li>
+<li>Sidecar中所实现的功能应该是控制面上的东西，而不是业务逻辑上的东西，所以请尽量不要把业务逻辑设计到Sidecar中。</li>
+<li>小心在Sidecar中包含通用功能可能带来的影响。例如，重试操作，这可能不安全，除非所有操作都是幂等的。</li>
+<li>考虑允许应用服务和Sidecar的上下文传递的机制。 </li>
+</ul>
+<p>Sidecar适用于什么样的场景，下面罗列几个：</p>
+<ul>
+<li>一个比较明显的场景是对老应用系统的改造和扩展。</li>
+<li>另一个是对由多种语言混合出来的分布式服务系统进行管理和扩展。</li>
+<li>其中的应用服务由不同的供应商提供。</li>
+<li>把控制和逻辑分离，标准化控制面上的动作和技术，从而提高系统整体的稳定性和可用性。也有利于分工——并不是所有的程序员都可以做好控制面上的开发的。</li>
+</ul>
+<p>Sidecar不适用于什么样的场景，下面罗列几个：</p>
+<ul>
+<li>架构并不复杂的时候，不需要使用这个模式，直接使用API Gateway或者Nginx和HAProxy等即可。</li>
+<li>服务间的协议不标准且无法转换。</li>
+<li>不需要分布式的架构。</li>
+</ul>
+<h5 id="服务网格"><a href="#服务网格" class="headerlink" title="服务网格"></a>服务网格</h5><p>边车模式进化的下一阶段，就是把它的功能标准化成一个集群，其结果就是服务网格。它在分布式系统中的地位，类似于七层网络模型中的传输层协议，而服务本身则只需要关心业务逻辑，因此类似于应用层协议。</p>
+<ol>
+<li>Service Mesh服务网格</li>
+</ol>
+<p>A service mesh is a dedicated infrastructure layer for handling service-to-service communication. It’s responsible for the reliable delivery of requests through the complex topology of services that comprise a modern, cloud native application. In practice, the service mesh is typically implemented as an array of lightweight network proxies that are deployed alongside application code, without the application needing to be aware.<br>Service Mesh这个服务网络专注于处理服务和服务间的通讯。其主要负责构造一个稳定可靠的服务通讯的基础设施，并让整个架构更为的先进和Cloud Native。在工程中，Service Mesh基本来说是一组轻量级的服务代理和应用逻辑的服务在一起，并且对于应用服务是透明的。<br><a target="_blank" rel="noopener" href="https://philcalcado.com/2017/08/03/pattern_service_mesh.html">https://philcalcado.com/2017/08/03/pattern_service_mesh.html</a></p>
+<p>说白了，就是下面几个特点：</p>
+<ul>
+<li>Service Mesh是一个基础设施。</li>
+<li>Service Mesh是一个轻量的服务通讯的网络代理。</li>
+<li>Service Mesh对于应用服务来说是透明无侵入的。</li>
+<li>Service Mesh用于解耦和分离分布式系统架构中控制层面上的东西。</li>
+</ul>
+<ol start="2">
+<li>Service Mesh相关的开源软件</li>
+</ol>
+<p>目前比较流行的Service Mesh开源软件是 Istio 和 Linkerd，它们都可以在Kubernetes中集成。当然，还有一个新成员 Conduit，它是由Linkerd的作者出来自己搞的，由Rust和Go写成的。Rust负责数据层面，Go负责控制面。号称吸取了很多Linkerd的Scala的教训，比Linkerd更快，还轻，更简单。</p>
+<p>lstio是目前最主流的解决方案，其架构并不复杂，其核心的Sidecar被叫做Envoy（使者），用来协调服务网格中所有服务的出入站流量，并提供服务发现、负载均衡、限流熔断等能力，还可以收集大量与流量相关的性能指标。<br>在Service Mesh控制面上，有一个叫Mixer的收集器，用来从Envoy收集相关的被监控到的流量特征和性能指标。然后，通过Pilot的控制器将相关的规则发送到Envoy中，让Envoy应用新的规则。<br>最后，还有一个为安全设计的lstio-Auth身份认证组件，用来做服务间的访问安全控制。</p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AE%A1%E7%90%86%E8%AE%BE%E8%AE%A1-%E6%9C%8D%E5%8A%A1%E7%BD%91%E6%A0%BC-Istio%E6%9E%B6%E6%9E%84.jpg" alt="左耳听风-分布式系统的设计模式-管理设计-服务网格-Istio架构"></p>
+<ol start="3">
+<li>Service Mesh的设计重点</li>
+</ol>
+<p>Service Mesh这个网格一定要是高可靠的，或者是出现了故障有workaround的方式。一种比较好的方式是，除了在本机有Sidecar，我们还可以部署一下稍微集中一点的Sidecar——比如为某个服务集群部署一个集中式的Sidecar。一旦本机的有问题，可以走集中的。<br>Service Mesh不像Sidecar需要和Service一起打包一起部署，Service Mesh完全独立部署。这样一来，Service Mesh就成了一个基础设施，就像一个PaaS平台。</p>
+<h5 id="网关模式"><a href="#网关模式" class="headerlink" title="网关模式"></a>网关模式</h5><p>Gateway是一个服务器，也可以说是进入系统的唯一节点。这跟面向对象设计模式中的Facade模式很像。<br>Gateway封装内部系统的架构，并且提供API给各个客户端。<br>它还可能有其他功能，如授权、监控、负载均衡、缓存、熔断、降级、限流、请求分片和管理、静态响应处理，等等。</p>
+<ol>
+<li>网关模式设计</li>
+</ol>
+<p>一个网关需要有以下的功能：</p>
+<ul>
+<li>请求路由。因为不再是Sidecar了，所以网关一定要有请求路由的功能。这样一来，对于调用端来说，也是一件非常方便的事情。因为调用端不需要知道自己需要用到的其它服务的地址，全部统一地交给Gateway来处理。</li>
+<li>服务注册。为了能够代理后面的服务，并把请求路由到正确的位置上，网关应该有服务注册功能，也就是后端的服务实例可以把其提供服务的地址注册、取消注册。一般来说，注册也就是注册一些API接口。比如，HTTP的Restful请求，可以注册相应API的URI、方法、HTTP头。 这样，Gateway就可以根据接收到的请求中的信息来决定路由到哪一个后端的服务上。</li>
+<li>负载均衡。因为一个网关可以接收多个服务实例，所以网关还需要在各个对等的服务实例上做负载均衡策略。简单点就是直接Round-Robin轮询，复杂点的可以设置上权重进行分发，再复杂一点还可以做到session粘连。</li>
+<li>弹力设计。网关还可以把弹力设计中的那些异步、重试、幂等、流控、熔断、监视等都可以实现进去。这样，同样可以像Service Mesh那样，让应用服务只关心自己的业务逻辑（或是说数据面上的事）而不是控制逻辑（控制面）。</li>
+<li>安全方面。SSL加密及证书管理、Session验证、授权、数据校验，以及对请求源进行恶意攻击的防范。错误处理越靠前的位置就是越好，所以，网关可以做到一个全站的接入组件来对后端的服务进行保护。</li>
+<li>当然，网关还可以做更多更有趣的事情，比如：</li>
+<li>灰度发布。网关完全可以做到对相同服务不同版本的实例进行导流，还可以收集相关的数据。这样对于软件质量的提升，甚至产品试错都有非常积极的意义。</li>
+<li>API聚合。使用网关可以将多个单独请求聚合成一个请求。在微服务体系的架构中，因为服务变小了，所以一个明显的问题是，客户端可能需要多次请求才能得到所有的数据。这样一来，客户端与后端之间的频繁通信会对应用程序的性能和规模产生非常不利的影响。于是，我们可以让网关来帮客户端请求多个后端的服务（有些场景下完全可以并发请求），然后把后端服务的响应结果拼装起来，回传给客户端（当然，这个过程也可以做成异步的，但这需要客户端的配合）。</li>
+<li>API编排。同样在微服务的架构下，要走完一个完整的业务流程，我们需要调用一系列API，就像一种工作流一样，这个事完全可以通过网页来编排这个业务流程。我们可能通过一个DSL来定义和编排不同的API，也可以通过像AWS Lambda服务那样的方式来串联不同的API。</li>
+</ul>
+<ol start="2">
+<li>网关的设计重点</li>
+</ol>
+<ul>
+<li><p>第一点是高性能。在技术设计上，网关不应该也不能成为性能的瓶颈。<br>对于高性能，最好使用高性能的编程语言来实现，如C、C++、Go和Java。<br>网关对后端的请求，以及对前端的请求的服务一定要使用异步非阻塞的 I/O 来确保后端延迟不会导致应用程序中出现性能问题。<br>  C和C++可以参看Linux下的epoll和Windows的I/O Completion Port的异步IO模型，Java下如Netty、Vert.x、Spring Reactor的NIO框架。<br>  当然，我还是更喜欢Go语言的goroutine 加 channel玩法。</p>
+</li>
+<li><p>第二点是高可用。因为所有的流量或调用经过网关，所以网关必须成为一个高可用的技术组件，它的稳定直接关系到了所有服务的稳定。网关如果没有设计，就会成变一个单点故障。<br>  一个好的网关至少要做到以下几点：</p>
+<ul>
+<li>集群化。网关要成为一个集群，其最好可以自己组成一个集群，并可以自己同步集群数据，而不需要依赖于一个第三方系统来同步数据。</li>
+<li>服务化。网关还需要做到在不间断的情况下修改配置，一种是像Nginx reload配置那样，可以做到不停服务，另一种是最好做到服务化。也就是说，得要有自己的Admin API来在运行时修改自己的- 配置。</li>
+<li>持续化。比如重启，就是像Nginx那样优雅地重启。有一个主管请求分发的主进程。当我们需要重启时，新的请求被分配到新的进程中，而老的进程处理完正在处理的请求后就退出。</li>
+</ul>
+</li>
+<li><p>第三点是高扩展。因为网关需要承接所有的业务流量和请求，所以一定会有或多或少的业务逻辑。而我们都知道，业务逻辑是多变和不确定的。比如，需要在网关上加入一些和业务相关的东西。<br>  因此，一个好的Gateway还需要是可以扩展的，并能进行二次开发的。<br>  当然，像Nginx那样通过Module进行二次开发的固然可以。但我还是觉得应该做成像AWS Lambda那样的方式，也就是所谓的Serverless或FaaS（Function as a Service）那样的方式。</p>
+</li>
+</ul>
+<p>在运维方面，网关应该有以下几个设计原则：</p>
+<ul>
+<li>业务松耦合，协议紧耦合。在业务设计上，网关不应与后面的服务之间形成服务耦合，也不应该有业务逻辑。网关应该是在网络应用层上的组件，不应该处理通讯协议体，只应该解析和处理通讯协议头。另外，除了服务发现外，网关不应该有第三方服务的依赖。</li>
+<li>应用监视，提供分析数据。网关上需要考虑应用性能的监控，除了有相应后端服务的高可用的统计之外，还需要使用Tracing ID实施分布式链路跟踪，并统计好一定时间内每个API的吞吐量、响应时间和返回码，以便启动弹力设计中的相应策略。</li>
+<li>用弹力设计保护后端服务。网关上一定要实现熔断、限流、重试和超时等弹力设计。如果一个或多个服务调用花费的时间过长，那么可接受超时并返回一部分数据，或是返回一个网关里的缓存的上一次成功请求的数据。你可以考虑一下这样的设计。</li>
+<li>DevOps。因为网关这个组件太关键了，所以需要DevOps这样的东西，将其发生故障的概率降到最低。这个软件需要经过精良的测试，包括功能和性能的测试，还有浸泡测试。还需要有一系列自动化运维的管控工具。</li>
+</ul>
+<p>在整体的架构方面，有如下一些注意事项：</p>
+<ul>
+<li>不要在网关中的代码里内置聚合后端服务的功能，而应考虑将聚合服务放在网关核心代码之外。可以使用Plugin的方式，也可以放在网关后面形成一个Serverless服务。</li>
+<li>网关应该靠近后端服务，并和后端服务使用同一个内网，这样可以保证网关和后端服务调用的低延迟，并可以减少很多网络上的问题。这里多说一句，网关处理的静态内容应该靠近用户（应该放到CDN上），而网关和此时的动态服务应该靠近后端服务。</li>
+<li>网关也需要做容量扩展，所以需要成为一个集群来分担前端带来的流量。这一点，要么通过DNS轮询的方式实现，要么通过CDN来做流量调度，或者通过更为底层的性能更高的负载均衡设备。</li>
+<li>对于服务发现，可以做一个时间不长的缓存，这样不需要每次请求都去查一下相关的服务所在的地方。当然，如果你的系统不复杂，可以考虑把服务发现的功能直接集成进网关中。</li>
+<li>为网关考虑bulkhead设计方式。用不同的网关服务不同的后端服务，或是用不同的网关服务前端不同的客户。</li>
+</ul>
+<p>另外，因为网关是为用户请求和后端服务的桥接装置，所以需要考虑一些安全方面的事宜。具体如下：</p>
+<ul>
+<li>加密数据。可以把SSL相关的证书放到网关上，由网关做统一的SSL传输管理。</li>
+<li>校验用户的请求。一些基本的用户验证可以放在网关上来做，比如用户是否已登录，用户请求中的token是否合法等。但是，我们需要权衡一下，网关是否需要校验用户的输入。因为这样一来，网关就需要从只关心协议头，到需要关心协议体。而协议体中的东西一方面不像协议头是标准的，另一方面解析协议体还要耗费大量的运行时间，从而降低网关的性能。对此，我想说的是，看具体需求，一方面如果协议体是标准的，那么可以干；另一方面，对于解析协议所带来的性能问题，需要做相应的隔离。</li>
+<li>检测异常访问。网关需要检测一些异常访问，比如，在一段比较短的时间内请求次数超过一定数值；还比如，同一客户端的4xx请求出错率太高……对于这样的一些请求访问，网关一方面要把这样的请求屏蔽掉，另一方面需要发出警告，有可能会是一些比较重大的安全问题，如被黑客攻击。</li>
+</ul>
+<p>网关模式能代替边车模式，区别是它将分布在各个服务边上的边车换成了集中式的网关。网关不必管理所有服务节点，而是可以根据需要，为指定的服务集群配上网关，也可以在网关前面加上更高层的网关，从而构造出一个星型的结构。</p>
+<h5 id="部署升级策略"><a href="#部署升级策略" class="headerlink" title="部署升级策略"></a>部署升级策略</h5><p>服务部署的模式。一般来说，有如下几种：</p>
+<ul>
+<li><p>停机部署（Big Bang / Recreate）： 把现有版本的服务停机，然后部署新的版本。<br>这种方式的优势是，在部署过程中不会出现新老版本同时在线的情况，所有状态完全一致。停机部署主要是为了新版本的一致性问题。<br>这种方式的问题是会停机，对用户的影响很大。所以，一般来说，这种部署方式需要事前挂公告，选择一个用户访问少的时间段来做。</p>
+</li>
+<li><p>蓝绿部署（Blue/Green /Stage）：部署好新版本后，把流量从老服务那边切过来。<br>这种方式的优点是没有停机，实时发布和升级，也避免有新旧版本同时在线的问题。但这种部署的问题就是有点浪费，因为需要使用双倍的资源（不过，这只是在物理机时代，在云计算时代没事，因为虚拟机部署完就可以释放了）。</p>
+</li>
+<li><p>滚动部署（Rolling Update / Ramped）： 一点一点地升级现有的服务。<br>这种部署方式直接对现有的服务进行升级，虽然便于操作，而且在缓慢地更新的过程中，对于有状态的服务也是比较友好的，状态可以在更新中慢慢重建起来。但是，这种部署的问题也是比较多的。<br>在发布过程中，会出现新老两个版本同时在线的情况，同一用户的请求可能在新老版中切换而导致问题。</p>
+</li>
+<li><p>灰度部署/金丝雀部署（Canary）：把一部分用户切到新版本上来，然后看一下有没有问题。如果没有问题就继续扩大升级，直到全部升级完成。<br>灰度部署是指逐渐将生产环境流量从老版本切换到新版本。<br>这个技术大多数用于缺少足够测试，或者缺少可靠测试，或者对新版本的稳定性缺乏信心的情况下。</p>
+</li>
+<li><p>AB测试（A/B Testing）：同时上线两个版本，然后做相关的比较。<br>蓝绿部署是为了不停机，灰度部署是对新版本的质量没信心。而AB测试是对新版的功能没信心。注意，一个是质量，一个是功能。<br>对于灰度发布或是AB测试可以使用下面的技术来选择用户：</p>
+<ul>
+<li>浏览器cookie。</li>
+<li>查询参数。</li>
+<li>地理位置。</li>
+<li>技术支持，如浏览器版本、屏幕尺寸、操作系统等。</li>
+<li>客户端语言。</li>
+</ul>
+</li>
+</ul>
+<p>部署应用有很多种方法，实际采用哪种方式取决于需求和预算。</p>
+<table>
+<thead>
+<tr>
+<th>策略</th>
+<th>不停机</th>
+<th>网络流量</th>
+<th>用户采样</th>
+<th>成本</th>
+<th>回滚时长</th>
+<th>复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>停机部署</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>低</td>
+<td>长</td>
+<td>低</td>
+</tr>
+<tr>
+<td>蓝绿部署</td>
+<td>√</td>
+<td>×</td>
+<td>×</td>
+<td>中</td>
+<td>短</td>
+<td>中</td>
+</tr>
+<tr>
+<td>滚动部署</td>
+<td>√</td>
+<td>×</td>
+<td>×</td>
+<td>低</td>
+<td>长</td>
+<td>低</td>
+</tr>
+<tr>
+<td>灰度部署</td>
+<td>√</td>
+<td>√</td>
+<td>×</td>
+<td>中</td>
+<td>一般</td>
+<td>中</td>
+</tr>
+<tr>
+<td>A/B测试</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>高</td>
+<td>一般</td>
+<td>高</td>
+</tr>
+</tbody></table>
+<h4 id="性能设计"><a href="#性能设计" class="headerlink" title="性能设计"></a>性能设计</h4><h5 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h5><p>缓存是为了加速数据访问，在数据库之上添加的一层机制。</p>
+<ol>
+<li>缓存模式</li>
+</ol>
+<p>缓存是提高性能最好的方式，一般来说，缓存有以下三种模式：</p>
+<ul>
+<li><p>Cache Aside 更新模式<br>  这是最常用的设计模式了，其具体逻辑如下：</p>
+<ul>
+<li><p>失效：应用程序先从Cache取数据，如果没有得到，则从数据库中取数据，成功后，放到缓存中。</p>
+</li>
+<li><p>命中：应用程序从Cache中取数据，取到后返回。</p>
+</li>
+<li><p>更新：先把数据存到数据库中，成功后，再让缓存失效。</p>
+<p>要么通过2PC或是Paxos协议保证一致性，要么就是拼命地降低并发时脏数据的概率。而Facebook使用了这个降低概率的玩法，因为2PC太慢，而Paxos太复杂。当然，最好还是为缓存设置好过期时间。</p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%80%A7%E8%83%BD%E8%AE%BE%E8%AE%A1-%E7%BC%93%E5%AD%98-CacheAside-read.jpg" alt="左耳听风-分布式系统的设计模式-性能设计-缓存-CacheAside-read"></p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%80%A7%E8%83%BD%E8%AE%BE%E8%AE%A1-%E7%BC%93%E5%AD%98-CacheAside-update.jpg" alt="左耳听风-分布式系统的设计模式-性能设计-缓存-CacheAside-update"></p>
+</li>
+</ul>
+</li>
+<li><p>Read/Write Through 更新模式<br>  在Cache Aside套路中，应用代码需要维护两个数据存储，一个是缓存（cache），一个是数据库（repository）。所以，应用程序比较啰嗦。而Read/Write Through套路是把更新数据库（repository）的操作由缓存自己代理了，所以，对于应用层来说，就简单很多了。可以理解为，应用认为后端就是一个单一的存储，而存储自己维护自己的Cache。</p>
+<ul>
+<li><p>Read Through套路就是在查询操作中更新缓存，也就是说，当缓存失效的时候（过期或LRU换出），Cache Aside是由调用方负责把数据加载入缓存，而Read Through则用缓存服务自己来加载，从而对应用方是透明的。</p>
+</li>
+<li><p>Write Through套路和Read Through相仿，不过是在更新数据时发生。当有数据更新的时候，如果没有命中缓存，直接更新数据库，然后返回。如果命中了缓存，则更新缓存，然后由Cache自己更新数据库（这是一个同步操作）。</p>
+<p>下图自来Wikipedia的Cache词条。其中的Memory，你可以理解为就是我们例子里的数据库。<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%80%A7%E8%83%BD%E8%AE%BE%E8%AE%A1-%E7%BC%93%E5%AD%98-ReadWriteThrough.jpg" alt="左耳听风-分布式系统的设计模式-性能设计-缓存-ReadWriteThrough"></p>
+</li>
+</ul>
+</li>
+<li><p>Write Back 更新模式<br>  Write Back又叫Write Behind。<br>  Write Back套路就是，在更新数据的时候，只更新缓存，不更新数据库，而我们的缓存会异步地批量更新数据库。<br>  这个设计的好处就是让数据的I/O操作飞快无比（因为直接操作内存嘛）。因为异步，Write Back还可以合并对同一个数据的多次操作，所以性能的提高是相当可观的。<br>  但其带来的问题是，数据不是强一致性的，而且可能会丢失。</p>
+<p>  <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%80%A7%E8%83%BD%E8%AE%BE%E8%AE%A1-%E7%BC%93%E5%AD%98-WriteBack.jpg" alt="左耳听风-分布式系统的设计模式-性能设计-缓存-WriteBack"></p>
+</li>
+</ul>
+<ol start="2">
+<li>缓存设计的重点</li>
+</ol>
+<p>在分布式架构下，一般都需要一个外部的缓存集群。关于这个缓存集群，你需要保证的是内存要足够大，网络带宽也要好，因为<strong>缓存本质上是个内存和IO密集型的应用。</strong><br>用数据分片技术来把不同的缓存分布到不同的机器上。这样，可以保证我们的缓存集群可以不断地scale下去。</p>
+<p>缓存的好坏要看命中率。缓存的命中率高说明缓存有效，一般来说命中率到80%以上就算很高了。</p>
+<p>缓存是通过牺牲强一致性来提高性能的，使用缓存提高性能，就是会有数据更新的延迟。</p>
+<p>缓存数据的时间周期也需要好好设计，太长太短都不好，过期期限不宜太短，因为可能导致应用程序不断从数据存储检索数据并将其添加到缓存。同样，过期期限不宜太长，因为这会导致一些没人访问的数据还在内存中不过期，而浪费内存。<br>使用缓存的时候，一般会使用LRU策略。也就是说，当内存不够需要有数据被清出内存时，会找最不活跃的数据清除。所谓最不活跃的意思是最长时间没有被访问过了。所以，开启LRU策略会让缓存在每个数据访问的时候把其调到前面，而要淘汰数据时，就从最后面开始淘汰。<br>于是，对于LRU的缓存系统来说，其需要在key-value这样的非顺序的数据结构中维护一个顺序的数据结构，并在读缓存时，需要改变被访问数据在顺序结构中的排位。于是，我们的LRU在读写时都需要加锁（除非是单线程无并发），因此LRU可能会导致更慢的缓存存取的时间。这点要小心。</p>
+<p>需要有一个爬虫保护机制，或是我们引导这些人去使用我们提供的外部API。在那边，我们可以有针对性地做多租户的缓存系统（也就是说，把用户和第三方开发者的缓存系统分离开来）。</p>
+<h5 id="异步处理"><a href="#异步处理" class="headerlink" title="异步处理"></a>异步处理</h5><p>当程序读写文件时，读写请求做merge和sort。<br>也就是说，merge是把相同的操作合并，相同的读操作只读一次，相同的写操作，只写最后一次，而sort是把不同的操作排个序，这样可以让硬盘向一个方向转一次就可以把所有的数据读出来，而不是来来回回地转。这样可以极大地提高硬盘的吞吐率。</p>
+<p>就算是有延时，异步处理在用户体验上也可以给用户带来一个不错的用户体验，那就是用户可以有机会反悔之前的操作。</p>
+<ol>
+<li>异步处理的设计</li>
+</ol>
+<p>异步通讯讲的是怎么把系统连接起来，而异步任务处理是怎么处理任务。</p>
+<p>任务处理系统来真正地处理收到的这些请求。为了解耦，我们需要一个任务派发器，这里就会出来两个事，一个是推模型Push，一个是拉模型Pull。<br>所谓Push推模型，就是把任务派发给相应的人去处理，有点像是一个工头的调度者的角色。而Pull拉模型，则是由处理的人来拉取任务处理。这两种模型各有各的好坏。一般来说，Push模型可以做调度，但是它需要知道下游工作结点的情况。<br>除了要知道哪些是活着的，还要知道它们的忙闲程度。这样一来，当下游工作结点扩容缩容或是有故障需要维护等一些情况发生时，Push结点都需要知道，这会增加一定的系统复杂度。而Pull的好处则是可以让上游结点不用关心下游结点的状态，只要自己忙得过来，就会来拿任务处理，这样可以减少一定的复杂度，但是少了整体任务调度。<br>一般来说，我们构建的都是推拉结合的系统，Push端会做一定的任务调度，比如它可以像物流那样把相同商品的订单都合并起来，打成一个包，交给下游系统让其一次处理掉；也可以把同一个用户的订单中的不同商品给拆成多个订单。然后Pull端来订阅Push端发出来的异步消息，处理相应的任务。</p>
+<ol start="2">
+<li>事件溯源 Event Sourcing<br>Event Sourcing，其主要想解决的问题是，我们可以看到数据库中的一个数据的值（状态），但我们完全不知道这个值是怎么得出来的。</li>
+</ol>
+<p>事件是描述已发生操作的简单对象以及描述事件代表的操作所需的相关数据。事件不会直接更新数据存储，只会对事件进行记录，以便在合适的时间进行处理。这可简化实施和管理。<br>事件不可变，并且可使用只追加操作进行存储。用户界面、工作流或启动事件的进程可继续，处理事件的任务可在后台异步运行。此外，处理事务期间不存在争用，这两点可极大提高应用程序的性能和可伸缩性。<br>事件溯源不需要直接更新数据存储中的对象，因而有助于防止并发更新造成冲突。<br>最重要的是，异步处理 + 事件溯源的方式，可以很好地让我们的整个系统进行任务的统筹安排、批量处理，可以让整体处理过程达到性能和资源的最大化利用。</p>
+<ol start="3">
+<li>异步处理的分布式事务</li>
+</ol>
+<p>完全可以使用异步的方式来达到一致性，当然，是最终一致性。<br>要达到最终一致性，我们需要有个交易凭证。</p>
+<p>在达成这个事务的过程中，有几点需要注意：</p>
+<ul>
+<li>凭证需要非常好地保存起来，不然会导致事务做不下去。</li>
+<li>凭证处理的幂等性问题，不然在重试时就会出现多次交易的情况。</li>
+<li>如果事务完成不了，需要做补偿事务处理。</li>
+</ul>
+<ol start="4">
+<li>异步处理的设计要点</li>
+</ol>
+<p><strong>异步处理中的事件驱动和事件溯源是两个比较关键的技术。</strong></p>
+<p>异步通知的方式需要任务处理方处理完成后，给任务发起方回传状态，这样确保不会有漏掉的。<br>另外，发起方也需要有个定时任务，把一些超时没有回传状态的任务再重新做一遍。</p>
+<p>在运维时，我们要监控任务队列里的任务积压情况。如果有任务积压了，要能做到快速地扩容。如果不能扩容，而且任务积压太多，可能会导致整个系统挂掉，那么就要开始对前端流量进行限流。<br>最后，还想强调一下，<strong>异步处理系统的本质是把被动的任务处理变成主动的任务处理，其本质是在对任务进行调度和统筹管理。</strong></p>
+<h5 id="数据库扩展"><a href="#数据库扩展" class="headerlink" title="数据库扩展"></a>数据库扩展</h5><ol>
+<li>读写分离 CQRS</li>
+</ol>
+<p>读写分离是数据库扩展最简单实用的玩法了，这种方法针对读多写少的业务场景还是很管用的，而且还可以有效地把业务做相应的隔离。</p>
+<p>CQRS全称Command and Query Responsibility Segregation，也就是命令与查询职责分离。<br>其原理是，用户对于一个应用的操作可以分成两种，一种是Command也就是我们的写操作（增，删，改），另一种是Query操作（查），也就是读操作。<br>Query操作基本上是在做数据整合显现，而Command操作这边会有更重的业务逻辑。分离开这两种操作可以在语义上做好区分。<br>命令Command不会返回结果数据，只会返回执行状态，但会改变数据。查询Query会返回结果数据，但是不会改变数据，对系统没有副作用。</p>
+<ol start="2">
+<li>分库分表Sharding<br>一般来说，影响数据库最大的性能问题有两个，一个是对数据库的操作，一个是数据库中数据的大小。<br>对于前者，我们需要从业务上来优化。一方面，简化业务，不要在数据库上做太多的关联查询，而对于一些更为复杂的用于做报表或是搜索的数据库操作，应该把其移到更适合的地方。比如，用ElasticSearch来做查询，用Hadoop或别的数据分析软件来做报表分析。<br>对于后者，如果数据库里的数据越来越多，那么也会影响我们的数据操作。而且，对于我们的分布式系统来说，后端服务都可以做成分布式的，而数据库最好也是可以拆开成分布式的。读写分离也因为数据库里的数据太多而变慢，于是，分库分表就成了我们必须用的手段。</li>
+</ol>
+<p>有两个事，这里需要提一下，一个是关于分库的策略，一个是关于数据访问层的中间件。<br>关于分库的策略。我们把数据库按某种规则分成了三个库。比如，或是按地理位置，或是按日期，或是按某个范围分，或是按一种哈希散列算法。总之，我们把数据分到了三个库中。<br>关于数据访问层。为了不让我们前面的服务感知到数据库的变化，我们需要引入一个叫”数据访问层”的中间件，用来做数据路由。但是，老实说，这个数据访问层的中间件很不好写，其中要有解析SQL语句的能力，还要根据解析好的SQL语句来做路由。但即便是这样，也有很多麻烦事。<br>比如，我要做一个分页功能，需要读一组顺序的数据，或是需要做Max/Min/Count这样的操作。于是，你要到三个库中分别求值，然后在数据访问层这里再合计处理返回。但即使是这样，你也会遇到各种令人烦恼的事，比如一个跨库的事务，你需要走XA这样的两阶段提交的操作，这样会把数据库的性能降到最低的。</p>
+<p>为了避免数据访问层的麻烦，分片策略一般如下：</p>
+<ul>
+<li>按多租户的方式。用租户ID来分，这样可以把租户隔离开来。比如：一个电商平台的商家中心可以按商家的ID来分。</li>
+<li>按数据的种类来分。比如，一个电商平台的商品库可以按类目来分，或是商家按地域来分。</li>
+<li>通过范围来分。这样分片，可以保证在同一分片中的数据是连续的，于是我们数据库操作，比如分页查询会更高效一些。一般来说，大多数情况是用时间来分片的，比如，一个电商平台的订单中心是按月份来分表的，这样可以快速检索和统计一段连续的数据。</li>
+<li>通过哈希散列算法来分（比如：主键id % 3之类的算法。）此策略的目的是降低形成热点的可能性（接收不成比例的负载的分片）。但是，这会带来两个问题，一个就是前面所说的跨库跨表的查询和事务问题，另一个就是如果要扩容需要重新哈希部分或全部数据。</li>
+</ul>
+<p>上面是最常见的分片模式，但是你还应考虑应用程序的业务要求及其数据使用模式。这里请注意几个非常关键的事宜。<br>数据库分片必须考虑业务，从业务的角度入手，而不是从技术的角度入手，如果你不清楚业务，那么无法做出好的分片策略。</p>
+<ol start="3">
+<li>数据库扩展的设计重点</li>
+</ol>
+<p>从业务层上把单体的数据库给拆解掉的相关重点。<br>首先，你需要把数据库和应用服务一同拆开。也就是说，一个服务一个库，这就是微服务的玩法，也是Amazon的服务化的玩法——服务之间只能通过服务接口通讯，不能通过访问对方的数据库。</p>
+<p>对于分片来说，有两种分片模式，一种是水平分片，一种是垂直分片：</p>
+<ul>
+<li>水平分片就是我们之前说的那种分片。</li>
+<li>垂直分片是把一张表中的一些字段放到一张表中，另一些字段放到另一张表中。垂直分片主要是把一些经常修改的数据和不经常修改的数据给分离开来，这样在修改某个字段的数据时，不会导致其它字段的数据被锁而影响性能。</li>
+</ul>
+<p>所说的sharding更多的是说水平分片。水平分片需要有以下一些注意事项：</p>
+<ul>
+<li>随着数据库中数据的变化，我们有可能需要定期重新平衡分片，以保证均匀分布并降低形成热点的可能性。</li>
+<li>最好使用一个索引表的方式来进行分片。</li>
+<li>如果应用程序必须跨分片修改数据，那么我们需要评估一致性以及评估是否采用两阶段提交的方式。</li>
+</ul>
+<h5 id="秒杀"><a href="#秒杀" class="headerlink" title="秒杀"></a>秒杀</h5><p>解决秒杀这种特定业务场景，可以使用CDN的边缘结点来扛流量，然后过滤用户请求（限流用户请求），来保护数据中心的系统，这样才让整个秒杀得以顺利进行。<br>那么，如果我们像双11那样，想尽可能多地卖出商品，那么就不像秒杀了。这是要尽可能多地收订单，但又不能超过库存，其中还有大量的银行支付，各大仓库的库存查询和分配，这些都是非常慢的操作。为了保证一致性，还要能够扛得住像双11这样的大规模并发访问，那么，应该怎么做呢？<br>使用秒杀这样的解决方案基本上不太科学了。这个时候就需要认认真真地做高并发的架构和测试了，需要各个系统把自己的性能调整上去，还要小心地做性能规划，更要把分布式的弹力设计做好，最后是要不停地做性能测试，找到整个架构的系统瓶颈，然后不断地做水平扩展，以解决大规模的并发。</p>
+<p>把一些简单的业务逻辑放在边缘，比放在数据中心不但能够有更好的性能，还有更便宜的成本。</p>
+<h5 id="边缘计算"><a href="#边缘计算" class="headerlink" title="边缘计算"></a>边缘计算</h5><p>边缘计算，它是相对于数据中心而言。数据中心喜欢把所有的服务放在一个机房里集中处理用户的数据和请求，集中式部署一方面便于管理和运维，另一方面也便于服务间的通讯有一个比较好的网络保障。的确没错。不过，我们依然需要像CDN这样的边缘式的内容发布网络，把我们的静态内容推到离用户最近的地方，然后获得更好的性能。</p>
+<ol>
+<li>为什么要有边缘计算</li>
+</ol>
+<ul>
+<li><p>从趋势上来说<br>  整个计算机发展的本质就是我们人类生活信息化建设的过程。<br>  我们可以看到，数量越来越大，分析结果的速度需要越来越快，这两个需求，只会把我们逼到边缘计算上去。</p>
+</li>
+<li><p>从成本上来说<br>  根据我过去服务过的40多家公司的经验，可以看到如下的投入：<br>  几十万用户的公司，只需要处理百级QPS的量，只需要10台左右的服务器；<br>  上百万用户的公司，只需要处理千级QPS的量，需要有50台左右的服务器；<br>  上千万用户的公司，需要处理万级到十万级QPS的量，需要700台左右的服务器；<br>  上亿用户的公司，其需要处理百万级QPS的量，需要上万台的服务器。</p>
+<p>  当架构变复杂了后，你就要做很多非功能的东西了，比如，缓存、队列、服务发现、网关、自动化运维、监控等。<br>  完全可以用边缘结点处理高峰流量，这样，我们的数据中心就不需要花那么大的成本来建设了。</p>
+</li>
+</ul>
+<ol start="2">
+<li>边缘计算的业务场景</li>
+</ol>
+<p>通过上面的两个案例分析，我觉得边缘计算一定会成为一个必然产物，其会作为以数据中心为主的云计算的一个非常好的补充。这个补充在我看来，其主要是做下面一些事情：</p>
+<ul>
+<li>处理一些实时响应的业务。它和用户靠得很近，所以可以实时响应用户的一些本地请求，比如，某公司的人脸门禁系统、共享单车的开锁。</li>
+<li>处理一些简单的业务逻辑。比如像秒杀、抢红包这样的业务场景。</li>
+<li>收集并结构化数据。比如，把视频中的车牌信息抠出来，转成文字，传回数据中心。</li>
+<li>实时设备监控。主要是线下设备的数据采集和监控。</li>
+<li>P2P的一些去中心化的应用。比如：边缘结点作为一个服务发现的服务器，可以让本地设备之间进行P2P通讯。</li>
+<li>云资源调度。边缘结点非常适合用来做云端服务的调度。比如，允许用户使用不同生产商的云存储服务，使用不同生产商但是功能相同的API服务（比如支付API相关）。因为是流量接入方，所以可以调度流量。</li>
+<li>云资源聚合。比如，我们可以把语音转文字的API和语义识别的API相结合，聚合出来一个识别语音语义的API，从而简化开发人员的开发成本。</li>
+<li>……</li>
+</ul>
+<ol start="3">
+<li>边缘计算的关键技术</li>
+</ol>
+<p>在我看来，边缘计算的关键技术如下：</p>
+<ul>
+<li>API Gateway。关于网关，这个就不说了，我们在管理设计篇中有一篇就是专门讨论这个东西的。</li>
+<li>Serverless/FaaS。就是服务函数化，这个技术就像是AWS Lambda服务一样，你写好一个函数，然后不用关心这个函数运行在哪里，直接发布就好了。然后就可以用了。</li>
+</ul>
+<p>如果说微服务是以专注于单一责任与功能的小型功能块为基础，利用模块化的方式组合出复杂的大型应用程序，那么我们还可以进一步认为Serverless架构可以提供一种更加”代码碎片化”的软件架构范式，我们称之为Function as a Services（FaaS）。<br>所谓的“函数”（Function）提供的是相比微服务更加细小的程序单元。</p>
+<h3 id="区块链技术"><a href="#区块链技术" class="headerlink" title="区块链技术"></a>区块链技术</h3><h4 id="技术概要"><a href="#技术概要" class="headerlink" title="技术概要"></a>技术概要</h4><p>UTXO = Unspent Transaction Output 未花费交易输<br>Checksum 校验码</p>
+<p>比特币的特性：去中心化，数据防篡改，固定的发行两千。</p>
+<p>区块链又叫blockchain，其中有一个一个的区块，每个区块中包括着一组交易信息，然后，每一个区块都会有一个ID（或是一个地址），这些区块通过记录前一个区块的ID来形成一条链。<br>在区块链的世界里，越老的区块越安全也越不容易被人篡改，越新的区块越不安全也越容易被人篡改。</p>
+<p>Proof-of-Work工作量证明机制，也就是“挖矿”。所谓的“挖矿”其实就是用大规模的计算来找到一个符合系统要求的区块ID。要找到符合条件的区块ID只能通过暴力穷举的方式，所以要付出大量的系统计算资源和电力。</p>
+<h4 id="技术细节"><a href="#技术细节" class="headerlink" title="技术细节"></a>技术细节</h4><h5 id="哈希算法"><a href="#哈希算法" class="headerlink" title="哈希算法"></a>哈希算法</h5><p>在计算机应用中，hash算法主要有几个功能：</p>
+<ul>
+<li>用来生成唯一标识一个数据块的ID（身份证），这个ID几乎不能重复。</li>
+<li>用来做数据的特征码。</li>
+</ul>
+<p>区块头中的六个字段的含义：</p>
+<ul>
+<li>Version：当前区块链协议的版本号，4个字节。如果升级了，这个版本号会变。</li>
+<li>Previous Block Hash：前面那个区块的hash地址。32个字节。</li>
+<li>Merkle Root：这个字段可以简单理解为是后面交易信息的hash值 。32个字节。</li>
+<li>Timestamp：区块生成的时间。这个时间不能早于前面11个区块的中位时间，不能晚于”网络协调时间”——你所连接的所有结点时间的中位数。4个字节。</li>
+<li>Bits：也就是上图中的Difficulty Tagrget，表明了当前的hash生成的难度。4个字节。</li>
+<li>Nonce：一个随机值，用于找到满足某个条件的hash值。4字节。</li>
+</ul>
+<p>对这六字段进行hash计算，就可以得到本区块的hash值，也就是其ID或是地址。其hash方式如下（对区块头做两次SHA-256的hash求值）：<br>SHA-256(SHA-256 (Block Header))</p>
+<p>后面的数据是交易数据，分别是：本块中的交易笔数H和交易列表（最多不能超过1MB）。</p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF-%E5%8D%8F%E8%AE%AE%E6%A0%BC%E5%BC%8F.jpg" alt="左耳听风-区块链技术-协议格式"></p>
+<p>以太坊有三个不同的Merkle Root树。因为以太坊要玩智能合约，所以需要更多的Merkle Root。</p>
+<ul>
+<li>一个是用来做交易hash的Merkle Root。</li>
+<li>一个是用来表示状态State的。因为一个智能合同从初始状态走到最终状态需要有若干步（也就是若干笔交易），每一步都会让合同的状态发生变化，所以需要保存合同的状态。</li>
+<li>一个是用来做交易收据的。主要是用来记录一个智能合约中最终发生的交易信息。以太坊称其为Merkle Patricia Tree。</li>
+</ul>
+<h5 id="加密和挖矿"><a href="#加密和挖矿" class="headerlink" title="加密和挖矿"></a>加密和挖矿</h5><p>比特币的加密方法：<br>密钥对/签名/证书。</p>
+<p>比特币的挖矿：<br>在比特币的区块hash算法中，要确保下面这个公式成立：<br><code>SHA-256(SHA-256 (Block Header)) &lt; Target</code><br>而在区块头中，可以完全自由修改的只有一个字段，就是Nonce，其他的Timestamp可以在特定范围内修改，Merkle Root和你需要记录的交易信息有关系（所有的矿工可以自由地从待确认交易列表中挑选自己想要的交易打包）。<br>所以，基本上来说，你要找到某个数字，让整个hash值小于Target。这个Target是一个数，其决定了，我们计算出来的hash值的字符串最前面有几个零。我们知道，hash值本身就是一串相对比较随机的字符串。但是要让这个随机的字符串有规律，是一件很困难的事，除了使用暴力破解，没有其他办法。在计算机世界里，我们把这个事叫”哈希碰撞”(hash collision)，碰撞前几个位都是0的哈希值。</p>
+<h4 id="去中心化的共识机制"><a href="#去中心化的共识机制" class="headerlink" title="去中心化的共识机制"></a>去中心化的共识机制</h4><p>比特币的区块链网络在设计时使用的 PoW（Proof of Work） 算法思路。一个是限制一段时间内整个网络中出现提案的个数（增加提案成本），另外一个是放宽对最终一致性确认的需求，约定好大家都确认并沿着已知最长的链进行拓宽。</p>
+<p>PoW和Paxos/Raft的算法在本质上有下面这些不同：</p>
+<ul>
+<li>对于Paxos/Raft，其需要Leader选举，而对于比特币或者以太坊这样的无中心化的方式是没有leader的。</li>
+<li>对于Paxos/Raft，加入其网络（集群）的结点前提假设都是受信的。然而，对于比特币/以太坊来说，其前提假设都是不受信的，它们只相信，超过一半的结点所同意的东西。</li>
+<li>对于Paxos/Raft，需要事先对整个集群中的结点数有定义，而无中心化的比特币和以太坊中的结点是想来就来，想走就走，来去自由。如果Paxos/Raft在这样的环境下，其会处于一个非常尴尬的境地——要能随时进行伸缩。而且，Paxos/Raft并不适合在一个非常大的网络中玩（比如上百万的结点）。</li>
+</ul>
+<p>但是它们有一些是相同的：</p>
+<ul>
+<li>它们都是一致性的算法。</li>
+<li>对系统的修改总是需要一个人来干（区块链用PoW消耗资源，让提案变得困难，Paxos/Raft用领导选举）。</li>
+<li>系统中暂时的不一致是可以被修正的（区块链会考虑最长链，牺牲了强一致性，保证了可用性，Paxos/Raft如果没有超过半数的结点在线，会停止工作，牺牲了可用性，保证了强一性）。</li>
+</ul>
+<p>总之，区块链所面对的无中心化的P2P网络要比Paxos/Raft所面对的相对中心式分布式网络要复杂多得多。所以，不太可能使用Paxos/Raft协议来替代PoW协议。除非，你想干一个相对中心化的区块链，然而这就成了区块链的一个悖论了。</p>
+<ol>
+<li>工作量证明<br>PoW有两种协议：</li>
+</ol>
+<ul>
+<li>一种叫Challenge-Response协议，用于Client-Server。如果Client需要使用服务，那么需要被Challenge去花费一些资源。如果证明自己的资源已被花费了，则通过认证，授权使用。</li>
+<li>一种叫Solution-Verification协议，用于验证使用。Hashcash就是这种协议。</li>
+</ul>
+<p>总结一下，工作量证明就是为了下面几件事：</p>
+<ul>
+<li>提高对数据篡改的成本。让你修改数据需要付出大量的算力，而区块链的数据相互依赖，导致”一处改处处改”，因此你要完全修改就需要付出大量的算力。</li>
+<li>提高网络中有不同声音的成本。试想，如果一个网络有不同的人给出来了不同的账本，而且都合法，你会信谁的？所以，挖矿可以解决这个事。让你要做一个伪造账本的成本极其地大，而校验账本的成本很小。</li>
+<li>解决分歧。当有不同声音的时候，即区块链出现分叉时，所有的矿工只能选择其中一个分支（因为没人有算力可以同时发出两个不同的声音)。于是，大多数人选择的那个分支就会成为事实，少数人选的那头就被遗忘了。这让整个去中心化系统的一致性，不再以人数多认可的数据为准，而是以算力多的人认可的数据为准。</li>
+</ul>
+<p>只要网络越来越大，能掌握半数以上算力的人基本上是不可能的。是这样的吗？我表示怀疑。<br>PoW解决这种无中心化网络的作弊、分歧这样的问题是目前最有效的，其他不用PoW这样的玩法的都存在很大的安全问题。<br>但是，现在的PoW也有几个非常严重的问题：</p>
+<ul>
+<li>越来越中心化地记账。本来是要大众一起参与去中心化的事，现在因为算力的问题，因为GPU的出现，导致一般人几乎无法参与其中了。</li>
+<li>越来越跑不动。比特币今天的链越来越长，导致要验证数据是否正确的成本越来越高，一般人的电脑基本都快要跑不起来了。</li>
+</ul>
+<ol start="2">
+<li>股权证明协议<br>为了每个Block更快的生成，出现了PoS （Proof of Stake）协议，股权证明协议。<br>在PoS机制下，矿工不在叫矿工，而是叫Validator（校验者）。<br>也就是说，在PoS机制下，记账权不再像PoW那样由谁的算力大谁就越有机会来记账，而是由谁的财富多，谁就越有可能来记账。于是，记账权按大家财富的比例来分配。<br>PoW好像是”多劳多得”的社会，而PoS更像是”资本主义”社会，钱越多的人越有话语权。这其实也没有什么不对的。从博弈论的角度上来说，钱越多的人越有动力维护社会的稳定，因为如果社会不稳定了，他是损失最为惨重的人。</li>
+</ol>
+<p>好处：</p>
+<ul>
+<li>不需要费劲挖矿，节约电力且环保。</li>
+<li>在PoS下，你需要有51%的财富，你才可以发起攻击，这相对于算力而言需要更多的成本。</li>
+</ul>
+<p>潜在的问题：</p>
+<ul>
+<li>而在PoS这种不需要算力的机制下，就可以让记账人们在两个分支上同时进行，以争取实现利益的最大化（无论哪个分支最终胜出，我都可以有利）。这样一来，攻击者就可以利用这种情况来发起Nothin-At-Stake攻击。</li>
+<li>“双重支付”问题（Double Spend Problem）。两个分支发展还可以发起双重支付。就是说，Bob把他的10元钱借给了Alice，也给了Marry，在不同的分支上。</li>
+<li>“贿赂攻击（Bribe Attack）”，攻击者可以在一个分支上声称购买了某个商品。然后，收到货后，以提高手续费的方式只养另一个没有购买这个商品交易的分支，然后把没有这个交易的链养得足够长，长到系统最终选择了没有交易的这条链。</li>
+</ul>
+<ol start="3">
+<li>DPoS机制<br>DPoS（Delegated Proof of Stake，委托股权证明）。它是 PoS 的进化方案。<br>在常规PoW和PoS中，一大影响效率之处在于任何一个新加入的区块，都需要被整个网络所有节点做确认。</li>
+</ol>
+<p>DPoS优化方案在于：通过不同的策略，不定时地选中一小群节点，这一小群节点做新区块的创建、验证、签名和相互监督。这样就大幅度减少了区块创建和确认所需要消耗的时间和算力成本。</p>
+<p>总结一下：<br>PoW就是蛮荒社会。谁的拳头大谁说话。是真正意义上的无政府的去中心化的社会。<br>PoS就是资本主义社会。谁的钱多谁说话，还是无政府的社会，但是资本家控制的。<br>DPoS就是政治主义社会。谁的选票多谁说话，我也不知道怎么个选举，竞选活动吗？有电视辩论吗？还是投票玩玩？但是感觉又回到了中心化架构中的Leader选举。<br>无论怎么样，人类社会进化的影子在去中心化的社会中又开始出现了。那么，另一个逻辑问题来了，如果这种”去中心化的社会”本质上是在重复一遍”中心化”的演进过程，那么，还有什么意义？</p>
+<p>在区块链的P2P网络下也是很类似的，在去中心化、安全和高性能中，我们也只能选两个。<br>如果我们想要一个既安全，性能也很高的系统，那么得放弃去中心化的架构，如DPoS这样的中心化系统，直接放弃区块链走传统的中心化架构。<br>如果我们想要一个去中心化和安全的系统，主要去挖矿，那么放弃高性能。这就是目前的比特币架构。<br>如果我们想要一个去中心化和高性能的系统，那么就得放弃安全。没有安全的系统，基本上来说是不会有人用的。</p>
+<h4 id="智能合约"><a href="#智能合约" class="headerlink" title="智能合约"></a>智能合约</h4><p>以太坊的智能合约<br>对于以太坊来说，智能合约其实就是一段可执行的程序片段，由发布人使用一种类似于JavaScript或是Python的编程语言来编写。就像最开始那个民间担保的案例一样，合同的发布可以写成如下形式：</p>
+<pre class="line-numbers language-none"><code class="language-none">Contract MyContract{
+    function transferFrom(address _from, address _to, uint256 _value) {
+        if (isBayernWin) {
+            blanceOf[_from] +=  _value
+            blanceOf[_to] -= value
+        } else if (isRealMadridWin) {
+            blanceOf[_from] -= _value
+            blanceOf[_to] += value
+        }
+    }
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<p>嗯，合同都要用代码来写了。看来，我们程序员离统治世界又近了一步。</p>
+</blockquote>
+<p>我们把合约代码在本地编译成功后发布到区块链上，可以理解为一个特殊的交易（包括可执行代码），然后会被矿工打包记录在某一个区块中。当需要调用这个智能合约的方法时，只需要向这个智能合约的地址发送一笔交易即可。<br>每个节点的电脑都需要安装以太坊客户端，客户端自带了一个和JVM类似的一个EVM。通过交易触发智能合约后，智能合约的代码就会在EVM中执行了。这种方式相当于把程序部署到了非常非常多的电脑上，随时都可以通过交易来触发这些智能合约的执行，也从而完成了分布式程序的部署和调用。<br>这感觉就是Funciton-as-a-Service的一种实现啊。</p>
+<p>合约就是一段代码 =&gt; 这段代码存于区块链上 =&gt; 想签合约的人不需要认识只需要看懂合约<br>合约执行，条件满足 =&gt; 交易生成，存于区块链</p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF-%E9%93%B6%E8%A1%8C%E7%9A%84%E8%B5%84%E9%87%91%E6%89%98%E7%AE%A1%E4%B8%9A%E5%8A%A1-%E4%BA%8C%E6%89%8B%E6%88%BF%E4%BA%A4%E6%98%93.jpg" alt="左耳听风-区块链技术-银行的资金托管业务-二手房交易"></p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF-%E9%93%B6%E8%A1%8C%E6%8B%85%E4%BF%9D%E7%9A%84%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93-%E5%9B%BD%E9%99%85%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%B4%B8%E6%98%93.jpg" alt="左耳听风-区块链技术-银行担保的国际贸易-国际进出口贸易"></p>
+<h4 id="传统金融和虚拟货币"><a href="#传统金融和虚拟货币" class="headerlink" title="传统金融和虚拟货币"></a>传统金融和虚拟货币</h4><ul>
+<li>逐利是人性中非常疯狂的一个特征。只要有利益，人们就会想要更多的利益。这有时候并不是一件好事。</li>
+<li>人性是想不劳而获且趋利避害的。</li>
+</ul>
+<ol>
+<li>金融的本质</li>
+</ol>
+<p><strong>金融行业最大的本质就是——促进交易完成，实现价值提升！</strong></p>
+<p>为了保进交易完成，金融行业需要解决下面几个问题:</p>
+<ul>
+<li>交易中的信用问题。所以，银行会来做中间人来担保。</li>
+<li>交易中的资金不足的问题。通过借贷来让交易完成。</li>
+<li>交易中的大额的问题。把一个大额的金融事件以股份的方式拆碎进行大众投资。</li>
+</ul>
+<p>金融行业的四个重要属性：</p>
+<ul>
+<li>效率提升：加快货币、股票、债券的流通性，快速地促成交易。</li>
+<li>价值提升：通过金融产品的流通性，让实际价值得到充分地体现，并升值。</li>
+<li>激励机制：为实体经济添砖加瓦，并激励社会持续付出和成长。</li>
+<li>信用评级：建立信用社会、评估信用等级，从而改善社会。</li>
+</ul>
+<ol start="2">
+<li>经济运作的原理</li>
+</ol>
+<p>对于经济来说，说白了就是整个社会的交易。<br>每个交易中，对于买方，其需要付出的是货币和信用，对于卖方，其需要支付的是商品、服务或金融资产。<br>支出方是整个经济的驱动力。<strong>支出是经济的原动力。</strong>也就是说，一个社会的最基本的经济活动是交易，而经济状况好的好坏是受支出方影响的。<br>整个人类世界的影响经济波动的东西就是“借贷”，也就是为了购买现在买不起的东西，向未来的自己去借钱，或是由未来的自己去还债。</p>
+<ol start="3">
+<li>金融的监管</li>
+</ol>
+<p>对于经济活动，这两个事需要平衡，一个是“资”，一个是“债”。如果不平衡了，风险就出现了。<br>监管机构“不管就乱，一管就死”。<br>经济还是需要自由的，而政府应该控制的是风险和保证经济实体的产权。只有自由的市场经济才会回归金融的本质，促进交易提升，激励大众而提升价值。而政府的风控措施可以对整体金融风险进行调节，这是市场经济不能完成的。政府还要保护私人产权，这对于经济活动是非常重要的，产权保护是经济活动的根本基础。</p>
+<ol start="4">
+<li>虚拟货币</li>
+</ol>
+<p>虚拟货币，数字货币，其本质也是一样的。如果不能提高效率，降低成本，没有风控和评级，这样完全自由地发展，我认为风险是非常大的。说白了，这就是一个高级赌场罢了。</p>
+<p>比特币的几个问题：</p>
+<ul>
+<li>交易成本上升。</li>
+<li>个人无法参与。</li>
+<li>社区的利益纷争。</li>
+</ul>
+<p>几个功能的问题：</p>
+<ul>
+<li>交易时的身份验证。</li>
+<li>资金归属权保护。</li>
+<li>损失赔偿问题。</li>
+</ul>
+<p>几个逻辑问题：</p>
+<ul>
+<li>技术驾驭能力问题。</li>
+<li>比特币颠覆了什么？</li>
+<li>是否消除了中间商？ </li>
+<li>大公司参与的区块链？</li>
+<li>投资人投资去中心化的公司？</li>
+</ul>
+<p>传销组织的三个阶段：</p>
+<ul>
+<li>第一，让你觉得你很穷困，告诉你致富的捷径。</li>
+<li>第二，模糊掉具体细节，用各种高大上的类比和比喻来取得你的信任。</li>
+<li>第三，通过发展下线来制造虚假繁荣，让你信以为真。</li>
+</ul>
+<p>一个哲学问题：<br>问题的出现是多方造成的，或是社会协同出了问题造成的，是机制造成的。并不是其中的某个实体造成的。<br>去中心化就是好吗？我们不需要权威机构了吗？技术可以解决信任问题吗？<br>我是要继续改善我们现在这个社会，还是直接毁了再建一个？<strong>是“破坏性的建设（Disruptive Construction）”，还是“建设性的破坏（Constructive Disruption）”？</strong>我不知道你喜欢哪个，而我喜欢后者。</p>
+<h3 id="Go语言编程模式"><a href="#Go语言编程模式" class="headerlink" title="Go语言编程模式"></a>Go语言编程模式</h3><p><a target="_blank" rel="noopener" href="https://github.com/sstian/GoConcurrents">https://github.com/sstian/GoConcurrents</a></p>
+<h3 id="程序员练级攻略"><a href="#程序员练级攻略" class="headerlink" title="程序员练级攻略"></a>程序员练级攻略</h3><h4 id="入门篇"><a href="#入门篇" class="headerlink" title="入门篇"></a>入门篇</h4><p>《易经》有云：​“取法其上，得乎其中，取法其中，得乎其下，取法其下，法不得也”​。</p>
+<p>你可以选择的几大从业方向：</p>
+<ul>
+<li>如果你对操作系统、文件系统、数据库、网络等比较感兴趣，那么可以考虑从事底层方面的工作。</li>
+<li>如果对分布式系统架构、微服务、DevOps、Cloud Native等有热情，那么可以从事架构方面的工作。</li>
+<li>如果是对大数据、机器学习、人工智能等比较关注，那么数据领域可以成为你一展身手的地方。</li>
+<li>如果你对用户体验或者交互等更感兴趣，那么前端工程师也是个不错的选择。</li>
+<li>此外，安全开发、运维开发、嵌入式开发等几大方向中，也为你提供了丰富多彩的发展空间。</li>
+</ul>
+<p>各种技术方向不是鱼和熊掌，是可以兼得的；很多技术是相通的，关键是你是学在表面还是深入本质。</p>
+<p>并不是理论和现实的差距大，而是你还没有找到相关的场景，来感受到那些学院派知识的强大威力。<br>这就是“工人”和“工程师”的差别，是“建筑工人”和“建筑架构师”的差别。如果你觉得这些理论上的东西无用，那么只能说明，你只不过在从事工人的工作，而不是工程师的工作。<br>技术能力的瓶颈，以及技术太多学不过来，只不过是你为自己的能力不足或是懒惰找的借口罢了。技术的东西都是死的，这些死的知识只要努力就是可以学会的。只不过聪明的人花得时间少，笨点的人花得时间多点罢了。这其中的时间差距主要是由学习方法的不同，基础知识储备的不同决定的。只要你方法得当，多花点时间在基础知识上，会让你未来学习应用知识的时间大大缩短。以绝大多数人努力的程度，和为自己不努力找借口的程度为参考，只要你坚持正常的学习就可以超过大多数人了。这里没有学习技术的速成的方法，真正的牛人不是能够培训出来的，一切都是要靠你自己去努力和持续地付出。</p>
+<p>学习建议：</p>
+<ul>
+<li>一定要坚持，要保持长时间学习，甚至终生学习的态度。</li>
+<li>一定要动手，不管例子多么简单，建议至少自己动手敲一遍看看是否理解了里头的细枝末节。</li>
+<li>一定要学会思考，思考为什么要这样，而不是那样。还要举一反三地思考。</li>
+<li>不要乱买书，不要乱追新技术新名词，基础的东西经过很长时间积累，会在未来至少10年通用。</li>
+<li>回顾一下历史，看看历史时间线上技术的发展，你才能明白明天会是什么样的。</li>
+</ul>
+<p>无论你做什么事，你都会面对各式各样的困难，这对每个人来说都是一样的，而只有兴趣、热情和成就感才能让你不畏惧这些困难。<br>好的书和不好的书最大的区别就是，好的书在你不同的阶段来读，你会有不同的收获，而且还会产生更多的深层次的思考！</p>
+<p>对于一个合格的程序员，掌握几门语言是非常正常的事情。<br>很多时候，一些程序员只在自己熟悉的技术而不是合适的技术上工作，这其实并不好，这会让你的视野受限，而视野会决定你的高度。</p>
+<h4 id="修养篇"><a href="#修养篇" class="headerlink" title="修养篇"></a>修养篇</h4><p>有修养的程序员才可能成长为真正的工程师和架构师，而没有修养的程序员只能沦为码农。<br>效率来自于结构化，而不是杂乱。</p>
+<h5 id="自我修养"><a href="#自我修养" class="headerlink" title="自我修养"></a>自我修养</h5><ul>
+<li>英文能力</li>
+<li>问问题的能力</li>
+<li>写代码的修养</li>
+<li>安全防范<br>防御性编程 Defensive Programming，它是为了保证对程序的不可预见的使用，不会造成程序功能上的损坏。它可以被看作是为了减少或消除墨菲定律效力的想法。防御式编程主要用于可能被滥用，恶作剧或无意地造成灾难性影响的程序上。</li>
+<li>软件工程和上线</li>
+</ul>
+<h5 id="编程规范"><a href="#编程规范" class="headerlink" title="编程规范"></a>编程规范</h5><ul>
+<li><p>编程语言相关<br><strong>C语言</strong><br>NASA C Style。<br>C Coding Standard。<br>C Programming/Structure and style。<br>Linux kernel coding style。<br>GNU Coding Standard，GNU的编码规范。</p>
+<p><strong>C++语言</strong><br>C++ Core Guidelines，这个文档是各种C++的大拿包括原作者在内在持续讨论更新的和C++语言相关的各种最佳实践。<br>Google C++ Style Guide。</p>
+<p><strong>Go语言</strong><br>Effective Go ，Go的语法不复杂，所以，Go语言的最佳实践只需要看这篇官方文档就够了。</p>
+<p><strong>Java语言</strong><br>Code Conventions for the Java™ Programming Language ，Java官方的编程规范。<br>Google Java Style Guide，Google的Java编码规范。</p>
+<p><strong>JavaScript语言</strong><br>JavaScript The Right Way，一个相对比较容读的JavaScript编程规范，其中不但有代码规范，还有设计模式，测试工具，编程框架，游戏引擎……<br>Google JavaScript Style Guide，Google公司的JavaScript的编码规范，一个非常大而全的编程规范。<br>Airbnb JavaScript Style Guide，Airbnb的JavaScript编程规范。没Google的这么大而全，但是也很丰富了。<br>jQuery Core Style Guide，jQuery的代码规范。<br>JavaScript Clean Code，《代码整洁之道》一书中的JavaScript的实践 。<br>JavaScript Style Guides And Beautifiers ，这是一篇推荐JavaScript编程规范的文章。<br>JavaScript Style Guide and Coding Conventions，这是W3Schools的JavaScript。<br>Code Conventions for the JavaScript。</p>
+<p><strong>PHP语言</strong><br>PHP FIG，PHP编码规范及标准推荐。<br>PHP The Right Way，除了编码规范之外的各种PHP的最佳实践，还包括一些设计模式，安全问题，以及服务部署，Docker虚拟化以及各种资源。<br>Clean Code PHP，​《代码整洁之道》的PHP实践。</p>
+<p><strong>Python语言</strong><br>Style Guide for Python Code，Python官方的编程码规范。<br>Google Python Style Guide，Google公司的Python编码规范。<br>The Hitchhiker’s Guide to Python，这不只是Python的编程规范，还是Python资源的集散地，强烈推荐。</p>
+<p><strong>Ruby语言</strong><br>Ruby Style Guide，Airbnb公司的Ruby编程规范。<br>Ruby Style Guide 。</p>
+<p><strong>Rust语言</strong><br>Rust Style Guide。<br>Rust Guidelines 开源社区里最好的Rust编程规范。</p>
+<p><strong>Scala语言</strong><br>Scala Style Guide，Scala官方的编程规范。<br>Databricks Scala Guide - Databricks的Scala编程规范。<br>Scala Best Practices。</p>
+<p><strong>Shell语言</strong><br>Google Shell Style Guide，Google的Shell脚本编程规范。</p>
+<p><strong>Node.js相关</strong><br>npm-coding-style。<br>Microsoft + Node.js Guidelines。<br>Node.js Style Guide。</p>
+<p><strong>Mozilla的编程规范</strong><br>Mozilla Coding Style Guide，其中包括C、C++、Java、Python、JavaScript、Makefile和SVG等编程规范。</p>
+</li>
+<li><p>前端开发相关<br>CSS Guidelines，CSS容易学，但是不好写，这篇规范会教你如何写出一个健全的、可管理的，并可以扩展的CSS。<br>Scalable and Modular Architecture for CSS，这是一本教你如何写出可扩展和模块化的CSS的电子书，非常不错。<br>Frontend Guidelines，一些和HTML、CSS、JavaScript相关的最佳实践。<br>Sass Guidelines，Sass作为CSS的补充，其要让CSS变得更容易扩展。然而，也变得更灵活，这意味着可以被更容易滥用。<br>Airbnb CSS / Sass Styleguide， Airbnb的CSS/Sass规范。<br>和LESS相关的：LESS Coding Guidelines、LESS Coding Guidelines、LESS coding standard。<br>HTML Style Guide，一个教你如何写出性能更高，结构更好，容易编程和扩展的HTML的规范。<br>HTML + CSS Code Guide，如何写出比较灵活、耐用、可持续改进的HTML和CSS的规范。<br>CoffeeScript Style Guide，CoffeeScript的最佳实践和编程规范。<br>Google HTML/CSS Style Guide，Google的HTML/CSS的编程规范。<br>Guidelines for Responsive Web Design ，响应式Web设计的规范和最佳实践。<br>U.S. Web Design Standards，这是美国政府网端要求的一些UI交互可视化的一些规范。<br>Front-End Checklist ，一个前端开发的Checklist，其中包括HTML、CSS和JavaScript，还和图片、字体、SEO、性能相关，还包括关一些和安全相关的事项。</p>
+</li>
+<li><p>移动端相关<br>KotlinCoding Conventions。<br>Objective-C语言Objective-C Style guide，Style guide &amp; coding conventions for Objective-C projects。<br>Google Objective-C Style Guide。<br>NYTimes Objective-C Style Guide ，The Objective-C Style Guide used by The New York Times。<br>Swift语言API Design Guidelines。<br>Swift，一个Swift的相关编程规范的教程。<br>Swift style guide。<br>Swift Style Guide - LinkedIn的官方 Swift编程规范。<br>Metova’s Swift style guide。<br>Xmartlabs Swift Style Guide，Xmartlabs的 Swift编程规范。</p>
+</li>
+<li><p>API相关<br>HAL，一个简单的API规范教程。<br>Microsoft REST API Guidelines，微软软的Rest API规范。<br>API Design Guide。<br>RESTful API Designing guidelines - The best practices。<br>JSON API - Recommendations，JSON相关的API的一些推荐实践。<br>API Security Checklist ，API的安全问题的检查列表。</p>
+</li>
+<li><p>开发工具相关<br>Markdown相关Google Markdown Style Guide。<br>Markdown Style Guide。<br>JSONGoogle JSON Style Guide。<br>JSON Style Guide。<br>Git相关Git Style Guide。<br>Few Rules from Git Documentation。</p>
+</li>
+<li><p>正则表达式相关<br>RegexHQ。<br>Learn regex the easy way。</p>
+</li>
+</ul>
+<h5 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h5><p><strong>1. The Key To Accelerating Your Coding Skills - by KEN MAZAIKA</strong><br><a target="_blank" rel="noopener" href="http://blog.thefirehoseproject.com/posts/learn-to-code-and-be-self-reliant/">http://blog.thefirehoseproject.com/posts/learn-to-code-and-be-self-reliant/</a><br>中文翻译版：提高编程技能的关键<br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/8806de7a7597">https://www.jianshu.com/p/8806de7a7597</a></p>
+<p>学习阶段：</p>
+<ul>
+<li><p>接受指导阶段<br>对于刚开始的学生，最重要的技能是注重细节。</p>
+<p>大师失败的次数比新手尝试过的次数都多。<br>Stephen McCranie: The master has failed more times than the beginer has even tried.</p>
+</li>
+<li><p>拐点阶段<br>学习编程需要同时学习特定领域知识与过程性知识。<br>在人生的每一天里探索自我边界以外的东西。</p>
+</li>
+<li><p>征服拐点<br>接受软件开发是一个持续学习的过程</p>
+</li>
+</ul>
+<p><strong>2. Teach Yourself Programming in Ten Years - by Peter Norvig</strong><br><a target="_blank" rel="noopener" href="http://norvig.com/21-days.html">http://norvig.com/21-days.html</a><br>中文翻译版：十年学会编程<br><a target="_blank" rel="noopener" href="http://daiyuwen.freeshell.org/gb/misc/21-days-cn.html">http://daiyuwen.freeshell.org/gb/misc/21-days-cn.html</a></p>
+<ul>
+<li><p>我依靠我的个人经验，它比专家写的数千页书更有用和可靠。</p>
+</li>
+<li><p>亚历山大教皇：浅尝辄止是件危险的事情。</p>
+</li>
+<li><p>Samuel Johnson（塞缪尔·约翰逊，英国辞典编纂家及作家）：在任何领域中出类拔萃都 要用毕生的劳作来取得；它不可能用较低的代价获得。</p>
+</li>
+<li><p>Chaucer（乔叟，英 国诗人）：人生短暂，学海无涯。</p>
+</li>
+<li><p>Eric Raymond（The New Hacker’s Dictionary一书的作者）：计算机科学不能把任何人变成编程 专家，就象光研究刷子和颜料不会使人变成画家一样。</p>
+</li>
+<li><p>Alan Perlis：每个人都能被教会雕刻：对米开朗其罗而言， 反倒是告诉他哪些事不要做。同样的道理也适用于优秀的程序员。</p>
+</li>
+</ul>
+<p>这是我为编程成功开出的方子：</p>
+<ul>
+<li>设法对编程感兴趣，并且因为它有趣而编一些程序。确保编程一直充满足够乐趣，这样你才愿意投入十年宝贵时间。</li>
+<li>与其他程序员交流；阅读其它程序。这比任何书本或训练课程都重要。</li>
+<li>写程序。最好的学习方式是从实践中学习。用更技术性的话说，“在一个给定的领域内，个人的最大能力不是自动地由扩展了的经验取得的，但即使是高度有经验的人也可以通过有意识的努力来提高自己的能力”和“最有效的学习需要因人而异的适当难度，目标明确的任务，丰富的信息反馈，以及重复的机会和错误修正。”</li>
+<li>如果愿意，在大学里呆上4年或更长（在研究生院里）。你会接触到一些需要学历证明的工作，你会对此领域有更深的理解。如果你不喜欢学校，你可以（通过一些贡献）在工作中获得相似的经验。在任何情况下，光啃书本是不够的。我雇佣过的最好的程序员之一仅有高中程度；他做出了许多优秀的软件，有他自己的新闻组，而且通过股票期权，他无疑比我富有的多。</li>
+<li>和其他程序员一起做项目。在其中的一些项目中作为最好的程序员；而在另一些项目中是最差的。当你是最好的，你能测试领导项目的能力，用你的观点激发别人。当你是最差的，你学习杰出者是怎么做的，了解他们不喜欢做什么（因为他们吩咐你做事）。</li>
+<li>在其他程序员之后接手项目。使自己理解别人写的程序。当程序的原作者不在的时候，研究什么需要理解并且修改它。思考如何设计你的程序以便后来者的维护。</li>
+<li>学习至少半打的编程语言。包括一种支持类抽象的语言（像Java或C++），一种支持函数化抽象的语言（象Lisp或ML），一种支持语法抽象的语言（象Lisp），一种支持声明规格说明的语言（象Prolog或C++的模板），一种支持共行程序（coroutine）的语言（象Icon或Scheme），一种支持并行的语言（象Sisal）。</li>
+<li>请记住“计算机科学”中有“计算机”一词。了解你的计算机要花多长时间执行一条指令，从内存中取一个字（有cache），从磁盘中读取连续的字，和在磁盘中找到新的位置。</li>
+<li>参与一种语言标准化的工作。它可以是ANSIC++委员会，也可以是决定你周围小范围内的编程风格是应该两个还是四个空格缩进。通过任何一种方式，你了解到其他人在某种语言中的想法，他们的理解深度，甚至一些他们这样想的原因。</li>
+<li>找到适当的理由尽快地从语言标准化的努力中脱身。</li>
+</ul>
+<p>Fred Brooks在他的随笔 《没有银弹》 中定出了一个寻找优秀软件设计者的三步计划：</p>
+<ul>
+<li>尽可能早地，有系统地识别顶级的设计人员。</li>
+<li>为设计人员指派一位职业导师，负责他们技术方面的成长，仔细地为他们规划 职业生涯。</li>
+<li>为成长中的设计人员提供相互交流和学习的机会。</li>
+</ul>
+<p><strong>3. what are some of the most basic things every programmer should know?</strong><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/xiuzhublog/p/13716215.html">https://www.cnblogs.com/xiuzhublog/p/13716215.html</a></p>
+<ul>
+<li>Bad architecture causes more problems than bad code. 相较于糟糕的代码，糟糕的架构会导致更多的问题</li>
+<li>You will spend more time thinking than coding. 思考的时间应大于编码的时间</li>
+<li>The best programmers are always building things. 优秀的程序员会制作工具</li>
+<li>There’s always a better way. 总是会有更好的实现方式</li>
+<li>Code reviews by your peers will make all of you better. 让你的同事重温你的代码会使你变得优秀</li>
+<li>Fewer features for better code is always the right answer in the end. 减少功能以获得更好的代码总是最终正确的答案</li>
+<li>If it’s not tested, it doesn’t work. 代码上线前必须测试</li>
+<li>Don’t reinvent the wheel, library code is there to help. 不要重复造轮子，代码库是有帮助的对你</li>
+<li>Code that’s hard to understand is hard to maintain. 难以理解的代码难以维护</li>
+<li>Code that’s hard to maintain is next to useless. 难以维护的代码是几乎没用的</li>
+<li>Always know how your business makes money, that determines who gets paid what. 要知道你的公司怎样赚钱，因为这决定你能获得多少薪水</li>
+<li>If you want to feel important as a software developer, work at a tech company. 如果你想成为一个被觉得很重要的软件开发工程师，那么你就要去技术型公司</li>
+</ul>
+<p><strong>4. 97 Things Every Programmer Should Know</strong><br><a target="_blank" rel="noopener" href="https://97-things-every-x-should-know.gitbooks.io/97-things-every-programmer-should-know/content/en/">https://97-things-every-x-should-know.gitbooks.io/97-things-every-programmer-should-know/content/en/</a></p>
+<p>我们都倾向于假设其他人的想法与我们一样。但他们没有。心理学家称之为错误的共识偏见。当人们的想法或行为与我们不同时，我们很可能会（潜意识地）以某种方式给他们贴上有缺陷的标签。</p>
+<p>编码标准应该使在项目中工作变得更加容易，并从头到尾保持开发速度。编码标准应该是动态的，而不是静态的。</p>
+<p>当心分享。检查您的上下文。只有这样，才能继续。</p>
+<p>夏洛克·福尔摩斯的：一旦你消除了不可能的事情，剩下的一切，无论多么不可能，都必须是真理。</p>
+<p>“计算机科学”是关于花费大量精力将现实世界映射到我们限制性的数据结构中。真正的大师甚至能记得他们是怎么做到的。</p>
+<p>代码就是设计——一个创造性的过程，而不是一个机械的过程。伟大的设计是由致力于掌握自己工艺的伟大设计师创造的。代码也不例外。</p>
+<p>代码审查的目的不是简单地纠正代码中的错误，而应该是共享知识和建立通用的编码准则。与其他程序员共享代码可实现集体代码所有权。</p>
+<p>注释应该说代码没有也不能说的东西。解释一段代码应该已经说什么的注释是更改代码结构或编码约定的邀请，以便代码不言自明。与其补偿糟糕的方法或类名，不如重命名它们。</p>
+<p>一致且经过深思熟虑的 API 词汇表有助于在下一层生成富有表现力且易于理解的代码。</p>
+<p>对应用程序代码执行的动作：随时试验、评估和重构部署过程。</p>
+<p>技术异常由某些应用程序框架处理，而业务域异常实际上由客户端代码考虑和处理。</p>
+<p>刻意练习意味着重复，以提高执行任务的能力。获得专业知识需要10000小时的刻意练习。伟大在很大程度上是一个有意识的选择问题。</p>
+<p>领域特定语言（Domain-Specific Languages）通常分为内部或外部：内部 DSL 是用通用编程语言编写的，其语法经过调整后看起来更像自然语言。外部 DSL 是语言的文本或图形表达。</p>
+<p>“谎言可以传遍半个地球，而真相却穿上鞋子”。</p>
+<p>UI 设计师的规则：永远不要让用户看到异常报告，而是好像这解决了问题，什么事情都是大写的。</p>
+<p>Fulfill Your Ambitions with Open Source 通过开源实现您的抱负</p>
+<p>“大师”只是一个具有不懈好奇心的聪明人。</p>
+<p>专注于项目，通过寻找聪明的解决方案尽可能多地做出贡献，提高你的技能，反思你正在做的事情，并调整你的行为。像专业人士一样行事：准备、影响、观察、反思和改变。</p>
+<p>设计良好的 IDE 只是一组命令行工具的图形前端。使用命令行工具可以比使用 IDE 更轻松或更高效地执行某些任务。</p>
+<p>许多计算范式：过程式、面向对象、函数式、逻辑式、数据流等。</p>
+<p>链接器是一个非常愚蠢、平淡无奇、简单的程序。它所做的只是将目标文件的代码和数据部分连接在一起，将对符号的引用与其定义连接起来，从库中提取未解析的符号，然后写出可执行文件。</p>
+<p>Make Interfaces Easy to Use Correctly and Hard to Use Incorrectly 使接口易于正确使用，难以错误使用。接口的存在是为了方便用户，而不是实现者。</p>
+<p>程序的最终语义由正在运行的代码给出。</p>
+<p>用户是 “上升 ”的，而技术是 “下降的”。</p>
+<p>构建软件设计有两种方法：一种方法是让它变得如此简单，以至于显然没有缺陷；另一种是让它变得如此复杂，以至于没有明显的缺陷。</p>
+<p>扩展 Unix 工具的世界非常容易。只需编写一个遵循一些简单规则的程序（用你喜欢的任何语言）：你的程序应该只执行一个任务;它应该从其标准输入中以文本行的形式读取数据;并且它应该在其标准输出上显示其结果，而不被标题和其他噪声修饰。命令行中给出了影响工具作的参数。</p>
+<p>合格的程序员和优秀的程序员之间的真正区别在于：态度。好的编程不仅仅是源于技术能力。好的编程在于采用专业的方法，并希望在软件工厂的 Real World 约束和压力下编写最好的软件。</p>
+<p>XFD = extreme feedback device 极端反馈设备。XFD 的理念是根据自动分析的结果驱动物理设备。</p>
+<p>Fit = Framework for Integrated Test 集成测试框架</p>
+<p>Dirty Harry: Man’s got to know his limitations. 人得知道自己的局限。</p>
+<p>Punch: You pays your money and you takes your choice. 你付钱，你自己选择。</p>
+<p>摘录：</p>
+<ul>
+<li><p><strong>Act with Prudence 谨慎行事</strong><br>Anon: Whatever you undertake, act with prudence and consider the consequences. 无论你做什么，都要谨慎行事并考虑后果。<br>技术债务就像一笔贷款：您在短期内从中受益，但您必须支付利息，直到它完全还清。</p>
+</li>
+<li><p><strong>Beauty Is in Simplicity 美在于简单</strong><br>Plato: Beauty of style and harmony and grace and good rhythm depends on simplicity. 风格之美、和谐之美、优雅之美和良好的节奏取决于简单。<br>漂亮的代码就是简单的代码。每个单独的部分都保持简单，职责简单，并与系统的其他部分建立简单的关系。</p>
+</li>
+<li><p><strong>Before You Refactor 重构之前</strong><br>在某些时候，每个程序员都需要重构现有代码。但在您这样做之前，请考虑以下几点，因为这可以为您和其他人节省大量时间（和痛苦）：</p>
+<ul>
+<li>重构的最佳方法是从评估现有代码库和针对该代码编写的测试开始。</li>
+<li>避免重写所有内容的诱惑。 最好尽可能多地重用代码。无论代码多么丑陋，它都已经经过测试、审查等。丢弃旧代码 — 尤其是当它处于生产环境中时 — 意味着您丢弃了数月（或数年）经过测试、久经考验的代码，这些代码可能具有某些您不知道的解决方法和错误修复。</li>
+<li>许多增量更改比一次大规模更改要好。 增量更改允许您通过反馈（例如来自测试）更轻松地衡量对系统的影响。</li>
+<li>每次迭代后，确保现有测试通过非常重要。 如果现有测试不足以涵盖您所做的更改，请添加新测试。不要在没有适当考虑的情况下丢弃旧代码中的测试。</li>
+<li>个人喜好和自我不应该成为障碍。 如果某样东西没有坏，为什么要修理它呢？代码的样式或结构不符合您的个人偏好不是重组的正当理由。认为你可以比以前的程序员做得更好也不是一个正当的理由。</li>
+<li>新技术不足以成为重构的理由。 重构的最糟糕的原因之一是，当前的代码远远落后于我们今天拥有的所有很酷的技术，我们相信新的语言或框架可以更优雅地做事。除非成本效益分析表明新语言或框架将在功能、可维护性或生产力方面带来显著改进，否则最好保持原样。</li>
+<li>人类会犯错。 重组并不总是保证新代码会更好，甚至与以前的尝试一样好。</li>
+</ul>
+</li>
+<li><p><strong>Continuous Learning 持续学习</strong><br>以下是让您不断学习的方法列表：</p>
+<ul>
+<li>阅读书籍、杂志、博客、Twitter 提要和网站。</li>
+<li>如果您真的想沉浸在一项技术中，那就动手实践 — 编写一些代码。</li>
+<li>使用虚拟导师。在 Web 上找到您真正喜欢的作者和开发人员，并阅读他们编写的所有内容。订阅他们的博客。</li>
+<li>了解您使用的框架和库。了解某物的工作原理会让您知道如何更好地使用它。如果他们是开源的，那么您真的很幸运。使用调试器逐步执行代码，以查看后台发生的情况。您将看到一些非常聪明的人编写和审查的代码。</li>
+<li>每当您犯错误、修复错误或遇到问题时，请尝试真正了解发生了什么。很可能其他人遇到了同样的问题并将其发布到 Web 上的某个位置。Google 在这里真的很有用。</li>
+<li>学习某物的一个真正好方法是教授或谈论它。当人们倾听你并问你问题时，你会有很高的学习动力。</li>
+<li>每年学习一门新语言。至少学习一项新技术或工具。扩展为您提供了可以在当前技术堆栈中使用的新想法。</li>
+<li>并非您学习的所有内容都必须与技术有关。了解您正在使用的域，以便您可以更好地了解需求并帮助解决业务问题。学习如何提高工作效率，如何更好地工作，是另一个不错的选择。</li>
+</ul>
+</li>
+<li><p><strong>Don’t Ignore that Error! 不要忽视那个错误！</strong><br>我们以多种方式报告代码中的错误，包括：</p>
+<ul>
+<li>返回代码可以用作函数的结果值，以表示“it didn’t work”。</li>
+<li>errno 是一个奇怪的 C 畸变，一个单独的全局变量，设置为 signal error。</li>
+<li>异常是一种更结构化、语言支持的信号和处理错误的方式。</li>
+</ul>
+<p>不处理错误会导致：脆性代码，不安全的代码，结构差。</p>
+</li>
+<li><p><strong>Don’t Repeat Yourself 不要重复自己</strong></p>
+<ul>
+<li>Duplication is waste 重复就是浪费</li>
+<li>Repetition in process calls for automation 流程中的重复需要自动化</li>
+<li>Repetition in logic calls for abstraction 逻辑中的重复需要抽象</li>
+</ul>
+</li>
+<li><p><strong>Encapsulate Behavior, not Just State 封装行为，而不仅仅是状态</strong><br>Modules 和 packages 解决了更大规模的 capsulation 需求，而 classes、subroutines 和 functions 解决了更细粒度的方面。<br>对象封装状态和行为，其中行为由实际状态定义。</p>
+</li>
+<li><p>The Golden Rule of API Design API 设计的黄金法则<br>为您开发的 API 编写测试是不够的;您必须为使用 API 的代码编写单元测试。当您这样做时，您将直接了解用户尝试独立测试其代码时必须克服的障碍。</p>
+</li>
+<li><p><strong>How to Use a Bug Tracker 如何使用 Bug 跟踪器</strong><br>一个好的 bug 报告需要三样东西：</p>
+<ul>
+<li>如何尽可能精确地重现 Bug，以及这将使 Bug 出现的频率。</li>
+<li>至少在你看来，应该发生的事情。</li>
+<li>实际发生了什么，或者至少是你记录的尽可能多的信息。</li>
+</ul>
+<p>bug 不是一个标准的工作单元，就像一行代码是工作量的精确度量一样。</p>
+</li>
+<li><p><strong>Learn Foreign Languages 学习外语</strong><br>程序员需要多沟通。<br>今天的大型项目更多的是社会活动，而不仅仅是编程艺术的应用。</p>
+<p>查理曼大帝：了解另一种语言就等于拥有另一种灵魂。<br>Charlemagne: to know another language is to have another soul. </p>
+<p>路德维希·维特根斯坦：一个人不能说话，就必须保持沉默。<br>Ludwig Wittgenstein: Whereof one cannot speak, thereof one must be silent.</p>
+</li>
+<li><p><strong>Learn to Estimate 学习估算</strong><br>三个定义——估计、目标和承诺：</p>
+<ul>
+<li>估计是对某物的价值、数量、数量或范围的近似计算或判断。</li>
+<li>目标是对理想业务目标的陈述。</li>
+<li>承诺是承诺在特定日期或事件之前以特定质量级别交付指定功能。</li>
+</ul>
+<p>估计、目标和承诺彼此独立，但目标和承诺应基于合理的估计。</p>
+</li>
+<li><p><strong>Write Tests for People 为人员编写测试</strong><br>好的测试充当他们正在测试的代码的文档。它们描述了代码的工作原理。对于每个使用场景，测试：</p>
+<ul>
+<li>描述必须满足的上下文、起点或前提条件</li>
+<li>说明如何调用软件</li>
+<li>描述预期结果或要验证的后置条件</li>
+</ul>
+</li>
+</ul>
+<p><strong>5. How To Ask Questions The Smart Way - by Eric Steven Raymond, Rick Moen</strong><br><a target="_blank" rel="noopener" href="http://www.catb.org/~esr/faqs/smart-questions.html">http://www.catb.org/~esr/faqs/smart-questions.html</a><br>中文翻译版：提问的智慧<br><a target="_blank" rel="noopener" href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way</a></p>
+<p>相关文章：你会问问题吗？<br><a target="_blank" rel="noopener" href="https://coolshell.cn/articles/3713.html">https://coolshell.cn/articles/3713.html</a></p>
+<p>许多技术支持组织使用的主题标题的一个很好的约定是 “object - deviation”。 这 “object” 部分指定什么事物或一组事物有问题， 而 “deviation” 部分描述与预期行为的偏差。</p>
+<p>开放式问题往往被视为开放式时间消耗。那些最有可能给你一个有用答案的人也是最忙碌的人（如果只是因为他们自己承担了最多的工作）。</p>
+<p>礼貌从来不会伤害人，有时还会有所帮助。</p>
+<p>几个亮点总结如下：</p>
+<ul>
+<li>提问前先自己尝试查找答案，读读文档、手册，看看有没有相似的问题，看看那些方法能不能帮你解决问题，自己去试一试。如果你是程序员，你应该先学会自己调查一下源代码。（不然，人家回答你的一定是——RTFM – Read The Fucking Manual）这样的问题很多。我有时候很不愿意回答这样的问题，因为我觉得问问题的人把我当成了他的小跟班了。</li>
+<li>提问的时候，找正确的人或是正确的论坛发问。向陌生人或是不负责的人提问可能会是很危险的。不正确的人，会让你事倍功半。如果你问Linux的人Windows太慢怎么办？他们一定会让你把Windows删了装Linux去的。</li>
+<li>问的问题一定要是很明确的，并且阐述你做了哪些尝试，你一定要简化你的问题，这样可以让你的问题更容易被回答。对于一些问题，最好提供最小化的重现问题的步骤。</li>
+<li>你一定要让问题变得简单易读，这和写代码是一样的。只有简单易读的邮件，人们才会去读，试想看到一封巨大无比的邮件，读邮件的心情都没有了。而且，内容越多，可能越容易让人理解错了。</li>
+<li>你问问题的态度应该是以一种讨论的态度，即不是低三下四，也不是没有底气。只有这样，你和你的问题才能真正被人看得起。要达到这个状态，不想让别人看不起你，你就一定需要自己去做好充足的调查。问题 问得好的话，其实会让人觉得你很有经验的，能想到别人想不到的地方。</li>
+<li>不要过早下结论。比如：“我这边的程序不转了，我觉得是你那边的问题，你什么时候能fix？”，或是“太难调试了，gdb怎么这么烂？！”。当你这么做的时候，你一定要有足够的信息和证据，否则，你就显得很自大。好的问题应该是，“我和你的接口的程序有问题，我输入了这样的合法的参数，但是XX函数却总是返回失败，我们能一起看看吗？”，“我看了一下gdb的文档，发现我在用XXX命令调试YYY的时候，有这样ZZZ的问题，是不是我哪里做错了？”</li>
+</ul>
+<p><strong>6. X-Y Problem</strong><br><a target="_blank" rel="noopener" href="https://coolshell.cn/articles/10804.html">https://coolshell.cn/articles/10804.html</a></p>
+<p>对于X-Y Problem的意思如下：<br>1）有人想解决问题X<br>2）他觉得Y可能是解决X问题的方法<br>3）但是他不知道Y应该怎么做<br>4）于是他去问别人Y应该怎么做？</p>
+<p>简而言之，没有去问怎么解决问题X，而是去问解决方案Y应该怎么去实现和操作。于是乎：<br>1）热心的人们帮助并告诉这个人Y应该怎么搞，但是大家都觉得Y这个方案有点怪异。<br>2）在经过大量地讨论和浪费了大量的时间后，热心的人终于明白了原始的问题X是怎么一回事。<br>3）于是大家都发现，Y根本就不是用来解决X的合适的方案。</p>
+<p>X-Y Problem最大的严重的问题就是：在一个根本错误的方向上浪费他人大量的时间和精力！</p>
+<p>X-Y Problem又叫“过早下结论”：提问者其实并不非常清楚想要解决的X问题，他猜测用Y可以搞定，于是他问大家如何实现Y。</p>
+<p>下面我个人觉得非常像XY Problem的一些变种：<br>其一、大多数人有时候，非常容易把手段当目的，他们会用自己所喜欢的技术和方法来反推用户的需求，于是很有可能就会出现X-Y Problem – 也许解决用户需求最适合的技术方案是PC，但是我们要让他们用手机。<br>其二、产品经理有时候并不清楚他想解决的用户需求是什么，于是他觉得可能开发Y的功能能够满足用户，于是他提出了Y的需求让技术人员去做，但那根本不是解决X问题的最佳方案。<br>其三、因为公司或部门的一些战略安排，业务部门设计了相关的业务规划，然后这些业务规划更多的是公司想要的Y，而不是解决用户的X问题。<br>其四、对于个人的职业发展，X是成长为有更强的技能和能力，这个可以拥有比别人更强的竞争力，从而可以有更好的报酬，但确走向了Y：全身心地追逐KPI。<br>其五、本来我们想达成的X是做出更好和更有价值的产品，但最终走到了Y：通过各种手段提升安装量，点击量，在线量，用户量来衡量。<br>其六、很多团队Leader都喜欢制造信息不平等，并不告诉团队某个事情的来由，掩盖X，而直接把要做的Y告诉团队，导致团队并不真正地理解，而产生了很多时间和经历的浪费。</p>
+<blockquote>
+<p>一种刻舟求剑、南辕北辙的表现？</p>
+</blockquote>
+<p><strong>7. 程序员的谎谬之言还是至理名言？</strong><br><a target="_blank" rel="noopener" href="https://coolshell.cn/articles/4235.html">https://coolshell.cn/articles/4235.html</a></p>
+<p><del>“I will learn it when I need it - 我会在我需要的时候再学”</del></p>
+<p>在这里想说几个我的观点：</p>
+<ul>
+<li>如果你把一个技术搞精搞深，你的知识面自然会很广的。</li>
+<li>面对于各种比较深的东西（比如C++的奇技淫巧），作为一个实用主义者可能很不屑，但是你也会为此而失去开阔眼界的机会。</li>
+<li>为明天做一些技术储备，因为你不知道你所缺的东西。多多阅读，多多交流，最好能把自己的心得写下来强化自己的认识和记忆。</li>
+<li>不要只寄望于在工作中学习，工作没有覆盖的地方你就不学了。真正的高手在工作之余都会花很多时间去自己研究点东西的。</li>
+<li>永远和高手一起工作。如果你面试的公司的面试太简单了，那就不要去，因为简单的面试通常意味着平庸。去那样的公司工作只会让你的学习速度变慢，甚至倒退。</li>
+<li>很多东西在概念上是相通的，在哲学层次上是相通的，这是你需要去追求的学习知识的境界。</li>
+<li><strong>“很多时候，你缺少的不是知识而是热情”！</strong></li>
+</ul>
+<h4 id="专业基础篇"><a href="#专业基础篇" class="headerlink" title="专业基础篇"></a>专业基础篇</h4><h5 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h5><p>以工业级的C、C++、Java这三门语言为主。</p>
+<p>我推荐Go语言，它已成为云计算领域事实上的标准语言，尤其是在Docker、Kubernetes等项目中。<br>因为C语言太原始了，C++太复杂了，Java太高级了。</p>
+<h5 id="理论学科"><a href="#理论学科" class="headerlink" title="理论学科"></a>理论学科</h5><p>算法、数据结构、网络模型、计算机原理等计算机科学专业。</p>
+<h5 id="系统知识"><a href="#系统知识" class="headerlink" title="系统知识"></a>系统知识</h5><p>Unix/Linux、TCP/IP、C10K挑战等。</p>
+<p>你至少要掌握三个系统的基础知识，一个是操作系统，一个是网络系统，还有一个是数据库系统。它们分别代表着计算机基础构架的三大件——计算、网络、存储。</p>
+<p>术业有专攻了。下面给一些建议的方向：</p>
+<ul>
+<li>底层方向：操作系统、文件系统、数据库、网络……</li>
+<li>架构方向：分布式系统架构、微服务、DevOps、Cloud Native……</li>
+<li>数据方向：大数据、机器学习、人工智能……</li>
+<li>前端方向：你对用户体验或是交互更感兴趣，那么你走前端的路吧。</li>
+<li>其它方向：比如，安全开发、运维开发、嵌入式开发……</li>
+</ul>
+<h4 id="软件设计篇"><a href="#软件设计篇" class="headerlink" title="软件设计篇"></a>软件设计篇</h4><p>学习软件设计的方法、理念、范式和模式，是让你从一个程序员通向工程师的必备技能。</p>
+<p>Instagram工程的三个黄金法则：<br>1）使用稳定可靠的技术（迎接新的技术）​；<br>2）不要重新发明轮子；<br>3）Keep it very simple。</p>
+<p>Amazon也有两条工程法则，一个是自动化，一个是简化。</p>
+<p>软件设计的相关原则：</p>
+<ul>
+<li>DRY = Don’t Repeat Yourself</li>
+<li>KISS = Keep It Simple, Stupid</li>
+<li>YAGNI = You Ain’t Gonna Need It</li>
+<li>Law of Demeter 迪米特法则 / Principle of Least Knowledge 最少知识原则：<pre class="line-numbers language-none"><code class="language-none">对于LoD，正式的表述如下：
+对于对象 ‘O’ 中一个方法‘M’，M应该只能够访问以下对象中的方法：
+对象O；
+与O直接相关的Component Object；
+由方法M创建或者实例化的对象；
+作为方法M的参数的对象。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>S.O.L.I.D:<ul>
+<li>SRP = Single Responsibility Principle 单一职责原则</li>
+<li>OCP = Open Closed Principle 开放封闭原则</li>
+<li>LSP = Liskov Substitution Priciple 里氏替换原则</li>
+<li>ISP = Interface Segregation Principle 接口隔离原则</li>
+<li>DIP = Dependency Inversion Principle 依赖倒置原则</li>
+</ul>
+</li>
+<li>CCP = Common Closure Principle 共同封闭原则：一个包中所有的类应该对同一种类型的变化关闭。一个变化影响一个包，便影响了包中所有的类。一个更简短的说法是：一起修改的类，应该组合在一起（同一个包里）​。如果必须修改应用程序里的代码，那么我们希望所有的修改都发生在一个包里（修改关闭）​，而不是遍布在很多包里。</li>
+<li>CRP = Common Reuse Principle 共同重用原则：包的所有类被一起重用。如果你重用了其中的一个类，就重用全部。换个说法是，没有被一起重用的类不应该组合在一起。CRP原则帮助我们决定哪些类应该被放到同一个包里。依赖一个包就是依赖这个包所包含的一切。</li>
+<li>Hollywood Principle 好莱坞原则：don’t call us, we’ll call you.​ 意思是，好莱坞的经纪人不希望你去联系他们，而是他们会在需要的时候来联系你。也就是说，所有的组件都是被动的，所有的组件初始化和调用都由容器负责。<br>所谓“控制反转”的概念所在：<br>1）不创建对象，而是描述创建对象的方式。<br>2）在代码中，对象与服务没有直接联系，而是容器负责将这些联系在一起。控制权由应用代码中转到了外部容器，控制权的转移，是所谓反转。好莱坞原则就是IoC（Inversion of Control）或DI（Dependency Injection）的基础原则。</li>
+<li>High Cohesion &amp; Low/Loose Coupling 高内聚 低耦合。这个原则是UNIX操作系统设计的经典原则，把模块间的耦合降到最低，而努力让一个模块做到精益求精。<br>内聚，指一个模块内各个元素彼此结合的紧密程度；耦合指一个软件结构内不同模块之间互连程度的度量。<br>内聚意味着重用和独立，耦合意味着多米诺效应牵一发动全身。</li>
+<li>CoC = Convention over Configuration 约定优于配置：就是将一些公认的配置方式和信息作为内部缺省的规则来使用。<br>例如，Hibernate的映射文件，如果约定字段名和类属性一致的话，基本上就可以不要这个配置文件了。你的应用只需要指定不convention的信息即可，从而减少了大量convention而又不得不花时间和精力啰里啰嗦的东东。</li>
+<li>SoC = Separation of Concerns 关注点分离：SoC 是计算机科学中最重要的努力目标之一。这个原则，就是在软件开发中，通过各种手段，将问题的各个关注点分开。如果一个问题能分解为独立且较小的问题，就是相对较易解决的。问题太过于复杂，要解决问题需要关注的点太多，而程序员的能力是有限的，不能同时关注于问题的各个方面。<br>实现关注点分离的方法主要有两种，一种是标准化，另一种是抽象与包装。<br>标准化就是制定一套标准，让使用者都遵守它，将人们的行为统一起来，这样使用标准的人就不用担心别人会有很多种不同的实现，使自己的程序不能和别人的配合。</li>
+<li>DbC = Design by Contract 契约式设计：DbC的核心思想是对软件系统中的元素之间相互合作以及“责任”与“义务”的比喻。这种比喻从商业活动中“客户”与“供应商”达成“契约”而得来。</li>
+<li>ADP = Acyclic Dependencies Principle 无环依赖原则：包（或服务）之间的依赖结构必须是一个直接的无环图形，也就是说，在依赖结构中不允许出现环（循环依赖）​。<br>有两种方法可以打破这种循环依赖关系：第一种方法是创建新的包。第二种方法是使用DIP（依赖倒置原则）和ISP（接口分隔原则）设计原则。</li>
+</ul>
+<h4 id="高手成长篇"><a href="#高手成长篇" class="headerlink" title="高手成长篇"></a>高手成长篇</h4><h5 id="Linux系统、内存和网络"><a href="#Linux系统、内存和网络" class="headerlink" title="Linux系统、内存和网络"></a>Linux系统、内存和网络</h5><p>有三种内存分配管理模块：</p>
+<ul>
+<li>ptmalloc 是glibc的内存分配管理。</li>
+<li>tcmalloc 是Google的内存分配管理模块，全称是Thread-Caching malloc，基本上来说比glibc的ptmalloc快两倍以上。</li>
+<li><strong>jemalloc</strong> 是BSD提供的内存分配管理，这是一个可以并行处理的内存分配管理器。</li>
+</ul>
+<h5 id="异步IO模型和Lock-Free编程"><a href="#异步IO模型和Lock-Free编程" class="headerlink" title="异步IO模型和Lock-Free编程"></a>异步IO模型和Lock-Free编程</h5><ol>
+<li>异步IO模型</li>
+</ol>
+<p>史蒂文斯（Stevens）在《UNIX网络编程》一书6.2 I/O Models中介绍了五种I/O模型：</p>
+<ul>
+<li>阻塞I/O</li>
+<li>非阻塞I/O</li>
+<li>I/O的多路复用（select和poll）</li>
+<li>信号驱动的I/O（SIGIO）</li>
+<li>异步I/O（POSIX的aio_functions）</li>
+</ul>
+<p>基本上来说，异步I/O模型的发展技术是：select -&gt; poll -&gt; epoll -&gt; aio -&gt; libeve</p>
+<ol start="2">
+<li>Lock-Free编程</li>
+</ol>
+<ul>
+<li><p>C/C++的类库​<br>Boost.Lockfree - Boost库中的无锁数据结构。<br>ConcurrencyKit - 并发性编程的原语。<br>Folly - Facebook的开源库（它对MPMC队列做了一个很好的实现）​。<br>Junction - C++中的并发数据结构。<br>MPMCQueue - 一个用C++11编写的有边界的“多生产者-多消费者”无锁队列。<br>SPSCQueue - 一个有边界的“单生产者-单消费者”的无等待、无锁的队列。<br>Seqlock - 用C++实现的Seqlock。<br>Userspace RCU - liburcu是一个用户空间的RCU（Read-copy-update，读-拷贝-更新）库。<br>libcds - 一个并发数据结构的C++库。<br>liblfds - 一个用C语言编写的可移植、无许可证、无锁的数据结构库。</p>
+</li>
+<li><p>Java类<br>请参看JDK里的Concurrent开头的一系列的类。</p>
+</li>
+</ul>
+<h5 id="Java底层知识"><a href="#Java底层知识" class="headerlink" title="Java底层知识"></a>Java底层知识</h5><ol>
+<li>Java字节码</li>
+</ol>
+<p>一般来说，我们不使用JVMTI操作字节码，而是用一些更好用的库。<br>这里有三个库可以帮你比较容易地做这个事：<br>asmtools - 用于生产环境的Java .class文件开发工具。<br>Byte Buddy - 代码生成库：运行时创建Class文件而不需要编译器帮助。<br>Jitescript - 和 BiteScript 类似的字节码生成库。</p>
+<p>Java Agent技术使用的是 “Java Instrumentation API”​，其主要方法是实现一个叫premain() 的方法（嗯，一个比 main() 函数还要超前执行的 main 函数）​，然后把你的代码编译成一个jar文件。<br>在JVM启动时，使用这样的命令行来引入你的jar文件：<code>java -javaagent:yourAwesomeAgent.jar -jar App.jar</code></p>
+<ol start="2">
+<li>JVM</li>
+</ol>
+<ul>
+<li>Java内存模型</li>
+<li>垃圾回收机制</li>
+</ul>
+<h5 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h5><ul>
+<li><p>关系型数据库<br>关系型数据库主要有三个：Oracle、MySQL 和 Postgres。<br>MySQL有两个比较有名的分支，一个是Percona，另一个是MariaDB。</p>
+</li>
+<li><p>NoSQL数据库</p>
+<ul>
+<li>列数据库 Column Database<br>Cassandra<br>HBase<br>ClickHouse - Open Source Distributed Column Database at Yandex<br>Scaling Redshift without Scaling Costs at GIPHY</li>
+<li>文档数据库 Document Database - MongoDB, SimpleDB, CouchDB</li>
+<li>数据结构数据库 Data structure Database - Redis</li>
+<li>图数据库 - Graph Platform</li>
+<li>时序数据库 Time-Series Database</li>
+<li>搜索数据库 - ElasticSearch</li>
+</ul>
+</li>
+</ul>
+<h5 id="分布式架构-1"><a href="#分布式架构-1" class="headerlink" title="分布式架构"></a>分布式架构</h5><ol>
+<li>分布式系统</li>
+</ol>
+<p>分布式系统涵盖的面非常广，具体来说涵盖如下几方面：</p>
+<ul>
+<li>服务调度，涉及服务发现、配置管理、弹性伸缩、故障恢复等。</li>
+<li>资源调度，涉及对底层资源的调度使用，如计算资源、网络资源和存储资源等。</li>
+<li>流量调度，涉及路由、负载均衡、流控、熔断等。</li>
+<li>数据调度，涉及数据复本、数据一致性、分布式事务、分库、分表等。</li>
+<li>容错处理，涉及隔离、幂等、重试、业务补偿、异步、降级等。</li>
+<li>自动化运维，涉及持续集成、持续部署、全栈监控、调用链跟踪等。</li>
+</ul>
+<ol start="2">
+<li>分布式理论</li>
+</ol>
+<p>拜占庭容错系统研究中的三个重要理论：CAP、FLP 和 DLS：</p>
+<ul>
+<li>CAP理论 - 分布式数据存储不可能同时满足以下三个条件：一致性（Consistency）​、可用性（Availability）和 分区容忍（Partition tolerance）​。 “在网络发生阻断（partition）时，你只能选择数据的一致性（consistency）或可用性（availability）​，无法两者兼得”​。<br>论点比较直观：如果网络因阻断而分隔为二，在其中一边我送出一笔交易：“将我的十元给A”；在另一半我送出另一笔交易：“将我的十元给B ”。此时系统要么是，a）无可用性，即这两笔交易至少会有一笔交易不会被接受；要么就是，b）无一致性，一半看到的是A多了十元而另一半则看到B多了十元。<br>要注意的是，CAP理论和扩展性（scalability）是无关的，在分片（sharded）或非分片的系统皆适用。</li>
+<li>FLP impossibility - 在异步环境中，如果节点间的网络延迟没有上限，只要有一个恶意节点存在，就没有算法能在有限的时间内达成共识。<br>但值得注意的是， “Las Vegas” algorithms（这个算法又叫撞大运算法，其保证结果正确，只是在运算时所用资源上进行赌博。一个简单的例子是随机快速排序，它的pivot是随机选的，但排序结果永远一致）在每一轮皆有一定机率达成共识，随着时间增加，机率会越趋近于1。而这也是许多成功的共识演算法会采用的解决办法。</li>
+<li>容错的上限，由DLS论文我们可以得到以下结论：<ul>
+<li>在部分同步（partially synchronous）的网络环境中（即网络延迟有一定的上限，但我们无法事先知道上限是多少），协议可以容忍最多1/3的拜占庭故障（Byzantine fault）。</li>
+<li>在异步（asynchronous）网络环境中，具确定性质的协议无法容忍任何错误，但这篇论文并没有提及 randomized algorithms 在这种情况可以容忍最多1/3的拜占庭故障。</li>
+<li>在同步（synchronous）网络环境中（网络延迟有上限且上限是已知的），协议可以容忍100%的拜占庭故障。但当超过1/2的节点为恶意节点时，会有一些限制条件。要注意的是，我们考虑的是“具认证特性的拜占庭模型（authenticated Byzantine）”，而不是“一般的拜占庭模型”。具认证特性指的是将如今已经过大量研究且成本低廉的公私钥加密机制应用在我们的算法中。</li>
+</ul>
+</li>
+</ul>
+<p>8条荒谬的分布式假设（Fallacies of Distributed Computing）​​：<br><del>网络是稳定的。</del><br><del>网络传输的延迟是零。</del><br><del>网络的带宽是无穷大。</del><br><del>网络是安全的。</del><br><del>网络的拓扑不会改变。</del><br><del>只有一个系统管理员。</del><br><del>传输数据的成本为零。</del><br><del>整个网络是同构的。</del></p>
+<ol start="3">
+<li>分布式架构</li>
+</ol>
+<ul>
+<li>分布式事务<br>Paxos一致性算法<br>Raft一致性算法<br>Gossip一致性算法</li>
+<li>分布式存储和数据库</li>
+<li>分布式消息系统 - Kafka</li>
+<li>分布式监控和跟踪 - Zipkin、Pinpoint、HTrace</li>
+<li>日志和数据</li>
+<li>数据分析</li>
+</ul>
+<ol start="4">
+<li>分布式架构工程实践</li>
+</ol>
+<ul>
+<li>故障测试</li>
+<li>弹性伸缩</li>
+<li>一致性哈希</li>
+<li>分布式数据库</li>
+<li>缓存</li>
+<li>消息队列</li>
+<li>日志</li>
+<li>性能</li>
+<li>搜索</li>
+</ul>
+<h5 id="微服务"><a href="#微服务" class="headerlink" title="微服务"></a>微服务</h5><p>微服务架构主要解决的是如何快速地开发和部署我们的服务，这对于一个能够适应快速开发和成长的公司是非常必要的。<br>微服务的每个服务与其数据库都是独立的，可以无依赖地进行部署。</p>
+<p>微服务架构示例技术栈：</p>
+<ul>
+<li>前端：React.js 或 Vue.js。</li>
+<li>后端：Go语言 + 微服务工具集 Go kit ，因为是微服务了，所以，每个服务的代码就简单了。既然简单了，也就可以用任何语言了，所以，我推荐Go语言。</li>
+<li>通讯：gRPC，这是Google远程调用的一个框架，它比Restful的调用要快20倍到50倍的样子。</li>
+<li>API：Swagger ，Swagger是一种Restful API的简单但强大的表示方式，标准的，语言无关，这种表示方式不但人可读，而且机器可读。可以作为Restful API的交互式文档，也可以作为Restful API形式化的接口描述，生成客户端和服务端的代码。今天，所有的API应该都通过Swagger来完成。</li>
+<li>网关：Envoy 其包含了服务发现、负载均衡和熔断等这些特性，也是一个很有潜力的网关。当然，Kubernetes也是很好的，而且它也是高扩展的，所以，完全可以把Envoy通过Ingress集成进Kubernetes。这里有一个开源项目就是干这个事的 - contour。</li>
+<li>日志监控：fluentd + ELK 。</li>
+<li>指标监控：Prometheus 。</li>
+<li>调用跟踪：Jaeger 或是 Zipkin，当然，后者比较传统一些，前者比较时髦，最重要的是，其可以和Prometheus和Envory集成。</li>
+<li>自动化运维：Docker + Kubernetes 。</li>
+</ul>
+<h5 id="容器化和自动化运维"><a href="#容器化和自动化运维" class="headerlink" title="容器化和自动化运维"></a>容器化和自动化运维</h5><p>Docker有几种网络解决方案：Calico、Flannel、Weave。<br>netshoot是一个很不错的用来诊断Docker网络问题的工具集。<br>八个Docker的开发模式：</p>
+<ul>
+<li>共享基础容器、</li>
+<li>共享同一个卷的多个开发容器、</li>
+<li>开发工具专用容器、</li>
+<li>测试环境容器、</li>
+<li>编译构建容器、</li>
+<li>防手误的安装容器、</li>
+<li>默认服务容器、</li>
+<li>胶黏容器。</li>
+</ul>
+<p>Kubernetes是Google开源的容器集群管理系统，是Google多年大规模容器管理技术Borg的开源版本，也是CNCF最重要的项目之一。<br>主要功能包括：</p>
+<ul>
+<li>基于容器的应用部署、维护和滚动升级；</li>
+<li>负载均衡和服务发现；</li>
+<li>跨机器和跨地区的集群调度；</li>
+<li>自动伸缩；</li>
+<li>无状态服务和有状态服务；</li>
+<li>广泛的Volume支持；</li>
+<li>插件机制保证扩展性。</li>
+</ul>
+<h5 id="机器学习和人工智能"><a href="#机器学习和人工智能" class="headerlink" title="机器学习和人工智能"></a>机器学习和人工智能</h5><ol>
+<li>基本原理</li>
+</ol>
+<p>机器学习主要有两种方式，一种是监督式学习（Supervised Learning）​，另一种是非监督式学习（Unsupervised Learning）​。<br>监督式学习是在被告诉过了正确的答案后的学习，而非监督式学习是在没有被告诉正确答案时的学习。</p>
+<ol start="2">
+<li>相关算法</li>
+</ol>
+<p>数据挖掘的算法，比如线性回归、逻辑回归、随机森林、K-Means聚类的数据分析。<br>深度学习相关，比如基本神经网络、卷积神经网络和长短期记忆网络。</p>
+<p>10个非常经典的机器学习的算法：</p>
+<ul>
+<li><p>对于监督式学习，有如下经典算法：</p>
+<ul>
+<li>决策树（Decision Tree）​，比如自动化放贷、风控。</li>
+<li>朴素贝叶斯分类器（Naive Bayesian classifier），可以用于判断垃圾邮件、对新闻的类别进行分类，比如科技、政治、运动、判断文本表达的感情是积极的还是消极的、人脸识别等。</li>
+<li>最小二乘法（Ordinary Least Squares Regression）​，是一种线性回归。</li>
+<li>逻辑回归（Logisitic Regression）​，一种强大的统计学方法，可以用一个或多个变量来表示一个二项式结果。可以用于信用评分，计算营销活动的成功率，预测某个产品的收入。</li>
+<li>支持向量机（Support Vector Machine，SVM）​，可以用于基于图像的性别检测、图像分类等。</li>
+<li>集成方法（Ensemble methods）​，通过构建一组分类器，然后通过它们的预测结果进行加权投票来对新的数据点进行分类。原始的集成方法是贝叶斯平均，但最近的算法包括纠错输出编码、Bagging和Boosting。</li>
+</ul>
+</li>
+<li><p>对于无监督式的学习，有如下经典算法：</p>
+<ul>
+<li>聚类算法（Clustering Algorithms）​。聚类算法有很多，目标是给数据分类。有5个比较著名的聚类算法你必需要知道：K-Means、Mean-Shift、DBSCAN、EM/GMM、和 Agglomerative Hierarchical。</li>
+<li>主成分分析（Principal Component Analysis，PCA）​。PCA的一些应用包括压缩、简化数据便于学习、可视化等。</li>
+<li>奇异值分解（Singular Value Decomposition，SVD）​。实际上，PCA是SVD的一个简单应用。在计算机视觉中，第一个人脸识别算法使用PCA和SVD来将面部表示为”特征面”的线性组合，进行降维，然后通过简单的方法将面部匹配到身份。虽然现代方法更复杂，但很多方面仍然依赖于类似的技术。</li>
+<li>独立成分分析（Independent Component Analysis，ICA）​。ICA是一种统计技术，主要用于揭示随机变量、测量值或信号集中的隐藏因素。</li>
+</ul>
+</li>
+</ul>
+<h5 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h5><ol>
+<li>前端基础和底层原理</li>
+</ol>
+<ul>
+<li>基础知识 - HTML5, CSS3, ES6</li>
+<li>JavaScript的核心原理</li>
+<li>浏览器的工作原理</li>
+<li>网路协议HTTP</li>
+</ul>
+<p>前端的三个最基本的东西HTML 5、CSS 3和JavaScript（ES6）是必须要学好的。<br>这其中有很多很多的技术，比如，CSS 3引申出来的Canvas（位图）​、SVG（矢量图） 和 WebGL（3D图）​，以及CSS的各种图形变换可以让你做出非常丰富的渲染效果和动画效果。CSS并不难学。绝大多数觉得难的，一方面是文档没读透，另一方面是浏览器支持的标准不一致。所以，学好CSS最关键的还是要仔细地读文档。<br>ES6简直就是把JavaScript带到了一个新的台阶，JavaScript语言的强大，大大释放了前端开发人员的生产力，让前端得以开发更为复杂的代码和程序，于是像React和Vue这样的框架开始成为前端编程的不二之选。</p>
+<ol start="2">
+<li>前端性能优化和框架</li>
+</ol>
+<ul>
+<li>前端性能调优</li>
+<li>前端框架 - React, Vue | Virutal DOM</li>
+</ul>
+<p>Vue可能是一个更符合前端工程师习惯的框架。不像React.js那样使用函数式编程方式，是后端程序员的思路。</p>
+<ol start="3">
+<li>UI/UX设计</li>
+</ol>
+<p>学习设计的一些原则和套路，如配色、平衡、排版、一致性等。用户体验的4D步骤——Discover、Define、Develop、Delivery。</p>
+<ul>
+<li><p>设计语言和设计系统</p>
+<ul>
+<li><p>Atomic Design<br>原子设计，在2013年网页设计师布拉德·弗罗斯特（Brad Frost）从化学中受到启发：原子（Atoms）结合在一起，形成分子（Molecules）​，进一步结合形成生物体（Organisms）​。布拉德将这个概念应用在界面设计中，我们的界面就是由一些基本的元素组成的。<br>乔希·杜克（Josh Duck）的“HTML元素周期表”完美阐述了我们所有的网站、App、企业内部网、hoobadyboops等是如何由相同的HTML元素组成的。通过在大层面（页）和小层面（原子）同时思考界面，布拉德认为，可以利用原子设计建立一个适应组件的动态系统。</p>
+</li>
+<li><p>Fluent Design System<br>流畅设计体系，是微软于2017年开发的设计语言。流畅设计是Microsoft Design Language 2的改版，其中包含为所有面向Windows 10设备和平台设计的软件中的设计和交互的指导原则。<br>该体系基于五个关键元素：光感、深度、动效、材质和缩放。新的设计语言包括更多对动效、深度及半透明效果的使用。过渡到流畅设计体系是一个长期项目，没有具体的完成目标，但是从创作者更新以来，新设计语言的元素已被融入到个别应用程序中。它将在未来的Windows 10秋季创作者更新中更广泛地使用，但微软也表示，该设计体系不会在秋季创作者更新内完成。<br>微软于2017年5月11日的Microsoft Build 2017开发者大会上公开了该设计体系。</p>
+</li>
+<li><p>Material Design<br>质感设计，或是材质设计、材料设计。这是由Google开发的设计语言。扩展于 Google Now 的“卡片”设计，Material Design基于网格的布局、响应动画与过渡、填充、深度效果（如光线和阴影）​。设计师马蒂亚斯·杜阿尔特（Matías Duarte）解释说：​“与真正的纸张不同，我们的数字材质可以智能地扩大和变形。材质具有实体的表面和边缘。接缝和阴影表明组件的含义。​”Google指出他们的新设计语言基于纸张和油墨。<br>Material Design于2014年的Google I/O大会上发布（参看 Google I/O 2014 - Material witness: How Android material applications work）​。其可借助v7 appcompat库用于Android 2.1及以上版本，几乎支持所有2009年以后制造的Android设备。随后，Material Design扩展到Google的网络和移动产品阵列，提供一致的跨平台和应用程序体验。Google还为第三方开发人员发布了API，开发人员可将质感设计应用到他们的应用程序中。</p>
+<p>下面是几个可供你使用的Material UI的工程实现：<br>Material Design Lite，这是 Google 官方的框架，简单易用。<br>Materialize，一组类似于Bootstrap的前端UI框架。<br>Material-UI，基于Google Material Design的React组件实现。<br>MUI，一个轻量级的CSS框架，遵循Google的Material Design设计方针。</p>
+</li>
+</ul>
+</li>
+<li><p>动画效果设计<br>要了解Web动画效果设计的第一步，最好的地方是 CodePen。这个网站不只是让人分享HTML、CSS和JavaScript代码的网站。其中也有很多分享样例都和动画效果有关。</p>
+<p>动画的12项基本法则：<br>由迪士尼的两位动画大师奥利·约翰斯顿（Ollie Johnston）和弗兰克·托马斯（Frank Thomas）在他们的著作《迪士尼动画：生命的幻觉》（The Illusion of Life）中提出的。这些法则为动画创作提供了重要的指导原则，帮助动画师创造出更自然、生动和富有表现力的动画效果。<br>这些法则并不是固定的规则，而是动画创作中的指导原则。根据不同的动画风格和需求，动画师可以灵活运用这些法则，创造出独特的动画作品。<br>以下是这12项基本法则的详细解释：</p>
+<ul>
+<li><ol>
+<li>挤压与拉伸（Squash and Stretch）<br>定义：通过改变物体的形状来表现其弹性和能量。例如，一个球在落地时会被挤压，反弹时会被拉伸。<br>作用：增加动画的活力和真实感，让物体看起来有弹性，避免僵硬。<br>示例：在动画中，人物奔跑时腿部的拉伸和挤压，或者角色面部表情变化时脸颊的挤压。</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>预期（Anticipation）<br>定义：通过动作的预兆来提示观众即将发生的事情。例如，角色在跳跃前会先下蹲。<br>作用：增强动作的可信度和戏剧性，让观众提前做好心理准备。<br>示例：拳击手挥拳前的后拉动作，或者角色在跳跃前的下蹲姿势。</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>循序渐进和逐渐减弱（Staging）<br>定义：确保观众的注意力集中在动画的关键元素上。通过构图、灯光和动作设计，引导观众的视线。<br>作用：避免画面过于复杂，确保观众能够清晰地理解动画的意图。<br>示例：在一场戏剧性的对话中，通过镜头切换和角色站位，突出主要角色的反应。</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>循序渐进和逐渐减弱（Straight Ahead Action and Pose to Pose）<br>定义：动画制作的两种主要方法。直拍法（Straight Ahead Action）是逐帧绘制动画，逐帧法（Pose to Pose）是先绘制关键帧，再填充中间帧。<br>作用：直拍法适合自然流畅的动作，逐帧法适合复杂和戏剧性的动作。<br>示例：直拍法用于绘制飘动的头发，逐帧法用于绘制角色的复杂动作序列。</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>跟随动作与重叠动作（Follow Through and Overlapping Action）<br>定义：跟随动作是指物体的主要动作完成后，附属部分继续运动；重叠动作是指物体的不同部分以不同的速度和时间运动。<br>作用：增加动画的真实感和自然感，避免动作过于生硬。<br>示例：角色奔跑时，手臂和头发的运动滞后于身体，或者角色转身时衣服的摆动。</li>
+</ol>
+</li>
+<li><ol start="6">
+<li>慢入慢出（Slow In and Slow Out）<br>定义：物体在开始和结束动作时速度较慢，中间部分速度较快。<br>作用：符合物理规律，使动作更加自然流畅。<br>示例：角色跳跃时，起跳和落地时速度较慢，空中部分速度较快。</li>
+</ol>
+</li>
+<li><ol start="7">
+<li>弧形运动（Arcs）<br>定义：大多数自然动作都是沿着弧形轨迹运动，而不是直线。<br>作用：使动作更加自然和真实，避免机械感。<br>示例：角色挥手、投掷或行走时，手臂和腿部的运动轨迹通常是弧形的。</li>
+</ol>
+</li>
+<li><ol start="8">
+<li>次级动作（Secondary Action）<br>定义：在主要动作的基础上添加的辅助动作，用于增强主要动作的表现力。<br>作用：增加动画的丰富性和深度，使角色更加生动。<br>示例：角色行走时的呼吸动作，或者说话时的手势。</li>
+</ol>
+</li>
+<li><ol start="9">
+<li>时间控制（Timing）<br>定义：通过控制动作的持续时间来表现物体的速度、重量和情绪。<br>作用：是动画中最重要的元素之一，决定了动作的节奏和表现力。<br>示例：快速的动作可以表现紧张或兴奋，缓慢的动作可以表现沉重或悲伤。</li>
+</ol>
+</li>
+<li><ol start="10">
+<li>夸张（Exaggeration）<br>定义：通过夸大动作或特征来增强动画的表现力和戏剧性。<br>作用：使动画更具吸引力和趣味性，同时保持可信度。<br>示例：角色的表情可以被夸张，或者动作的幅度可以被放大。</li>
+</ol>
+</li>
+<li><ol start="11">
+<li>实体绘制（Solid Drawing）<br>定义：确保动画中的物体具有三维空间感，即使在二维动画中也要表现出体积和重量。<br>作用：使动画看起来更加真实和立体。<br>示例：角色的头部在旋转时，需要表现出其三维的形状和体积。</li>
+</ol>
+</li>
+<li><ol start="12">
+<li>吸引力（Appeal）<br>定义：动画中的角色、场景和动作需要具有吸引力，能够引起观众的兴趣和情感共鸣。<br>作用：是动画成功的关键因素之一，决定了观众是否会喜欢和记住动画。<br>示例：设计一个可爱的角色，或者创作一个引人入胜的故事。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>设计收集</p>
+<ul>
+<li>Awwwards，这个网站给一些设计得不错网站的评分，在这里你可以看到很多设计不错的网站。</li>
+<li>One Page Love，就是一个单页的网页设计的收集。</li>
+<li>Inspired UI，移动App的设计模式。</li>
+<li>Behance，这个地言有很不错的很有创意的作品。</li>
+<li>Dribbble，这应该是设计师都知道也都爱去的网站。除了你可以看到一些很不错的作品外，你还可以在这里看到很多不错的设计师。</li>
+<li>UI Movement，也是个设计的收集网站，上面有很多很不错的UI设计，大量的动画。虽说会像抖音一样，让你不知不觉就看了好几小时，但是它比抖音让你的收获大多了。</li>
+</ul>
+</li>
+</ul>
+<h5 id="技术资源集散地"><a href="#技术资源集散地" class="headerlink" title="技术资源集散地"></a>技术资源集散地</h5><p>途径：</p>
+<ul>
+<li>个人技术博客</li>
+<li>YouTube技术频道</li>
+<li>各大公司技术博客</li>
+<li>论文</li>
+</ul>
+<p>2008年，杰夫·阿特伍德（Jeff Atwood）和Joel Spolsky联合创办了StackOverflow问答网站，为程序员在开发软件时节省了非常多的时间，并开启了“StackOverflow Copy + Paste 式编程”​。</p>
+<h3 id="程序员面试攻略"><a href="#程序员面试攻略" class="headerlink" title="程序员面试攻略"></a>程序员面试攻略</h3><h4 id="面试前的准备"><a href="#面试前的准备" class="headerlink" title="面试前的准备"></a>面试前的准备</h4><p>写简历的最佳实践——用自己的经历聊，而不是用文字写。</p>
+<ul>
+<li><p>个人信息，简历上的信息不要写太多，信息太多相当于没有信息，不要单纯地罗列，要突出自己的长处和技能。</p>
+</li>
+<li><p>技术知识准备，至少记住80%以上的关键知识点。算法题准备，本质来说，还是要多练多做。</p>
+</li>
+<li><p>工作项目准备<br>  几个经典的面试问题：</p>
+<ul>
+<li><p>说一个你做过的最自豪的项目，或是最近做过的一个项目。</p>
+</li>
+<li><p>说一个你解决过的最难的技术问题，或是最有技术含量的问题。</p>
+</li>
+<li><p>说一个你最痛苦的项目，或最艰难的项目。</p>
+</li>
+<li><p>说一个犯过的最大的技术错误，或是引发的技术故障。</p>
+<p>怎样准备这样的题，我这里有几个提示：</p>
+</li>
+<li><p>要有框架。讲故事要学会使用STAR 。Situation - 在什么样的环境和背景下，Task - 你要干什么样的事，Action - 你采取了什么样的行动和努力，Result - 最终得到了什么样的效果。这是整个语言组织的框架，不要冗长啰嗦。</p>
+</li>
+<li><p>要有细节。没有细节的故事听起来就很假，所以，其中要有很多细节。因为是技术方面的，所以，一定要有很多技术细节。</p>
+</li>
+<li><p>要有感情。讲这些故事一定要带感情。要让面试官感受到你的热情、骄傲、坚韧和顽强。一定要是真实的，只有真实的事才会有真实的感情。</p>
+</li>
+<li><p>要有思考。只有细节和故事还不够，还要有自己的思考和得失总结，以及后续的改进。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>这不是你能临时准备出来的，工夫都是花在平时的。而训练这方面能力的最好方式就是在工作中写文档 ，在工作之余写博客。</p>
+<h4 id="面试中的技巧"><a href="#面试中的技巧" class="headerlink" title="面试中的技巧"></a>面试中的技巧</h4><ul>
+<li>形象和谈吐</li>
+<li>答不出来，尝试思维方向</li>
+<li>尖锐问题，回答官方或诚恳真实</li>
+</ul>
+<h4 id="面试风格"><a href="#面试风格" class="headerlink" title="面试风格"></a>面试风格</h4><p>基本上来说，国内公司喜欢快进快出，也就是说，不在面试上花太多的精力，进来就干活，不行就开掉，基本上是找工人找劳动力的玩法，也不关心员工的成长</p>
+<h4 id="实力"><a href="#实力" class="headerlink" title="实力"></a>实力</h4><p><strong>真正解决用户的问题的不是前端技术，而且是后端的业务逻辑和数据计算。</strong>前端并不是计算机的本质，计算机提升社会运作效率并不是靠前端完成的，而是靠自动化来完成的，前端只是辅助。</p>
+<p>学习不要图快，要学会找到掌握知识的方法，而不是死记硬背。学习要细嚼慢咽，一天吃不成个胖子。</p>
+<p>对面试来说，比较好的训练就是要经常出去面试，所以还是应该隔三岔五就出去面试一下的。<br>一方面可以攒攒经验值，可以训练一下自己的语言表达能力和应对各种问题的回答。<br>另一方面更重要，可以了解一下目前市场的需求（技术、技能和业务），同时了解一下自己的身价。</p>
+<p>你之所以会紧张，会不知所措，会感到不适，会觉得难，大多数情况下是因为你不熟悉这个环境，你对这个环境还很陌生。只要你面得多了，你就会熟悉这个环境，你也就能驾轻就熟了。“老司机”之所以能成为“老司机”，还不是因为经常跟女孩子聊天交谈，时间长了，就成老司机了。<br>另外，对于语言组织的训练，除了多多与人交流，还有就是你平时需要多看多写，喜欢看书和写作的人通常在语言表达能力方面也不会差，而反之则通常会比较差。所以，写blog，表达自己的想法是很重要的。</p>
+<p>如果你决定在职场大展宏图的话，那么在年轻的时候，让自己的简历变得越漂亮越好。最好是先去国外，然后在需要职业成长的时候，被国内公司重金请回来，会比直接在国内的公司里发展要好一些。这是我个人觉得比较好的方式。</p>
+<p>程序员面试中，最重要的事还是自己技术方面的能力，国内会注重你的项目经验，国外会注重你的基础知识、项目经验、解题思路，以及软件设计能力。所以，要努力提高自己的这些技术技能和见解。</p>
+<p>要应付并通过面试并不难，但是，千万不要应付你的人生，你学技术不是用来面试的，它至少来说是你谋生的技能，要尊重自己的谋生技能，说不定，哪天你还要用这些技能造福社会、改变世界的。</p>
+<h3 id="高效学习"><a href="#高效学习" class="headerlink" title="高效学习"></a>高效学习</h3><h4 id="端正的学习态度和正确的学习观念"><a href="#端正的学习态度和正确的学习观念" class="headerlink" title="端正的学习态度和正确的学习观念"></a>端正的学习态度和正确的学习观念</h4><ol>
+<li>端正的学习态度</li>
+</ol>
+<p>学习不是努力读更多的书，盲目追求阅读的速度和数量，这会让人产生低层次的勤奋和成长的感觉，这只是在使蛮力。<br>要思辨，要践行，要总结和归纳，否则，你只是在机械地重复某件事，而不会有质的成长的。</p>
+<p>应该怎样进行深度学习呢？下面几点是关键：</p>
+<ul>
+<li>高质量的信息源和第一手的知识。</li>
+<li>把知识连成地图，将自己的理解反述出来。</li>
+<li>不断地反思和思辨，与不同年龄段的人讨论。</li>
+<li>举一反三，并践行之，把知识转换成技能。</li>
+</ul>
+<p>学习有三个步骤：</p>
+<ul>
+<li>知识采集。信息源是非常重要的，获取信息源头、破解表面信息的内在本质、多方数据印证，是这个步骤的关键。</li>
+<li>知识缝合。所谓缝合就是把信息组织起来，成为结构体的知识。这里，连接记忆，逻辑推理，知识梳理是很重要的三部分。</li>
+<li>技能转换。通过举一反三、实践和练习，以及传授教导，把知识转化成自己的技能。这种技能可以让你进入更高的阶层。</li>
+</ul>
+<ol start="2">
+<li>正确的学习观念</li>
+</ol>
+<p>学习不仅仅是为了找到答案，而更是为了找到方法。<br>学习是为了找到通往答案的路径和方法，是为了拥有无师自通的能力。</p>
+<p>学习不仅仅是为了知道，而更是为了思考和理解。<br>真正的学习，从来都不是很轻松的，而是一种螺旋上升上下求索的状态。<br>一旦理解和掌握了这些本质的东西，你就会发现，整个复杂多变的世界在变得越来越简单。你就好像找到了所有问题的最终答案似的，一通百通了。</p>
+<p>学习不仅仅是为了开拓眼界，而更是为了找到自己的未知，为了了解自己。<br>英文中有句话叫：You do not know what you do not know，可以翻译为：你不知道你不知道的东西。<br>开拓眼界的目的就是发现自己的不足和上升空间，从而才能让自己成长。</p>
+<p>学习不仅仅是为了成长，而更是为了改变自己。<br>学习是为了改变自己的思考方式，改变自己的思维方式，改变自己与生俱来的那些垃圾和低效的算法。总之，学习让我们改变自己，行动和践行，反思和改善，从而获得成长。</p>
+<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/sstian/images/blogimg/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E-%E9%AB%98%E6%95%88%E5%AD%A6%E4%B9%A0-%E5%AD%A6%E4%B9%A0%E9%87%91%E5%AD%97%E5%A1%94.jpeg" alt="左耳听风-高效学习-学习金字塔"></p>
+<h4 id="源头、原理和知识地图"><a href="#源头、原理和知识地图" class="headerlink" title="源头、原理和知识地图"></a>源头、原理和知识地图</h4><ul>
+<li><p>挑选知识和信息源<br>英文对于我们来说至关重要，尤其是对于计算机知识来说。<br>如果你觉得用百度搜中文关键词就可以找到自己想要的知识，那么你一定远远落后于这个时代了。<br>如果你用Google英文关键词可以找到自己想要的知识，那么你算是能跟得上这个时代。<br>如果你能在社区里跟社区里的大牛交流得到答案，那么你算是领先于这个时代了。</p>
+</li>
+<li><p>注重基础和原理<br>有时候，学习就像拉弓蓄力一样，学习基础知识感觉很枯燥很不实用，工作上用不到，然而学习这些知识是为了未来可以学得更快。基础打牢，学什么都快，而学得快就会学得多，学得多，就会思考得多，对比得多，结果是学得更快……这种感觉，对于想速成的人来说，很难体会。</p>
+</li>
+<li><p>使用知识图<br>联想记忆法。<br>学习并不是为了要记忆那些知识点，而是为了要找到一个知识的地图，你在这个地图上能通过关键路径找到你想要的答案。</p>
+</li>
+</ul>
+<h4 id="深度，归纳和坚持实践"><a href="#深度，归纳和坚持实践" class="headerlink" title="深度，归纳和坚持实践"></a>深度，归纳和坚持实践</h4><ul>
+<li><p>系统地学习<br>六点学习模板：</p>
+<ul>
+<li>这个技术出现的背景、初衷和要达到什么样的目标或是要解决什么样的问题。</li>
+<li>这个技术的优势和劣势分别是什么，或者说，这个技术的trade-off是什么。</li>
+<li>这个技术适用的场景。</li>
+<li>技术的组成部分和关键点。这是技术的核心思想和核心组件了，也是这个技术的灵魂所在了。学习技术的核心部分是快速掌握的关键。</li>
+<li>技术的底层原理和关键实现。</li>
+<li>已有的实现和它之间的对比。</li>
+</ul>
+</li>
+<li><p>举一反三<br>人与人最大的差别就是举一反三的能力。<br>三种学习能力：</p>
+<ul>
+<li>联想能力</li>
+<li>抽象能力</li>
+<li>自省能力<br>自省能力就是自己找自己的难看。</li>
+</ul>
+</li>
+<li><p>总结和归纳<br>我们积累的知识越多，在知识间进行联系和区辨的能力就越强，对知识进行总结和归纳也就越轻松。<br>学习的开始阶段，可以不急于总结归纳，不急于下判断，做结论，而应该保留部分知识的不确定性，保持对知识的开放状态。<br>方法：把你看到和学习到的信息，归整好，排列好，关联好，总之把信息碎片给结构化掉，然后在结构化的信息中，找到规律，找到相通之处，找到共同之处，进行简化、归纳和总结，最终形成一种套路，一种模式，一种通用方法。</p>
+</li>
+<li><p>实践出真知<br>Eat your own dog food。吃自己的狗粮，你才能够有最真实的体会。<br>实践是很累很痛苦的事，但只有痛苦才会让人反思，而反思则是学习和改变自己的动力。Grow up through the pain， </p>
+</li>
+<li><p>坚持不懈<br>坚持也不是要苦苦地坚持，有循环有成就感的坚持才是真正可以持续的。所以，一方面你要把你的坚持形成成果晒出来，让别人来给你点赞，另一方面，你还要把坚持变成一种习惯，就像吃饭喝水一样，你感觉不到太多的成本付出。只有做到这两点，你才能够真正坚持。</p>
+</li>
+</ul>
+<h4 id="学习和阅读代码"><a href="#学习和阅读代码" class="headerlink" title="学习和阅读代码"></a>学习和阅读代码</h4><p>读代码 vs 读文档<br>杰夫·阿特伍德（Jeff Atwood）说过这么一句话：“Code Tells You How, Comments Tell You Why”。</p>
+<pre class="line-numbers language-none"><code class="language-none">代 码 =&gt; What, How &amp; Details
+文档/书 =&gt; What, How &amp; Why<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>Why是能让人一通百通的东西，也是能让人醍醐灌顶的东西。<br>代码会告诉你细节。细节是魔鬼，细节决定成败。<br>书和文档是人对人说的话，代码是人对机器说的话。</p>
+<p>如果你想了解的就是具体细节，比如某协程的实现，某个模块的性能，某个算法的实现，那么你还是要去读代码的。<br>如果你想了解一种思想，一种方法，一种原理，一种思路，一种经验，恐怕，读书和读文档会更有效率一些。</p>
+<p>人对新事物的学习过程基本都是从“感性认识”到“理性认识”的。<br>如果你是个新手，那应该多读代码，多动手写代码。在新手阶段，你会喜欢GitHub这样的东西。<br>如果你是个老手，你有多年的“感性认识”了，那么你的成长需要更多的“理性认识”。在老手阶段，你会喜欢读好的书和文章。</p>
+<p>阅读代码的方法如下：</p>
+<ul>
+<li>一般采用自顶向下，从总体到细节的“剥洋葱皮”的读法。<br>基础知识。<br>软件功能。<br>相关文档。<br>代码的组织结构。</li>
+<li>画图是必要的，程序流程图，调用时序图，模块组织图……<br>接口抽象定义。<br>模块粘合层。比如中间件（middleware）、Promises模式、回调（Callback）、代理委托、依赖注入等。<br>业务流程。<br>具体实现。</li>
+<li>代码逻辑归一下类，排除杂音，主要逻辑才会更清楚。<br>代码逻辑。<br>出错处理。根据二八原则，20%的代码是正常的逻辑，80%的代码是在处理各种错误。<br>数据处理。<br>正确的算法。<br>底层交互。</li>
+<li>debug跟踪一下代码是了解代码在执行中发生了什么的最好方式。<br>运行时调试。</li>
+</ul>
+<h4 id="面对枯燥和量大的知识"><a href="#面对枯燥和量大的知识" class="headerlink" title="面对枯燥和量大的知识"></a>面对枯燥和量大的知识</h4><ol>
+<li>面对枯燥的知识</li>
+</ol>
+<p>一般来说，枯燥的东西通常是你不感兴趣的东西，而你不感兴趣的东西，可能是你并不知道有什么用的东西。这样的知识通常是比较底层或是抽象度比较高的知识，比如：线性代数，或者一些操作系统内部的原理……越理论的东西就越让人觉得枯燥。</p>
+<p>解决办法：<br>这个知识对于你来说来太高级了，你可能不知道能用在什么地方。<br>人的认知是从感性认识向理性认识转化的，所以，你可能要先去找一下应用场景，学点更实用的，再回来学理论。<br>学习需要有反馈，有成就感，带着相关问题去学习会更好。<br>当然，找到牛人来给你讲解，也是一个很不错的手段。</p>
+<ol start="2">
+<li>面对量大的知识<br>东西太多了，怎么学。我给你的建议是，一点一点学，一口一口吃。<br>把学习当成投资，这是这个世界上回报最好的投资。<br>带着问题去学习，带着要解决的东西去学习，带着挑战去学习。</li>
+</ol>
+<p>实用的技巧：</p>
+<ul>
+<li>认真阅读文档</li>
+<li>不要被打断</li>
+<li>用不同的方式来学习同一个东西</li>
+<li>总结压缩信息</li>
+<li>把未知关联到已知</li>
+<li>用教的方式来学习</li>
+<li>学以致用</li>
+<li>不要记忆</li>
+<li>多犯错误</li>
+</ul>
+<h3 id="高效沟通"><a href="#高效沟通" class="headerlink" title="高效沟通"></a>高效沟通</h3><h4 id="Talk-and-Code"><a href="#Talk-and-Code" class="headerlink" title="Talk and Code"></a>Talk and Code</h4><p>Linus: Talk is cheap，show me the code.</p>
+<p>无论是Code还是Talk其实都是要和人交流的，Code是间接交流，Talk则是直接交流。<br>那些光说不练的人说一句是很简单的，而写代码的人则会为一句话付出很多很多的精力，其表明，一个看上去再简单的东西，用一行一行的代码实现起来，并能让其运转起来也是一件很复杂很辛苦的事。说得容易，做起来难！</p>
+<p>沟通是指运用语言、文字或一些特定的非语言行为（面部表情、肢体动作等），把自己的想法、要求、信息等内容传递给对方。<br>有效的沟通是事业成功的必要条件。<br>解决信息传递不一致的方式：</p>
+<ul>
+<li>约定。</li>
+<li>反馈，达成共识。</li>
+</ul>
+<p>通常来说，<strong>只要有等级存在，职场中的管理层就会对上粉过饰非，对下盘剥利诱，这就是职场的生存法则</strong>，尤其是大公司更是这样。</p>
+<h4 id="沟通阻碍和应对方法"><a href="#沟通阻碍和应对方法" class="headerlink" title="沟通阻碍和应对方法"></a>沟通阻碍和应对方法</h4><p>最主要的六种沟通阻碍：信息不准确、信息太多、没有交互、表达方式、二手信息和信道被黑。</p>
+<ol>
+<li><p>信息不准确<br>应对方法：<br>沟通就是要来来回回的确认。沟通效率的关键不在于快，而是准确！</p>
+</li>
+<li><p>信息太多<br>信息太多就等于没有信息。<br>应对方法：<br>不要绕弯子，有话直说，这是最高效的沟通方式。这既是对对方的一种信任，也是一种对自己的尊重。这样沟通，事情往往能得到更好的解决。</p>
+</li>
+<li><p>没有交互<br>有时候，领导太过于威严，或是太过于强势，不听别人的观点，就会导致别人不敢表达自己的想法，或是觉得表达出来也没什么用。时间一长，就造成了没有交互的沟通。<br>应对方法：<br>找到对方的兴趣点，降低表达自己真实想法的门槛，培养让大家畅所欲言的自由环境，把自己的答案变成问题，让其它人有参与感，这样才可能有好的沟通，也能够有好的结果。</p>
+</li>
+<li><p>表达方式<br>应对方法：<br>沟通中有两个非常重要的因素，一是沟通的内容，二就是表达方式和态度了。</p>
+</li>
+<li><p>二手信息<br>应对方法：<br>流言止于智者，流言之所以能止于智者，不是因为智者聪明，而是智者会到信息源头上去求证。<br>到信息的源头，向当事人去求证，会让这个世界更加和谐，也会让你变得更有智慧。</p>
+</li>
+<li><p>信道被黑<br>应对方法：<br>让信息公开透明。</p>
+</li>
+</ol>
+<h4 id="沟通方式与技巧"><a href="#沟通方式与技巧" class="headerlink" title="沟通方式与技巧"></a>沟通方式与技巧</h4><ol>
+<li>沟通方式<br>好的沟通方式最常用的三种：尊重、倾听和情绪控制。</li>
+</ol>
+<ul>
+<li><p>尊重<br>我可以不同意你，但是会捍卫你说话的权利。<br>赢得对方的尊重需要先尊重对方。</p>
+<p>你一定要和对方有观点上的交互，甚至是碰撞。沟通的目的不是为了附和对方，而是产生一种更完整更全面的认知。</p>
+</li>
+<li><p>倾听<br>倾听其实不仅仅只是听，还要思考，要思考更深层的原因，不要被表象所迷惑，才会有更高效率的沟通，这才有助于你做出正确的决定。</p>
+<p>《沟通的艺术》一书中将“倾听”定位为至少与“说”同等重要的沟通形式，足以见其重要性。作者认为，倾听与听或者听到有很大不同，它是解读别人所说信息的过程，包含听到、专注、理解、回应和记忆五大元素。</p>
+</li>
+<li><p>情绪控制<br>两个原则：</p>
+<ul>
+<li>不要过早或者过度打岔和反驳。</li>
+<li>求同存异，冷静客观。</li>
+</ul>
+<p>很会说话、有随机应变能力的人通常都是IQ高，EQ高的人一般都是可以控制自己情绪的人。</p>
+</li>
+</ul>
+<ol start="2">
+<li>沟通技巧</li>
+</ol>
+<ul>
+<li><p>第一个是引起对方的兴趣。<br>只有利益，才能引起对方的兴趣。</p>
+</li>
+<li><p>第二是直达主题，强化观点。<br>确定自己的目标，学会抓重点，知道自己要什么和不要什么，这样你要的才会更鲜明。当一些事情变得简明和鲜明起来时，你才会表现出有力量的观点和话语。而这些被强化过的观点和话语，只需要一句，就会在对方脑子里形成一个小爆点，要么击中了对方的软处（扎心），要么会让对方产生深度思考。只有这样，你的信息才算是真正地传达过去，并在对方的脑子里生根发芽，这就是所谓的影响力！</p>
+</li>
+<li><p>第三是用数据和事实说话。<br>基本上来说，数据、事实、证据和权威是沟通中的大规模杀伤性武器！</p>
+</li>
+</ul>
+<h4 id="沟通技术"><a href="#沟通技术" class="headerlink" title="沟通技术"></a>沟通技术</h4><ul>
+<li>逻辑。逻辑能力一定要强。</li>
+<li>信息。信息要全面、准确。</li>
+<li>维度。如果你要找不同，就要到细节上去；如果你要找共同，就要到大局上去。<br>在和人争论时，如果要反驳，那一定是低维度反驳，越细节越好。<br>在说服对方时，则要在高维度说服对方，越宏观越好，比如从公司的大目标出发。高维度讲究的是求同存异。<br>能够站在更高的维度来沟通是我们需要努力的目标。</li>
+<li>共同。共情，共享，共利，共识以及换位思考。</li>
+</ul>
+<p>无论干什么，你一定要有一个非常犀利的观点，也就是金句。<br>抖机灵的金句没有用。一定要是有思想深度的金句，才有力量。<br>获得金句没有捷径可走，唯有多读书，多思考。</p>
+<p>《重来》<br>《清醒思考的艺术》<br>《简单逻辑学》</p>
+<h4 id="好老板要善于提问"><a href="#好老板要善于提问" class="headerlink" title="好老板要善于提问"></a>好老板要善于提问</h4><p>和员工沟通的几大法宝：</p>
+<ul>
+<li><p>引导。<br>永远不要给员工答案，要让员工给你答案，而且不要只给一个答案，一定要给多个答案。<br>喜欢给答案的管理者还是挺多的，他们总是习惯性地给员工答案，而不善于挖掘员工的实力和潜力。我觉得这是世界上最Low的管理模式了，是家长式、保姆式的管理。</p>
+</li>
+<li><p>倾听。<br>倾听意味着在听他人讲话的时候，不让自己的想法扭曲别人传递的信息。你要做到毫无偏见，才能全面理解对方的信息。倾听不只是听或者听见，需要你用心聆听别人讲话，而不是只听自己想听到的内容。<br>外企一般都会要求经理和员工有周期性的一对一交谈，就是为了及时了解员工的各种动态和想法。</p>
+</li>
+<li><p>共情。<br>又被称为同理心，或者换位思考，它指的是站在对方立场设身处地思考问题的一种方式。</p>
+</li>
+<li><p>高维<br>提升自己的格局观，能从全局利益、长远利益思考问题，解决问题。</p>
+</li>
+<li><p>反馈<br>对于任何反馈机制的建立，你只需要记住两点：一是及时反馈；二是能够形成正向循环。</p>
+</li>
+</ul>
+<h4 id="好好说话的艺术"><a href="#好好说话的艺术" class="headerlink" title="好好说话的艺术"></a>好好说话的艺术</h4><ol>
+<li>跟员工沟通</li>
+</ol>
+<ul>
+<li>一对一会议（one-one meeting）<br>一对一会议时，管理者需要做的是倾听，而非“喋喋不休”地教育。<br>会议重点涉及以下四个方面的内容。<br>工作状态，个人发展，公司组织，Leader自己。<br>的核心沟通原则是将心比心。</li>
+<li>绩效沟通<br>沟通一定要放在平时，不要搞成像秋后算账一样！因为你是管理者，不是地主监工。<br>要注意的是，反馈的过程中，不是我在指责员工，而是我在帮助员工。一定要有帮扶的态度，这样员工会更容易接受。</li>
+<li>管理特立独行的员工<br>第一个方法是给他找到匹配的人，要么是比他牛的人，要么是跟他旗鼓相当可以在一起共事儿的人，跟他一起工作。<br>第二个方法是给他一些独立的工作，把他隔离出去。Individual Contributor<br>原则：当你在一个人身上花的精力和时间成本，大于你到外面找一个更好的人或者能力相当的人来替代他的时候，你就要坚决地把他替换掉。</li>
+<li>挽留离职员工<br>生意不行，友情在。<br>既然不能在此时挽留下来，那就放眼未来，人生还很长，能在一起工作的机会还有很多。<br>一般来说，任何员工，任何事，干了两年就是一个大限，离职率极高。</li>
+<li>劝退员工<br>任何人都应该有可以纠正错误的机会，公司应该给员工这样的机会，员工也应该给公司同样的机会。</li>
+</ul>
+<ol start="2">
+<li>跟客户沟通</li>
+</ol>
+<ul>
+<li>吸引客户的兴趣<br>做足功课，了解客户的痛点或是KPI是与客户沟通的第一步，也是最关键的一步，不仅可以引起对方的兴趣，还能决定见面时沟通的内容。兵法有云：知己知彼方能百战不殆</li>
+<li>帮客户发现问题<br>结合客户的痛点，了解客户做过的尝试。<br>深入细节，了解细节才会有更准确的信息。<br>小心X/Y问题，找到X问题。一定要分析客户问题背后的本质原因，从根本上帮助客户解决问题。</li>
+<li>管理客户的期望。<br>永远不要跟客户说不，要有条件地说是，告诉客户不同的期望要有不同的付出和不同的成本。不要帮客户做决定，而是给客户提供尽可能多的选项，让客户来做决定。<br>讨价还价是这个世界能运转的原因之一，要学会使用。</li>
+</ul>
+<p>总结下来，在与客户沟通预期时，我通常会坚持以下几个原则。<br>一定要给客户选择权，永远不要说不，要有条件地说是。<br>降低期望的同时给予其他的补偿。<br>提高期望的同时附加更多的条件。<br>对于比较大的期望要分步骤达到客户的期望。<br>不要帮客户做决定，而是给客户提供尽可能多的选项，然后引导客户做决定。</p>
+<ol start="3">
+<li>跟老板沟通</li>
+</ol>
+<ul>
+<li>了解你的老板<br>最简单的方法就是察其言观其行，因此 “倾听”就显得尤其重要了。<br>倾听老板会有一些出乎你的意料的发现，你要能了解老板背后的苦衷，那些才是最重要的。</li>
+<li>赢得老板的信任<br>老板也是要有成绩的，他们只会关心那些能为他带来成绩的员工。</li>
+<li>管理老板的期望<br>在每次和老板交流的时候，你都要确认老板的期望是什么，如果跟你的想法有所偏差，一定要及时反馈和讨论。</li>
+<li>非暴力“怼”老板<br>沉默是金。最好的方法不是怒气冲冠，也不是直接Say No，而是保持沉默不说话，闷着。</li>
+</ul>
+<h3 id="我的三观"><a href="#我的三观" class="headerlink" title="我的三观"></a>我的三观</h3><h4 id="三观"><a href="#三观" class="headerlink" title="三观"></a>三观</h4><p>“三观”指的是世界观、人生观和价值观：</p>
+<ul>
+<li>世界观代表你是怎么看这个世界的，</li>
+<li>人生观代表你想成为什么样的人，</li>
+<li>价值观则代表你觉得什么对你来说更重要，</li>
+</ul>
+<p>三观至少在这几个阶段有比较明显的变化：学生时代、刚走上社会的年轻时代、三十岁后、还有现在。</p>
+<ul>
+<li><p>面对世界<br>我对国与国之间关系的态度是，有礼有节，不卑不亢。</p>
+</li>
+<li><p>面对社会<br>与其花时间教育这些人，不如花时间提升自己，让自己变得更优秀，这样就有更高的可能性去接触更聪明、更成功、更高层次的人。<br>你的影响力不是你对别人说长道短的能力，而是体现在有多少人信赖你并希望得到你的帮助。</p>
+<p>美国总统富兰克林·罗斯福的妻子埃莉诺·罗斯福（Eleanor Roosevelt）说过：<br>Great minds discuss ideas（伟人谈论想法）<br>Average minds discuss events（普通人谈论事件）<br>Small minds discuss people（庸人谈论他人）</p>
+</li>
+<li><p>面对人生<br>《教父》里有这样的人生观：第一步要努力实现自我价值，第二步要全力照顾好家人，第三步要尽可能帮助善良的人，第四步为族群发声，第五步为国家争荣誉。</p>
+<blockquote>
+<p>修身齐家治国平天下。</p>
+</blockquote>
+<p>选择是有代价的，而不选择的代价更大；<br>选择是要冒险的，你不敢冒险时风险可能更大；<br>选择是需要放弃的，鱼和熊掌不可兼得。<br>想想等你老了回头看时，好多事情在年轻的时候不敢做，可你再也没有机会了，你就知道不敢选择、不敢冒险的代价有多大了。<br>选择就是一种权衡（ trade off），</p>
+</li>
+</ul>
+<h4 id="价值取向"><a href="#价值取向" class="headerlink" title="价值取向"></a>价值取向</h4><ol>
+<li><p>挣钱<br>更多关注怎么提高自己的能力，让自己值那个价钱，让别人愿意付钱。<br>越是有能力的人，就越不计较一些短期得失，越计较短期得失的人往往都是很平庸的人。<br>投资者会把时间、精力、金钱投资在能让自己成长与提升的地方，能让自己施展本领与抱负的地方，他们培养自己的领导力和影响力。</p>
+</li>
+<li><p>技术<br>没有完美的技术，工程（Engineering ）玩的是权衡（ trade off）。<br>只有原理、本质和设计思想才可能让我不会被绑在某个专用技术或平台上，<br>学习不是为了找到答案，而是为了找到方法。</p>
+</li>
+<li><p>职业<br>通常来说，管理者的技能需要到公司和组织中才能展现，而有创造性技能的人则可以让自己更加独立。相比之下，我觉得程序员的技能可以让我更稳定更自由地活着。</p>
+</li>
+<li><p>打工<br>必须完成公司交给我的任务。尽我所能找到工作中可以提高效率的地方，并改善它。</p>
+</li>
+<li><p>创业<br>也只有在做自己事业的时候，你才能不惧困难，勇敢地面对一切。那种想找一个安稳的避风港的心态不会让你平静，你要知道世界本来就是不平静的，找到自己的归宿和目标才可能让你真正平静。<br>每个人都应该为自己的事业、为自己的理想去活一次，追逐自己的事业和理想并不容易，需要有很大付出，也只有你内心的那个理想才值得这么大的付出…</p>
+</li>
+<li><p>客户<br>我更愿意鲜明地表达我的观点，并拉着用户跟我一起成长，因为我并不觉得完成客户的项目有成就感，我的成就感来自于客户的成长。</p>
+</li>
+</ol>
 
                 
             </div>
@@ -1716,7 +3494,7 @@ func<span class="token punctuation">(</span><span class="token punctuation">)</s
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">481.8k</span>&nbsp;字
+                class="white-color">531.2k</span>&nbsp;字
             
             
             
