@@ -6,7 +6,7 @@
   <link href="https://sstian.github.io/atom.xml" rel="self"/>
   
   <link href="https://sstian.github.io/"/>
-  <updated>2025-06-13T13:00:25.856Z</updated>
+  <updated>2026-01-16T07:41:46.681Z</updated>
   <id>https://sstian.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>法律法规</title>
+    <link href="https://sstian.github.io/reading/law-regulation/"/>
+    <id>https://sstian.github.io/reading/law-regulation/</id>
+    <published>2026-01-05T09:59:24.000Z</published>
+    <updated>2026-01-16T07:41:46.681Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;中华人民共和国的法律：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;《宪法》&lt;/li&gt;
+&lt;li&gt;《刑法》，违法者受到刑事处罚，包括没收财产，监禁，判处死刑等，面临附带的民事诉讼等。&lt;/li&gt;
+&lt;li&gt;《治安管理处罚法》，违法者受到行政处罚，如警告、罚款、行政拘留等.&lt;/li&gt;
+&lt;li&gt;《民法</summary>
+        
+      
+    
+    
+    
+    <category term="Reading" scheme="https://sstian.github.io/categories/Reading/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="Law" scheme="https://sstian.github.io/tags/Law/"/>
+    
+    <category term="Regulation" scheme="https://sstian.github.io/tags/Regulation/"/>
+    
+  </entry>
   
   <entry>
     <title>深入浅出Node.js</title>
@@ -180,11 +214,11 @@
     <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
     
     
-    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
-    
     <category term="陈皓" scheme="https://sstian.github.io/tags/%E9%99%88%E7%9A%93/"/>
     
     <category term="左耳听风" scheme="https://sstian.github.io/tags/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E/"/>
+    
+    <category term="极客时间" scheme="https://sstian.github.io/tags/%E6%9E%81%E5%AE%A2%E6%97%B6%E9%97%B4/"/>
     
   </entry>
   
@@ -551,31 +585,6 @@
     <category term="Spring Framework" scheme="https://sstian.github.io/tags/Spring-Framework/"/>
     
     <category term="WebFlux" scheme="https://sstian.github.io/tags/WebFlux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>业务</title>
-    <link href="https://sstian.github.io/misc/business/"/>
-    <id>https://sstian.github.io/misc/business/</id>
-    <published>2021-05-22T16:03:20.000Z</published>
-    <updated>2023-03-20T11:37:54.188Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;招标&quot;&gt;&lt;a href=&quot;#招标&quot; class=&quot;headerlink&quot; title=&quot;招标&quot;&gt;&lt;/a&gt;招标&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/medias/loading.gif&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Business" scheme="https://sstian.github.io/categories/Business/"/>
-    
-    
-    <category term="Tender" scheme="https://sstian.github.io/tags/Tender/"/>
     
   </entry>
   
