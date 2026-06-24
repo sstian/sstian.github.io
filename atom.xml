@@ -51,19 +51,49 @@
   </entry>
   
   <entry>
+    <title>你不知道的JavaScript</title>
+    <link href="https://sstian.github.io/technology/know-js/"/>
+    <id>https://sstian.github.io/technology/know-js/</id>
+    <published>2025-07-03T10:28:06.000Z</published>
+    <updated>2026-06-24T10:06:39.437Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;《你不知道的JavaScript》&lt;br&gt;You Don’t Know JS&lt;/p&gt;
+&lt;p&gt;[美] 凯尔辛普森&lt;/p&gt;
+&lt;p&gt;上卷：作用域和闭包，this和对象原型&lt;br&gt;中卷：类型和语法，异步和性能&lt;br&gt;下卷：深入编程，ES6和未来&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
+    
+    
+    <category term="Book" scheme="https://sstian.github.io/tags/Book/"/>
+    
+    <category term="JavaScript" scheme="https://sstian.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>深入浅出Node.js</title>
     <link href="https://sstian.github.io/technology/deep-nodejs/"/>
     <id>https://sstian.github.io/technology/deep-nodejs/</id>
     <published>2024-11-16T13:56:08.000Z</published>
-    <updated>2025-06-13T13:00:25.856Z</updated>
+    <updated>2026-06-24T10:02:37.125Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;《深入浅出Node-js》&quot;&gt;&lt;a href=&quot;#《深入浅出Node-js》&quot; class=&quot;headerlink&quot; title=&quot;《深入浅出Node.js》&quot;&gt;&lt;/a&gt;《深入浅出Node.js》&lt;/h2&gt;&lt;p&gt;[中] 朴灵&lt;/p&gt;
-&lt;h3</summary>
+    <summary type="html">&lt;h2 id=&quot;深入浅出Node-js&quot;&gt;&lt;a href=&quot;#深入浅出Node-js&quot; class=&quot;headerlink&quot; title=&quot;深入浅出Node.js&quot;&gt;&lt;/a&gt;深入浅出Node.js&lt;/h2&gt;&lt;p&gt;[中] 朴灵&lt;/p&gt;
+&lt;h3 id=&quot;Node简介&quot;&gt;&lt;a</summary>
         
       
     
@@ -558,33 +588,6 @@
     <category term="Opera" scheme="https://sstian.github.io/tags/Opera/"/>
     
     <category term="Detective Conan" scheme="https://sstian.github.io/tags/Detective-Conan/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring WebFlux Sharing</title>
-    <link href="https://sstian.github.io/technology/spring-webflux/"/>
-    <id>https://sstian.github.io/technology/spring-webflux/</id>
-    <published>2021-06-10T19:20:53.000Z</published>
-    <updated>2025-09-16T04:04:32.584Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Spring-WebFlux&quot;&gt;&lt;a href=&quot;#Spring-WebFlux&quot; class=&quot;headerlink&quot; title=&quot;Spring WebFlux&quot;&gt;&lt;/a&gt;Spring WebFlux&lt;/h1&gt;&lt;h2 id=&quot;Feature&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Technology" scheme="https://sstian.github.io/categories/Technology/"/>
-    
-    
-    <category term="Spring Framework" scheme="https://sstian.github.io/tags/Spring-Framework/"/>
-    
-    <category term="WebFlux" scheme="https://sstian.github.io/tags/WebFlux/"/>
     
   </entry>
   
